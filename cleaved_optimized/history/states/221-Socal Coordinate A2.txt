@@ -1,0 +1,19 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		1450 1616 1677 2488 2493 3464 3466 3474 3486 3489 
+	}
+	manpower=50000
+	history = {
+		owner = MEW
+		add_core_of = MEW
+	}
+	resources = {
+		steel = 20
+		aluminium = 8
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

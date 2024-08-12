@@ -1,0 +1,15 @@
+state={
+	id=94
+	name="STATE_94"
+	provinces={
+		475 871 896 1019 1214 1273 1344 1545 1840 2043 2179 2281 2824 2835 2839 2848 2863 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

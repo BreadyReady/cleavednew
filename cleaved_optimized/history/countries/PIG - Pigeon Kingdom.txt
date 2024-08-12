@@ -1,0 +1,13 @@
+﻿capital = 210
+
+set_stability = 0.40
+set_war_support = 35
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 100
+}
+
+recruit_character = PIG_king_pigeon

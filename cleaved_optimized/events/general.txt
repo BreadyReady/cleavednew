@@ -1,0 +1,15 @@
+add_namespace = welcome
+
+country_event = {
+	id = welcome.0
+	title = welcome.0.t
+	desc = welcome.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = welcome.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}

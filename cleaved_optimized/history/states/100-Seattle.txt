@@ -1,0 +1,17 @@
+state={
+	id=100
+	name="STATE_100"
+	provinces={
+		2725 2733 2736 2744 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		victory_points = { 2736 20 }
+
+	}
+	manpower=733919
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

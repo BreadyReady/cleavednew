@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	####
+	# Mina Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_knight_purple"
+	texturefile = "gfx/interface/goals/MIN/focus_knight_purple.dds"			
+	}
+
+} ### End Bracket

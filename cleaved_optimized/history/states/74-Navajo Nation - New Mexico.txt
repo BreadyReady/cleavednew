@@ -1,0 +1,15 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		1093 3257 
+	}
+	history = {
+		owner = NAV
+		add_core_of = NAV
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

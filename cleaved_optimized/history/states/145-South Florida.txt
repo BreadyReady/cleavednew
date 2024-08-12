@@ -1,0 +1,15 @@
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		496 704 759 840 1760 2487 3595 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

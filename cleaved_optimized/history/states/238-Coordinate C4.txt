@@ -1,0 +1,16 @@
+
+state={
+	id=238
+	name="STATE_238"
+	provinces={
+		387 2009 2076 3439 3459 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=wasteland
+	local_supplies=0.000
+}

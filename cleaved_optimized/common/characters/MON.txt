@@ -1,0 +1,16 @@
+characters={
+	MON_moon_butterfly = {
+		name = MON_moon_butterfly
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_moon_war
+			}
+		}
+		country_leader={
+			ideology= provisional_government_prog
+			traits= { }
+			expire="2060.1.1.1"
+			id=-1
+		}
+	}
+}

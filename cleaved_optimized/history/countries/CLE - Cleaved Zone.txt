@@ -1,0 +1,4 @@
+﻿capital = 1
+add_ideas = {
+	CLE_not_country_idea
+}

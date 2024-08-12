@@ -1,0 +1,16 @@
+
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		149 241 570 863 919 961 1029 1234 1287 1673 1704 1940 1983 2026 2273 2372 2433 2472 3113 3129 3162 3184 3195 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

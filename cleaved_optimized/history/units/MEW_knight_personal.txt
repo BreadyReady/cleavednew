@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Knightly Party"
+
+	regiments = {
+		knight = { x = 0 y = 0 }
+		knight = { x = 0 y = 1 }
+		knight = { x = 0 y = 2 }
+		knight = { x = 0 y = 3 }
+		knight = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "Sir Lavabo's Party"
+		location = 3434
+		division_template = "Knightly Party"
+		start_experience_factor = 1
+	}
+
+	division = {
+		name = "Sir Stabby's Party"
+		location = 3434
+		division_template = "Knightly Party"
+		start_experience_factor = 1
+	}
+
+	division = {
+		name = "Lady Whosits' Party"
+		location = 3434
+		division_template = "Knightly Party"
+		start_experience_factor = 1
+	}
+
+}

@@ -1,0 +1,15 @@
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		723 1480 1549 1807 2483 3339 3350 3353 3382 3385 
+	}
+	manpower=50000
+	history = {
+		owner = PIG
+		add_core_of = PIG
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

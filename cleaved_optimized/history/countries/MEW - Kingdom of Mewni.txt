@@ -1,0 +1,64 @@
+﻿capital = 5
+
+set_stability = 0.18
+set_war_support = 0.35
+
+set_politics = {
+	ruling_party = mewman_monarchy
+}
+set_popularities = {
+	mewman_monarchy = 80
+	neutrality = 20
+}
+
+create_faction = "Kingdom of Mewni"
+add_to_faction = JOH
+add_to_faction = PIG
+add_to_faction = SPI
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	MEW_feudalism
+	MEW_mercantalism
+	MEW_feudal_levy
+	#
+	MEW_sea_water_flooding_1
+	MEW_minan_collaborator_question
+	MEW_political_radicalism	
+	MEW_squire_process
+	MEW_whole_new_world
+	MEW_mina_on_the_loose
+	MEW_recent_strife
+	MEW_feudal_promise
+}
+
+recruit_character = MEW_eclipsa_butterfly
+recruit_character = MEW_trad_council
+#ADVISORS
+recruit_character = MEW_marco_diaz
+recruit_character = MEW_stability_char
+recruit_character = MEW_democracy_char
+recruit_character = MEW_political_trad_char
+recruit_character = MEW_political_trad_2_char
+recruit_character = MEW_political_trad_3_char
+recruit_character = MEW_political_prog_char
+recruit_character = MEW_political_prog_2_char
+recruit_character = MEW_political_prog_3_char
+#ARMY CHIEFS/HIGH COMMAND
+recruit_character = MEW_army_chief_prog_char
+recruit_character = MEW_army_chief_trad_char
+recruit_character = MEW_higgs
+recruit_character = MEW_army_high_command_trad_char
+recruit_character = MEW_army_high_command_trad_char_2
+recruit_character = MEW_army_high_command_trad_char_3
+recruit_character = MEW_army_high_command_prog_char
+recruit_character = MEW_army_high_command_prog_char_2
+recruit_character = MEW_army_high_command_prog_char_3
+recruit_character = MEW_navy_chief_prog_char
+recruit_character = MEW_navy_chief_2_prog_char
+recruit_character = MEW_air_chief_prog_char
+recruit_character = MEW_air_chief_2_prog_char

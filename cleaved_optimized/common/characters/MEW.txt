@@ -1,0 +1,642 @@
+characters={
+	MEW_eclipsa_butterfly = {
+		name = MEW_eclipsa_butterfly
+		portraits={
+			civilian={
+				large = GFX_portrait_MEW_eclipsa_butterfly 
+			}
+		}
+		country_leader={
+			ideology = mewman_progressivism
+			traits= { mewman_progressive }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+	MEW_prog_council = {
+		name = MEW_prog_council
+		portraits={
+			civilian={
+				#large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
+	MEW_royal_regent_council = {
+		name = MEW_royal_regent_council
+		portraits={
+			civilian={
+				#large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
+	MEW_moon_butterfly = {
+		name = "Moon Butterfly"
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_moon_war
+			}
+		}
+	}
+	MEW_trad_council = {
+		name = "Traditionalist Council"
+		portraits={
+			civilian={
+				large = GFX_hoi4_portrait_trad_council
+			}
+		}
+		country_leader={
+			ideology = provisional_government
+			traits= { mewman_traditionalist }
+			expire="2040.1.1.1"
+		}
+	}
+	
+	##############
+	
+	MEW_stability_char={
+		name=MEW_stability_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_stability_char
+			available  = {
+				original_tag  = MEW
+			}
+			traits  = {
+				stability_master
+			}
+		}
+	}
+	
+	MEW_democracy_char={
+		name=MEW_democracy_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_democracy_char
+			available  = {
+				original_tag  = MEW
+			}
+			traits  = {
+				democratic_reformer 
+			}
+		}
+	}
+	
+	#TRAD CHARACTERS ARE BASED ON QUALITY, PROG CHARACTERS ARE BASED ON QUANTITY AND TECH
+	
+	#For the first advisors: Remove amount taken ideas, have focus remove other advisors
+	
+	MEW_mina_loveberry={
+		name=MEW_mina_loveberry
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+			civilian = {
+				large = GFX_portrait_hoi4_portrait_mina
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_mina_loveberry_idea
+			available  = {
+			}
+			traits  = {
+				last_solarian
+			}
+		}
+	}
+	
+	MEW_marco_diaz={
+		name=MEW_marco_diaz
+		portraits={
+			civilian={
+				small="GFX_idea_marco_advisor"
+				large = "GFX_portrait_MEW_marco_diaz"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_marco_diaz
+			available  = {
+				original_tag  = MEW
+				NOT = {
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_political_prog_char = {
+						is_political_advisor = yes
+					}
+				}
+			}
+			traits  = {
+				nepotistic_pick
+				#mewman_moderate
+			}
+		}
+	}
+	
+	MEW_political_trad_char={
+		name=MEW_political_trad_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_trad_char
+			available  = {
+				original_tag  = MEW
+				NOT = {
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+					MEW_political_prog_char = {
+						is_political_advisor = yes
+					}
+				}
+			}
+			traits  = {
+				veteran_minister
+				#mewman_traditionalist
+			}
+		}
+	}
+	
+	MEW_political_trad_2_char={
+		name=MEW_political_trad_2_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_trad_2_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+				}
+				has_completed_focus = MEW_advisor_affair
+			}
+			traits  = {
+				editor
+				#mewman_traditionalist
+			}
+		}
+	}
+	
+	MEW_political_trad_3_char={
+		name=MEW_political_trad_3_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_trad_3_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+				}
+				has_completed_focus = MEW_advisor_affair
+			}
+			traits  = {
+				war_industrialist
+				#mewman_traditionalist
+			}
+		}
+	}
+	
+	MEW_political_prog_char={
+		name=MEW_political_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_prog_char
+			available  = {
+				original_tag  = MEW
+				NOT = {
+					MEW_political_trad_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+				}
+			}
+			traits  = {
+				headstrong
+				#mewman_progressive
+			}
+		}
+	}
+	
+	MEW_political_prog_2_char={
+		name=MEW_political_prog_2_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_prog_2_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_political_prog_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+				}
+				has_completed_focus = MEW_advisor_affair
+			}
+			traits  = {
+				technocrat
+				#mewman_progressive
+			}
+		}
+	}
+	
+	MEW_political_prog_3_char={
+		name=MEW_political_prog_3_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MEW_political_prog_3_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_political_prog_char = {
+						is_political_advisor = yes
+					}
+					MEW_marco_diaz = {
+						is_political_advisor = yes
+					}
+				}
+				has_completed_focus = MEW_advisor_affair
+			}
+			traits  = {
+				captain_of_industry
+				#mewman_progressive
+			}
+		}
+	}
+	
+	#Army chiefs dont need amount taken idea you can only ever have one
+	
+	MEW_army_chief_prog_char={
+		name=MEW_army_chief_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MEW_army_chief_prog_char
+			available  = {
+				original_tag  = MEW
+			}
+			traits  = {
+				army_chief_drill_2
+				#mewman_progressive
+			}
+		}
+	}
+	
+	MEW_army_chief_trad_char={
+		name=MEW_army_chief_trad_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MEW_army_chief_trad_char
+			available  = {
+				original_tag  = MEW
+			}
+			traits  = {
+				army_chief_organizational_2
+				#mewman_traditionalist
+			}
+		}
+	}
+	
+	MEW_higgs={
+		name=MEW_higgs
+		portraits={
+			army={
+				small="GFX_idea_higgs_advisor"
+				large ="GFX_portrait_higgs"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MEW_higgs
+			available  = {
+				original_tag  = MEW
+			}
+			traits  = {
+				squire
+				#mewman_moderate
+			}
+		}
+	}
+	
+	MEW_army_high_command_trad_char={
+		name=MEW_army_high_command_trad_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_trad_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_trad_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_chief_maneuver_2
+			}
+		}
+	}
+	
+	MEW_army_high_command_trad_char_2={
+		name=MEW_army_high_command_trad_char_2
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_trad_char_2
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_trad_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_cavalry_2
+			}
+		}
+	}
+	
+	MEW_army_high_command_trad_char_3={
+		name=MEW_army_high_command_trad_char_3
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_trad_char_3
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_trad_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_chief_morale_1
+			}
+		}
+	}
+	
+	MEW_army_high_command_prog_char={
+		name=MEW_army_high_command_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_prog_char
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_prog_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_logistics_3
+			}
+		}
+	}
+	
+	MEW_army_high_command_prog_char_2={
+		name=MEW_army_high_command_prog_char_2
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_prog_char_2
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_prog_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_regrouping_2
+			}
+		}
+	}
+	
+	MEW_army_high_command_prog_char_3={
+		name=MEW_army_high_command_prog_char_3
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = MEW_army_high_command_prog_char_3
+			available  = {
+				original_tag  = MEW
+				OR = {
+					MEW_higgs = {
+						is_army_chief = yes
+					}
+					MEW_army_chief_prog_char = {
+						is_army_chief = yes
+					}
+				}
+				has_completed_focus = MEW_army_affair
+			}
+			traits  = {
+				army_CombinedArms_2
+			}
+		}
+	}
+	
+	MEW_navy_chief_prog_char={
+		name=MEW_navy_chief_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = MEW_navy_chief_prog_char
+			available  = {
+				original_tag  = MEW
+				has_completed_focus = MEW_army_affair
+				MEW_army_chief_prog_char = {
+					is_army_chief = yes
+				}
+			}
+			traits  = {
+				navy_chief_decisive_battle_2
+			}
+		}
+	}
+	
+	MEW_navy_chief_2_prog_char={
+		name=MEW_navy_chief_2_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = MEW_navy_chief_2_prog_char
+			available  = {
+				original_tag  = MEW
+				has_completed_focus = MEW_army_affair
+				MEW_army_chief_prog_char = {
+					is_army_chief = yes
+				}
+			}
+			traits  = {
+				navy_chief_commerce_raiding_2
+			}
+		}
+	}
+	
+	MEW_air_chief_prog_char={
+		name=MEW_air_chief_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MEW_air_chief_prog_char
+			available  = {
+				original_tag  = MEW
+				has_completed_focus = MEW_army_affair
+				MEW_army_chief_prog_char = {
+					is_army_chief = yes
+				}
+			}
+			traits  = {
+				air_chief_reform_3
+			}
+		}
+	}
+	
+	MEW_air_chief_2_prog_char={
+		name=MEW_air_chief_2_prog_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = MEW_air_chief_2_prog_char
+			available  = {
+				original_tag  = MEW
+				has_completed_focus = MEW_army_affair
+				MEW_army_chief_prog_char = {
+					is_army_chief = yes
+				}
+			}
+			traits  = {
+				air_air_combat_training_2
+			}
+		}
+	}
+}

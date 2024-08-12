@@ -1,0 +1,16 @@
+characters={
+	SPI_king_spiderbite = {
+		name = SPI_king_spiderbite
+		portraits={
+			civilian={
+				large = GFX_portrait_SPI_king_spiderbite 
+			}
+		}
+		country_leader={
+			ideology= oligarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

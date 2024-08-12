@@ -1,0 +1,19 @@
+CAL_chaos={
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+
+BAY_chaos={
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+
+VAL_chaos={
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}
+
+NEV_chaos={
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 0  0  0 }
+}

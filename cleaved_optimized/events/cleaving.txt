@@ -1,0 +1,845 @@
+add_namespace = flavor
+add_namespace = cleaving
+add_namespace = mewni_choose
+add_namespace = cleaved_nations #Add news events and switch over options to all of these
+
+country_event = {
+	id = cleaved_nations.1
+	title = cleaved_nations.1.t
+	desc = cleaved_nations.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		WRA = {
+			transfer_state = 50
+			transfer_state = 46
+			transfer_state = 49
+			transfer_state = 106
+			transfer_state = 116
+			transfer_state = 44
+		}
+	}
+}
+
+country_event = {
+	id = cleaved_nations.1
+	title = cleaved_nations.1.t
+	desc = cleaved_nations.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		WRA = {
+			transfer_state = 50
+			transfer_state = 46
+			transfer_state = 49
+			transfer_state = 106
+			transfer_state = 116
+			transfer_state = 44
+		}
+	}
+}
+
+country_event = {
+	id = cleaved_nations.2
+	title = cleaved_nations.2.t
+	desc = cleaved_nations.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		BAY = {
+			transfer_state = 13
+			transfer_state = 14
+			transfer_state = 12
+		}
+	}
+}
+
+country_event = {
+	id = cleaved_nations.3
+	title = cleaved_nations.3.t
+	desc = cleaved_nations.3.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		VAL = {
+			transfer_state = 38
+			transfer_state = 40
+			transfer_state = 36
+			transfer_state = 34
+		}
+	}
+}
+
+country_event = {
+	id = cleaved_nations.4
+	title = cleaved_nations.4.t
+	desc = cleaved_nations.4.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		SAC = {
+			transfer_state = 30
+			transfer_state = 35
+			transfer_state = 43
+			transfer_state = 29
+			transfer_state = 33
+		}
+	}
+}
+
+country_event = { #I want to ultimatley make this just in the history state files
+	id = cleaving.7
+	title = cleaving.7.t
+	desc = cleaving.7.desc
+	picture = GFX_report_event_empty_event
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+			set_victory_points = {
+				province = 3434
+				value = 30
+			}
+			
+			set_province_name = { id = 3434 name = "Butterfly Castle" }
+			
+			set_victory_points = {
+				province = 3476
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 1616
+				value = 15
+			}
+						
+			set_victory_points = {
+				province = 3458
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 2072
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 451
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3403
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3438
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3408
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 1198
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 3356
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 3414
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3320
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3414
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1966
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 820
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 1966
+				value = 15
+			}
+			
+			set_victory_points = {
+				province = 3500
+				value = 5
+			}
+			
+			set_victory_points = {
+				province = 3485
+				value = 25
+			}
+			
+			set_victory_points = {
+				province = 3062
+				value = 25
+			}
+			
+			set_victory_points = {
+				province = 1480
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1480
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3301
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3544
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 2322
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2255
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2245
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 284
+				value = 10
+			}
+			
+			set_victory_points = {
+				province = 2364
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 1390
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 2495
+				value = 20
+			}
+			
+			set_victory_points = {
+				province = 3250
+				value = 20
+			}
+			
+			5 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			224 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			235 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			237 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_victory_point > 19
+					}
+				}
+			}
+			
+			210 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3320
+				}
+			}
+			
+			230 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3458
+				}
+			}
+			
+			221 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1616
+				}
+			}
+			
+			245 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1480
+				}
+			}
+			
+			248 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3301
+				}
+			}
+			
+			247 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 820
+				}
+			}
+			
+			228 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 652
+				}
+			}
+			
+			240 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2322
+				}
+			}
+			
+			234 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3544
+				}
+			}
+			
+			47 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2255
+				}
+			}
+			
+			46 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2245
+				}
+			}
+			
+			10 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 284
+				}
+			}
+			
+			12 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3187
+				}
+			}
+			
+			29 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2364
+				}
+			}
+			
+			109 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1390
+				}
+			}
+			
+			84 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2495
+				}
+			}
+			
+			71 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 3250
+				}
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 3434 1715 1494 3476 1450 3486 1616 }
+				start_province = 3434
+				target_province = 1616
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 3434 834 }
+				start_province = 3434
+				target_province = 834
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				#path = { 3434 834 }
+				start_province = 3434
+				target_province = 834
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 2559 3421 1775 3399 3398 2072 }
+				start_province = 2559
+				target_province = 2072
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 2072
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1518
+				target_province = 3458
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 3414
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1616
+				target_province = 3458
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3458
+				target_province = 3500
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3500
+				target_province = 3485
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3403
+				target_province = 1198
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1198
+				target_province = 3356
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3356
+				target_province = 1480
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1198
+				target_province = 3301
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1480
+				target_province = 3320
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3320
+				target_province = 820
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 820
+				target_province = 2322
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2322
+				target_province = 3544
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3544
+				target_province = 278
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 278
+				target_province = 652
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 3301
+				target_province = 284
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2364
+				target_province = 3061
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 1390
+				target_province = 2364
+			}
+			
+			build_railway = {
+				level = 1
+				build_only_on_allied = no
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MEW
+						add = 2
+					}
+				}
+				fallback = yes
+				start_province = 2495
+				target_province = 1390
+			}
+	}
+	
+	
+	option = {
+		name = cleaving.7.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+
+}

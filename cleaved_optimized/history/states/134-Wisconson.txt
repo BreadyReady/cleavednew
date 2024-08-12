@@ -1,0 +1,19 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		44 110 191 610 685 780 898 924 995 1025 1159 1283 1298 1309 1382 1581 1634 2014 2045 2135 2426 2547 2758 2791 2802 2814 2821 2826 2845 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	resources = {
+		steel = 10
+		aluminium = 8
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

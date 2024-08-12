@@ -1,0 +1,191 @@
+spriteTypes = {	
+
+	####
+	# Mewni Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_broken_wand"
+	texturefile = "gfx/interface/goals/MEW/focus_broken_wand.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_royals"
+	texturefile = "gfx/interface/goals/MEW/focus_mewman_royals.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_sad_peasants"
+	texturefile = "gfx/interface/goals/MEW/focus_sad_peasants.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_moon_paperwork"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_paperwork.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_knights"
+	texturefile = "gfx/interface/goals/MEW/focus_mewman_knights.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_overturned_car"
+	texturefile = "gfx/interface/goals/MEW/focus_overturned_car.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_two_professionals"
+	texturefile = "gfx/interface/goals/MEW/focus_two_professionals.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mewmans_take_shelter"
+	texturefile = "gfx/interface/goals/MEW/focus_mewmans_take_shelter.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_general_construction_crane"
+	texturefile = "gfx/interface/goals/MEW/focus_general_construction_crane.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_shifty_mina"
+	texturefile = "gfx/interface/goals/MEW/focus_shifty_mina.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_manfred_scream"
+	texturefile = "gfx/interface/goals/MEW/focus_manfred_scream.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_manfred_smile"
+	texturefile = "gfx/interface/goals/MEW/focus_manfred_smile.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_peasants_held_back"
+	texturefile = "gfx/interface/goals/MEW/focus_peasants_held_back.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_moon_eclipsa_table"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_eclipsa_table.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_general_science"
+	texturefile = "gfx/interface/goals/MEW/focus_general_science.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_butterfly_castle"
+	texturefile = "gfx/interface/goals/MEW/focus_butterfly_castle.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_bunch_of_mewmans"
+	texturefile = "gfx/interface/goals/MEW/focus_bunch_of_mewmans.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_candle"
+	texturefile = "gfx/interface/goals/MEW/focus_candle.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_UN"
+	texturefile = "gfx/interface/goals/MEW/focus_UN.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_old_weapons"
+	texturefile = "gfx/interface/goals/MEW/focus_old_weapons.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_pier"
+	texturefile = "gfx/interface/goals/MEW/focus_pier.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_knight_looks_up"
+	texturefile = "gfx/interface/goals/MEW/focus_knight_looks_up.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_higgs_face_down"
+	texturefile = "gfx/interface/goals/MEW/focus_higgs_face_down.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_higgs_looks_at_paper"
+	texturefile = "gfx/interface/goals/MEW/focus_higgs_looks_at_paper.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_handsome_knight_stabby"
+	texturefile = "gfx/interface/goals/MEW/focus_handsome_knight_stabby.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_whosits"
+	texturefile = "gfx/interface/goals/MEW/focus_whosits.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_burning_building"
+	texturefile = "gfx/interface/goals/MEW/focus_burning_building.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_moon_poster"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_poster.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_peasants_happy"
+	texturefile = "gfx/interface/goals/MEW/focus_peasants_happy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_handshake"
+	texturefile = "gfx/interface/goals/MEW/focus_handshake.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_flaming_fist"
+	texturefile = "gfx/interface/goals/MEW/focus_flaming_fist.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_moon_superior"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_superior.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_royals_2"
+	texturefile = "gfx/interface/goals/MEW/focus_mewman_royals_2.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_formation_of_senate"
+	texturefile = "gfx/interface/goals/MEW/focus_formation_of_senate.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_eclipsa_superior"
+	texturefile = "gfx/interface/goals/MEW/focus_eclipsa_superior.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_eclipsa_dead"
+	texturefile = "gfx/interface/goals/MEW/focus_eclipsa_dead.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_star_and_tom"
+	texturefile = "gfx/interface/goals/MEW/focus_star_and_tom.dds"			
+	}
+} ### End Bracket

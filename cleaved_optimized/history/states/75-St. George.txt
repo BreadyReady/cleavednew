@@ -1,0 +1,15 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		4 349 466 624 831 1023 1495 1516 1640 1720 1954 3153 3199 
+	}
+	history = {
+		owner = FRG
+		add_core_of = FRG
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

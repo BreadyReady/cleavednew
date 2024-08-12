@@ -1,0 +1,37 @@
+MEW_hunt_for_mina = {
+	icon = generic_propaganda
+
+	visible = {
+		has_country_flag = hunting_mina
+	}
+}
+
+MEW_full_desk = {
+	icon = generic_propaganda
+
+	visible = {
+		has_country_flag = mew_full_desk
+	}
+}
+
+MEW_cleaved_land_peace = {
+	icon = GFX_decision_infiltrate_state
+
+	visible = {
+		always = yes
+		has_country_flag = MEW_cleaved_land_peace
+	}
+}
+
+############
+#NEW#
+###########
+
+MEW_bail_water_category = {
+	icon = GFX_decision_infiltrate_state
+
+	visible = {
+		always = yes
+		has_completed_focus = MEW_bail_water
+	}
+}

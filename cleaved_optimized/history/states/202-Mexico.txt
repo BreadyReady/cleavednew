@@ -1,0 +1,16 @@
+state={
+	id=202
+	name="STATE_202"
+	provinces={
+		17 78 426 439 478 498 651 688 853 876 1068 1127 1158 1478 1818 2404 2419 3604 3607 
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+	}
+	manpower=1
+
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

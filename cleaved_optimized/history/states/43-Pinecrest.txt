@@ -1,0 +1,15 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		89 808 1855 1958 2243 3091 3106 3112 
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		512 716 1133 1282 1375 1467 2129 2154 2163 2167 2196 2342 3220 3247 3248 3251 3266 3268 3274 3283 3286 3290 3297 3299 3310 
+	}
+	history = {
+		owner = FRG
+		add_core_of = FRG
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

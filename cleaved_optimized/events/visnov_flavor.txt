@@ -1,0 +1,29 @@
+add_namespace = MEW_visnov_flavor
+
+country_event = {
+	id = MEW_visnov_flavor.0
+	title = MEW_visnov_flavor.0.t
+	desc = MEW_visnov_flavor.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_visnov_flavor.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_visnov_flavor.1
+	title = MEW_visnov_flavor.1.t
+	desc = MEW_visnov_flavor.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_visnov_flavor.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}

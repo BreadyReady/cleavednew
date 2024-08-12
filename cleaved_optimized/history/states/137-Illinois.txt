@@ -1,0 +1,19 @@
+state={
+	id=137
+	name="STATE_137"
+	provinces={
+		32 120 689 899 1102 1189 1554 1696 1786 2050 2180 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	resources = {
+		steel = 10
+		aluminium = 8
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

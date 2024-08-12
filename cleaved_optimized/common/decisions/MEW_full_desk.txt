@@ -1,0 +1,866 @@
+MEW_full_desk = {
+	MEW_full_desk_central_echo_county = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 5
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			5 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 5
+			controls_state = 5
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			5 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_4 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 4
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			4 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 4
+			controls_state = 4
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			4 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_2 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			2 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 2
+			controls_state = 2
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			2 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_16 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 16
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			16 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 16
+			controls_state = 16
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			16 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_3 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 3
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			3 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 3
+			controls_state = 3
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			3 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_218 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 218
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			218 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 218
+			controls_state = 218
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			218 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_219 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			219 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 219
+			controls_state = 219
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			219 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_220 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 220
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			220 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 220
+			controls_state = 220
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			220 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_224 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 224
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			224 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 224
+			controls_state = 224
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			224 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_221 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 221
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			221 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 221
+			controls_state = 221
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			221 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_230 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 230
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			230 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 230
+			controls_state = 230
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			230 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_235 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 235
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			235 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 235
+			controls_state = 235
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			235 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_327 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 327
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			327 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 327
+			controls_state = 327
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			327 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_244 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 244
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			244 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 244
+			controls_state = 244
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			244 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_226 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 226
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			226 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 226
+			controls_state = 226
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			226 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_225 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 225
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			225 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 225
+			controls_state = 225
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			225 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_237 = {
+
+		icon = GFX_decision_icon_default
+
+cost=15
+		
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 237
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			237 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 237
+			controls_state = 237
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			237 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+	MEW_full_desk_6 = {
+
+				icon = GFX_decision_icon_default
+
+cost=15
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 6
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = full_desk_ongoing
+			}
+		}
+
+		visible = {
+			has_country_flag = mew_full_desk
+			6 = {
+				NOT = {
+					has_state_flag = full_desked
+				}
+			}
+			owns_state = 6
+			controls_state = 6
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 10
+		}
+		complete_effect = {
+			set_country_flag = full_desk_ongoing
+		}
+		remove_effect = {
+			6 = { set_state_flag = full_desked }
+			clr_country_flag = full_desk_ongoing
+			country_event = MEW_full_desk.1
+		}
+	}
+}

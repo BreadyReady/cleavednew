@@ -1,0 +1,16 @@
+
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		586 1286 1350 1407 1790 2133 2444 3093 3103 3109 3114 3118 3126 3135 
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

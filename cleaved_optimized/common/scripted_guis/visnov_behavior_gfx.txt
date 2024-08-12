@@ -1,0 +1,95 @@
+scripted_gui = {	
+
+	#FOR THE GFX ITSELF	
+	visnov_behavior = {
+		context_type = player_context
+		window_name = "visnov_window"
+
+		visible = {
+			has_country_flag = visnov_visible 
+		}
+
+		properties = {
+			visnov_bg_image = {
+				image = "[visnov_bg_image_scripted_loc]"
+			}
+			GFX_visnov_portrait_img_name = {
+				image = "[visnov_portrait_image_scripted_loc]"
+			}
+		}
+
+		effects = {
+			visnov_next_slide_button_click = {
+				next_slide_effect = yes
+			}
+			visnov_decs1_button_click = {
+				dec1_effect = yes
+			}
+			visnov_decs2_button_click = {
+				dec2_effect = yes
+			}
+			visnov_decs3_button_click = {
+				dec3_effect = yes
+			}
+		}
+		
+		triggers = {
+			visnov_next_slide_button_visible = {
+				NOT = {
+					has_country_flag = visnov_decs1_button_visible_flag
+				}
+			}
+			visnov_decs1_button_visible = {
+				has_country_flag = visnov_decs1_button_visible_flag
+			}
+			visnov_decs1_text_visible = {
+				has_country_flag = visnov_decs1_button_visible_flag
+			}
+			visnov_decs2_button_visible = {
+				has_country_flag = visnov_decs1_button_visible_flag
+			}
+			visnov_decs2_text_visible = {
+				has_country_flag = visnov_decs1_button_visible_flag
+			}
+			visnov_decs3_button_visible = {
+				has_country_flag = visnov_decs3_button_visible_flag
+			}
+			visnov_decs3_text_visible = {
+				has_country_flag = visnov_decs3_button_visible_flag
+			}
+		}
+		
+        ai_enabled = {
+            always = yes
+        }
+        
+        ai_check = {
+            has_country_flag = visnov_visible
+        }
+		
+		ai_weights = {
+			visnov_next_slide_button_click = {
+				ai_will_do = {
+					base = 1
+				}
+			}
+			visnov_decs1_button_click = {
+				ai_will_do = {
+					base = 1
+				}
+			}
+			visnov_decs2_button_click = {
+				ai_will_do = {
+					base = 1
+				}
+			}
+			visnov_decs3_button_click = {
+				ai_will_do = {
+					base = 1
+			}
+			}
+		}
+		
+	}
+	
+}

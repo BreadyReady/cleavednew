@@ -1,0 +1,16 @@
+
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		897 1220 1351 1359 1472 1734 1868 1977 2455 2471 2543 3224 3225 3233 3235 3236 3255 
+	}
+	history = {
+		owner = WRA
+		add_core_of = WRA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

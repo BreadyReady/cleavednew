@@ -1,0 +1,7490 @@
+MEW_cleaved_land_peace = {
+	MEW_cleaved_land_claim_41 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 41
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			41 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 41
+			}
+			41 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				41 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				41 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_41 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 41
+			}
+		}
+
+		available = {
+			41 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 41
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				41 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				41 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 41
+		}
+	}
+	MEW_cleaved_land_claim_51 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 51
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			51 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 51
+			}
+			51 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				51 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				51 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_51 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 51
+			}
+		}
+
+		available = {
+			51 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 51
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				51 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				51 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 51
+		}
+	}
+	MEW_cleaved_land_claim_48 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 48
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			48 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 48
+			}
+			48 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				48 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				48 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_48 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 48
+			}
+		}
+
+		available = {
+			48 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 48
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				48 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				48 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 48
+		}
+	}
+	MEW_cleaved_land_claim_8 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 8
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			8 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 8
+			}
+			8 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				8 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				8 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_8 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 8
+			}
+		}
+
+		available = {
+			8 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 8
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				8 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				8 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 8
+		}
+	}
+	MEW_cleaved_land_claim_47 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 47
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			47 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 47
+			}
+			47 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				47 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				47 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_47 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 47
+			}
+		}
+
+		available = {
+			47 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 47
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				47 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				47 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 47
+		}
+	}
+	MEW_cleaved_land_claim_9 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 9
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			9 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 9
+			}
+			9 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				9 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				9 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_9 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 9
+			}
+		}
+
+		available = {
+			9 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 9
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				9 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				9 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 9
+		}
+	}
+	MEW_cleaved_land_claim_7 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 7
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			7 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 7
+			}
+			7 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				7 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				7 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_7 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 7
+			}
+		}
+
+		available = {
+			7 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 7
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				7 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				7 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 7
+		}
+	}
+	MEW_cleaved_land_claim_39 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			39 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 39
+			}
+			39 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				39 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				39 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_39 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+
+		available = {
+			39 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 39
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				39 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				39 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 39
+		}
+	}
+	MEW_cleaved_land_claim_38 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 38
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			38 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 38
+			}
+			38 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				38 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				38 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_38 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 38
+			}
+		}
+
+		available = {
+			38 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 38
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				38 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				38 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 38
+		}
+	}
+	MEW_cleaved_land_claim_49 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 49
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			49 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 49
+			}
+			49 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				49 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				49 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_49 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 49
+			}
+		}
+
+		available = {
+			49 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 49
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				49 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				49 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 49
+		}
+	}
+	MEW_cleaved_land_claim_40 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 40
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			40 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 40
+			}
+			40 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				40 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				40 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_40 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 40
+			}
+		}
+
+		available = {
+			40 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 40
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				40 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				40 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 40
+		}
+	}	
+	MEW_cleaved_land_claim_46 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 46
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			46 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 46
+			}
+			46 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				46 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				46 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_46 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 46
+			}
+		}
+
+		available = {
+			46 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 46
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				46 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				46 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 46
+		}
+	}
+	MEW_cleaved_land_claim_44 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 44
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			44 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 44
+			}
+			44 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				44 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				44 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_44 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 44
+			}
+		}
+
+		available = {
+			44 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 44
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				44 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				44 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 44
+		}
+	}
+	MEW_cleaved_land_claim_45 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 45
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			45 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 45
+			}
+			45 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				45 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				45 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_45 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 45
+			}
+		}
+
+		available = {
+			45 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 45
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				45 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				45 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 45
+		}
+	}
+	MEW_cleaved_land_claim_10 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 10
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			10 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 10
+			}
+			10 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				10 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				10 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_10 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 10
+			}
+		}
+
+		available = {
+			10 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 10
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				10 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				10 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 10
+		}
+	}
+	MEW_cleaved_land_claim_11 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			11 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 11
+			}
+			11 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				11 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				11 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_11 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+		}
+
+		available = {
+			11 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 11
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				11 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				11 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 11
+		}
+	}
+	MEW_cleaved_land_claim_12 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			12 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 12
+			}
+			12 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				12 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				12 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_12 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12
+			}
+		}
+
+		available = {
+			12 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 12
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				12 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				12 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 12
+		}
+	}
+	MEW_cleaved_land_claim_37 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 37
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			37 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 37
+			}
+			37 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				37 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				37 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_37 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 37
+			}
+		}
+
+		available = {
+			37 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 37
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				37 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				37 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 37
+		}
+	}
+	MEW_cleaved_land_claim_36 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 36
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			36 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 36
+			}
+			36 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				36 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				36 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_36 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 36
+			}
+		}
+
+		available = {
+			36 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 36
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				36 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				36 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 36
+		}
+	}
+	MEW_cleaved_land_claim_42 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 42
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			42 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 42
+			}
+			42 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				42 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				42 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_42 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 42
+			}
+		}
+
+		available = {
+			42 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 42
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				42 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				42 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 42
+		}
+	}
+	MEW_cleaved_land_claim_34 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 34
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			34 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 34
+			}
+			34 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				34 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				34 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_34 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 34
+			}
+		}
+
+		available = {
+			34 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 34
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				34 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				34 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 34
+		}
+	}
+	MEW_cleaved_land_claim_13 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 13
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			13 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 13
+			}
+			13 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				13 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				13 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_13 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 13
+			}
+		}
+
+		available = {
+			13 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 13
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				13 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				13 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 13
+		}
+	}
+	MEW_cleaved_land_claim_35 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			35 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 35
+			}
+			35 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				35 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				35 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_35 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35
+			}
+		}
+
+		available = {
+			35 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 35
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				35 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				35 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 35
+		}
+	}
+	MEW_cleaved_land_claim_43 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			43 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 43
+			}
+			43 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				43 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				43 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_43 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43
+			}
+		}
+
+		available = {
+			43 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 43
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				43 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				43 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 43
+		}
+	}
+	MEW_cleaved_land_claim_29 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 29
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			29 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 29
+			}
+			29 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				29 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				29 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_29 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 29
+			}
+		}
+
+		available = {
+			29 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 29
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				29 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				29 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 29
+		}
+	}
+	MEW_cleaved_land_claim_14 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 14
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			14 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 14
+			}
+			14 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				14 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				14 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_14 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 14
+			}
+		}
+
+		available = {
+			14 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 14
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				14 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				14 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 14
+		}
+	}
+	MEW_cleaved_land_claim_20 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 20
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			20 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 20
+			}
+			20 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				20 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				20 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_20 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 20
+			}
+		}
+
+		available = {
+			20 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 20
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				20 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				20 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 20
+		}
+	}
+	MEW_cleaved_land_claim_33 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 33
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			33 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 33
+			}
+			33 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				33 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				33 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_33 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 33
+			}
+		}
+
+		available = {
+			33 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 33
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				33 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				33 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 33
+		}
+	}
+	MEW_cleaved_land_claim_21 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			21 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 21
+			}
+			21 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				21 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				21 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_21 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+		}
+
+		available = {
+			21 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 21
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				21 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				21 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 21
+		}
+	}
+	MEW_cleaved_land_claim_31 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 31
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			31 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 31
+			}
+			31 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				31 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				31 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_31 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 31
+			}
+		}
+
+		available = {
+			31 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 31
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				31 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				31 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 31
+		}
+	}
+	MEW_cleaved_land_claim_28 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 28
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			28 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 28
+			}
+			28 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				28 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				28 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_28 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 28
+			}
+		}
+
+		available = {
+			28 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 28
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				28 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				28 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 28
+		}
+	}
+	MEW_cleaved_land_claim_32 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			32 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 32
+			}
+			32 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				32 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				32 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_32 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			32 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 32
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				32 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				32 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 32
+		}
+	}
+	MEW_cleaved_land_claim_22 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			22 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 22
+			}
+			22 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				22 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				22 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_22 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+			}
+		}
+
+		available = {
+			22 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 22
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				22 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				22 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 22
+		}
+	}
+	MEW_cleaved_land_claim_23 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 23
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			23 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 23
+			}
+			23 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				23 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				23 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_23 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 23
+			}
+		}
+
+		available = {
+			23 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 23
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				23 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				23 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 23
+		}
+	}
+	MEW_cleaved_land_claim_24 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 24
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			24 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 24
+			}
+			24 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				24 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				24 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_24 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 24
+			}
+		}
+
+		available = {
+			24 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 24
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				24 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				24 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 24
+		}
+	}
+	MEW_cleaved_land_claim_25 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 25
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			25 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 25
+			}
+			25 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				25 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				25 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_25 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 25
+			}
+		}
+
+		available = {
+			25 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 25
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				25 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				25 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 25
+		}
+	}
+	MEW_cleaved_land_claim_26 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 26
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			26 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 26
+			}
+			26 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				26 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				26 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_26 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 26
+			}
+		}
+
+		available = {
+			26 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 26
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				26 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				26 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 26
+		}
+	}
+	MEW_cleaved_land_claim_27 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 27
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			27 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 27
+			}
+			27 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				27 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				27 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_27 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 27
+			}
+		}
+
+		available = {
+			27 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 27
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				27 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				27 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 27
+		}
+	}
+	MEW_cleaved_land_claim_50 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 50
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			50 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 50
+			}
+			50 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				50 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				50 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_50 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 50
+			}
+		}
+
+		available = {
+			50 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 50
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				50 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				50 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 50
+		}
+	}
+	MEW_cleaved_land_claim_106 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 106
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			106 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 106
+			}
+			106 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				106 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				106 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_106 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 106
+			}
+		}
+
+		available = {
+			106 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 106
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				106 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				106 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 106
+		}
+	}
+	MEW_cleaved_land_claim_98 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 98
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			98 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 98
+			}
+			98 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				98 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				98 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_98 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 98
+			}
+		}
+
+		available = {
+			98 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 98
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				98 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				98 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 98
+		}
+	}
+	MEW_cleaved_land_claim_116 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 116
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			116 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 116
+			}
+			116 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				116 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				116 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_116 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 116
+			}
+		}
+
+		available = {
+			116 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 116
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				116 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				116 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 116
+		}
+	}
+	MEW_cleaved_land_claim_117 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 117
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			117 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 117
+			}
+			117 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				117 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				117 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_117 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 117
+			}
+		}
+
+		available = {
+			117 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 117
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				117 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				117 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 117
+		}
+	}
+	MEW_cleaved_land_claim_115 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 115
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			115 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 115
+			}
+			115 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				115 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				115 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_115 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 115
+			}
+		}
+
+		available = {
+			115 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 115
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				115 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				115 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 115
+		}
+	}
+	MEW_cleaved_land_claim_113 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 113
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			113 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 113
+			}
+			113 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				113 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				113 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_113 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 113
+			}
+		}
+
+		available = {
+			113 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 113
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				113 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				113 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 113
+		}
+	}
+	MEW_cleaved_land_claim_114 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 114
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			114 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 114
+			}
+			114 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				114 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				114 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_114 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 114
+			}
+		}
+
+		available = {
+			114 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 114
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				114 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				114 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 114
+		}
+	}
+	MEW_cleaved_land_claim_107 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 107
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			107 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 107
+			}
+			107 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				107 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				107 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_107 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 107
+			}
+		}
+
+		available = {
+			107 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 107
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				107 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				107 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 107
+		}
+	}
+	MEW_cleaved_land_claim_112 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 112
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			112 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 112
+			}
+			112 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				112 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				112 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_112 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 112
+			}
+		}
+
+		available = {
+			112 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 112
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				112 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				112 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 112
+		}
+	}
+	MEW_cleaved_land_claim_111 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 111
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			111 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 111
+			}
+			111 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				111 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				111 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_111 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 111
+			}
+		}
+
+		available = {
+			111 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 111
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				111 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				111 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 111
+		}
+	}
+	MEW_cleaved_land_claim_110 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 110
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			110 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 110
+			}
+			110 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				110 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				110 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_110 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 110
+			}
+		}
+
+		available = {
+			110 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 110
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				110 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				110 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 110
+		}
+	}
+	MEW_cleaved_land_claim_108 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 108
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			108 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 108
+			}
+			108 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				108 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				108 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_108 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 108
+			}
+		}
+
+		available = {
+			108 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 108
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				108 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				108 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 108
+		}
+	}
+	MEW_cleaved_land_claim_109 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 109
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			109 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 109
+			}
+			109 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				109 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				109 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_109 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 109
+			}
+		}
+
+		available = {
+			109 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 109
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				109 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				109 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 109
+		}
+	}
+	MEW_cleaved_land_claim_57 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 57
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			57 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 57
+			}
+			57 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				57 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				57 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_57 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 57
+			}
+		}
+
+		available = {
+			57 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 57
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				57 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				57 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 57
+		}
+	}
+	MEW_cleaved_land_claim_62 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 62
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			62 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 62
+			}
+			62 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				62 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				62 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_62 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 62
+			}
+		}
+
+		available = {
+			62 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 62
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				62 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				62 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 62
+		}
+	}
+	MEW_cleaved_land_claim_58 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 58
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			58 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 58
+			}
+			58 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				58 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				58 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_58 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 58
+			}
+		}
+
+		available = {
+			58 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 58
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				58 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				58 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 58
+		}
+	}
+	MEW_cleaved_land_claim_71 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 71
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			71 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 71
+			}
+			71 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				71 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				71 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_71 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 71
+			}
+		}
+
+		available = {
+			71 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 71
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				71 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				71 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 71
+		}
+	}
+	MEW_cleaved_land_claim_75 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 75
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			75 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 75
+			}
+			75 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				75 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				75 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_75 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 75
+			}
+		}
+
+		available = {
+			75 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 75
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				75 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				75 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 75
+		}
+	}
+	MEW_cleaved_land_claim_80 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 80
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			80 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 80
+			}
+			80 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				80 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				80 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_80 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 80
+			}
+		}
+
+		available = {
+			80 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 80
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				80 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				80 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 80
+		}
+	}
+	MEW_cleaved_land_claim_77 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 77
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			77 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 77
+			}
+			77 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				77 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				77 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_77 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 77
+			}
+		}
+
+		available = {
+			77 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 77
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				77 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				77 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 77
+		}
+	}
+	MEW_cleaved_land_claim_78 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 78
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			78 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 78
+			}
+			78 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				78 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				78 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_78 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 78
+			}
+		}
+
+		available = {
+			78 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 78
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				78 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				78 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 78
+		}
+	}
+	MEW_cleaved_land_claim_84 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 84
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			84 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 84
+			}
+			84 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				84 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				84 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_84 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 84
+			}
+		}
+
+		available = {
+			84 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 84
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				84 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				84 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 84
+		}
+	}
+	MEW_cleaved_land_claim_87 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 87
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			87 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 87
+			}
+			87 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				87 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				87 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_87 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 87
+			}
+		}
+
+		available = {
+			87 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 87
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				87 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				87 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 87
+		}
+	}
+	MEW_cleaved_land_claim_86 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 86
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			86 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 86
+			}
+			86 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				86 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				86 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_86 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 86
+			}
+		}
+
+		available = {
+			86 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 86
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				86 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				86 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 86
+		}
+	}
+	MEW_cleaved_land_claim_85 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 85
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_cleaved_land_claim_ongoing
+			}
+			85 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 85
+			}
+			85 = {
+				NOT = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+		remove_effect = {
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				85 = { set_state_flag = MEW_cleaved_land_claimed }
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				85 = { set_state_flag = USA_cleaved_land_claimed }
+			}
+			clr_country_flag = MEW_cleaved_land_claim_ongoing
+		}
+	}
+	MEW_cleaved_land_take_85 = {
+
+		icon = GFX_decision_icon_default
+
+		cost = 20
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 85
+			}
+		}
+
+		available = {
+			85 = {
+				any_neighbor_state = { 
+					is_owned_by = ROOT				} 
+			}
+		}
+
+		visible = {
+			CLE = {
+				owns_state = 85
+			}
+			IF = {
+				LIMIT = {
+					tag = MEW
+				}
+				85 = {
+					has_state_flag = MEW_cleaved_land_claimed
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					tag = USA
+				}
+				85 = {
+					has_state_flag = USA_cleaved_land_claimed
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			transfer_state = 85
+		}
+	}
+}

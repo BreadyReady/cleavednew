@@ -1,0 +1,15 @@
+state={
+	id=104
+	name="STATE_104"
+	provinces={
+		196 666 1096 1474 1591 1647 1659 1670 1892 2153 2746 2752 2790 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

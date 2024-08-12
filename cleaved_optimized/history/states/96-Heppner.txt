@@ -1,0 +1,15 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		360 452 1325 1369 1502 1559 1590 1639 2158 2316 2344 2351 2796 2798 2801 2803 2809 2810 2817 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

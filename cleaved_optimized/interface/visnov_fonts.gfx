@@ -1,0 +1,25 @@
+bitmapfonts = {
+    bitmapfont = {
+        name = "hoi4_visnov_font"
+        fontfiles = {
+            "gfx/fonts/hoi4_visnov_font"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+	
+    bitmapfont = {
+        name = "hoi4_visnov_caption_font"
+        fontfiles = {
+            "gfx/fonts/hoi4_visnov_caption_font"
+        }
+        color = 0xffffffff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+}

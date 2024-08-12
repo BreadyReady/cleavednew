@@ -1,0 +1,16 @@
+
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		518 1574 1765 2380 3175 3179 3189 3202 3203 3208 3215 3221 3223 
+	}
+	history = {
+		owner = FLD
+		add_core_of = FLD
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

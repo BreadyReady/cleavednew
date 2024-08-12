@@ -1,0 +1,15 @@
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		199 274 543 640 703 815 890 954 1077 2000 2127 2156 2162 2202 2240 2539 2663 2666 2667 2672 2673 2681 2687 2696 
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

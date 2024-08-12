@@ -1,0 +1,15 @@
+state={
+	id=151
+	name="STATE_151"
+	provinces={
+		117 147 252 415 901 1137 1241 1825 1975 2041 2132 2326 2358 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		3544 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=large_city
+	local_supplies=0.000
+}

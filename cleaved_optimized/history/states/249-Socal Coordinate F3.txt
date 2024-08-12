@@ -1,0 +1,17 @@
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		715 783 1185 3278 3307 3321 3322 
+	}
+	manpower=50000
+	history = {
+		owner = PIG
+		add_core_of = PIG
+	}
+	resources = {
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=wasteland
+	local_supplies=0.000
+}

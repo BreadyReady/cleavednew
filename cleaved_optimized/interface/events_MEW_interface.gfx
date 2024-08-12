@@ -1,0 +1,36 @@
+##########
+# MEW country event picture interface
+############
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_empty_event"
+		texturefile = "gfx/event_country_pictures/ALL/report_event_empty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_eclipsa_horse_event"
+		texturefile = "gfx/event_country_pictures/MEW/eclipsa_horse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_eclipsa_and_star_event"
+		texturefile = "gfx/event_country_pictures/MEW/eclipsa_and_star.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_2_mewmans_arguing_event"
+		texturefile = "gfx/event_country_pictures/MEW/2_mewmans_arguing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_star_birthday_16_event"
+		texturefile = "gfx/event_country_pictures/MEW/star_birthday_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_marco_birthday_16_event"
+		texturefile = "gfx/event_country_pictures/MEW/marco_birthday_16.dds"
+	}
+	
+}

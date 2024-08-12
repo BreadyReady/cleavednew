@@ -1,0 +1,19 @@
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		375 976 1394 1488 1588 2930 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	resources = {
+		steel = 30
+		aluminium = 20
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

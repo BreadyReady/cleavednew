@@ -1,0 +1,16 @@
+
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		864 945 949 1079 1576 1608 2052 2265 2378 2382 3146 3147 3149 3152 3160 3169 
+	}
+	history = {
+		owner = VAL
+		add_core_of = VAL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=107
+	name="STATE_107"
+	provinces={
+		928 1446 2038 3035 
+	}
+	history = {
+		owner = NEV
+		add_core_of = NEV
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 7
+            arms_factory = 2
+        }
+		victory_points = { 2038 20 }
+
+	}
+	manpower=268851
+	buildings_max_level_factor=1.000
+ 	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,38 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_find_better"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_find_better.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_destruction"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_destruction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_panic"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_panic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_rainbow_pride"
+		texturefile = "gfx/event_news_pictures/all/news_event_rainbow_pride.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_mosnters_rejoice"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_mosnters_rejoice.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_mosnters_prep_for_war"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_mosnters_prep_for_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_cleaving_soldiers_outside_capitol"
+		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_soldiers_outside_capitol.dds"
+	}
+	
+}

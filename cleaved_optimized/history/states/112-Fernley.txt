@@ -1,0 +1,16 @@
+
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		589 1525 1841 1878 1879 2318 2339 2461 2535 2994 2997 2999 3008 3012 3021 3022 3032 3044 3050 3057 3066 
+	}
+	history = {
+		owner = NEV
+		add_core_of = NEV
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

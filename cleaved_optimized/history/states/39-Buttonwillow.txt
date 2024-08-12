@@ -1,0 +1,16 @@
+
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		159 1300 1885 1939 2095 2100 2186 3269 
+	}
+	history = {
+		owner = VAL
+		add_core_of = VAL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

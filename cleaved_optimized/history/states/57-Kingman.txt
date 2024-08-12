@@ -1,0 +1,15 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		1147 1348 1712 1860 2019 2088 2386 2398 2467 2553 3285 3296 3304 3314 3318 3326 3349 3365 3381 3391 3393 3397 
+	}
+	history = {
+		owner = AVA
+		add_core_of = AVA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

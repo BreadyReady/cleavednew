@@ -1,0 +1,15 @@
+﻿l_english:
+ eclipsa_coldness_tooltip:0 "§0Eclipsa will grow more cold...§!"
+ mew_prog_tooltip:0 "§CThe Mewman Progressive will be empowered!§!"
+ mew_trad_tooltip:0 "§1The Mewman Traditional will be empowered!§!"
+ mew_neut_tooltip:0 "§LPolitical Neutrality will be preserved!§!"
+ mew_us_tooltip:0 "§RUS Influence will increase!§!"
+ MEW_abolish_knights_tooltip:0 "This will §Rsurely anger§! the Mewman Knighthood..."
+ MEW_break_the_promise_tooltip:0 "The §YFeudal Promise§! will immediately be broken!"
+ MEW_break_the_promise_tooltip_2:0 "This will §Rsurely anger§! the Landed Nobility within the Butterfly Kingdom..."
+ MEW_hunt_mina_tooltip:0 "Gain decisions to search for Mina Loveberry"
+ #
+ full_desk_tooltip:0 "Unlocks Decisions to Increase Stability"
+ MEW_army_affair_tooltip:0 "§YMilitary Staff§! members are made available based on the §YChief of Army's§! political leanings. And due to the Chief's leanings,"
+ MEW_advisor_affair_tooltip:0 "§YPolitical Advisors§! are made available based on the §YFirst Advisor's§! political leanings. And due to the First Advsior's leanings,"
+ MEW_economic_affair_tooltip:0 "§YDesigner Companies§! are made available based on the hired §YIndustrial Concern's§! political leanings. And due to their leanings,"

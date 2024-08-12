@@ -1,0 +1,15 @@
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		451 801 1518 1853 1951 2279 2352 3388 3396 3403 3408 3425 3426 3438 
+	}
+	manpower=50000
+	history = {
+		owner = MEW
+		add_core_of = MEW
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=city
+	local_supplies=0.000
+}

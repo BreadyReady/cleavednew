@@ -1,0 +1,19 @@
+
+state={
+	id=110
+	name="STATE_110"
+
+	history={
+		owner = PTK
+		add_core_of = PTK
+
+	}
+
+	provinces={
+		289 1624 2075 2221 2413 2530 3023 3052 3058 3075 3080 3083 3086 3098 3101 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

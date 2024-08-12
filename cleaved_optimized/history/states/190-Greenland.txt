@@ -1,0 +1,16 @@
+
+state={
+	id=190
+	name="STATE_190"
+	provinces={
+		1 33 53 56 96 102 177 207 212 306 320 418 455 460 608 615 648 670 749 930 939 983 1066 1124 1169 1475 1517 1654 1899 1955 2381 2523 2565 2566 2568 2572 2580 3612 3615 3616 3619 3621 3625 3631 3641 3642 3654 3655 
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

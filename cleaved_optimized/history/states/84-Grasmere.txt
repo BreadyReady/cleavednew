@@ -1,0 +1,15 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		521 539 1142 1345 1756 1852 2074 2224 2495 2868 2870 2873 2890 
+	}
+	history = {
+		owner = SPT
+		add_core_of = SPT
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

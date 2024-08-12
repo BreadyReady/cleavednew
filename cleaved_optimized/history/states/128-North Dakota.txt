@@ -1,0 +1,15 @@
+state={
+	id=128
+	name="STATE_128"
+	provinces={
+		113 334 374 856 1072 1311 2560 2735 2783 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

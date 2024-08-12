@@ -1,0 +1,16 @@
+characters={
+	JOH_river = {
+		name = JOH_river
+		portraits={
+			civilian={
+				large = GFX_portrait_MEW_river 
+			}
+		}
+		country_leader={
+			ideology= oligarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

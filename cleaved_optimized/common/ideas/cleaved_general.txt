@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		cleaving_chaos = {
+			picture = generic_research_bonus
+			
+			allowed = { always = yes }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.25
+				stability_weekly = -0.01
+			}
+		}
+		CLE_not_country_idea = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = CLE }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				surrender_limit = 0.50
+			}
+		}
+
+	}
+
+}

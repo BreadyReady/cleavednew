@@ -1,0 +1,16 @@
+
+state={
+	id=120
+	name="STATE_120"
+	provinces={
+		422 1076 1209 1434 1471 1552 1613 1622 1709 2112 2812 2820 2827 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

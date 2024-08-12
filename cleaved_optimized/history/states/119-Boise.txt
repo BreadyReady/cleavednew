@@ -1,0 +1,15 @@
+state={
+	id=119
+	name="STATE_119"
+	provinces={
+		882 1259 1302 1645 2219 2792 2815 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

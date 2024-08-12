@@ -1,0 +1,235 @@
+﻿l_english:
+ MEW_stow_the_flames:0 "Stow the Flames"
+ MEW_stow_the_flames_desc:0 "Officials in disarray, Star going missing, half our kingdom merging with another world, Magic ceasing to exist, all of this in the aftermath of a coup and a monster rights movement! With atleast Mina gone, we can start addressing the crisis in the wider Kingdom."
+ 
+ MEW_prioritize_nobles:0 "Relieve the Nobles"
+ MEW_prioritize_nobles_desc:0 "Nobody knows the peasantry like their direct lieges. Resources shall be given to the lower nobilility so that they may help their people. The nobles will also surely be thankful. Though some may be a bit more... unscrupulous than others."
+
+ MEW_a_full_desk:0 "A Full Desk"
+ MEW_a_full_desk_desc:0 "The new changes in landscape have made the borders of many noble titles nonsensical. These borders will be redrawn to provide better stability and conform to natural geopraphy. Of course, this will take up much of the time of royal administrators. Even [ROOT.Getleader] herself will have a full desk until it is done."
+ 
+ MEW_placeholder:0 "Boots on the Ground"
+ MEW_placeholder_desc:0 "Unfourtunatley, some of the nobles that we gave resources to seem to have used it for their own gain. We must convince these nobles to start helping out the people; by intimidation if nessecary..."
+ 
+ MEW_prioritize_peasants:0 "Relieve the Masses"
+ MEW_prioritize_peasants_desc:0 "Queen Eclipsa's heart bleeds for the common peasantry. Resources shall be given directly to the peasantry, those most affected by this crisis. This will surely provide more of an impact than making it go through the lower nobility."
+ 
+ MEW_utilize_vehicles:0 "Utilize Vehicles"
+ MEW_utilize_vehicles_desc:0 "The roads and vehicles encountered in this new world are unlike anything we have ever seen. However, many vehicles were abandoned in the initial hours of this crisis. We have been able to figure out and operate these "rides," and they will surely be useful in the transfer of resources or wounded to and fro."
+ 
+ MEW_allow_redcross:0 "Usher in Disaster Relief"
+ MEW_allow_redcross_desc:0 "This new world we find ourselves in has many organizations dedicated to assisting those in need in the midst of a crisis such as our own. Already, many noble volunteers of the "Red Cross" are in our lands helping our people. We can usher in many more relief workers, such as the "Army of Salvation" however this may make us more dependent on outside forces..."
+ 
+ MEW_end_of_the_cleaving_chaos:0 "End of the Chaos"
+ MEW_end_of_the_cleaving_chaos_desc:0 "Finally, the worst of this crisis has subsided. We can now look at this new strange world we find ourselves in."
+ 
+ MEW_negotiation_over_cleaved:0 "Neotiation over the Cleaved Zone"
+ MEW_negotiation_over_cleaved_desc:0 "NOT IMPLEMENTED"
+ 
+ MEW_protect_sovereignty:0 "Protect Our Sovereignty"
+ MEW_protect_sovereignty_desc:0 "Our Lands in the Cleaved Zone are Unquestionably Mewman! (To rewrite)"
+ 
+ MEW_traitors_purge:0 "Purge Loveberrian Traitors"
+ MEW_traitors_purge_desc:0 "Those Mewmans who sided with Mina during the coup showed their true colors. They must be punished! (To rewrite)"
+ 
+ MEW_traitors_mercy:0 "Mercy"
+ MEW_traitors_mercy_desc:0 "Those Mewmans who sided with Mina during the coup were under immense pressure as the kingdom fell into chaos and Solarian Warriors lay seige. We can forgive them for preserving their own life. (To rewrite)"
+ 
+ MEW_hunt_mina:0 "Hunting the Last Solarian"
+ MEW_hunt_mina_desc:0 "Mina Loveberry, the Last of the Solarians, led a failed coup then slipped away upon the Cleaving. We must hunt her down! (Rewrite, mention Solaria's crimes and justice)"
+ 
+ MEW_rise_of_the_parties:0 "The New Party System"
+ MEW_rise_of_the_parties_desc:0 ""
+ 
+ MEW_army_affair:0 "The Army Affair"
+ MEW_army_affair_desc:0 "As the parties struggle for political dominance, the army high command has become a battlefield for influence. Whomever becomes the Chief of army will surely give favor to those they politically side with. (Make Flavor Events detailing them as people)"
+ 
+ MEW_advisor_affair:0 "The Advisor's Affair"
+ MEW_advisor_affair_desc:0 "As the parties struggle for political dominance, the royal advisory has become a battlefield for influence. The first advisors will surely give favor to those they politically side with. (Make Flavor Events detailing them as people)"
+ 
+ MEW_economic_affair:0 "The Contract Affair"
+ MEW_economic_affair_desc:0 "As the parties struggle for political dominance, the royal contract office has become a battlefield for influence. Giving the lucrative Production Contract to a group will uplift that group, and any other group they may be affiliated with. (Make Flavor Events detailing them lore wise)"
+ 
+ MEW_two_speeches:0 "Tale of Two Speeches"
+ MEW_two_speeches_desc:0 "Over a year after the Cleaving, and already the machinations of politics are in full swing. The two major parties' nobles have organized royal meetings on the same day. Eclipsa Butterfly is expected, by tradition, to attend both of them. But with the conflcit in schedule, she can only choose one."
+ 
+ MEW_peasant_affair:0 "Peasant Affair"
+ MEW_peasant_affair_desc:0 "With the influx of Earth culture and ideals, a great deal of peasants have taken up to striking. Normally this would be dealt with quite easily by the lower nobles, however the clever leader of these peasants has made sure that they are supplied with modern Earth weaponry. The only real threat to them is the imperial force, but then the fields would be left unworked. Eclipsa must go and negotiate with the strikers."
+ 
+ MEW_begin_reclamation:0 "Begin Reclamation"
+ MEW_begin_reclamation_desc:0 ""
+ 
+ MEW_aggresive_expansion:0 "Send in the Army"
+ MEW_aggresive_expansion_desc:0 "It is evident that only through direct control can we protect our soverignty in this new world. We must send the army into the Cleaved Zone and secure vital points before the US does. Of course, this action will be met with similar action on the part of the Americans"
+ 
+ MEW_modernization:0 "Mewman Modernization"
+ MEW_modernization_desc:0 "It is a simple fact that without Magic, we are now helpless. We must catch up and modernize if we are to stand a chance against the US."
+ 
+ MEW_military_reform:0 "Military Reform"
+ MEW_military_reform_desc:0 "We must reform the Mewman military if we are to ever hope to fully reclaim our land in the Cleaved Zone."
+ 
+ MEW_standing_army:0 "Growing Army"
+ MEW_standing_army_desc:0 ""
+ 
+ MEW_modernizing_equipment:0 "Modernizing Equipment"
+ MEW_modernizing_equipment_desc:0 ""
+ 
+ MEW_blank_slate:0 "The Blank Slate"
+ MEW_blank_slate_desc:0 "Medieval transitioning to modern provides a unique oppurtunity. We can fully manipulate the stratagems of the army at our whim, without concerns of veterans sticking to old ways."
+ 
+ MEW_preserve_knight:0 "Preserve Knightly Culture"
+ MEW_preserve_knight_desc:0 "Although we are to reform the command structure, we should preserve the distinctly Mewman Knight Culture in the army. (Rewrite)"
+ 
+ MEW_personal_battalions:0 "Personal Battalions"
+ MEW_personal_battalions_desc:0 "Some of our knights are very famous figures, and we could recruit people into battalions centered around the knights."
+ 
+ MEW_empower_knights_focus:0 "Empower Knights"
+ MEW_empower_knights_focus_desc:0 ""
+ 
+ MEW_reforming_command:0 "Uprooting Command"
+ MEW_reforming_command_desc:0 "We must act quickly in our reforms. We cannot wait for old warriors to pass on, we must transition to a fully fledged merit based system as soon as possible."
+ 
+ MEW_phase_out_squire:0 "Phase Out the Squire Process"
+ MEW_phase_out_squire_desc:0 "The squire process lengthens training time in exchange for marginally better soldiers. And in a world where soldiers may die out of pure chance by artillery shell or stray bullet, this cannot remain. While we cannot immediately replace the process, we can make a start."
+ 
+ MEW_abolish_knights:0 "Open up the Army"
+ MEW_abolish_knights_desc:0 "The Knighthood shall be stripped of their poltical power. This will make is possible for us to transition to a force that is open to all Mewmans, not just the Knightly line. This will also allow us to fully abolish the squire process."
+ 
+ MEW_economic_reform:0 "Economic Reform"
+ MEW_economic_reform_desc:0 "The foundation of a nation is it's economy. We must reform our economy if we ever hope to reclaim out lands in the Cleaved Zone."
+ 
+ MEW_break_the_promise:0 "Break the Promise"
+ MEW_break_the_promise_desc:0 "To write"
+ 
+ MEW_domestic_tech:0 "Domestic Tech"
+ MEW_domestic_tech_desc:0 "We cannot rely on outside forces for our technological advancement. We must invest in our own domestic technology devlopment, reverse engineering outside equipment and such."
+ 
+ MEW_domestic_tech_2:0 "The Duchy of Quasar"
+ MEW_domestic_tech_2_desc:0 "The Quasar Duchy, especially with Skywynne Institute, is the technological center of the Butterfly Kingdom. Even surpassing Butterfly Castle, it's talents can be heightened with proper attention"
+ 
+ MEW_domestic_tech_3:0 "Royal Technoligcal Institute"
+ MEW_domestic_tech_3_desc:0 "To write"
+ 
+ MEW_domestic_tech_4:0 "Independent Tech Sector"
+ MEW_domestic_tech_4_desc:0 "To write"
+ 
+ MEW_foreign_tech:0 "Foreign Tech"
+ MEW_foreign_tech_desc:0 ""
+ 
+ MEW_foreign_tech_2:0 "Foreign Tech II"
+ MEW_foreign_tech_2_desc:0 ""
+ 
+ MEW_foreign_tech_3:0 "Foreign Tech III"
+ MEW_foreign_tech_3_desc:0 ""
+ 
+ MEW_foreign_tech_4:0 "Foreign Tech IV"
+ MEW_foreign_tech_4_desc:0 ""
+ 
+ MEW_civ_buildup:0 "Civilian Buildup"
+ MEW_civ_buildup_desc:0 ""
+ 
+ MEW_civ_buildup_2:0 "Civilian Buildup II"
+ MEW_civ_buildup_2_desc:0 ""
+ 
+ MEW_civ_buildup_3:0 "Civilian Buildup III"
+ MEW_civ_buildup_3_desc:0 ""
+ 
+ MEW_civ_buildup_4:0 "Civilian Buildup IV"
+ MEW_civ_buildup_4_desc:0 ""
+ 
+ MEW_mil_buildup:0 "Military Buildup"
+ MEW_mil_buildup_desc:0 ""
+ 
+ MEW_mil_buildup_2:0 "Military Buildup II"
+ MEW_mil_buildup_2_desc:0 ""
+ 
+ MEW_mil_buildup_3:0 "Military Buildup III"
+ MEW_mil_buildup_3_desc:0 ""
+ 
+ MEW_mil_buildup_4:0 "Military Buildup IV"
+ MEW_mil_buildup_4_desc:0 ""
+ 
+ MEW_civil_war:0 "The Mewman Civil War"
+ MEW_civil_war_desc:0 ""
+ 
+ MEW_rally_the_knights:0 "Rally the Knights"
+ MEW_rally_the_knights_desc:0 "Due to our steadfast loyalty to the knighthood, we can now call upon them in our time of need. Mobilizing the knights will grant us elite warriors to fight in this war."
+ 
+ MEW_mouthpieces_of_leadername:0 "Mouthpieces of [root.GetLeader]"
+ MEW_mouthpieces_of_leadername_desc:0 "The knighthood is seen as a noble force among the Mewman populace. The propaganda value of these knights are great, and getting memorable quotes putting [root.GetLeader] in a good light will greatly boost morale."
+ 
+ MEW_mewman_chivalry:0 "Reignite Mewman Chivalry"
+ MEW_mewman_chivalry_desc:0 "It has been many years sicne the knighthood has legitimately faced warfare, and many practical habits have been forgotten in favor of theatrical performance. By recovering lost practices, we can regain the elite warriors of yore that were lost long ago."
+ 
+ MEW_mass_mewman_chivalry:0 "Mass Chivalry"
+ MEW_mass_mewman_chivalry_desc:0 "A bold new strategy: disseminating the knighthood's performance boosting practices among the new mass army. While this will improve general performance, it will be less than the knights, and the knights will have to spend time teaching it to the masses."
+ 
+ MEW_mass_propaganda:0 "Mass Propaganda"
+ MEW_mass_propaganda_desc:0 "We can use many diffrent methods to lower dissent among the populace. Posters, pamphlets, TV, social media, etc."
+ 
+ MEW_expand_draft:0 "Expand Draft"
+ MEW_expand_draft_desc:0 "Due to our succsesful reforms of the military, we can now scale our operations up many times over. Expanding the draft will grant us more bodies to use in this war."
+ 
+ MEW_nationalize_guilds:0 "Nationalize Guilds"
+ MEW_nationalize_guilds_desc:0 "In this time of national strife, we must sieze what is necessary to survive. The workshop guilds is an example, and directing their production towards weaponry will help us in the war effort greatly"
+ 
+ MEW_fan_extremism:0 "Fan Extremism"
+ MEW_fan_extremism_desc:0 "TO WRITE"
+ 
+ MEW_queen_of_darkness:0 "Queen of Darkness"
+ MEW_queen_of_darkness_desc:0 "TO WRITE"
+ 
+ MEW_establish_regency:0 "Establish Regency"
+ MEW_establish_regency_desc:0 "TO WRITE"
+ 
+ MEW_stable_council:0 "Stable Council"
+ MEW_stable_council_desc:0 "TO WRITE"
+ 
+ MEW_royal_triumvarate:0 "Royal Triumvarate"
+ MEW_royal_triumvarate_desc:0 "TO WRITE"
+ 
+ MEW_the_undaunted:0 "The Undaunted"
+ MEW_the_undaunted_desc:0 "TO WRITE"
+ 
+ MEW_solidify_the_council:0 "Solidify the Council"
+ MEW_solidify_the_council_desc:0 "TO WRITE"
+ 
+ MEW_dukes_and_duchesses:0 "Dukes and Duchesses"
+ MEW_dukes_and_duchesses_desc:0 "TO WRITE"
+ 
+ MEW_mewman_parliament:0 "Mewman Senate"
+ MEW_mewman_parliament_desc:0 "TO WRITE"
+ 
+ MEW_end_the_early_cleaved_era:0 "End of the Early Cleaved Era"
+ MEW_end_the_early_cleaved_era_desc:0 "TO WRITE"
+ 
+ ################
+ #NEW############
+ ################
+ 
+ MEW_bail_water_tooltip:0 "Gain Decisions to reduce Seawater Flooding!"
+ 
+ MEW_throne_disputes_tooltip:0 "Moon will visit Quasar Castle!"
+ visnov_tooltip:0 "§COpens the Visual Novel!§!"
+ 
+ MEW_distance_moon_from_mina_idea_tooltip:0 "§Y@MON[MON.getname]§! will have more Stability!"
+ 
+ MEW_visit_to_the_monster_temple_tooltip:0 "§Y@MON[MON.getname]§! will gain §Y[244.getname]§! and §Y[237.getname]§! at the time of the revolt! (Devlopment: Not yet implemented)"
+ 
+ MEW_lessons_from_the_failed_coup_tooltip:0 "§Y@MON[MON.getname]§! will gain extra manpower and equipment at the time of the revolt!"
+ 
+ MEW_reignite_anti_monster_sentiments_tooltip:0 "§Y@MON[MON.getname]§! will gain extra peasant divisions at the time of the revolt! (Devlopment: Not yet implemented)"
+ 
+ MEW_queen_moon_idea:0 "Ideology"
+ MEW_queen_moon_idea_tooltip:0 "Moon Butterfly Adopts Democratic Principles!"
+ 
+ MEW_discredit_the_festivian_line_tooltip:0 "§Y@MON[MON.getname]§! will lose stability at the time of the revolt!"
+ 
+ MEW_slander_moon_tooltip:0 "We will gain equipment and manpower from defectors from §Y@MON[MON.getname]§!!"
+ 
+ MEW_appropriate_royal_weapons_reserves_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain equipment at the time of the revolt!"
+ 
+ MEW_out_of_many_one_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra divisions at the time of the revolt! (Devlopment: Not yet implemented)"
+ 
+ MEW_serfdom_recruitment_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra manpower at the time of the revolt!"
+ 

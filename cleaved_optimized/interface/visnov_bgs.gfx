@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_visnov_bg_1"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_1.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_2"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_2.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_3"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_3.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_4"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_4.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_5"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_5.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_6"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_6.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_7"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_7.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_8"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_8.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_visnov_portrait_bg"
+		textureFile = "gfx\\interface\\visnov_gfx\\portrait_bg.dds"
+	}
+	
+}

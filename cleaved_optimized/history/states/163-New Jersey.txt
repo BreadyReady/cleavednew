@@ -1,0 +1,15 @@
+state={
+	id=163
+	name="STATE_163"
+	provinces={
+		754 996 2161 2253 2282 2303 2369 2532 2833 2844 2851 2854 2857 2864 2875 2876 2881 2905 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

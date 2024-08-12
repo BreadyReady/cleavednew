@@ -1,0 +1,22 @@
+bookmarks = {
+	bookmark = {
+		name = "CALM_BEFORE_THE_STORM_NAME"
+		desc = "CALM_BEFORE_THE_STORM_DESC"
+		date = 2017.5.19.12
+		picture = "GFX_select_date_1936"
+		default_country = "OCE"
+		default = yes
+		
+		"USA"={
+			history = "USA_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"OCE"={
+			history = "OCE_CALM_BEFORE_THE_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

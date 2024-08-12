@@ -1,0 +1,15 @@
+state={
+	id=260
+	name="STATE_260"
+	provinces={
+		618 2370 2492 3049 3073 
+	}
+	manpower=50000
+	history = {
+		owner = SPI
+		add_core_of = SPI
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=124
+	name="STATE_124"
+	provinces={
+		118 204 236 314 469 490 505 587 633 681 713 718 733 764 935 974 1030 1041 1043 1084 1140 1183 1264 1330 1354 1414 1522 1607 1710 1740 1862 2016 2024 2082 2409 2463 2465 2513 3372 3375 3418 3546 3550 3570 3579 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

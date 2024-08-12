@@ -1,0 +1,15 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		305 2142 2177 2222 2306 2319 2384 3194 3206 3212 3219 3232 3238 3245 3246 
+	}
+	history = {
+		owner = FRG
+		add_core_of = FRG
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

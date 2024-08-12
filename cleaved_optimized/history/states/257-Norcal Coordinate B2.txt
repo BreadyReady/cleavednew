@@ -1,0 +1,20 @@
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		766 1506 1759 3062 3087 
+	}
+	manpower=50000
+	history = {
+		owner = SPI
+		add_core_of = SPI
+	}
+	resources = {
+		steel = 20
+		aluminium = 8
+		oil = 10
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

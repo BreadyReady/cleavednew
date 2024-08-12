@@ -1,0 +1,15 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		822 1388 1570 1586 1609 1848 1952 1971 3140 3141 3142 3144 3154 3156 3166 
+	}
+	history = {
+		owner = NCH
+		add_core_of = NCH
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

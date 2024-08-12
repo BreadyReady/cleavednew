@@ -1,0 +1,15 @@
+state={
+	id=242
+	name="STATE_242"
+	provinces={
+		1255 1362 1443 
+	}
+	manpower=50000
+	history = {
+		owner = PIG
+		add_core_of = PIG
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=large_town
+	local_supplies=0.000
+}

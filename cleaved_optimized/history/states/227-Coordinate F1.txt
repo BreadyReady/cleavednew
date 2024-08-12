@@ -1,0 +1,15 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		1260 1314 1816 2201 2533 3249 3272 3281 3289 
+	}
+	manpower=50000
+	history = {
+		owner = PIG
+		add_core_of = PIG
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=pastoral
+	local_supplies=0.000
+}

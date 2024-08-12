@@ -1,0 +1,210 @@
+﻿l_english:
+ visnov_variable_text_speaker_1:0 "Slide 1: Welcome!"
+ visnov_variable_text_speaker_2:0 "Slide 2: Decisions decisions..."
+ visnov_variable_text_speaker_3:0 "Slide 3: Slide In between decisions"
+ visnov_variable_text_speaker_4:0 "3 Options!"
+ 
+ visnov_variable_text_speech_1:0 "Welcome to the visual novel demo! This demo was made for the mod Cleaved. Also, turn up the music. The background music system for this mod is just using the in-game music player."
+ visnov_variable_text_speech_2:0 "Choose decisions above. This engine allows for up to 3 decisions. It does not allow for the showing of a singular choice. It's an easy work around though."
+ visnov_variable_text_speech_3:0 "The main code for switching between slides is a convoluted mess of else_if s, like yandere dev. But I have the excuse of working within hoi4."
+ visnov_variable_text_speech_4:0 "3 Options! That's pre much it. This is just for test purposes. In use, the slide order will be much more linear. No  going back and forth."
+ 
+ visnov_variable_dec1_text_scripted_loc_1:0 "Back to Beggining"
+ visnov_variable_dec1_text_scripted_loc_2:0 "Back to slide 3"
+ 
+ visnov_variable_dec2_text_scripted_loc_1:0 "View three options"
+ visnov_variable_dec2_text_scripted_loc_2:0 "Back to two options slide"
+ 
+ visnov_variable_dec3_text_scripted_loc_1:0 "Back to Beggining (Again)"
+ visnov_variable_dec3_text_scripted_loc_2:0 ""
+
+ #
+ 
+ visnov_variable_text_speaker_5:0 ""
+ visnov_variable_text_speech_5:0 "§gThe Monster Temple, shortly after the Cleaving. Still smouldering from Mina Loveberry's attacks with Solarian blades, Queen Eclipsa Butterfly emerges from the rubble.§!"
+ 
+ visnov_variable_text_speaker_6:0 "§0Eclipsa Butterfly§!"
+ visnov_variable_text_speech_6:0 "§g*Cough Cough Cough*§! Oh goodness..."
+ 
+ visnov_variable_text_speech_7:0 "§gAbove, while the Mewnman sky still shimmers with multi-colored gradients, the three moons of Mewni are nowhere to be found. Eclipsa, tired from battle, sits down on a scorched stone.§!"
+ 
+ visnov_variable_text_speech_8:0 "§gThe gallop of warnicorn hooves reaches Eclipsa's ears. A Mewman knight makes haste towards Eclipsa, blue armor and regalia on helmet. He reaches Eclipsa and dismounts, kneels, and speaks...§!"
+ 
+ visnov_variable_text_speaker_7:0 "Mewman Knight"
+ visnov_variable_text_speech_9:0 "Queen Eclipsa! Thank goodness you're alive! I come with the message that Mina Loveberry's been defeated. Please, hop on. You'll get more details at Quasar castle."
+ 
+ visnov_variable_text_speech_10:0 "§gThey both got on, the knight taking the reins. Riding off, they pass gigantic puddles on their way. Some of them hold devastated buildings and towns, and even some bodies...§!"
+ 
+ visnov_variable_text_speech_11:0 "§gQuasar Castle is built in the same architechture style as Butterfly Castle. It towers over the surrounding chaotic village and it's spires touch the sky. Eclipsa dismounts within it's hectic walls and enters the interior.§!"
+ 
+ visnov_variable_text_speech_12:0 "§gThe inside is abuzz with the activity of knights, clerks, and nobles. Eclipsa's personal guard escorts her through the crowd and quickly ushers her into a guarded meeting room."
+ 
+ visnov_variable_text_speech_13:0 "§gInside are knight captains deliberating over the table, a few nobles from the lands around Butterfly Castle, and..."
+ 
+ visnov_variable_text_speech_14:0 "§gStar Butterfly and Marco Diaz!"
+ 
+ visnov_variable_text_speaker_8:0 "§CStar Butterfly§!"
+ visnov_variable_text_speech_15:0 "Eclipsa!"
+ 
+ visnov_variable_text_speaker_9:0 "§RMarco Diaz§!"
+ visnov_variable_text_speech_16:0 "What did you say, Star-? Oh! Eclipsa!"
+ 
+ visnov_variable_text_speech_17:0 "Oh, kids!"
+ 
+ visnov_variable_text_speech_18:0 "§gThey rush to each other, meeting in the middle and embracing in a group hug. The strategizing council watches on, a bit annoyed at the interruption but willing to let them show their affections.§!"
+ 
+ visnov_variable_text_speech_19:0 "Star, Marco, I was so worried about your safety! Are you two hurt at all? Riding through the country side from the Monster Temple was so heartbreaking..."
+ 
+ visnov_variable_text_speech_20:0 "We're both fine. Oh gosh Eclipsa, do ya know what's going on out there? What you saw wasn't even the worst of it! Butterfly Castle, our home, that's where alot of damage is. The west..."
+ 
+ visnov_variable_text_speech_21:0 "The west has fallen..."
+ 
+ visnov_variable_text_speech_22:0 "§gStar shakes a bit, and a tear forms in her eye. Marco pats her on the back, comforting her. Whatever they've all been talking about at the table, it's clearly shaken Star to her core.§!"
+ 
+ visnov_variable_text_speech_23:0 "§gEclipsa's first instinct is to take both of them away from here, to the quiet of the flower garden. No child should be involved here. But then Eclipsa looks over Star's head and to the table of expectant officials.§!"
+ 
+ visnov_variable_text_speech_24:0 "§gStar is too empathetic and rebellious to just go to the garden and relax. Eclipsa must choose between ensuring the kids take their mind off this, or helping the realm in it's hour of need.§!"
+ 
+ visnov_variable_text_speech_25:0 "Kids..."
+ visnov_variable_dec1_text_scripted_loc_3:0 ""Let's go to the garden""
+ visnov_variable_dec2_text_scripted_loc_3:0 ""Go to the garden, I'll handle everything.""
+ 
+ visnov_variable_text_speech_26:0 "Let's go to the garden, take our minds off this for a bit. After relaxing, we'll be able to help people better after that."
+ 
+ visnov_variable_text_speech_27:0 "§gStar nods and wordlessly complies, Marco's arms are still around her as she moves with her eyes cast downwards. As they reach the doorway, Marco leans over and whispers..."
+ 
+ visnov_variable_text_speech_28:0 "Thanks Eclipsa, she really needed this..."
+ 
+ visnov_variable_text_speech_29:0 "§gOnce they're gone, a sigh of dissapointment fills the room. The table of strategists lose what they hoped would be their leader in this vital time. One of the knight captains says what all of them are thinking."
+ 
+ visnov_variable_text_speaker_10:0 "Knight Captain"
+ visnov_variable_text_speech_30:0 "This is why we've had those civil wars..."
+ 
+ visnov_variable_text_speech_31:0 "Go to the garden, I'll handle everything. Just try and keep your mind off this for a bit."
+ 
+ visnov_variable_text_speech_32:0 "§gStar wordlessly complies, and Marco leads her away with his arms still around her.§!"
+ 
+ visnov_variable_text_speech_33:0 "§gAs they reach the doorway, Eclipsa thinks she sees a glimpse of resolve in Star's eyes, but she dissapears behind the door before Eclipsa can clearly see anything definitive.§!"
+ 
+ visnov_variable_text_speech_34:0 "§gEclipsa turns to the table and sees that the strategists all seem relieved. She knows that she has a reputation of being too empathetic, but she knows she can be strong for Mewni as well.§!"
+ 
+ visnov_variable_text_speech_35:0 "Well then? Go on, let's get down to business."
+ 
+ visnov_variable_text_speech_36:0 "§gIn a quiet saloon in wild Nevada, away from the laws and authorities of Humans, Monsters, or the Wrathmeliors, a group of people were calmly sipping on... age-appropriate beverages.§!"
+ 
+ visnov_variable_text_speech_37:0 "§gA drifter from aways-away bursts in, spurs jingling against the creaking floor as he shakes off desert dust from his coat. He takes a seat right next to another patron, whose wide-brimmed hat hid all but a scowling mouth§!"
+ 
+ visnov_variable_text_speech_38:0 "§gThe entire saloon's patronage eyes up the duo. Gamblers in the corner stop their game, the bartender pauses wiping a glass, and what small coversation was happening suddenly quiets down. All eyes were on them.§!"
+ 
+ visnov_variable_text_speaker_11:0 "Lonesome Nevada Drifter"
+ visnov_variable_text_speech_39:0 "§g*Gruff sigh as he sets his hat on the bar*§! I guess you already know, I ain't exactly here for a friendly drink."
+ 
+ visnov_variable_text_speech_40:0 "§gThe mysterious figure smirked, then set down their own hat as well. Two long ribbon like bands of hair flowed down from her spaceball hair, and her green eyes casually sized up the drifter.§!"
+ 
+ visnov_variable_text_speech_41:0 "§gThe drifter is taken aback by her appearance. Her hair is messy, she's scarred and beat up. And still, despite being incredibly worse off than the bounty pictures, there is a piercing determination in her eyes.§!"
+ 
+ visnov_variable_text_speaker_12:0 "§0Mina Loveberry§!"
+ visnov_variable_text_speech_42:0 "You and many others, human. Tell me do you know what these mean?"
+  
+  visnov_variable_text_speech_43:0 "§gShe slowly unsheathes a sword and sets it on the bar. She runs her fingers against the edge of the blade, highlighting 20 notches made at the base of the metal. She seems to enjoy drawing her own blood.§!"
+  
+  visnov_variable_text_speech_44:0 "20 Marks, 20 bounty hunters. All of them tasted this very blade. What makes you think you're special?"
+  
+  visnov_variable_text_speech_45:0 "§gWithout words, the drifter also pulls out his weapon. A silver gleaming revolver. He sets it down on the bar and keeps his hand on it. There are 21 notches on the barrel.§!"
+  
+  visnov_variable_text_speech_46:0 "§gMina smirks, then whistles. Every customer of the bar rises to their feet and reveals their own weapons, from daggers and swords to rifles. Every patron of the bar was part of Mina's gang, the drifter was surrounded.§!"
+  
+  visnov_variable_text_speech_47:0 "This oughta be fun."
+  
+  visnov_variable_text_speech_48:0 "Yeah. Oughta."
+  
+  visnov_variable_text_speech_49:0 "§gThe Drifter raises his gun. Mina raises her sword. The gang descends upon them. And at the end of it all...§!"
+  visnov_variable_dec1_text_scripted_loc_4:0 "The Drifter Fails!"
+  visnov_variable_dec2_text_scripted_loc_4:0 "The Drifter Kills Mina!"
+  
+  visnov_variable_text_speech_50:0 "§gThe Drifter manages to get a few shots off and harm Mina: Her eye is shot at an angle, and the gruesome sight of the wound is hard even for Mina's hardened gang to stomach. But ultimatley, the Drifter is struck down.§!"
+  
+  visnov_variable_text_speech_51:0 "§gWith the entire gang reeling at Mina's sight, she calmly sits back down at the bar. With one hand, she sips her drink. With the other hand, she starts making another notch on her bloodied blade...§!"
+  
+  visnov_variable_text_speech_52:0 "§gThe Drifter strikes like lightning and moves like a cat. He manages to dodge and fire enough times to mercilessly execute Mina's gang. The bar is coated with red, and the air is thick with a mettalic and gunpowdery haze.§!"
+  
+  visnov_variable_text_speech_53:0 "§gWith a groan of pain, he takes a seat on the bar. He wasn't able to dodge every strike, and he's bleeding hard. He ganders over to where Mina was sitting, and spots her drink. He grabs it and weakly takes a sip.§!"
+  
+  visnov_variable_text_speech_54:0 "Mm. You had good taste, Ms. Loveberry. Real good taste..."
+  
+  visnov_variable_text_speech_55:0 "§gThe Lonesonesome Drifter slumps over the bar and dies. With everybody dead, and the bar so isolated from civilization, the tale of the Drifter's and Loveberry's lasts stands will be lost to the mojave sun."
+  
+  visnov_variable_text_speech_56:0 "§gThe sun is lazily setting over Quasar Castle. Inside, the court had been merry as Moon cajoled eveyone with her comapny. While Moon isn't the queen anymore, the people still love her. Perhaps some love her more than Eclipsa.§!"
+  
+  visnov_variable_text_speech_57:0 "§gPresently, Moon has retreated to a more private meeting. They're sitting down to a freshly set chess match against Eclipsa, with Star there making the match not too intense.§!"
+  
+  visnov_variable_text_speaker_13:0 "§CMoon Butterfly§!"
+  visnov_variable_text_speech_58:0 "Fascinating, this earth game is. But I much prefer Castle Defender."
+  
+  visnov_variable_text_speech_59:0 "Mom! You know that game is super anti-monster!"
+  
+  visnov_variable_text_speech_60:0 "I grew up playing that game, Star. Good memories of my childhood and my own mother. I hold nothing against monsters."
+  
+  visnov_variable_text_speech_61:0 "*Scoffs* Sure, nothing against monsters. I move my pawn to F3."
+  
+  visnov_variable_text_speech_62:0 "§gMoon sighs, but surprisingly doesnt defend herself fiercly.§! "
+  
+  visnov_variable_text_speech_63:0 "Your doubt is understandable. That debacle of me siding with Mina... I understand if you're reluctant to believe me."
+  
+  visnov_variable_text_speech_64:0 "But you must understand, you are the Queen of Mewmans. That means you must work for the Mewmans first, monsters second. And these days, alot of people are questioning your priorities."
+  
+  visnov_variable_text_speech_65:0 "The reason Yurt Village exists is because of your "Return Stolen Property" program. It's not very popular, especially amongst those you've expelled from their homes... Pawn to E5."
+  
+  visnov_variable_text_speech_66:0 "I'm not the Queen of Mewmans, I'm the Queen of Mewni. That includes the Monsters. And besides, all monarchs have their hecklers. I'm not concerned. Things will turn back to normal with time and stability."
+  
+  visnov_variable_text_speech_67:0 "Yes, all monarchs have their hecklers. Some more than others. But are you not at all concerned about the growing movements against you? You said time and stability will fix things. Well, it looks like you dont have stability."
+  
+  visnov_variable_text_speech_68:0 "§gEclipsa's eyes twitch up to look Moon in the eyes. Her regal smile breaks into a vexed frown before she corrects it. She narrows her eyes, looking at Moon like some sort of criminal suspect. Her calm voice turns accusative.§!"
+  
+  visnov_variable_text_speech_69:0 "Yes, I have noticed. I've also noticed that most of them are calling for you to take the throne. It's such a coincidence that you brought it up to me, hm? Pawn to G4."
+  
+  visnov_variable_text_speech_70:0 "§gA silence fills the room as they both narrow their eyes, unwilling to break their stance. Only torches distrub the suddenly thick atmosphere. They are so focused on staring each other down, they forget that...§!"
+  
+  visnov_variable_text_speech_71:0 "§gStar is right there next to them.§!"
+  
+  visnov_variable_text_speech_72:0 "Uhh, mom? Eclipsa? Maybe we can just focus on the game-?"
+  
+  visnov_variable_text_speech_73:0 "I'm here as an advisor. As a friend. But neither you nor I can ignore the will of the people for long. And might I remind you that you did technically give me the crown back."
+  
+  visnov_variable_text_speech_74:0 "That was in the chaos of Mina's attack, and you have no proof of that ever happening. Though someone trying to take the throne by force would have no need of such proof. Maybe that was your whole plan with Mina..."
+  
+  visnov_variable_text_speech_75:0 "Eclipsa, you know theres nothing I love more than Mewni. And if all you were facing was... everything that was public right now, I honestly you thnk could handle it. I would leave you alone. But its not."
+  
+  visnov_variable_text_speech_76:0 "There is a cabal of nobles that haven't been happy with the state of things for years. They want more power for themselves, they dont care for either one of us. We kept them down with our loyalists in the west..."
+  
+  visnov_variable_text_speech_77:0 "...but with the west in disarray, they're gathering more and more power over us. Eclipsa, I know you can't handle them. But if you put me on the throne, I can keep them from plundering the throne's authority."
+  
+  visnov_variable_text_speech_78:0 "I know it sounds like a power play. Perhaps it is. But if this is what is needed to save the throne, we have to do it! Please Eclipsa, consider this seriously. The fate of the throne depends on it."
+  
+  visnov_variable_text_speech_79:0 "No, I will have none of this nonsense! Let's just finish this game, then you get out of my castle."
+  
+ visnov_variable_text_speech_80:0 "§gMoon's shoulders slump in genuine dissapointment, then she looks down to the chessboard.§!"
+ visnov_variable_dec1_text_scripted_loc_5:0 "Moon Moves her Queen to H4"  
+ visnov_variable_dec2_text_scripted_loc_5:0 "Moon Moves a Knight to F6"
+ 
+ visnov_variable_text_speech_81:0 "Checkmate."
+ 
+ visnov_variable_text_speech_82:0 "§gEclipsa jumps up, looking for any way her King can get out. But there is none. It's a true checkmate.§!"
+ 
+ visnov_variable_text_speech_83:0 "How did you...?"
+ 
+ visnov_variable_text_speech_84:0 "§gEclipsa looks up, but Moon was already leaving. The way she closed the door had a certain finality to it, like she was closing a coffin to a grave.§!"
+ 
+ visnov_variable_text_speech_85:0 "..."
+ 
+ visnov_variable_text_speech_86:0 "..."
+ 
+ visnov_variable_text_speech_87:0 "Girl, my Mom totally just snubbed you."
+ 
+ visnov_variable_text_speech_88:0 "§gThe game went on for a couple dozen more moves. It was intense, the bead of sweat going down each Queen's temple. Star grew absolutley enthralled by the game, even if she didn't understand everything about chess.§!"
+ 
+ visnov_variable_text_speech_89:0 "§gThey ended in a draw. A wordless draw. The Queens stood up, turned their nose up at each other, and left in opposite directions.§!"
+ 
+ visnov_variable_text_speech_90:0 "Hey, you people forgot to put it away!"
+ 
+ 

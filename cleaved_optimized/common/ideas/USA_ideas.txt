@@ -1,0 +1,142 @@
+ideas = {
+	country = {
+		USA_big_business_monopolies = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = 0.5 
+			}
+		}
+		USA_small_business_domination = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.5 
+			}
+		}
+		USA_neo_reaganomics = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+		USA_education_reform = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				research_speed_factor = 0.02
+			}
+		}
+		USA_internet_initiative = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.10
+			}
+		}
+		USA_tax_cuts = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = 0.05
+			}
+		}
+		USA_rebuild_roads = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_railway_factor = 0.1
+			}
+		}
+		USA_farmer_appreciation = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				conscription  = 0.002
+			}
+		}
+		USA_cut_welfare = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		USA_small_business_support = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		USA_big_business_support = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		USA_modern_infrastructure_and_welfare_systems = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = USA }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+				stability_factor = 0.1
+			}
+		}
+
+	}
+
+}

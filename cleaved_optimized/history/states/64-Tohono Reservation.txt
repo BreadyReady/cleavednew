@@ -1,0 +1,16 @@
+
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		1278 1783 2280 3583 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

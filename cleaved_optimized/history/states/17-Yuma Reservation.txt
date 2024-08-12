@@ -1,0 +1,15 @@
+state={
+	id=17
+	name="STATE_17"
+	provinces={
+		1121 1842 2337 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

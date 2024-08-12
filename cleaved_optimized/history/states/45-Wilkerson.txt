@@ -1,0 +1,15 @@
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		643 730 765 993 1915 2034 2459 3168 3176 3180 3182 3190 3198 3211 
+	}
+	history = {
+		owner = NCH
+		add_core_of = NCH
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

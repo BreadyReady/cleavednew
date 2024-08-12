@@ -1,0 +1,15 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		1059 1384 1464 2020 2503 2516 2909 2931 2942 2943 2949 
+	}
+	history = {
+		owner = CHL
+		add_core_of = CHL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

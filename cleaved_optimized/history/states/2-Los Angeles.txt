@@ -1,0 +1,25 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		1775 2028 2559 3400 3421 
+	}
+	history = {
+		owner = SOC
+		add_core_of = SOC
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 7
+            arms_factory = 2
+        }
+		victory_points = { 2559 30 }
+	}
+	resources = {
+		steel = 10
+		oil = 8
+	}
+	manpower=3140000
+	buildings_max_level_factor=1.000
+ 	state_category=megalopolis
+	local_supplies=0.000
+}

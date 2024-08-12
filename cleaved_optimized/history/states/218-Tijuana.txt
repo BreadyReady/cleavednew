@@ -1,0 +1,26 @@
+state={
+	id=218
+	name="STATE_218"
+	provinces={
+		726 3512 3519 
+	}
+	history = {
+		owner = SOC
+		add_core_of = SOC
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 7
+            arms_factory = 2
+        }
+		victory_points = { 726 20 }
+
+	}
+	resources = {
+		steel = 20
+		aluminium = 8
+	}
+	manpower=1800000
+	buildings_max_level_factor=1.000
+ 	state_category=megalopolis
+	local_supplies=0.000
+}

@@ -1,0 +1,294 @@
+add_namespace = MEW_purge_or_mercy
+add_namespace = MEW_birthday
+add_namespace = MEW_civil_war
+
+country_event = {
+	id = MEW_purge_or_mercy.1
+	title = MEW_purge_or_mercy.1.t
+	desc = MEW_purge_or_mercy.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_purge_or_mercy.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		swap_ideas = {
+			remove_idea = MEW_political_radicalism
+			add_idea = MEW_political_radicalism_2
+		}
+	}
+}
+
+country_event = {
+	id = MEW_birthday.1
+	title = MEW_birthday.1.t
+	desc = MEW_birthday.1.desc
+	picture = GFX_star_birthday_16_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_birthday.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+	option = { 
+		name = MEW_birthday.1.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_birthday.2
+	title = MEW_birthday.2.t
+	desc = MEW_birthday.2.desc
+	picture = GFX_marco_birthday_16_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_birthday.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+	
+	option = { 
+		name = MEW_birthday.2.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_civil_war.0
+	title = MEW_civil_war.0.t
+	desc = MEW_civil_war.0.desc
+	picture = GFX_marco_birthday_16_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_civil_war.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+			MON = {
+				transfer_state = 224
+				transfer_state = 225
+				transfer_state = 226
+				
+				add_state_core = 224
+				add_state_core = 225
+				add_state_core = 226
+			}
+			MAR = {
+				transfer_state = 219
+				transfer_state = 221
+				transfer_state = 220
+				
+				add_state_core = 219
+				add_state_core = 221
+				add_state_core = 220
+			}
+			MTR = {
+				transfer_state = 237
+				transfer_state = 244
+				
+				add_state_core = 237
+				add_state_core = 244
+			}
+			If = {
+				Limit = {
+					has_completed_focus = MEW_moon_butterfly_rightful_throne
+				}
+				MON = { change_tag_from = MEW }
+			}
+			else_if = {
+				Limit = {
+					has_completed_focus = MEW_power_to_the_nobles
+				}
+				MAR = { change_tag_from = MEW }
+			}
+			IF = {
+				LIMIT = {
+					has_completed_focus = MEW_moon_butterfly_rightful_throne
+				}
+				MON = {
+					country_event = { id = MEW_civil_war.1 days = 7 }
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					has_completed_focus = MEW_maintain_eclipsa_rule
+				}
+				MEW = {
+					country_event = { id = MEW_civil_war.1 days = 7 }
+				}
+			}
+			ELSE_IF = {
+				LIMIT = {
+					has_completed_focus = MEW_power_to_the_nobles
+				}
+				MAR = {
+					country_event = { id = MEW_civil_war.1 days = 7 }
+				}
+			}
+			dismantle_faction = yes
+			#War Declaration and Unit Creation
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAR
+				type = annex_everything
+			}
+			add_civil_war_target = MON
+			add_civil_war_target = MAR
+			load_oob = "MEW_eclipsas_revolt_army"
+			MON = {
+				declare_war_on = {
+					target = MEW
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = MAR
+					type = annex_everything
+				}
+				add_civil_war_target = MEW
+				add_civil_war_target = MAR
+				load_oob = "MON_moons_revolt"
+			}
+			
+			MAR = {
+				declare_war_on = {
+					target = MON
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = MEW
+					type = annex_everything
+				}
+				add_civil_war_target = MON
+				add_civil_war_target = MEW
+				load_oob = "MAR_marcos_revolt"
+			}
+	}
+}
+
+
+
+country_event = {
+	id = MEW_civil_war.1
+	title = MEW_civil_war.1.t
+	desc = MEW_civil_war.1.desc
+	picture = GFX_marco_birthday_16_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_civil_war.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_distance_moon_from_mina_idea
+				}
+			}
+			add_stability = 0.12
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_visit_to_the_monster_temple
+				}
+			}
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_lessons_from_the_failed_coup
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+				producer = MON
+			}
+			add_manpower = 10000
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_reignite_anti_monster_sentiments
+				}
+			}
+		}
+		
+		#########
+		#ECLIPSA#
+		#########
+		
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_discredit_the_festivian_line
+				}
+			}
+			MON = {
+				add_stability = -0.12
+			}
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_slander_moon
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+				producer = MON
+			}
+			add_manpower = 10000
+			MON = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = -7500
+					producer = MON
+				}
+				add_manpower = -10000
+			}
+		}
+		
+		########
+		#NOBLES#
+		########
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_appropriate_royal_weapons_reserves
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 7500
+				producer = MON
+			}
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_out_of_many_one
+				}
+			}
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_serfdom_recruitment
+				}
+			}
+			add_manpower = 10000
+		}
+		
+		
+	}
+}

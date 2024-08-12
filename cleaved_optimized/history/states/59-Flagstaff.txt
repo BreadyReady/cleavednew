@@ -1,0 +1,18 @@
+
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		254 937 1479 1492 1739 1741 1817 2348 2367 2408 3384 3406 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		victory_points = { 1739 10 }
+
+	}
+	manpower=76989
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

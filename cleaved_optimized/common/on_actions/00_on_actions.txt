@@ -1,0 +1,40 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = welcome.0
+			}
+			MEW = {
+				set_variable  = {
+					var = eclipsa_cold
+					value = 0
+				}
+				set_variable  = {
+					var = mew_prog
+					value = 0
+				}
+				set_variable  = {
+					var = mew_trad
+					value = 0
+				}
+				set_variable  = {
+					var = mew_neut
+					value = 0
+				}
+				set_variable  = {
+					var = mew_us_inf
+					value = 0
+				}
+				country_event = { id = visnov_trigger.4 hours = 1 }
+				country_event = { id = cleaving.7 days = 0 }
+				country_event = { id = MEW_birthday.1 days = 225 } #Star's 16th, on December 30th 2017
+				country_event = { id = MEW_birthday.2 days = 193 } #Marco's 16th, on Novemeber 28th 2017
+				set_global_flag = mina_free_flag
+			}
+			
+		}
+	}
+	on_declare_war = {
+	}
+	
+}

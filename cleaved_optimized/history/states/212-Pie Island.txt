@@ -1,0 +1,15 @@
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		596 696 1088 1131 1573 1732 1738 1872 1908 1918 1984 2011 2061 2080 2214 2331 2336 3230 3231 3239 3241 3259 3337 3338 3342 
+	}
+	manpower=1
+	history = {
+		owner = OCE
+		add_core_of = OCE
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

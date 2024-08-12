@@ -1,0 +1,19 @@
+state={
+	id=154
+	name="STATE_154"
+	provinces={
+		343 447 513 728 883 1295 1423 1822 1925 1926 2915 2936 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	resources = {
+		steel = 10
+		aluminium = 8
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

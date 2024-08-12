@@ -1,0 +1,16 @@
+characters={
+	OCE_ocean = {
+		name = OCE_ocean
+		portraits={
+			civilian={
+				large = GFX_portrait_OCE_ocean 
+			}
+		}
+		country_leader={
+			ideology= anarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

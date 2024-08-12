@@ -1,0 +1,26 @@
+defined_text = {
+	name = MEW_prog_council_name_scripted_loc_name
+	text = {
+		trigger = {
+			original_tag = MEW
+			has_country_flag = stable_council_flag
+		}
+		localization_key = MEW_prog_council_name_scripted_loc_stable
+	}
+	text = {
+		trigger = {
+			original_tag = MEW
+			has_country_flag = royal_triumvarate_flag
+		}
+		localization_key = MEW_prog_council_name_scripted_loc_triumvarate
+	}
+	text = {
+		trigger = {
+			NOT = {
+				has_country_flag = stable_council_flag
+				has_country_flag = royal_triumvarate_flag
+			}
+		}
+		localization_key = MEW_prog_council_name_scripted_loc_none
+	}
+}

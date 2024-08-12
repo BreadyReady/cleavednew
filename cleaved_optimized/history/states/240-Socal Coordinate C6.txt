@@ -1,0 +1,15 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		2322 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

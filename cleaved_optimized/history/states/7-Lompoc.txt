@@ -1,0 +1,15 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		592 1562 1743 3331 
+	}	
+	history = {
+		owner = VAL
+		add_core_of = VAL
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

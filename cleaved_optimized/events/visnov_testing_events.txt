@@ -1,0 +1,212 @@
+﻿add_namespace = visnov_trigger
+
+country_event = {
+	id = visnov_trigger.1
+	title = visnov_trigger.1.t
+	desc = visnov_trigger.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = visnov_trigger.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+	}
+}
+
+country_event = {
+	id = visnov_trigger.2
+	title = visnov_trigger.2.t
+	desc = visnov_trigger.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = visnov_trigger.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = MEW:visnov_bg_var
+			value = 4
+		}
+		set_variable = {
+			var = MEW:visnov_variable_text_speaker_var
+			value = 5
+		}
+		set_variable = {
+			var = MEW:visnov_variable_text_speech_var
+			value = 11
+		}
+		set_variable = {
+			var = MEW:visnov_portrait_var
+			value = 3
+		}
+		clr_country_flag = visnov_decs1_button_visible_flag
+	}
+}
+
+country_event = {
+	id = visnov_trigger.3
+	title = visnov_trigger.3.t
+	desc = visnov_trigger.3.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = visnov_trigger.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		clr_country_flag = visnov_visible
+		clr_country_flag = visnov_decs1_button_visible_flag
+		clr_country_flag = visnov_decs3_button_visible_flag
+		set_variable = {
+			var = visnov_bg_var
+			value = 1
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 1
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 1
+		}
+	}
+}
+
+##########
+
+country_event = {
+	id = visnov_trigger.4
+	title = visnov_trigger.4.t
+	desc = visnov_trigger.4.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 3
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 5
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 5
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3
+		}
+	}
+}
+country_event = {
+	id = visnov_trigger.5
+	title = visnov_trigger.5.t
+	desc = visnov_trigger.5.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 4
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 5
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 11
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3
+		}
+	}
+}
+country_event = {
+	id = visnov_trigger.6
+	title = visnov_trigger.6.t
+	desc = visnov_trigger.6.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 7
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var
+			value = 5
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 36
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3
+		}
+		
+	}
+}
+country_event = {
+	id = visnov_trigger.7
+	title = visnov_trigger.7.t
+	desc = visnov_trigger.7.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 8
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 56
+		}
+		
+		set_variable = {
+			var = visnov_bg_var
+			value = 8
+		}
+		
+		clr_country_flag = visnov_decs1_button_visible_flag
+	}
+}

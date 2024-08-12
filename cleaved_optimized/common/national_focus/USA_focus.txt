@@ -1,0 +1,2462 @@
+﻿focus_tree = {
+	id = USA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = USA
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 1500 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+	
+	focus = {
+		id = USA_job_creation
+		icon = x
+		x = 6
+		y = 0
+				
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = USA_education_reform
+		icon = x
+		x = -2
+		y = 1
+		prerequisite = { focus = USA_job_creation }
+		relative_position_id = USA_job_creation
+				
+		bypass = {} 
+		available = { 
+			has_built = {
+				type = infrastructure
+				value > 2
+			}
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_education_reform
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = USA_nasa_initiative
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_education_reform }
+		relative_position_id = USA_education_reform
+				
+		bypass = {} 
+		available = { 
+			has_built = {
+				type = industrial_complex
+				value > 15
+			}
+			has_built = {
+				type = infrastructure
+				value > 5
+			}
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = USA_revitalize_rust_belt
+		icon = x
+		x = -2
+		y = 1
+		prerequisite = { focus = USA_education_reform }
+		relative_position_id = USA_education_reform
+				
+		bypass = {} 
+		available = {
+			159 = {infrastructure > 3}
+			162 = {infrastructure > 3}
+			156 = {infrastructure > 3}
+			155 = {infrastructure > 3}
+			154 = {infrastructure > 3}
+			137 = {infrastructure > 3}
+			134 = {infrastructure > 3}
+			135 = {infrastructure > 3}
+			136 = {infrastructure > 3}
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			159 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			162 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			156 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			155 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			154 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			137 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			134 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			135 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+			136 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
+				}
+				add_resource = {
+					type = tungsten
+					amount = 10
+				}
+				add_resource = {
+					type = chromium
+					amount = 10
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	
+	focus = {
+		id = USA_internet_initiative
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_job_creation }
+		relative_position_id = USA_job_creation
+				
+		bypass = {} 
+		available = {
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = USA_internet_initiative
+				days = 730
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_innovative_propaganda_methods
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_internet_initiative }
+		relative_position_id = USA_internet_initiative
+				
+		bypass = {} 
+		available = {
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_anti_substance_campaign
+		icon = x
+		x = 2
+		y = 1
+		prerequisite = { focus = USA_job_creation }
+		relative_position_id = USA_job_creation
+				
+		bypass = {}
+		available = {
+		}
+		cost = 25
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_curtail_vape_and_opioids
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_anti_substance_campaign }
+		relative_position_id = USA_anti_substance_campaign
+				
+		bypass = {}
+		available = {
+		}
+		cost = 25
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+
+
+	focus = {
+		id = USA_tax_cuts
+		icon = x
+		x = 14
+		y = 0
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_tax_cuts
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_rebuilding_roads
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_tax_cuts }
+		relative_position_id = USA_tax_cuts
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				id = USA_rebuild_roads
+				days = 730
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_farmers_of_america
+		icon = x
+		x = -2
+		y = 1
+		prerequisite = { focus = USA_tax_cuts }
+		relative_position_id = USA_tax_cuts
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_farmer_appreciation
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_cut_unnecessary_welfare
+		icon = x
+		x = 2
+		y = 1
+		prerequisite = { focus = USA_tax_cuts }
+		relative_position_id = USA_tax_cuts
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_cut_welfare
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_small_business
+		icon = x
+		x = -1
+		y = 2
+		prerequisite = { focus = USA_tax_cuts }
+		relative_position_id = USA_tax_cuts
+		mutually_exclusive = { focus = USA_big_business }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_small_business_support
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_break_the_monopolies
+		icon = x
+		x = -1
+		y = 2
+		prerequisite = { focus = USA_small_business }
+		relative_position_id = USA_small_business
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = USA_small_business_domination
+				remove_idea = USA_big_business_monopolies
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_big_business
+		icon = x
+		x = 1
+		y = 2
+		prerequisite = { focus = USA_tax_cuts }
+		relative_position_id = USA_tax_cuts
+		mutually_exclusive = { focus = USA_small_business }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_big_business_support
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_energy_independance
+		icon = x
+		x = 3
+		y = 1
+		prerequisite = { focus = USA_big_business }
+		relative_position_id = USA_big_business
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+			126 = {
+				infrastructure > 4
+			}
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			126 = {
+				add_resource = {
+					type = oil
+					amount = 80
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_resource_harvesting
+		icon = x
+		x = 1
+		y = 1
+		prerequisite = { focus = USA_big_business }
+		relative_position_id = USA_big_business
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = excavation_tech
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_make_trickle_down_econ_work
+		icon = x
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_resource_harvesting }
+		prerequisite = { focus = USA_energy_independance }
+		relative_position_id = USA_resource_harvesting
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_neo_reaganomics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_integrate_west_republican
+		icon = x
+		x = 0
+		y = 3
+		relative_position_id = USA_tax_cuts
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+			always = no #add arguments for owning the old west
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_neo_reaganomics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_america_is_great_again
+		icon = x
+		x = 0
+		y = 2
+		prerequisite = { focus = USA_integrate_west_republican }
+		prerequisite = { focus = USA_break_the_monopolies focus = USA_make_trickle_down_econ_work }
+		relative_position_id = USA_integrate_west_republican
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = conservatism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_neo_reaganomics
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_urban_infrastructure_plan
+		icon = x
+		x = 23
+		y = 0
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 75
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_homeless_relief
+		icon = x
+		x = 0
+		y = 1
+		relative_position_id = USA_urban_infrastructure_plan
+			
+		prerequisite = { focus = USA_urban_infrastructure_plan }
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			100 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			125 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			165 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			164 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			166 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			169 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			171 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			145 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_efficient_districting
+		icon = x
+		x = -2
+		y = 1
+		relative_position_id = USA_urban_infrastructure_plan
+		prerequisite = { focus = USA_urban_infrastructure_plan }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 100000
+			add_offsite_building = { type = industrial_complex level = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_curtail_car_culture
+		icon = x
+		x = -4
+		y = 1
+		relative_position_id = USA_urban_infrastructure_plan
+		prerequisite = { focus = USA_urban_infrastructure_plan }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_unemployment_funding
+		icon = x
+		x = 2
+		y = 1
+		relative_position_id = USA_urban_infrastructure_plan
+		prerequisite = { focus = USA_urban_infrastructure_plan }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_university_funding
+		icon = x
+		x = 4
+		y = 1
+		relative_position_id = USA_urban_infrastructure_plan
+		prerequisite = { focus = USA_urban_infrastructure_plan }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_hanging_gardens
+		icon = x
+		x = 0
+		y = 1
+		relative_position_id = USA_efficient_districting
+		prerequisite = { focus = USA_efficient_districting }
+		prerequisite = { focus = USA_curtail_car_culture }
+		prerequisite = { focus = USA_homeless_relief }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			158 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			164 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			89 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			100 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_scandinavian_model
+		icon = x
+		x = 0
+		y = 1
+		relative_position_id = USA_unemployment_funding
+		prerequisite = { focus = USA_unemployment_funding }
+		prerequisite = { focus = USA_university_funding }
+		prerequisite = { focus = USA_homeless_relief }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_integrate_west_democrat
+		icon = x
+		x = 0
+		y = 1
+		relative_position_id = USA_homeless_relief
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+			always = no #add arguments for owning the old west
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_shining_green_beacon
+		icon = x
+		x = 1
+		y = 1
+		relative_position_id = USA_hanging_gardens
+		prerequisite = { focus = USA_hanging_gardens }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_stability = 0.08
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_surpassing_europa
+		icon = x
+		x = -1
+		y = 1
+		relative_position_id = USA_scandinavian_model
+		prerequisite = { focus = USA_scandinavian_model }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.08
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = USA_yes_we_can
+		icon = x
+		x = 0
+		y = 2
+		relative_position_id = USA_integrate_west_democrat
+		prerequisite = { focus = USA_integrate_west_democrat }
+		prerequisite = { focus = USA_shining_green_beacon }
+		prerequisite = { focus = USA_surpassing_europa }
+				
+		bypass = {}
+		available = {
+			has_country_leader_ideology = liberalism
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_modern_infrastructure_and_welfare_systems
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+
+	focus = {
+		id = USA_war_department
+		icon = GFX_goal_generic_army_doctrines
+		x = 35
+		y = 0
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_war_department
+		}
+	}
+	focus = {
+		id = USA_selective_training_act
+		icon = GFX_focus_generic_military_mission
+		x = -5
+		y = 1
+		prerequisite = { focus = USA_war_department }
+		relative_position_id = USA_war_department
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war = yes
+			threat > 0.5
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_MANPOWER FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_USA_CONGRESS}
+		completion_reward = {
+			if = {
+				limit = {
+					OR = {
+						has_idea = disarmed_nation
+						has_idea = volunteer_only
+					}
+				}
+				add_ideas = limited_conscription
+			}
+			else = {
+				add_political_power = 150
+			}
+			if = {
+				limit = {
+					has_war_support < 0.1
+				}
+				set_war_support = 0.1
+			}
+			if = {
+				limit = {
+					has_war_support < 0.4 
+				}
+				USA_congress_medium_opposition = yes
+			}
+		}
+	}
+	focus = {
+		id = USA_first_special_service_force
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = USA_selective_training_act }
+		x = -2
+		y = 1
+		relative_position_id = USA_selective_training_act
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = special_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
+		}
+	}
+	focus = {
+		id = USA_louisiana_maneuvers
+		icon = GFX_goal_generic_cavalry
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_selective_training_act }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			army_experience = 20
+			add_doctrine_cost_reduction = {
+				name = USA_louisiana_maneuvers
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = USA_airborne_divisions
+		icon = GFX_focus_generic_paratrooper
+		x = -2
+		y = 2
+		prerequisite = { focus = USA_louisiana_maneuvers }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_airborne_divisions
+		}
+	}
+	focus = {
+		id = USA_army_of_the_united_states
+		icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 2
+		prerequisite = { focus = USA_louisiana_maneuvers }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_army_of_the_united_states
+		}
+	}
+	focus = {
+		id = USA_womens_armed_service_integration_act
+		icon = GFX_focus_generic_treaty
+		x = 0
+		y = 3
+		prerequisite = { focus = USA_army_of_the_united_states }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		completion_reward = {
+			add_ideas = USA_womens_armed_service_integration_act
+		}
+	}
+	
+	focus = {
+		id = USA_support_rock_island
+		icon = GFX_goal_generic_army_artillery
+		x = 2
+		y = 1
+		relative_position_id = USA_selective_training_act
+		cost = 10
+		prerequisite = { focus = USA_selective_training_act }
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_support_rock_island
+				uses = 2
+				bonus = 1.0
+				category = artillery
+				category = support_tech
+			}
+		}
+	}
+	focus = {
+		id = USA_tank_experiments
+		icon = GFX_goal_generic_army_tanks
+		x = 2
+		y = 2
+		prerequisite = { focus = USA_support_rock_island }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_tank_experiments
+				uses = 1
+				bonus = 1.0
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = USA_tank_destroyer_doctrine
+		icon = GFX_focus_usa_tank_destroyer_doctrine
+		x = 2
+		y = 3
+		prerequisite = { focus = USA_tank_experiments }
+		mutually_exclusive = { focus = USA_main_battle_tanks }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = tank_destroyer_board
+		}
+	}
+	focus = {
+		id = USA_main_battle_tanks
+		icon = GFX_focus_generic_combined_arms
+		x = 4
+		y = 3
+		prerequisite = { focus = USA_tank_experiments }
+		mutually_exclusive = { focus = USA_tank_destroyer_doctrine }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = detroit_arsenal
+		}
+	}
+	focus = {
+		id = USA_armored_infantry
+		icon = GFX_goal_generic_build_tank
+		x = 2
+		y = 4
+		prerequisite = { focus = USA_main_battle_tanks focus = USA_tank_destroyer_doctrine }
+		relative_position_id = USA_selective_training_act
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_armored_infantry
+				uses = 2
+				bonus = 1.0
+				category = motorized_equipment
+			}
+		}
+	}
+	focus = {
+		id = USA_build_the_pentagon
+		icon = GFX_focus_usa_build_the_pentagon
+		x = -1
+		y = 1
+		prerequisite = { focus = USA_war_department }
+		relative_position_id = USA_war_department
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = USA_the_pentagon
+		}
+	}
+	focus = {
+		id = USA_department_of_defense
+		icon = GFX_goal_generic_military_sphere
+		x = -1
+		y = 2
+		prerequisite = { focus = USA_build_the_pentagon }
+		relative_position_id = USA_war_department
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_war_department
+				add_idea = USA_department_of_defense
+			}
+		}
+	}
+
+
+
+ ##  ### ###       ## ###  ##  ### ###  ##  #  # 
+#  #  #  #  #     #   #   #  #  #   #  #  # ## # 
+####  #  ###       #  ##  #     #   #  #  # # ## 
+#  #  #  #  #       # #   #  #  #   #  #  # #  # 
+#  # ### #  #     ##  ###  ##   #  ###  ##  #  # 
+
+	focus = {
+		id = USA_air_war_plans_division
+		icon = GFX_goal_generic_build_airforce
+		x = 2
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+		prerequisite = { focus = USA_war_department }
+		relative_position_id = USA_war_department
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+	
+		completion_reward = {
+			air_experience = 25
+			add_doctrine_cost_reduction = {
+				name = USA_air_war_plans_division
+				cost_reduction = 0.5
+				uses = 2
+				category = air_doctrine
+			} # REVISIT May use modifier?
+			add_ideas = air_war_plans_division_focus
+		}
+	}
+
+	focus = {
+		id = USA_air_support
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = USA_air_war_plans_division }
+		mutually_exclusive = { focus = USA_strategic_bombing }
+		x = -1
+		y = 1
+		relative_position_id = USA_air_war_plans_division
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+		completion_reward = {
+			air_experience = 25
+			add_ideas = air_support_focus
+		}
+	}
+
+	focus = {
+		id = USA_strategic_bombing
+		icon = GFX_goal_generic_occupy_start_war
+		prerequisite = { focus = USA_air_war_plans_division }
+		mutually_exclusive = { focus = USA_air_support }
+		x = 1
+		y = 1
+		relative_position_id = USA_air_war_plans_division
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 25
+			add_ideas = strategic_bombing_focus
+		}
+	}
+
+	focus = {
+		id = USA_TAC
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = USA_air_support }
+		x = 0
+		y = 2
+		relative_position_id = USA_air_support
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = USA_TAC
+				uses = 1
+				bonus = 1.0
+				category = tactical_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = USA_CAS
+		text = CAS_effort
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = USA_air_support }
+		x = -1
+		y = 1
+		relative_position_id = USA_air_support
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_effort
+				uses = 1
+				bonus = 1.0
+				category = cas_bomber
+			}
+		}
+	}
+
+	focus = {
+		id = USA_combined_bomber_offensive
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = USA_strategic_bombing }
+		available = {
+			has_war = yes
+		}
+		x = 0
+		y = 2
+		relative_position_id = USA_strategic_bombing
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = USA_combined_bomber_offensive
+				bonus = 1.0
+				uses = 1
+				category = heavy_air
+			}
+			add_ideas = combined_bomber_offensive
+		}
+	}
+	focus = {
+		id = USA_escort_fighters
+		icon = GFX_focus_usa_escort_fighters
+		x = 0
+		y = 2
+		prerequisite = { focus = USA_air_support focus = USA_strategic_bombing }
+		relative_position_id = USA_air_war_plans_division
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = USA_escort_fighters
+				bonus = 3.0
+				uses = 1
+				category = cat_heavy_fighter
+			}
+		}
+	}
+	focus = {
+		id = USA_us_army_airforce
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = -1
+		y = 4
+		prerequisite = { focus = USA_TAC }
+		relative_position_id = USA_air_war_plans_division
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = USA_us_army_airforce
+				uses = 2
+				cost_reduction = 0.5
+				category = air_doctrine
+			}
+		}
+	}
+	focus = {
+		id = USA_us_air_force
+		icon = GFX_goal_generic_build_airforce
+		x = 1
+		y = 4
+		prerequisite = { focus = USA_combined_bomber_offensive }
+		relative_position_id = USA_air_war_plans_division
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_ideas = USA_us_air_force
+		}
+	}
+	
+	focus = {
+		id = USA_diplomacy_in_mewni
+		icon = a
+		x = 45
+		y = 0
+		prerequisite = { country_exists = MEW }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_anti_mewman_posturing
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = USA_diplomacy_in_mewni
+		prerequisite = { focus = USA_diplomacy_in_mewni }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_global_flag = end_early_cleaved_era_flag
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_cooperate_with_cleaved_nations
+		icon = a
+		x = 5
+		y = 1
+		
+		bypass = {}
+		relative_position_id = USA_anti_mewman_posturing
+		prerequisite = { focus = USA_anti_mewman_posturing }
+		mutually_exclusive = { focus = USA_take_down_cleaved_nations }
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_faction_cal
+		icon = a
+		x = -1
+		y = 1
+		
+		bypass = {
+			OR = {
+				CAL = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = CAL
+				}
+				CAL = {
+					has_war_with = MEW
+				}
+			}
+		}
+		relative_position_id = USA_cooperate_with_cleaved_nations
+		prerequisite = { focus = USA_cooperate_with_cleaved_nations }
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_to_faction = CAL #Make it a choice later on 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_faction_mst
+		icon = a
+		x = 1
+		y = 1
+		
+		bypass = {
+			OR = {
+				MST = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = MST
+				}
+				MST = {
+					has_war_with = MEW
+				}
+			}
+		}
+		relative_position_id = USA_cooperate_with_cleaved_nations
+		prerequisite = { focus = USA_cooperate_with_cleaved_nations }
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_to_faction = MST #Make it a choice later on 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_faction_SPT
+		icon = a
+		x = 0
+		y = 2
+		
+		bypass = {
+			OR = {
+				SPT = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = SPT
+				}
+				SPT = {
+					has_war_with = MEW
+				}
+			}
+		}
+		relative_position_id = USA_cooperate_with_cleaved_nations
+		prerequisite = { focus = USA_cooperate_with_cleaved_nations }
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_to_faction = SPT #Make it a choice later on 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+	
+
+	focus = {
+		id = USA_take_down_cleaved_nations
+		icon = a
+		x = 0
+		y = 1
+		
+		bypass = {}
+		relative_position_id = USA_anti_mewman_posturing
+		prerequisite = { focus = USA_anti_mewman_posturing }
+		mutually_exclusive = { focus = USA_cooperate_with_cleaved_nations }
+		available = {
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_take_down_cal
+		icon = a
+		x = 0
+		y = 1
+		
+		bypass = {
+			OR = {
+				CAL = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = CAL
+				}
+			}
+		}
+		relative_position_id = USA_take_down_cleaved_nations
+		prerequisite = { focus = USA_take_down_cleaved_nations }
+		available = {
+			any_neighbor_country = { original_tag = CAL }
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = CAL
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_take_down_mst
+		icon = a
+		x = -2
+		y = 1
+		
+		bypass = {
+			OR = {
+				CAL = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = CAL
+				}
+			
+			}
+		}
+		relative_position_id = USA_take_down_cleaved_nations
+		prerequisite = { focus = USA_take_down_cleaved_nations }
+		available = {
+			any_neighbor_country = { original_tag = MST }
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = MST
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = USA_take_down_spt
+		icon = a
+		x = 2
+		y = 1
+		
+		bypass = {
+			OR = {
+				CAL = {
+					is_in_faction = yes
+				}
+				NOT = {
+					country_exists = CAL
+				}
+			
+			}
+		}
+		relative_position_id = USA_take_down_cleaved_nations
+		prerequisite = { focus = USA_take_down_cleaved_nations }
+		available = {
+			any_neighbor_country = { original_tag = spt }
+		}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = spt
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+	
+	focus = {
+		id = USA_the_mewman_civil_war
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = USA_diplomacy_in_mewni
+		prerequisite = { focus = USA_diplomacy_in_mewni }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			always = no
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = USA_recognize_mewman_republic
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = USA_the_mewman_civil_war
+		prerequisite = { focus = USA_the_mewman_civil_war }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			country_exists = MDM
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_to_faction = MDM
+		}
+	}
+	
+	focus = {
+		id = USA_direct_intervention
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = USA_the_mewman_civil_war
+		prerequisite = { focus = USA_the_mewman_civil_war }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				any_neighbor_country = {
+					OR = {
+						original_tag = MEW
+						original_tag = MIN
+						original_tag = KGT
+						original_tag = VSL
+						original_tag = MDM 
+					}
+				}
+				any_allied_country = {
+					any_neighbor_country = {
+						OR = {
+							original_tag = MEW
+							original_tag = MIN
+							original_tag = KGT
+							original_tag = VSL
+							original_tag = MDM 
+						}
+					}
+				} 
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			#Custom effect tooltip you get wargoals
+			hidden_effect = {
+				every_other_country = {
+					limit = {
+						original_tag = MEW
+					}
+					PREV = {
+						create_wargoal = {
+							target = PREV
+							type = annex_everything
+						}
+					}
+				}
+				IF = {
+					limit = {
+						country_exists = MIN
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = MIN
+					}
+				}
+				IF = {
+					limit = {
+						country_exists = KGT
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = KGT
+					}
+				}
+				IF = {
+					limit = {
+						country_exists = VSL
+					}
+					create_wargoal = {
+						type = annex_everything
+						target = VSL
+					}
+				}
+			}
+		}
+		
+	}
+	
+}

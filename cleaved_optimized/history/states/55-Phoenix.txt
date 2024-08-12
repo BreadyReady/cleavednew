@@ -1,0 +1,17 @@
+state={
+	id=55
+	name="STATE_55"
+	provinces={
+		1510 3461 3470 3484 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		victory_points = { 3461 25 }
+
+	}
+	manpower=1625000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

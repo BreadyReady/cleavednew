@@ -1,0 +1,18 @@
+﻿l_english:
+ visnov_bg_var_1:0 "GFX_visnov_bg_1"
+ visnov_bg_var_2:0 "GFX_visnov_bg_2"
+ visnov_bg_var_3:0 "GFX_visnov_bg_3"
+ visnov_bg_var_4:0 "GFX_visnov_bg_4"
+ visnov_bg_var_5:0 "GFX_visnov_bg_5"
+ #
+ GFX_visnov_portrait_fire_loc:0 "GFX_visnov_portrait_fire"
+ GFX_visnov_portrait_eclipsa_loc:0 "GFX_visnov_portrait_eclipsa"
+ GFX_visnov_portrait_empty_loc:0 "GFX_visnov_portrait_empty"
+ GFX_visnov_portrait_croc_knight_loc:0 "GFX_visnov_portrait_croc_knight"
+ GFX_visnov_portrait_star_loc:0 "GFX_visnov_portrait_star"
+ GFX_visnov_portrait_marco_loc:0 "GFX_visnov_portrait_marco"
+ GFX_visnov_portrait_cowboy_loc:0 "GFX_visnov_portrait_cowboy"
+ 
+ visnov_trigger.4.d:0 "[?visnov_portrait_var|G]"
+ 
+ visnov_trigger.5.d:0 "[?visnov_portrait_var|G]"

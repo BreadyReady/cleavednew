@@ -1,0 +1,15 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		857 1267 1333 1747 1921 1957 2160 2184 2245 2262 2272 2294 2460 2555 3237 3244 3275 3277 3288 3293 3303 3323 3324 3341 3347 3352 
+	}
+	history = {
+		owner = WRA
+		add_core_of = WRA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		977 1603 1989 2438 3250 3271 
+	}
+	history = {
+		owner = AVA
+		add_core_of = AVA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

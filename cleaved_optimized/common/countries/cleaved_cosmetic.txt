@@ -1,0 +1,9 @@
+PIE = {
+	color = rgb { 255 204 255 }
+	color_ui = rgb { 255 204 255 }
+}
+
+CLE_2 = {
+	color = rgb { 255  199  57 }
+	color_ui = rgb { 255  199  57 }
+}

@@ -1,0 +1,15 @@
+state={
+	id=102
+	name="STATE_102"
+	provinces={
+		1201 1690 2366 2745 2754 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,13 @@
+### Advisors for DRG ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_marco_advisor"
+			texturefile = "gfx/interface/advisors/MEW/marco_advisor.dds"
+		}
+
+	spriteType = {
+			name = "GFX_idea_higgs_advisor"
+			texturefile = "gfx/interface/advisors/MEW/higgs_advisor.dds"
+		}
+}

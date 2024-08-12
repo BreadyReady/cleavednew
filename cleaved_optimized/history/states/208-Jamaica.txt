@@ -1,0 +1,15 @@
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		1337 
+	}
+	history = {
+		owner = JAM
+		add_core_of = JAM
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

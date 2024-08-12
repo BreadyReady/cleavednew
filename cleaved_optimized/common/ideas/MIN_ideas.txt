@@ -1,0 +1,275 @@
+ideas = {
+	country = {
+		MIN_demobilization_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MIN
+				has_war = no
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_weekly = 0.001
+			}
+		}
+		MIN_ultramilitarization_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MIN
+				has_war = no
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_weekly = 0.01
+				fascism_drift = 0.01
+			}
+		}
+		
+		MIN_reigniting_solarian_zeal_1 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.05
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_2 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.1
+				conscription = 0.03
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_3 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.1
+				training_time_factor = -0.2
+				conscription = 0.05
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_4 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.1
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_5 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.1
+				offence = 0.1
+				army_org_factor = 0.05
+				army_morale_factor = 0.15
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_6 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.1
+				conscription = 0.03
+				army_morale_factor = 0.1
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_7 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.05
+				offence = 0.05
+				army_org_factor = 0.1
+				training_time_factor = -0.2
+				conscription = 0.05
+				army_morale_factor = 0.1
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_8 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.1
+				offence = 0.1
+				army_org_factor = 0.1
+				conscription = 0.03
+				army_morale_factor = 0.15
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_9 = {
+
+			name = MIN_reigniting_solarian_zeal
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.1
+				offence = 0.1
+				army_org_factor = 0.1
+				training_time_factor = -0.2
+				conscription = 0.05
+				army_morale_factor = 0.15
+				political_power_factor = 0.1
+			}
+		}
+
+		MIN_reigniting_solarian_zeal_10 = {
+
+			name = MIN_burning_like_the_sun
+
+			picture = MIN_reigniting_solarian_zeal
+
+			allowed = {
+				original_tag = MIN
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				defence = 0.1
+				offence = 0.15
+				army_org_factor = 0.1
+				army_speed_factor = 0.05
+				training_time_factor = -0.2
+				conscription = 0.05
+				army_morale_factor = 0.15
+				political_power_factor = 0.1
+				conscription_factor = 0.2
+				experience_loss_factor = -0.25
+				breakthrough_factor = 0.1
+				no_supply_grace = 48
+			}
+		}
+
+	}
+
+}

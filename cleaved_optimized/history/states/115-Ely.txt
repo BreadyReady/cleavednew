@@ -1,0 +1,15 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		311 497 550 758 802 971 1583 1762 1917 1927 2120 2151 2239 2242 2363 2529 3116 3124 3128 3131 3134 3143 3158 3164 3167 3172 3183 3186 
+	}
+	history = {
+		owner = PTK
+		add_core_of = PTK
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

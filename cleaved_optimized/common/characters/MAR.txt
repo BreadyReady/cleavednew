@@ -1,0 +1,18 @@
+characters={
+	MAR_marco_diaz = {
+		name = MAR_marco_diaz
+		portraits={
+			civilian={
+				large = GFX_portrait_MEW_marco_diaz 
+			}
+		}
+		country_leader={
+			ideology= oligarchism
+			traits= {
+				marco_puppet_king
+			}
+			expire="2060.1.1.1"
+			id=-1
+		}
+	}
+}

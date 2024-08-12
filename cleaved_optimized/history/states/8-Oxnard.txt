@@ -1,0 +1,16 @@
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		1452 1834 3379 3386 3387 
+	}
+	history = {
+		owner = SOC
+		add_core_of = SOC
+		victory_points = { 3387 15 }
+	}
+	manpower=201879
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

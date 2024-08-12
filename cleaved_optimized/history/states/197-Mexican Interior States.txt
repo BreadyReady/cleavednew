@@ -1,0 +1,16 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		3771 3776 
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+	}
+	manpower=1
+
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

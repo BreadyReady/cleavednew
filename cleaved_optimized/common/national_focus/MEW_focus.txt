@@ -1,0 +1,854 @@
+focus_tree = {
+
+	id = MEW_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			original_tag = MEW
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = MEW_end_of_the_cleaving_chaos
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 10
+		y = 0
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			hidden_effect = {
+				every_country = {
+					news_event = cleaving_news.1
+				} 
+				country_event = {
+					id = MEW_event.2
+					days = 3
+				}
+				country_event = {
+					id = MEW_event.3
+					days = 28
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = MEW_bail_water
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_end_of_the_cleaving_chaos 
+		prerequisite = { focus = MEW_end_of_the_cleaving_chaos }
+
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = MEW_bail_water_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_a_dry_mewni
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 2
+		relative_position_id = MEW_bail_water
+		prerequisite = { focus = MEW_bail_water }
+
+		available = { has_idea = MEW_sea_water_flooding_10 }
+		bypass = {} 
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = MEW_sea_water_flooding_10
+		}
+
+	}
+
+	focus = {
+		id = MEW_bucket_chains
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_bail_water 
+		prerequisite = { focus = MEW_bail_water }
+
+		bypass = {} 
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.025
+		}
+
+	}
+
+	focus = {
+		id = MEW_modern_pumping_systems
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MEW_bail_water 
+		prerequisite = { focus = MEW_bail_water }
+
+		bypass = {} 
+		cost = 2
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			219 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			221 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_purge
+		icon = GFX_goal_focus_manfred_scream
+		x = -4
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_end_of_the_cleaving_chaos 
+		prerequisite = { focus = MEW_end_of_the_cleaving_chaos }
+		mutually_exclusive = { focus = MEW_mercy }
+		available = {}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = MEW_minan_collaborator_question
+			add_timed_idea = {
+				idea = MEW_minan_collaborator_question_2
+				days = 180
+			}
+			country_event = MEW_purge_or_mercy.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = MEW_mercy
+		icon = GFX_goal_focus_manfred_scream
+		x = -2
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_end_of_the_cleaving_chaos 
+		prerequisite = { focus = MEW_end_of_the_cleaving_chaos }
+		mutually_exclusive = { focus = MEW_purge }
+		available = {}
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MEW_minan_collaborator_question
+				add_idea = MEW_minan_collaborator_question_3
+			}
+			country_event = MEW_purge_or_mercy.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = MEW_hunt_mina
+		icon = GFX_goal_focus_shifty_mina
+		x = 1
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_purge 
+		prerequisite = { focus = MEW_purge focus = MEW_mercy }
+		available = {}
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MEW_mina_on_the_loose
+				add_idea = MEW_looking_for_mina
+			}
+			country_event = MEW_mina.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = MEW_throne_disputes
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 2
+		prerequisite = { focus = MEW_a_dry_mewni }
+		relative_position_id = MEW_a_dry_mewni
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = visnov_trigger.7
+			}
+			custom_effect_tooltip = MEW_throne_disputes_tooltip
+			custom_effect_tooltip = visnov_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_moon_butterfly_rightful_throne
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -4
+		y = 1
+		relative_position_id = MEW_throne_disputes
+		prerequisite = { focus = MEW_throne_disputes }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = MEW_distance_moon_from_mina_idea
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MEW_moon_butterfly_rightful_throne
+		prerequisite = { focus = MEW_moon_butterfly_rightful_throne }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_queen_moon_idea
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = moon_stability_civil_war
+			custom_effect_tooltip = MEW_distance_moon_from_mina_idea_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_visit_to_the_monster_temple
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_distance_moon_from_mina_idea
+		prerequisite = { focus = MEW_distance_moon_from_mina_idea }
+
+		available = {
+		}
+		
+		mutually_exclusive = { focus = MEW_reignite_anti_monster_sentiments }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = more_states_civil_war
+			custom_effect_tooltip = MEW_visit_to_the_monster_temple_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_lessons_from_the_failed_coup
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_moon_butterfly_rightful_throne
+		prerequisite = { focus = MEW_moon_butterfly_rightful_throne }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_queen_moon_idea
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = equipment_and_manpower_civil_war
+			custom_effect_tooltip = MEW_lessons_from_the_failed_coup_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_reignite_anti_monster_sentiments
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_lessons_from_the_failed_coup
+		prerequisite = { focus = MEW_lessons_from_the_failed_coup }
+		
+		mutually_exclusive = { focus = MEW_visit_to_the_monster_temple }
+
+		available = {
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_country_leader_trait = monster_lover
+			custom_effect_tooltip = MEW_reignite_anti_monster_sentiments_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_queen_moon_idea
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_visit_to_the_monster_temple
+		prerequisite = { focus = MEW_reignite_anti_monster_sentiments focus = MEW_visit_to_the_monster_temple }
+
+		available = {
+			MEW_democracy_char = {
+				is_hired_as_advisor = yes
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = MEW_queen_moon_idea_tooltip
+		}
+	}
+
+	focus = {
+		id = MEW_maintain_eclipsa_rule
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_throne_disputes
+		prerequisite = { focus = MEW_throne_disputes }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = MEW_discredit_the_festivian_line
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_maintain_eclipsa_rule
+		prerequisite = { focus = MEW_maintain_eclipsa_rule }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_stability
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = eclipsa_war_support_civil_war
+			custom_effect_tooltip = MEW_discredit_the_festivian_line_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_slander_moon
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_discredit_the_festivian_line
+		prerequisite = { focus = MEW_discredit_the_festivian_line }
+
+		mutually_exclusive = { focus = MEW_call_for_realm_unity }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = eclipsa_more_states_civil_war
+			custom_effect_tooltip = MEW_slander_moon_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_stalling_for_the_status_quo
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MEW_maintain_eclipsa_rule
+		prerequisite = { focus = MEW_maintain_eclipsa_rule }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_stability
+			}
+		}
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+
+	}
+
+	focus = {
+		id = MEW_call_for_realm_unity
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_stalling_for_the_status_quo
+		prerequisite = { focus = MEW_stalling_for_the_status_quo }
+
+		mutually_exclusive = { focus = MEW_slander_moon }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+	}
+
+	focus = {
+		id = MEW_stability
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_call_for_realm_unity
+		prerequisite = { focus = MEW_slander_moon focus = MEW_call_for_realm_unity }
+
+		available = {
+			MEW_stability_char = {
+				is_hired_as_advisor = yes
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+
+	}
+
+	focus = {
+		id = MEW_power_to_the_nobles
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 4
+		y = 1
+		relative_position_id = MEW_throne_disputes
+		prerequisite = { focus = MEW_throne_disputes }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+	}
+
+	focus = {
+		id = MEW_appropriate_royal_weapons_reserves
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MEW_power_to_the_nobles
+		prerequisite = { focus = MEW_power_to_the_nobles }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_puppetry
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = marco_weapons_civil_war
+			custom_effect_tooltip = MEW_appropriate_royal_weapons_reserves_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_out_of_many_one
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_appropriate_royal_weapons_reserves
+		prerequisite = { focus = MEW_appropriate_royal_weapons_reserves }
+
+		mutually_exclusive = { focus = MEW_discredit_the_office_of_queen }
+	
+		available = {
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = more_troops_civil_war
+			custom_effect_tooltip = MEW_out_of_many_one_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_serfdom_recruitment
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_power_to_the_nobles
+		prerequisite = { focus = MEW_power_to_the_nobles }
+
+		available = {
+			NOT = {
+				has_completed_focus = MEW_puppetry
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = cannon_fodder_civil_war
+			custom_effect_tooltip = MEW_serfdom_recruitment_tooltip
+		}
+
+	}
+
+	focus = {
+		id = MEW_discredit_the_office_of_queen
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_serfdom_recruitment
+		prerequisite = { focus = MEW_serfdom_recruitment }
+		
+		mutually_exclusive = { focus = MEW_out_of_many_one }
+
+		available = {
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.15
+		}
+
+	}
+
+	focus = {
+		id = MEW_puppetry
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MEW_out_of_many_one
+		prerequisite = { focus = MEW_discredit_the_office_of_queen focus = MEW_out_of_many_one }
+
+		available = {
+			MEW_marco_diaz = {
+				is_hired_as_advisor = yes
+			}
+		}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+	}
+
+
+
+	focus = {
+		id = MEW_eclipsa_unity_decree
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MEW_stability
+		prerequisite = { focus = MEW_queen_moon_idea focus = MEW_puppetry focus = MEW_stability }
+
+		available = {}
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = MEW_civil_war.0
+		}
+	}
+
+	focus = {
+		id = MEW_the_cards_are_cast
+		icon = GFX_goal_focus_manfred_scream
+		x = 10
+		y = 12
+				
+		bypass = {}
+		available = {
+		}
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MEW_the_kingdom_at_large
+		icon = GFX_goal_focus_manfred_scream
+		x = 1
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_the_cards_are_cast 
+		prerequisite = { focus = MEW_the_cards_are_cast }
+		available = {
+		}
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MEW_the_kingdom_at_large
+		icon = GFX_goal_focus_manfred_scream
+		x = 11
+		y = 14
+				
+		bypass = {}
+		available = {
+			country_exists = MON
+		}
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = MEW_bring_in_the_war_profiteers
+		icon = GFX_goal_focus_manfred_scream
+		x = -1
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_the_cards_are_cast 
+		prerequisite = { focus = MEW_the_cards_are_cast }
+		available = {
+		}
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = MEW_pie_island_middlemen
+		icon = GFX_goal_focus_manfred_scream
+		x = -1
+		y = 1
+				
+		bypass = {}
+		relative_position_id = MEW_bring_in_the_war_profiteers 
+		prerequisite = { focus = MEW_bring_in_the_war_profiteers }
+		available = {
+		}
+		cost = 3
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}

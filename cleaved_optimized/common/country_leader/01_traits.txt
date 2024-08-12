@@ -1,0 +1,118 @@
+leader_traits = {
+	mewman_traditionalist = {
+		random = no
+		sprite = 13
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mewman_progressive = {
+		random = no
+		sprite = 13
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mewman_moderate = {
+		random = no
+		sprite = 13
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	last_solarian = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.1
+		stability_factor = 0.05
+		war_support_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	nepotistic_pick = {
+		random = no
+		sprite = 13
+		political_power_factor = -0.05
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	monster_lover = {
+		random = no
+		sprite = 13
+		stability_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	the_undaunted = {
+		random = no
+		sprite = 13
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	marco_puppet_king = {
+		random = no
+		sprite = 13
+		stability_factor = -0.1
+		political_power_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	squire = {
+		random = no
+		sprite = 5
+		stability_factor = -0.05
+		experience_gain_army_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	stability_master = {
+		random = no
+		sprite = 5
+		stability_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#
+	mass_manufacture = {
+		random = no
+
+		industrial_capacity_factory = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	quality_concern = {
+		random = no
+		
+		equipment_bonus = {
+			infantry_equipment = {
+				soft_attack = 0.1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

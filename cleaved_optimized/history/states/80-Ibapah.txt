@@ -1,0 +1,15 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		516 579 744 978 1381 1557 1716 2138 2152 2447 3039 3088 3104 
+	}
+	history = {
+		owner = PTK
+		add_core_of = PTK
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

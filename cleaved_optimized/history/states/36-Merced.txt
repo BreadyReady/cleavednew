@@ -1,0 +1,17 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		406 1777 1979 2166 2198 2241 3185 3200 3207 3216 
+	}
+	history = {
+		owner = VAL
+		add_core_of = VAL
+		victory_points = { 406 15 }
+
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

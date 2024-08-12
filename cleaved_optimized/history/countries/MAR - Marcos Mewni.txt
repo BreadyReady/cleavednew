@@ -1,0 +1,15 @@
+﻿capital = 219
+
+set_stability = 0.30
+set_war_support = 0.5
+
+set_politics = {
+	ruling_party = neutrality
+}
+
+set_popularities = {
+	neutrality = 80
+	mewman_monarchy = 20
+}
+
+recruit_character = MAR_marco_diaz

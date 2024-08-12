@@ -1,0 +1,15 @@
+state={
+	id=230
+	name="STATE_230"
+	provinces={
+		721 1735 1882 1941 1968 2431 3427 3441 3443 3451 3458 3473 3475 
+	}
+	manpower=50000
+	history = {
+		owner = MEW
+		add_core_of = MEW
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=large_town
+	local_supplies=0.000
+}

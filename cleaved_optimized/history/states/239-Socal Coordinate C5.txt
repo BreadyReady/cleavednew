@@ -1,0 +1,16 @@
+
+state={
+	id=239
+	name="STATE_239"
+	provinces={
+		18 1409 1604 1767 3437 3465 3483 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

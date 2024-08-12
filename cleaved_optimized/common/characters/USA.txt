@@ -1,0 +1,16 @@
+characters={
+	USA_donald_trump = {
+		name = USA_donald_trump
+		portraits={
+			civilian={
+				large = GFX_portrait_USA_donald_trump 
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

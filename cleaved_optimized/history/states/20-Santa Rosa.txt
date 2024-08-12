@@ -1,0 +1,15 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		821 3061 3077 3084 3089 3095 
+	}
+	history = {
+		owner = ACH
+		add_core_of = ACH
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

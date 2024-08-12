@@ -1,0 +1,77 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_visnov_frame"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_frame.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_dialog_box"
+		textureFile = "gfx\\interface\\visnov_gfx\\GFX_underlayer_transparent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_next_slide_button"
+		textureFile = "gfx\\interface\\visnov_gfx\\GFX_next_slide_button.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_visnov_decs_button"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_decs_button.dds"
+	}
+	
+	###########
+	#PORTRAITS#
+	###########
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_fire"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_fire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_eclipsa"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_eclipsa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_empty"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_empty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_croc_knight"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_croc_knight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_star"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_star.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_marco"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_marco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_cowboy"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_cowboy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_mina"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_mina.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_moon"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_moon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_eclipsa_calm"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_eclipsa_calm.dds"
+	}
+	
+}

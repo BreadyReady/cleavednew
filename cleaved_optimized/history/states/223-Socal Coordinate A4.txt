@@ -1,0 +1,15 @@
+state={
+	id=223
+	name="STATE_223"
+	provinces={
+		578 1196 1481 1612 2065 3547 3552 3559 3562 3563 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=rural
+	local_supplies=0.000
+}

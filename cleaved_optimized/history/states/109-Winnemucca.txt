@@ -1,0 +1,16 @@
+
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		482 800 960 1253 1390 1441 1451 1666 1719 1856 1905 2023 2141 2187 2406 2415 2479 2929 2933 2934 2951 2952 2961 2962 2963 2968 2969 2971 2972 2976 2979 2983 
+	}
+	history = {
+		owner = PNY
+		add_core_of = PNY
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

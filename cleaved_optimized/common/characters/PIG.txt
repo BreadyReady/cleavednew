@@ -1,0 +1,16 @@
+characters={
+	PIG_king_pigeon = {
+		name = PIG_king_pigeon
+		portraits={
+			civilian={
+				large = GFX_portrait_MEW_king_pigeon 
+			}
+		}
+		country_leader={
+			ideology= oligarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

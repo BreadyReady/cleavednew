@@ -1,0 +1,16 @@
+
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		1343 1620 1675 1835 1874 2049 2227 2343 3424 3444 3460 3468 3479 3480 3492 3498 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

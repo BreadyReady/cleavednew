@@ -1,0 +1,19 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		81 1329 2001 2320 
+	}
+	manpower=50000
+	history = {
+		owner = PIG
+		add_core_of = PIG
+	}
+	resources = {
+		steel = 10
+		aluminium = 20
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=large_town
+	local_supplies=0.000
+}

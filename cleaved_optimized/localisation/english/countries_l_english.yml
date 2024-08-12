@@ -1,0 +1,198 @@
+﻿l_english:
+ TST:0 "Test Country"
+ TST_DEF:0 "Test Country"
+ TST_ADJ:0 "Test Country"
+ 
+ USA:0 "United States of America"
+ USA_DEF:0 "The United States"
+ USA_ADJ:0 "American"
+ 
+ CAL:0 "Sacramento Government"
+ CAL_DEF:0 "Sacramento Government"
+ CAL_ADJ:0 "Sacramentan"
+ 
+ MST:0 "Mojave United Tribes"
+ MST_DEF:0 "The United Mojave Tribes"
+ MST_ADJ:0 "Mojave Tribals"
+ 
+ SPT:0 "Septarsis"
+ SPT_DEF:0 "The Septarian Horde"
+ SPT_ADJ:0 "Septarian"
+ 
+ CAN:0 "Canada"
+ CAN_DEF:0 "Canada"
+ CAN_ADJ:0 "Canadian"
+ 
+ MEX:0 "Mexico"
+ MEX_DEF:0 "Mexico"
+ MEX_ADJ:0 "Mexican"
+ 
+ OCE:0 "Ocean"
+ OCE_DEF:0 "The Ocean"
+ OCE_ADJ:0 "Oceanic"
+ 
+ MEW:0 "Butterfly Kingdom"
+ MEW_DEF:0 "The Butterfly Kingdom"
+ MEW_ADJ:0 "Butterfly Mewman"
+ 
+ MAR:0 "Marco's Mewni"
+ MAR_DEF:0 "Marco's Mewni"
+ MAR_ADJ:0 "Marco Mewman"
+ 
+ MTR:0 "Monster's Independent Zone"
+ MTR_DEF:0 "Monster's Independent Zone"
+ MTR_ADJ:0 "Monster's Independent Zone"
+ 
+ KGT:0 "Mewman Knighthood"
+ KGT_DEF:0 "The Mewman Knighthood"
+ KGT_ADJ:0 "Knight"
+ 
+ VSL:0 "Vassal Revolt"
+ VSL_DEF:0 "The Vassal Revolt"
+ VSL_ADJ:0 "Revolters"
+ 
+ MIN:0 "Mina's Clique"
+ MIN_DEF:0 "The Clique"
+ MIN_ADJ:0 "Loveberrian"
+ 
+ MDM:0 "LA Republic"
+ MDM_DEF:0 "The LA Republic"
+ MDM_ADJ:0 "The LA Republican"
+ 
+ JOH:0 "Johansen Kingdom"
+ JOH_DEF:0 "The Johansen Kingdom"
+ JOH_ADJ:0 "Mewman"
+ 
+ PIG:0 "Pigeon Kingdom"
+ PIG_DEF:0 "Pigeon"
+ PIG_ADJ:0 "The Pigeons"
+ 
+ SPI:0 "Spiderbite Kingdom"
+ SPI_DEF:0 "Arachnid"
+ SPI_ADJ:0 "The Arachnids"
+ 
+ TRT:0 "Tarantula Garrison"
+ TRT_DEF:0 "Tarantula"
+ TRT_ADJ:0 "Officers"
+ 
+ CLE:0 ""
+ CLE_DEF:0 ""
+ CLE_ADJ:0 ""
+ 
+ CLE_2:0 "Cleaved Zone"
+ CLE_2_DEF:0 "The Cleaved Zone"
+ CLE_2_ADJ:0 "The Cleaved"
+
+ CUB:0 "Cuba"
+ CUB_DEF:0 "Cuba"
+ CUB_ADJ:0 "Cuban"
+ 
+ BAH:0 "The Bahamas"
+ BAH_DEF:0 "Bahamas"
+ BAH_ADJ:0 "Bahaman"
+
+ DOM:0 "Dominican Republic"
+ DOM_DEF:0 "Dominican"
+ DOM_ADJ:0 "Dominican"
+ 
+ HAI:0 "Haiti"
+ HAI_DEF:0 "Haitian"
+ HAI_ADJ:0 "Haitian"
+ 
+ JAM:0 "Jamaica"
+ JAM_DEF:0 "Jamaican"
+ JAM_ADJ:0 "Jamaican"
+ 
+ DEN:0 "Denmark"
+ DEN_DEF:0 "The Danish"
+ DEN_ADJ:0 "Danish"
+ 
+ RUS:0 "Russia"
+ RUS_DEF:0 "Russo"
+ RUS_ADJ:0 "Russian"
+
+ MON:0 "Moon's Mewni"
+ MON_DEF:0 "The Mooners"
+ MON_ADJ:0 "Moon Mewmans"
+ 
+ LAS:0 "Free City of Las Vegas"
+ LAS_DEF:0 "Free City of Las Vegas"
+ LAS_ADJ:0 "Free City of Las Vegas"
+ 
+ NAV:0 "Navajo Nation"
+ NAV_DEF:0 "Navajo Nation"
+ NAV_ADJ:0 "Navajo"
+ 
+ FRG:0 "Frogmen Federation"
+ FRG_DEF:0 "The Frogmen Federation"
+ FRG_ADJ:0 "Frogmen"
+ 
+ AVA:0 "Avarius Kingdom"
+ AVA_DEF:0 "The Avarius Kingdom"
+ AVA_ADJ:0 "Avarian"
+ 
+ PTK:0 "Monster's Principalities"
+ PTK_DEF:0 "The General Monster's Principalities"
+ PTK_ADJ:0 "Mosnter's Principalities"
+ 
+ STS:0 "Stansbury Militia"
+ STS_DEF:0 "The Stansbury Protection Militia"
+ STS_ADJ:0 "Stansburian Militia"
+ 
+ PNY:0 "Ponyhead Ground Holdings"
+ PNY_DEF:0 "The Ponyhead Ground Holdings"
+ PNY_ADJ:0 "Ponyhead"
+ 
+ CHL:0 "North California Chaos"
+ CHL_DEF:0 "North California Chaos"
+ CHL_ADJ:0 "North Californian"
+ 
+ NCH:0 "Nevada Chaos"
+ NCH_DEF:0 "Nevada Chaos"
+ NCH_ADJ:0 "Nevadan"
+ 
+ NEV:0 "Nevada State Government"
+ NEV_DEF:0 "Nevada State Government"
+ NEV_ADJ:0 "Nevadan"
+ 
+ BAY:0 "Bay Area Government"
+ BAY_DEF:0 "Bay Area Government"
+ BAY_ADJ:0 "Bay Area"
+ 
+ VAL:0 "Southern Valley Government"
+ VAL_DEF:0 "Southern Valley Government"
+ VAL_ADJ:0 "Southern Valley"
+ 
+ ACH:0 "Arachne's Duchy"
+ ACH_DEF:0 "Arachne's Duchy"
+ ACH_ADJ:0 "Arachne Ducal"
+ 
+ SOC:0 "Socal Government"
+ SOC_DEF:0 "The Socal Government"
+ SOC_ADJ:0 "Socal"
+ 
+ FLD:0 "Featherleg Duchy"
+ FLD_DEF:0 "Featherleg Duchy"
+ FLD_ADJ:0 "Featherleg Duchy"
+ 
+ WRA:0 "Wrathmelior Overworld Holdings"
+ WRA_DEF:0 "Wrathmelior Overworld Holdings"
+ WRA_ADJ:0 "Underworld"
+ 
+ #Cosmetic
+ 
+ CAL_chaos:0 "Sacramento Chaos"
+ CAL_chaos_DEF:0 "The Sacramento Chaos"
+ CAL_chaos_ADJ:0 "Sacramentan"
+ 
+ BAY_chaos:0 "Bay Area Chaos"
+ BAY_chaos_DEF:0 "The Bay Area Chaos"
+ BAY_chaos_ADJ:0 "Bay Arean"
+ 
+ VAL_chaos:0 "South Valley Chaos"
+ VAL_chaos_DEF:0 "The South Valley Chaos"
+ VAL_chaos_ADJ:0 "South Valleyan"
+ 
+ NEV_chaos:0 "Reno Chaos"
+ NEV_chaos_DEF:0 "The Reno Chaos"
+ NEV_chaos_ADJ:0 "Reno"

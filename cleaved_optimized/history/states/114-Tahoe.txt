@@ -1,0 +1,15 @@
+state={
+	id=114
+	name="STATE_114"
+	provinces={
+		1249 1279 1672 2124 2165 2484 3070 3081 
+	}
+	history = {
+		owner = NEV
+		add_core_of = NEV
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

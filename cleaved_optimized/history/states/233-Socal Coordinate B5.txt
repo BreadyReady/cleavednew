@@ -1,0 +1,19 @@
+state={
+	id=233
+	name="STATE_233"
+	provinces={
+		461 1000 1546 1871 1922 2274 2286 
+	}
+	manpower=50000
+	history = {
+		owner = JOH
+		add_core_of = JOH
+	}
+	resources = {
+		steel = 20
+		aluminium = 8
+	}
+	buildings_max_level_factor=1.000
+ 	state_category=large_town
+	local_supplies=0.000
+}

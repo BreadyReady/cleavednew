@@ -1,0 +1,15 @@
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		1534 1619 1669 2328 2353 3440 3456 
+	}
+	history = {
+		owner = SOC
+		add_core_of = SOC
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

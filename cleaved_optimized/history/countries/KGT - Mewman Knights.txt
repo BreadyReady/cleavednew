@@ -1,0 +1,19 @@
+﻿capital = 5
+
+set_stability = 0.40
+set_war_support = 100
+
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 100
+}
+
+add_ideas = {
+	MEW_feudalism
+	MEW_mercantalism
+	MEW_feudal_levy
+	#
+	MEW_squire_process
+}

@@ -1,0 +1,75 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_USA_donald_trump"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Donald_Trump.dds"
+	}
+	
+	#MEW
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_eclipsa_butterfly"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_eclipsa_butterfly.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_marco_diaz"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_marco_diaz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_marco_diaz_2"
+		texturefile = "gfx/leaders/MEW/portrait_MEW_marco_diaz_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_higgs"
+		texturefile = "gfx/leaders/MEW/portrait_higgs.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_hoi4_portrait_moon_war"
+		texturefile = "gfx/leaders/MON/hoi4_portrait_moon_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_hoi4_portrait_trad_council"
+		texturefile = "gfx/leaders/MON/hoi4_portrait_trad_council.dds"
+	}
+	
+	#JOH
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_river"
+		texturefile = "gfx/leaders/JOH/portrait_MEW_river.dds"
+	}
+	
+	#PIG
+	
+	spriteType = {
+		name = "GFX_portrait_MEW_king_pigeon"
+		texturefile = "gfx/leaders/PIG/portrait_MEW_king_pigeon.dds"
+	}
+
+	#SPI
+	
+	spriteType = {
+		name = "GFX_portrait_SPI_king_spiderbite"
+		texturefile = "gfx/leaders/SPI/portrait_SPI_king_spiderbite.dds"
+	}
+	
+	#OCE
+	
+	spriteType = {
+		name = "GFX_portrait_OCE_ocean"
+		texturefile = "gfx/leaders/OCE/portrait_OCE_ocean.dds"
+	}
+	
+	#MIN
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_mina"
+		texturefile = "gfx/leaders/MIN/hoi4_portrait_mina.dds"
+	}
+	
+}

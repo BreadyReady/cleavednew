@@ -1,0 +1,16 @@
+
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		15 473 484 511 514 607 662 710 722 874 894 907 913 972 1060 1205 1221 1238 1257 1277 1349 1361 1367 1372 1482 1499 1679 1753 1792 2064 2104 2192 2217 2233 2334 2509 2601 2604 2608 2609 2610 2618 
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+ 	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,462 @@
+MEW_bail_water_category = {
+	MEW_bail_water_235 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 235
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			235 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 235
+				has_completed_focus = MEW_bail_water
+			}
+			235 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			235 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_237 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 237
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			237 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 237
+				has_completed_focus = MEW_bail_water
+			}
+			237 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			237 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_244 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 244
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			244 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 244
+				has_completed_focus = MEW_bail_water
+			}
+			244 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			244 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_266 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 266
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			266 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 266
+				has_completed_focus = MEW_bail_water
+			}
+			266 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			266 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_225 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 225
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			225 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 225
+				has_completed_focus = MEW_bail_water
+			}
+			225 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			225 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_230 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 230
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			230 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 230
+				has_completed_focus = MEW_bail_water
+			}
+			230 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			230 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_224 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 224
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			224 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 224
+				has_completed_focus = MEW_bail_water
+			}
+			224 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			224 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_220 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 220
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			220 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 220
+				has_completed_focus = MEW_bail_water
+			}
+			220 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			220 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_221 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 221
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			221 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 221
+				has_completed_focus = MEW_bail_water
+			}
+			221 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			221 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+	MEW_bail_water_219 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 219
+			}
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = MEW_bail_water_ongoing
+			}
+			219 = { is_owned_by = MEW }
+			}
+
+		visible = {
+			MEW = {
+				owns_state = 219
+				has_completed_focus = MEW_bail_water
+			}
+			219 = {
+				NOT = {
+					has_state_flag = MEW_bail_water_country_flag
+				}
+			}
+		}
+
+		days_remove = 7
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+			set_country_flag = MEW_bail_water_ongoing
+		}
+		remove_effect = {
+			reduce_flooding_idea_scripted_effect = yes
+			219 = { set_state_flag = MEW_bail_water_country_flag }
+			clr_country_flag = MEW_bail_water_ongoing
+		}
+	}
+}
