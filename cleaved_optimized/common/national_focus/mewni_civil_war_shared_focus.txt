@@ -1,0 +1,1418 @@
+shared_focus = {
+    id = mewni_civwar_cards_are_cast
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 25
+    y = 0
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	#allow_branch = {
+	#	MEW = {
+	#		has_completed_focus = MEW_eclipsa_unity_decree
+	#	}
+	#}
+	
+	cost = 1
+
+
+    search_filters = {  }
+
+    completion_reward = {
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_bring_the_war_profiteers
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -6
+    y = 1
+	prerequisite = { focus = mewni_civwar_cards_are_cast }
+	relative_position_id = mewni_civwar_cards_are_cast
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 10
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_political_power = 50
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_pie_island_middlemen
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
+	relative_position_id = mewni_civwar_bring_the_war_profiteers
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_american_contracts }
+	mutually_exclusive = { focus = mewni_civwar_chinese_contracts }
+	
+	cost = 1
+
+
+    search_filters = {  }
+
+    completion_reward = {
+			add_stability = 0.1
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -2
+    y = 1
+	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
+	relative_position_id = mewni_civwar_bring_the_war_profiteers
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_american_contracts }
+	mutually_exclusive = { focus = mewni_civwar_pie_island_middlemen }
+	
+	cost = 1
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = arms_factory level = 2 }
+		add_ideas = mewni_civwar_chinese_contracts_idea1
+		custom_effect_tooltip = mewni_civwar_chinese_contracts_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts1
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts focus = mewni_civwar_pie_island_middlemen }
+	relative_position_id = mewni_civwar_chinese_contracts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 2 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts2
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts1 }
+	relative_position_id = mewni_civwar_chinese_contracts1
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = arms_factory level = 2 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts3
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts2 }
+	relative_position_id = mewni_civwar_chinese_contracts2
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 4 }
+		add_offsite_building = { type = arms_factory level = 4 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts4
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts }
+	relative_position_id = mewni_civwar_chinese_contracts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts5
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts4 }
+	relative_position_id = mewni_civwar_chinese_contracts4
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts6
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts5 }
+	relative_position_id = mewni_civwar_chinese_contracts5
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = arms_factory
+				level = 4
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_contracts7
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_contracts3 }
+	prerequisite = { focus = mewni_civwar_chinese_contracts6 }
+	relative_position_id = mewni_civwar_chinese_contracts6
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		swap_ideas = {
+			add_idea = mewni_civwar_chinese_contracts_idea2
+			remove_idea = mewni_civwar_chinese_contracts_idea1
+		}
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 2
+    y = 1
+	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
+	relative_position_id = mewni_civwar_bring_the_war_profiteers
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_chinese_contracts }
+	mutually_exclusive = { focus = mewni_civwar_pie_island_middlemen }
+	
+	cost = 1
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_ideas = mewni_civwar_american_contracts_idea1
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts1
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts focus = mewni_civwar_pie_island_middlemen }
+	relative_position_id = mewni_civwar_american_contracts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 1 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts2
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts1 }
+	relative_position_id = mewni_civwar_american_contracts1
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = arms_factory level = 1 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts3
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts2 }
+	relative_position_id = mewni_civwar_american_contracts2
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_offsite_building = { type = arms_factory level = 2 }
+		add_offsite_building = { type = industrial_complex level = 2 }
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts4
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts }
+	relative_position_id = mewni_civwar_american_contracts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts5
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts4 }
+	relative_position_id = mewni_civwar_american_contracts4
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts6
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts5 }
+	relative_position_id = mewni_civwar_american_contracts5
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_contracts7
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_contracts3 }
+	prerequisite = { focus = mewni_civwar_american_contracts6 }
+	relative_position_id = mewni_civwar_american_contracts6
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		swap_ideas = {
+			add_idea = mewni_civwar_american_contracts_idea2
+			remove_idea = mewni_civwar_american_contracts_idea1
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_domestic_mobilization
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -2
+    y = 1
+	prerequisite = { focus = mewni_civwar_cards_are_cast }
+	relative_position_id = mewni_civwar_cards_are_cast
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 10
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								is_in_home_area = yes
+							}
+						}
+					}
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+		add_offsite_building = { type = arms_factory level = 5 }
+		add_stability = -0.15
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_military_efforts
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 4
+    y = 1
+	prerequisite = { focus = mewni_civwar_cards_are_cast }
+	relative_position_id = mewni_civwar_cards_are_cast
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 10
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		army_experience = 30
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_american_advisors
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -4
+    y = 1
+	prerequisite = { focus = mewni_civwar_military_efforts }
+	relative_position_id = mewni_civwar_military_efforts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_chinese_advisors }
+	mutually_exclusive = { focus = mewni_civwar_russian_advisors }
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		custom_effect_tooltip = "make_army_chief_available_tooltip"
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_war_in_the_skies
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_advisors }
+	relative_position_id = mewni_civwar_american_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = small_plane_airframe
+			amount = 300
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = small_plane_cas_airframe
+			amount = 200
+			producer = USA
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_contest_the_waves
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_american_advisors }
+	relative_position_id = mewni_civwar_american_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = destroyer
+			amount = 20
+			producer = USA
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_mechanized_division
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 2
+	prerequisite = { focus = mewni_civwar_american_advisors }
+	relative_position_id = mewni_civwar_american_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+		capital_scope = { is_controlled_by = ROOT } 
+	}
+	
+	cost = 8
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment
+			amount = 800
+			producer = USA
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 800
+			producer = USA
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_chinese_advisors
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 1
+	prerequisite = { focus = mewni_civwar_military_efforts }
+	relative_position_id = mewni_civwar_military_efforts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_american_advisors }
+	mutually_exclusive = { focus = mewni_civwar_russian_advisors }
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		custom_effect_tooltip = make_army_chief_available_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_mass_production
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_advisors }
+	relative_position_id = mewni_civwar_chinese_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 3500
+			producer = CHI
+		}
+		add_ideas = mewni_civwar_mass_production_idea
+		custom_effect_tooltip = mewman_civwar_offmap_factory_revoke_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_rain_hell
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_chinese_advisors }
+	relative_position_id = mewni_civwar_chinese_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 3500
+			producer = CHI
+		}
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_modern_draft
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 2
+	prerequisite = { focus = mewni_civwar_chinese_advisors }
+	relative_position_id = mewni_civwar_chinese_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 8
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_manpower = 10000
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_russian_advisors
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 4
+    y = 1
+	prerequisite = { focus = mewni_civwar_military_efforts }
+	relative_position_id = mewni_civwar_military_efforts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	mutually_exclusive = { focus = mewni_civwar_american_advisors }
+	mutually_exclusive = { focus = mewni_civwar_chinese_advisors }
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		custom_effect_tooltip = make_army_chief_available_tooltip
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_mercanary_veterans
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -1
+    y = 1
+	prerequisite = { focus = mewni_civwar_russian_advisors }
+	relative_position_id = mewni_civwar_russian_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		army_experience = 50
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_russian_recruiting_model
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 1
+    y = 1
+	prerequisite = { focus = mewni_civwar_russian_advisors }
+	relative_position_id = mewni_civwar_russian_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_manpower = 15000
+    }
+}
+
+shared_focus = {
+    id = mewni_civwar_armored_push
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 0
+    y = 2
+	prerequisite = { focus = mewni_civwar_russian_advisors }
+	relative_position_id = mewni_civwar_russian_advisors
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 8
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = light_tank_equipment_2
+			amount = 900
+			producer = RUS
+		}
+    }
+}

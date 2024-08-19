@@ -1,1 +1,3 @@
-﻿capital = 30
+﻿set_research_slots = 1
+
+capital = 30

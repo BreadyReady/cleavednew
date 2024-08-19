@@ -1,0 +1,43 @@
+add_namespace = test
+
+country_event = {
+	id = test.0 #Start the Mewman Civil War
+	title = test.0.t
+	desc = test.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = test.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_maintain_eclipsa_rule
+		complete_national_focus = MEW_discredit_the_festivian_line
+		complete_national_focus = MEW_stalling_for_the_status_quo
+		complete_national_focus = MEW_call_for_realm_unity
+		complete_national_focus = MEW_stability
+		complete_national_focus = MEW_eclipsa_unity_decree
+	}
+	
+	option = { 
+		name = test.0.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_moon_butterfly_rightful_throne
+		complete_national_focus = MEW_distance_moon_from_mina_idea
+		complete_national_focus = MEW_visit_to_the_monster_temple
+		complete_national_focus = MEW_lessons_from_the_failed_coup
+		complete_national_focus = MEW_queen_moon_idea
+		complete_national_focus = MEW_eclipsa_unity_decree
+	}
+	
+	option = { 
+		name = test.0.c
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = MEW_power_to_the_nobles
+		complete_national_focus = MEW_appropriate_royal_weapons_reserves
+		complete_national_focus = MEW_out_of_many_one
+		complete_national_focus = MEW_serfdom_recruitment
+		complete_national_focus = MEW_puppetry
+		complete_national_focus = MEW_eclipsa_unity_decree
+	}
+}

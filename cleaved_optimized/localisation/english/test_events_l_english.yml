@@ -3,3 +3,9 @@
 MEW_test.2.t:0 "Mewni leanings count"
 MEW_test.2.desc:0 "Prog: [?mew_prog|G]\n\nTrad: [?mew_trad|R]\n\nNeut: [?mew_neut|b]"
 MEW_test.2.a:0 ""
+
+test.0.t:0 "Start the Mewman Civil War"
+test.0.desc:0 ""
+test.0.a:0 "Eclipsa path taken"
+test.0.b:0 "Moons path taken"
+test.0.c:0 "Marcos path taken"

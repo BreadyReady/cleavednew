@@ -1,0 +1,47 @@
+focus_tree = {
+
+	id = MAR_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = MAR
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	shared_focus = mewni_civwar_cards_are_cast
+	
+	focus = {
+		id = MAR_marco_unites_mewni
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+
+		available = {
+			MEW = {
+				exists = no
+			}
+			MON = {
+				exists = no
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+	shared_focus = mewni_civwar_cards_are_cast
+}

@@ -129,14 +129,7 @@ characters={
 			idea_token = MEW_marco_diaz
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					MEW_political_trad_char = {
-						is_political_advisor = yes
-					}
-					MEW_political_prog_char = {
-						is_political_advisor = yes
-					}
-				}
+
 			}
 			traits  = {
 				nepotistic_pick
@@ -157,14 +150,6 @@ characters={
 			idea_token = MEW_political_trad_char
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-					MEW_political_prog_char = {
-						is_political_advisor = yes
-					}
-				}
 			}
 			traits  = {
 				veteran_minister
@@ -185,15 +170,6 @@ characters={
 			idea_token = MEW_political_trad_2_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_political_trad_char = {
-						is_political_advisor = yes
-					}
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-				}
-				has_completed_focus = MEW_advisor_affair
 			}
 			traits  = {
 				editor
@@ -214,15 +190,6 @@ characters={
 			idea_token = MEW_political_trad_3_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_political_trad_char = {
-						is_political_advisor = yes
-					}
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-				}
-				has_completed_focus = MEW_advisor_affair
 			}
 			traits  = {
 				war_industrialist
@@ -243,14 +210,6 @@ characters={
 			idea_token = MEW_political_prog_char
 			available  = {
 				original_tag  = MEW
-				NOT = {
-					MEW_political_trad_char = {
-						is_political_advisor = yes
-					}
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-				}
 			}
 			traits  = {
 				headstrong
@@ -271,15 +230,6 @@ characters={
 			idea_token = MEW_political_prog_2_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_political_prog_char = {
-						is_political_advisor = yes
-					}
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-				}
-				has_completed_focus = MEW_advisor_affair
 			}
 			traits  = {
 				technocrat
@@ -300,15 +250,6 @@ characters={
 			idea_token = MEW_political_prog_3_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_political_prog_char = {
-						is_political_advisor = yes
-					}
-					MEW_marco_diaz = {
-						is_political_advisor = yes
-					}
-				}
-				has_completed_focus = MEW_advisor_affair
 			}
 			traits  = {
 				captain_of_industry
@@ -331,6 +272,7 @@ characters={
 			idea_token = MEW_army_chief_prog_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_civwar_chinese_advisors
 			}
 			traits  = {
 				army_chief_drill_2
@@ -351,6 +293,7 @@ characters={
 			idea_token = MEW_army_chief_trad_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_civwar_american_advisors
 			}
 			traits  = {
 				army_chief_organizational_2
@@ -359,23 +302,22 @@ characters={
 		}
 	}
 	
-	MEW_higgs={
-		name=MEW_higgs
+	MEW_army_chief_russian_char={
+		name=MEW_army_chief_russian_char
 		portraits={
 			army={
-				small="GFX_idea_higgs_advisor"
-				large ="GFX_portrait_higgs"
+				small="GFX_idea_generic_political_advisor_europe_1"
 			}
 		}
 		advisor={
 			slot = army_chief
-			idea_token = MEW_higgs
+			idea_token = MEW_army_chief_russian_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_civwar_russian_advisors
 			}
 			traits  = {
-				squire
-				#mewman_moderate
+				army_infantry_1
 			}
 		}
 	}
@@ -392,15 +334,6 @@ characters={
 			idea_token = MEW_army_high_command_trad_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_trad_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_chief_maneuver_2
@@ -420,15 +353,6 @@ characters={
 			idea_token = MEW_army_high_command_trad_char_2
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_trad_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_cavalry_2
@@ -448,15 +372,6 @@ characters={
 			idea_token = MEW_army_high_command_trad_char_3
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_trad_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_chief_morale_1
@@ -476,15 +391,6 @@ characters={
 			idea_token = MEW_army_high_command_prog_char
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_prog_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_logistics_3
@@ -504,15 +410,6 @@ characters={
 			idea_token = MEW_army_high_command_prog_char_2
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_prog_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_regrouping_2
@@ -532,15 +429,6 @@ characters={
 			idea_token = MEW_army_high_command_prog_char_3
 			available  = {
 				original_tag  = MEW
-				OR = {
-					MEW_higgs = {
-						is_army_chief = yes
-					}
-					MEW_army_chief_prog_char = {
-						is_army_chief = yes
-					}
-				}
-				has_completed_focus = MEW_army_affair
 			}
 			traits  = {
 				army_CombinedArms_2
@@ -560,10 +448,6 @@ characters={
 			idea_token = MEW_navy_chief_prog_char
 			available  = {
 				original_tag  = MEW
-				has_completed_focus = MEW_army_affair
-				MEW_army_chief_prog_char = {
-					is_army_chief = yes
-				}
 			}
 			traits  = {
 				navy_chief_decisive_battle_2
@@ -583,10 +467,6 @@ characters={
 			idea_token = MEW_navy_chief_2_prog_char
 			available  = {
 				original_tag  = MEW
-				has_completed_focus = MEW_army_affair
-				MEW_army_chief_prog_char = {
-					is_army_chief = yes
-				}
 			}
 			traits  = {
 				navy_chief_commerce_raiding_2
@@ -606,10 +486,6 @@ characters={
 			idea_token = MEW_air_chief_prog_char
 			available  = {
 				original_tag  = MEW
-				has_completed_focus = MEW_army_affair
-				MEW_army_chief_prog_char = {
-					is_army_chief = yes
-				}
 			}
 			traits  = {
 				air_chief_reform_3
@@ -629,10 +505,6 @@ characters={
 			idea_token = MEW_air_chief_2_prog_char
 			available  = {
 				original_tag  = MEW
-				has_completed_focus = MEW_army_affair
-				MEW_army_chief_prog_char = {
-					is_army_chief = yes
-				}
 			}
 			traits  = {
 				air_air_combat_training_2

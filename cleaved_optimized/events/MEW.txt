@@ -77,6 +77,10 @@ country_event = {
 				add_state_core = 224
 				add_state_core = 225
 				add_state_core = 226
+				
+				inherit_technology = MEW
+				
+				create_faction = "Moon's Mewni"
 			}
 			MAR = {
 				transfer_state = 219
@@ -86,6 +90,10 @@ country_event = {
 				add_state_core = 219
 				add_state_core = 221
 				add_state_core = 220
+				
+				inherit_technology = MEW
+				
+				create_faction = "Marco's Mewni"
 			}
 			MTR = {
 				transfer_state = 237
@@ -93,6 +101,10 @@ country_event = {
 				
 				add_state_core = 237
 				add_state_core = 244
+				
+				inherit_technology = MEW
+				
+				load_oob = "MTR"
 			}
 			If = {
 				Limit = {
@@ -131,6 +143,13 @@ country_event = {
 				}
 			}
 			dismantle_faction = yes
+			create_faction = "Eclipsa's Mewni"
+			MEW_democracy_char = {
+				retire = yes
+			}
+			MEW_marco_diaz = {
+				retire = yes
+			}
 			#War Declaration and Unit Creation
 			declare_war_on = {
 				target = MON
@@ -143,6 +162,7 @@ country_event = {
 			add_civil_war_target = MON
 			add_civil_war_target = MAR
 			load_oob = "MEW_eclipsas_revolt_army"
+			mark_focus_tree_layout_dirty = yes
 			MON = {
 				declare_war_on = {
 					target = MEW
@@ -155,6 +175,7 @@ country_event = {
 				add_civil_war_target = MEW
 				add_civil_war_target = MAR
 				load_oob = "MON_moons_revolt"
+				mark_focus_tree_layout_dirty = yes
 			}
 			
 			MAR = {
@@ -169,6 +190,13 @@ country_event = {
 				add_civil_war_target = MON
 				add_civil_war_target = MEW
 				load_oob = "MAR_marcos_revolt"
+				mark_focus_tree_layout_dirty = yes
+			}
+			JOH = {
+				load_oob = "JOH_civwar"
+			}
+			PIG = {
+				load_oob = "PIG_civwar"
 			}
 	}
 }
@@ -219,6 +247,18 @@ country_event = {
 				MEW = {
 					has_completed_focus = MEW_reignite_anti_monster_sentiments
 				}
+			}
+			load_oob = "MON_moons_revolt_extra"
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_visit_to_the_monster_temple
+				}
+			}
+			annex_country = {
+				target = MTR
+				transfer_troops = yes
 			}
 		}
 		
@@ -287,6 +327,14 @@ country_event = {
 				}
 			}
 			add_manpower = 10000
+		}
+		IF = {
+			LIMIT = {
+				MEW = {
+					has_completed_focus = MEW_out_of_many_one
+				}
+			}
+			load_oob = "MAR_marcos_revolt_extra"
 		}
 		
 		

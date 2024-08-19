@@ -76,6 +76,7 @@ scripted_gui = {
 			visnov_decs1_button_click = {
 				ai_will_do = {
 					base = 1
+					modifier = { is_historical_focus_on = yes add = 99999 }
 				}
 			}
 			visnov_decs2_button_click = {

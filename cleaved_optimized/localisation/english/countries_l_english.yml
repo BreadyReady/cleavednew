@@ -7,6 +7,10 @@
  USA_DEF:0 "The United States"
  USA_ADJ:0 "American"
  
+ CHI:0 "China"
+ CHI_DEF:0 "China"
+ CHI_ADJ:0 "Chinese"
+ 
  CAL:0 "Sacramento Government"
  CAL_DEF:0 "Sacramento Government"
  CAL_ADJ:0 "Sacramentan"

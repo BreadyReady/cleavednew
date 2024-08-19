@@ -214,11 +214,11 @@
  
  MEW_distance_moon_from_mina_idea_tooltip:0 "§Y@MON[MON.getname]§! will have more Stability!"
  
- MEW_visit_to_the_monster_temple_tooltip:0 "§Y@MON[MON.getname]§! will gain §Y[244.getname]§! and §Y[237.getname]§! at the time of the revolt! (Devlopment: Not yet implemented)"
+ MEW_visit_to_the_monster_temple_tooltip:0 "§Y@MON[MON.getname]§! will gain §Y[244.getname]§! and §Y[237.getname]§! and extra divisions at the time of the revolt!"
  
  MEW_lessons_from_the_failed_coup_tooltip:0 "§Y@MON[MON.getname]§! will gain extra manpower and equipment at the time of the revolt!"
  
- MEW_reignite_anti_monster_sentiments_tooltip:0 "§Y@MON[MON.getname]§! will gain extra peasant divisions at the time of the revolt! (Devlopment: Not yet implemented)"
+ MEW_reignite_anti_monster_sentiments_tooltip:0 "§Y@MON[MON.getname]§! will gain extra peasant divisions at the time of the revolt!"
  
  MEW_queen_moon_idea:0 "Ideology"
  MEW_queen_moon_idea_tooltip:0 "Moon Butterfly Adopts Democratic Principles!"
@@ -229,7 +229,7 @@
  
  MEW_appropriate_royal_weapons_reserves_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain equipment at the time of the revolt!"
  
- MEW_out_of_many_one_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra divisions at the time of the revolt! (Devlopment: Not yet implemented)"
+ MEW_out_of_many_one_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra divisions at the time of the revolt!"
  
  MEW_serfdom_recruitment_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra manpower at the time of the revolt!"
  

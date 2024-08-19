@@ -1,4 +1,6 @@
-﻿capital = 232
+﻿set_research_slots = 1
+
+capital = 232
 
 set_stability = 0.40
 set_war_support = 35

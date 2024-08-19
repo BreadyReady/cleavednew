@@ -1,0 +1,47 @@
+defined_text = {
+	name = mewni_civwar_news.1.t_defined_text
+	text = {
+		trigger = {
+			JOH = {
+				focus_progress = {
+					focus = MEWNI_VASSAL_CIVWAR_support_moon
+					progress > 0.001
+				}
+			}
+		}
+		localization_key = mewni_civwar_news.1.t_moon
+	}
+	text = {
+		trigger = {
+			JOH = {
+				focus_progress = {
+					focus = MEWNI_VASSAL_CIVWAR_support_eclipsa
+					progress > 0
+				}
+			}
+		}
+		localization_key = mewni_civwar_news.1.t_eclipsa
+	}
+	text = {
+		trigger = {
+			JOH = {
+				focus_progress = {
+					focus = MEWNI_VASSAL_CIVWAR_support_marco
+					progress > 0
+				}
+			}
+		}
+		localization_key = mewni_civwar_news.1.t_marco
+	}
+	text = {
+		trigger = {
+			JOH = {
+				focus_progress = {
+					focus = MEWNI_VASSAL_CIVWAR_keep_neutral
+					progress > 0
+				}
+			}
+		}
+		localization_key = mewni_civwar_news.1.t_neutral
+	}
+}

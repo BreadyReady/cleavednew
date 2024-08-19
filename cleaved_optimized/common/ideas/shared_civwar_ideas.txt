@@ -1,0 +1,107 @@
+ideas = {
+	country = {
+		mewni_civwar_mass_production_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+				has_country_flag = end_mewni_civwars
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+		mewni_civwar_chinese_contracts_idea1= {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+				has_country_flag = end_mewni_civwars
+			}
+			
+			modifier = {
+				industry_repair_factor = -0.1
+			}
+			
+		}
+		mewni_civwar_chinese_contracts_idea2= {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+				has_country_flag = end_mewni_civwars
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				industry_repair_factor = -0.3
+			}
+			
+		}
+		mewni_civwar_american_contracts_idea1= {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+				has_country_flag = end_mewni_civwars
+			}
+			
+			modifier = {
+				industry_repair_factor = 0.1
+			}
+			
+		}
+		mewni_civwar_american_contracts_idea2= {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+				has_country_flag = end_mewni_civwars
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.08
+				industry_repair_factor = 0.15
+			}
+			
+		}
+	}
+}

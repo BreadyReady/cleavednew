@@ -1,4 +1,6 @@
-﻿capital = 5
+﻿set_research_slots = 1
+
+capital = 5
 
 set_stability = 0.18
 set_war_support = 0.35
@@ -51,7 +53,7 @@ recruit_character = MEW_political_prog_3_char
 #ARMY CHIEFS/HIGH COMMAND
 recruit_character = MEW_army_chief_prog_char
 recruit_character = MEW_army_chief_trad_char
-recruit_character = MEW_higgs
+recruit_character = MEW_army_chief_russian_char
 recruit_character = MEW_army_high_command_trad_char
 recruit_character = MEW_army_high_command_trad_char_2
 recruit_character = MEW_army_high_command_trad_char_3

@@ -1,0 +1,6 @@
+ai_historical_focus_list_MEW = {
+	ai_national_focuses = {
+		MEW_maintain_eclipsa_rule
+		MEW_call_for_realm_unity
+	}
+}

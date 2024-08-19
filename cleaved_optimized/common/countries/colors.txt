@@ -3,6 +3,11 @@ TST = {
 	color_ui = rgb { 74 147 255 }
 }
 
+CHI = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+
 USA = {
 	color = rgb { 67  123  237 }
 	color_ui = rgb { 67  123  237 }

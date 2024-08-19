@@ -79,3 +79,19 @@ cleaving_news.7.desc:0 "With chaos enveloping the cleaved zone, police enforceme
 cleaving_news.7.a:0 "Like noble knights of old!"
 cleaving_news.7.b:0 "I'm proud to be an American..."
 cleaving_news.7.c:0 "Cowboys? How American..."
+
+##############
+
+
+mewni_civwar_news.1.t:0 "Johansen Kingdom Declares Support for Moon!"
+mewni_civwar_news.1.desc:0 "DEVELOPING, TO REWRITE. Johansen Kingdom supports moon. They will join the war in a couple months. Be Vigilant. Flavor text about moon and rivers marriage."
+mewni_civwar_news.1.a:0 "Uh oh, we'll have to be vigilant..."
+mewni_civwar_news.1.b:0 "Family Ties!"
+mewni_civwar_news.1.c:0 "The Major Nobility Trembles at our Might..."
+mewni_civwar_news.1.d:0 "Interestings"
+
+
+mewni_civwar_news.2.t:0 "Johansen Kingdom Declares Support for Eclipsa!"
+mewni_civwar_news.3.t:0 "Johansen Kingdom Declares Support for Marco!"
+mewni_civwar_news.4.t:0 "Johansen Kingdom Declares Neutrality!"
+

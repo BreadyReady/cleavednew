@@ -1,0 +1,155 @@
+shared_focus = {
+    id = MEWNI_VASSAL_CIVWAR_keep_neutral
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 4
+    y = 0
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_marco }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_eclipsa }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_moon }
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+			always = no
+		}
+	}
+	
+	cost = 3
+
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward = {
+        add_political_power = 100
+    }
+}
+
+shared_focus = {
+    id = MEWNI_VASSAL_CIVWAR_support_marco
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = 2
+    y = 0
+	relative_position_id = MEWNI_VASSAL_CIVWAR_keep_neutral
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_keep_neutral }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_eclipsa }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_moon }
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+			always = no
+		}
+	}
+	
+	cost = 3
+	
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	will_lead_to_war_with = MEW
+	will_lead_to_war_with = MON
+	
+    completion_reward = {
+		MAR = {
+			add_to_faction = ROOT
+		}
+		add_to_war = {
+			targeted_alliance = MAR
+			enemy = MEW
+			hostility_reason = asked_to_join
+		}
+		add_to_war = {
+			targeted_alliance = MAR
+			enemy = MON
+			hostility_reason = asked_to_join
+		}
+    }
+}
+
+shared_focus = {
+    id = MEWNI_VASSAL_CIVWAR_support_eclipsa
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -2
+    y = 0
+	relative_position_id = MEWNI_VASSAL_CIVWAR_keep_neutral
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_keep_neutral }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_marco }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_moon }
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+			always = no
+		}
+	}
+	
+	cost = 3
+	
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	will_lead_to_war_with = MAR
+	will_lead_to_war_with = MON
+
+    completion_reward = {
+		MEW = {
+			add_to_faction = ROOT
+		}
+		add_to_war = {
+			targeted_alliance = MEW
+			enemy = MAR
+			hostility_reason = asked_to_join
+		}
+		add_to_war = {
+			targeted_alliance = MEW
+			enemy = MON
+			hostility_reason = asked_to_join
+		}
+    }
+}
+
+shared_focus = {
+    id = MEWNI_VASSAL_CIVWAR_support_moon
+    icon = GFX_goal_focus_mewmans_take_shelter
+    x = -4
+    y = 0
+	relative_position_id = MEWNI_VASSAL_CIVWAR_keep_neutral
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_keep_neutral }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_eclipsa }
+	mutually_exclusive = { focus = MEWNI_VASSAL_CIVWAR_support_marco }
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+			always = no
+		}
+	}
+	
+	cost = 3
+	
+
+    search_filters = { FOCUS_FILTER_POLITICAL }
+	
+	will_lead_to_war_with = MAR
+	will_lead_to_war_with = MEW
+
+    completion_reward = {
+		MON = {
+			add_to_faction = ROOT
+		}
+		add_to_war = {
+			targeted_alliance = MON
+			enemy = MAR
+			hostility_reason = asked_to_join
+		}
+		add_to_war = {
+			targeted_alliance = MON
+			enemy = MEW
+			hostility_reason = asked_to_join
+		}
+    }
+		
+	ai_will_do = {
+		factor = 1
+	}
+}

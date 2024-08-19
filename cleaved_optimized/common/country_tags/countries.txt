@@ -1,5 +1,6 @@
 TST = "countries/Test.txt"
 USA = "countries/United States of America.txt"
+CHI = "countries/China.txt"
 CAL = "countries/California.txt"
 MST = "countries/Mojave Monsters.txt"
 SPT = "countries/Septarsis.txt"

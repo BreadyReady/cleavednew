@@ -1,0 +1,188 @@
+add_namespace = mewni_civwar
+
+country_event = {
+	id = mewni_civwar.0
+	title = mewni_civwar.0.t
+	desc = mewni_civwar.0.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		AND = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+			OR = {
+				has_idea = mewni_civwar_chinese_contracts_idea1
+				has_idea = mewni_civwar_chinese_contracts_idea2
+			}
+			NOT = {
+				has_country_flag = end_mewni_civwars
+			}
+		}
+	}
+	
+	option = {
+		name = mewni_civwar.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		random_controlled_state  = {
+			damage_building = {
+				type = arms_factory
+				damage = 3
+			}
+		}
+	}
+	
+	option = {
+		name = mewni_civwar.0.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		random_controlled_state  = {
+			damage_building = {
+				type = industrial_complex
+				damage = 3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mewni_civwar.1 #End of war
+	title = mewni_civwar.1.t
+	desc = mewni_civwar.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_civwar.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		if = {
+			limit = {
+				has_idea = mewni_civwar_chinese_contracts_idea1
+			}
+			remove_ideas = mewni_civwar_chinese_contracts_idea1
+		}
+		else_if = {
+			limit = {
+				has_idea = mewni_civwar_chinese_contracts_idea2
+			}
+			remove_ideas = mewni_civwar_chinese_contracts_idea2
+		}
+		else_if = {
+			limit = {
+				has_idea = mewni_civwar_american_contracts_idea1
+			}
+			remove_ideas = mewni_civwar_american_contracts_idea1
+		}
+		else_if = {
+			limit = {
+				has_idea = mewni_civwar_american_contracts_idea2
+			}
+			remove_ideas = mewni_civwar_american_contracts_idea2
+		}
+		IF = {
+			limit = {
+				has_idea = mewni_civwar_mass_production_idea
+			}
+			remove_ideas = mewni_civwar_mass_production_idea
+		}
+		##################
+		#OFFMAP FACTORIES#
+		##################
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_chinese_contracts1
+			}		
+			add_offsite_building = { type = industrial_complex level = -2 }
+		}
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_chinese_contracts2
+			}		
+			add_offsite_building = { type = arms_factory level = -2 }
+		}
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_chinese_contracts3
+			}	
+			add_offsite_building = { type = industrial_complex level = -4 }
+			add_offsite_building = { type = arms_factory level = -4 }
+		}
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_american_contracts1
+			}		
+			add_offsite_building = { type = industrial_complex level = -1 }
+		}
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_american_contracts2
+			}		
+			add_offsite_building = { type = arms_factory level = -1 }
+		}
+		IF = {
+			limit = {
+				has_completed_focus = mewni_civwar_american_contracts3
+			}	
+			add_offsite_building = { type = industrial_complex level = -2 }
+			add_offsite_building = { type = arms_factory level = -2 }
+			set_country_flag = end_mewni_civwars
+		}
+	}
+}
+
+#############
+#NEWS EVENTS#
+#############
+add_namespace = mewni_civwar_news
+news_event = {
+    id = mewni_civwar_news.1 #Johansen Announces Support for Moon
+    title = {
+        text = mewni_civwar_news.1.t
+    }
+    desc = {
+        text = mewni_civwar_news.1.desc
+    }
+    
+    picture = GFX_mewni_civwar_news_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.1.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.1.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.1.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.1.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}

@@ -18,7 +18,7 @@ division_template = {
 units = {
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -27,7 +27,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -36,7 +36,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -45,7 +45,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -54,7 +54,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -63,7 +63,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
@@ -72,52 +72,7 @@ units = {
 	
 	division = {
 		name = "Monster Bands"
-		location = 3250
-		division_template = "Monster Bands"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-	
-	division = {
-		name = "Monster Bands"
-		location = 3250
-		division_template = "Monster Bands"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-	
-	division = {
-		name = "Monster Bands"
-		location = 3250
-		division_template = "Monster Bands"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-	
-	division = {
-		name = "Monster Bands"
-		location = 3250
-		division_template = "Monster Bands"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-	
-	division = {
-		name = "Monster Bands"
-		location = 3250
-		division_template = "Monster Bands"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1
-
-	}
-	
-	division = {
-		name = "Monster Bands"
-		location = 3250
+		location = 1385
 		division_template = "Monster Bands"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1

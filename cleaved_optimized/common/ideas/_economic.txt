@@ -571,7 +571,6 @@ ideas = {
 
 			modifier = {
 				min_export = 0.50
-				consumer_goods_factor = 0.15
 				civilian_intel_to_others = 40.0
 				navy_intel_to_others = 40.0
 				agency_upgrade_time = 0.15

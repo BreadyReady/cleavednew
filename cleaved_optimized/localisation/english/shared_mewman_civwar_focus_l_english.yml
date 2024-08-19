@@ -1,0 +1,14 @@
+﻿l_english:
+
+ mewman_civwar_offmap_factory_revoke_tooltip:0 "These effects will be §Rremoved§! upon the end of the Mewman Civil War!"
+ 
+ mewni_civwar_chinese_contracts_tooltip:0 "§RRandom states will start suffering building damage at a regular rate. This will only stop at the end of the Mewman Civil War§!"
+ 
+ make_army_chief_available_tooltip:0 "An Army Chief will be made Available!"
+ 
+ ################
+ #Event#
+ 
+ mewni_civwar.1.t:0 "End of the Mewman Civil War"
+ mewni_civwar.1.desc:0 "DEVELOPMENT, TO REWRITE. you reached the end! :D"
+ mewni_civwar.1.a:0 "yay"
