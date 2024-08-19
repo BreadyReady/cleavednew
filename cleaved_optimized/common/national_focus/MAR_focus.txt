@@ -40,7 +40,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			country_event = mewni_civwar.1
 		}
 
 	shared_focus = mewni_civwar_cards_are_cast
