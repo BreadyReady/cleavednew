@@ -8,9 +8,15 @@ MEW_visnov_flavor.1.t:0 "Flavor event eclipsa stays"
 MEW_visnov_flavor.1.desc:0 "TO WRITE"
 MEW_visnov_flavor.1.a:0 "TO WRITE OPTION"
 
-MEW_purge_or_mercy.1.t:0 "Flavor Event: Decision on Minan collaborators spurs extremism. Should be hidden"
+MEW_purge_or_mercy.1.t:0 "Flavor Event: Decision on Minan collaborators spurs extremism. Should be hidden in focus effect"
 MEW_purge_or_mercy.1.desc:0 "TO WRITE. Description will be applicable if you took the pruge or mercy paths."
 MEW_purge_or_mercy.1.a:0 "To Write option. add isntability to the extremism idea."
+
+MEW_mina.1.t:0 "Bounty Details"
+MEW_mina.1.desc:0 "As part of the efforts to track down Mina Loveberry, it has been deemed fit to put up a bounty for her capture and arrest. Traditionally, the reward is only given if the criminal in question is taken to the government alive. However, Mina is a special case. This has made the option of awarding the death of Mina an alluring possibility\n\nOn one hand, awarding bounty hunters in case of her death would increase the amount of people going after her. It's also possible that she gets taken alive anyway.\n\nOn the other hand, Mina has already been defeated. She's probably homeless on the streets of the cleaved zone, and wont be causing Mewni problems anytime soon. Also, posting a death warrant makes Mina a cornered animal. We can kiss any possibility of her turning herself in goodbye. And on the public side of things, awarding only her live capture lines up with Mewman expectations of "Status Quo," and would be a sing to the people that things are getting back to normal."
+MEW_mina.1.a:0 "She's not THAT much of a threat, we defeated her! Let's try to get her alive."
+MEW_mina.1.b:0 "We cannot risk it. We want her dead or alive!"
+MEW_mina_event_tooltip:0 "§gA lonesome Vegas Drifter spots a bountry poster...§!"
 
 MEW_birthday.1.t:0 "Star's Sweet 16!"
 MEW_birthday.1.desc:0 "TO REWRITE\n\nIn earth time, Princess Star Butterfly was born on December 25th 2001, meaning that Star's Birthday coincides with Stump Day. However, since a very young age she has insisted that her birthday shouldn't be celebrated on such an important day. The Cleaving and the introduction of human Christmas has only invigorated this conviction of hers.\n\nThis doesn't mean that she wont celebrate her birthday at all, though. The celebrations are simply moved a few days forward, (Add details on party preparation)."

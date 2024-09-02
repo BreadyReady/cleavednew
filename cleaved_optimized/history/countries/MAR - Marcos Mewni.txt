@@ -14,4 +14,15 @@ set_popularities = {
 	mewman_monarchy = 20
 }
 
+add_ideas = {
+	MEW_feudalism
+	MEW_mercantalism
+	MEW_feudal_levy
+}
+
 recruit_character = MAR_marco_diaz
+
+recruit_character = MAR_army_chief_chinese_char
+recruit_character = MAR_army_chief_american_char
+recruit_character = MAR_army_chief_russian_char
+

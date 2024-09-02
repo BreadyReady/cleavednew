@@ -4,7 +4,7 @@ state={
 	provinces={
 		1491 1820 2169 2379 3354 3369 3383 
 	}
-	manpower=50000
+	manpower=150000
 	history = {
 		owner = MEW
 		add_core_of = MEW

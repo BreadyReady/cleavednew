@@ -1621,6 +1621,8 @@ dec1_effect = {
 		
 		clr_country_flag = visnov_decs1_button_visible_flag
 		
+		country_event = { id = MIN_event.0 days = 7 }
+		
 	}
 	
 	else_if = {

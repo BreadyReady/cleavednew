@@ -200,3 +200,7 @@
  NEV_chaos:0 "Reno Chaos"
  NEV_chaos_DEF:0 "The Reno Chaos"
  NEV_chaos_ADJ:0 "Reno"
+ 
+ NCL:0 "Jefferson"
+ NCL_DEF:0 "The State of Jefferson"
+ NCL_ADJ:0 "Jeffersonian"

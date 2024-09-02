@@ -31,10 +31,35 @@ on_actions = {
 				country_event = { id = MEW_birthday.2 days = 193 } #Marco's 16th, on Novemeber 28th 2017
 				set_global_flag = mina_free_flag
 			}
+			CHL = {
+				country_event = { id = cleaved_nations.8 days = 7 }
+			}
 			
 		}
 	}
 	on_declare_war = {
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = { # Eclipsa's Mewni Falls
+					ROOT = { original_tag = MEW }
+				}
+				FROM = { news_event = mewni_civwar_news.3 }
+			}
+			if = {
+				limit = { # Moon's Mewni Falls
+					ROOT = { original_tag = MON }
+				}
+				FROM = { news_event = mewni_civwar_news.4 }
+			}
+			if = {
+				limit = { # Marco's Mewni Falls
+					ROOT = { original_tag = MAR }
+				}
+				FROM = { news_event = mewni_civwar_news.5 }
+			}
+		}
 	}
 	
 }

@@ -208,28 +208,77 @@
  ################
  
  MEW_bail_water_tooltip:0 "Gain Decisions to reduce Seawater Flooding!"
+
+ MEW_bail_water:"Bail! Bail! Bail!"
  
+ MEW_a_dry_mewni:0 "A Dry Mewni"
+ 
+ MEW_bucket_chains:0 "Bucket Chains"
+ 
+ MEW_modern_pumping_systems:0 "Pumping Systems"
+ 
+ MEW_purge:0 "Purge Loveberrian Collaborators"
+ 
+ MEW_mercy:0 "Mercy for Mewman Collaborators"
+ 
+ MEW_hunt_mina:0 "Hunting Mina"
+ 
+ MEW_throne_disputes:0 "A Minor Disagreement"
+ MEW_throne_disputes_desc:0 "Moon Butterfly, the previous Queen of Mewni and Star Butterfly's Mother, has sent a message saying that she's visiting Quasar castle! The court is ecstatic, especially Star Butterfly who hasnt seen her since Moon's been helping flood relief operations directly on the ground. Eclipsa is happy too, however she is concerned about the stated purpose of Moon's visit: "To speak about a minor disagreement...""
  MEW_throne_disputes_tooltip:0 "Moon will visit Quasar Castle!"
  visnov_tooltip:0 "§COpens the Visual Novel!§!"
  
+ MEW_moon_butterfly_rightful_throne:0 "Moon Butterfly's Rightful Throne"
+ MEW_moon_butterfly_rightful_throne_desc:0 "The past months have proven that Eclipsa is an ineffective ruler. The people yearn for a time of Mewman conservatism: Of stability, a scandal free throne, and no extreme anti-monsterism! The people yearn for Moon Butterfly to take back the throne!"
+ 
+ MEW_distance_moon_from_mina_idea:0 "Distance Moon from Mina"
  MEW_distance_moon_from_mina_idea_tooltip:0 "§Y@MON[MON.getname]§! will have more Stability!"
- 
+
+ MEW_visit_to_the_monster_temple:0 "Visit to Monster Temple"
  MEW_visit_to_the_monster_temple_tooltip:0 "§Y@MON[MON.getname]§! will gain §Y[244.getname]§! and §Y[237.getname]§! and extra divisions at the time of the revolt!"
- 
+
+ MEW_lessons_from_the_failed_coup:0 "Lessons from Mina's Coup"
  MEW_lessons_from_the_failed_coup_tooltip:0 "§Y@MON[MON.getname]§! will gain extra manpower and equipment at the time of the revolt!"
- 
+
+ MEW_reignite_anti_monster_sentiments:0 "Reignite Anti-Monster Sentiment." 
  MEW_reignite_anti_monster_sentiments_tooltip:0 "§Y@MON[MON.getname]§! will gain extra peasant divisions at the time of the revolt!"
  
  MEW_queen_moon_idea:0 "Ideology"
- MEW_queen_moon_idea_tooltip:0 "Moon Butterfly Adopts Democratic Principles!"
+ MEW_queen_moon_idea_desc:0 "In this new world, Mewni's governance system cannot stay as it is today. Mewni must be a modern united entity, reliant not on the consent of feudal lords, but by the executive will of it's Queen!(TO REWRITE Maybe flavor int he federalist papers?)"
+ MEW_queen_moon_idea_tooltip:0 "Uhh tooltip for now idk. Moon isnt gonna be democratic anymore, that will be marco's path. Moon's path is now refomring into a centralized absolute monarchy"
  
+ MEW_maintain_eclipsa_rule:0 "Maintain Eclipsa's Rule"
+ MEW_maintain_eclipsa_rule_desc:0 "Eclipsa's first months have been turbulent, but the last thing we need now is a change in course! Eclipsa must be an unmoving stone, and guide Mewni through!"
+ 
+ MEW_discredit_the_festivian_line:0 "Discredit the Festivian Line"
  MEW_discredit_the_festivian_line_tooltip:0 "§Y@MON[MON.getname]§! will lose stability at the time of the revolt!"
  
+ MEW_slander_moon:0 "Slander Moon"
  MEW_slander_moon_tooltip:0 "We will gain equipment and manpower from defectors from §Y@MON[MON.getname]§!!"
  
+ MEW_stalling_for_the_status_quo:0 "Stall for the Status Quo"
+ 
+ MEW_call_for_realm_unity:0 "Call for Realm Unity"
+ 
+ MEW_stability:0 "Stability"
+ 
+ MEW_power_to_the_nobles:0 "Power to the Nobles"
+ MEW_power_to_the_nobles_desc:0 "There is a secret cabal of smaller nobility who are unsatisfied with both Moon and Eclipsa. They want more power for themeslves, and are willing to take it by force!"
+ 
+ MEW_appropriate_royal_weapons_reserves:0 "Appropriate Royal Weapons Reserves"
  MEW_appropriate_royal_weapons_reserves_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain equipment at the time of the revolt!"
  
+ MEW_out_of_many_one:0 "Out of Many, One!"
  MEW_out_of_many_one_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra divisions at the time of the revolt!"
  
+ MEW_serfdom_recruitment:0 "Levy Recruitment"
  MEW_serfdom_recruitment_tooltip:0 "§Y@MAR[MAR.getname]§! Will gain extra manpower at the time of the revolt!"
  
+ MEW_discredit_the_office_of_queen:0 "Discredit the Concept of Queen"
+ 
+ MEW_puppetry:0 "Puppetry"
+ MEW_puppetry_desc:0 "While our group operates as a collective, we still need a figurehead since the Mewman people are used to monarchs. Since we have so many competing voices, the only candidate that was agreed upon was Marco Diaz: Someone who is very much detatched from Mewman politics and public life, while still arguably having a legitimate claim to the throne through his relationship with Star Butterfly."
+ 
+ MEW_eclipsa_unity_decree:0 "Eclipsa's Unity Decree"
+ 
+ MEW_eclipsa_unites_mewni:0 "Eclipsa Unites Mewni!"

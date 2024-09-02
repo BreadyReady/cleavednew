@@ -129,6 +129,29 @@ country_event = {
 			add_offsite_building = { type = arms_factory level = -2 }
 			set_country_flag = end_mewni_civwars
 		}
+		add_ideas = MEW_feudal_levy 
+		######
+		#NEWS#
+		######
+		IF = {
+			limit = {
+				tag = MEW
+			}
+			news_event = mewni_civwar_news.9
+		}
+		IF = {
+			limit = {
+				tag = MON
+			}
+			news_event = mewni_civwar_news.10
+		}
+		IF = {
+			limit = {
+				tag = MAR
+			}
+			news_event = mewni_civwar_news.11
+		}
+		
 	}
 }
 
@@ -182,6 +205,420 @@ news_event = {
         trigger = {
             NOT = { tag = MEW }
             NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.2 #Start of Civil War
+    title = {
+        text = mewni_civwar_news.2.t
+    }
+    desc = {
+        text = mewni_civwar_news.2.desc
+    }
+    
+    picture = GFX_news_event_cleaving_destruction
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.2.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.2.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.2.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.2.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.3 #Fall of Eclipsas Mewni
+    title = {
+        text = mewni_civwar_news.3.t
+    }
+    desc = {
+        text = mewni_civwar_news.3.desc
+    }
+    
+    picture = GFX_news_event_eclipsa_civwar_failure
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.3.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.3.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.3.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.3.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.4 #Fall of Moon's Mewni
+    title = {
+        text = mewni_civwar_news.4.t
+    }
+    desc = {
+        text = mewni_civwar_news.4.desc
+    }
+    
+    picture = GFX_news_event_moon_civwar_failure
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.4.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.4.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.4.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.4.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.5 #Fall of Marco's Mewni
+    title = {
+        text = mewni_civwar_news.5.t
+    }
+    desc = {
+        text = mewni_civwar_news.5.desc
+    }
+    
+    picture = GFX_news_event_marco_civwar_failure
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.5.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.5.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.5.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.5.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.6 #Declaration of Mosnters Independence
+    title = {
+        text = mewni_civwar_news.6.t
+    }
+    desc = {
+        text = mewni_civwar_news.6.desc
+    }
+    
+    picture = GFX_news_event_cleaving_destruction
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.6.a
+        trigger = {
+            tag = MST
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.6.b
+        trigger = {
+			NOT = {
+				tag = MST
+			}
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.7 #Monsters zone sides with Moon
+    title = {
+        text = mewni_civwar_news.7.t
+    }
+    desc = {
+        text = mewni_civwar_news.7.desc
+    }
+    
+    picture = GFX_news_event_cleaving_destruction
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.7.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.7.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.7.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.7.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.8 #CLient Kingdoms Stay out of it
+    title = {
+        text = mewni_civwar_news.8.t
+    }
+    desc = {
+        text = mewni_civwar_news.8.desc
+    }
+    
+    picture = GFX_news_event_cleaving_destruction
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.8.a
+        trigger = {
+            tag = MEW
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.8.b
+        trigger = {
+            tag = MON
+            NOT = { tag = MEW }
+            NOT = { tag = MAR }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.8.c
+        trigger = {
+            tag = MAR
+            NOT = { tag = MON }
+            NOT = { tag = MEW }
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.8.d
+        trigger = {
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.9 #Eclipsa wins Mewman Civil War
+    title = {
+        text = mewni_civwar_news.9.t
+    }
+    desc = {
+        text = mewni_civwar_news.9.desc
+    }
+    
+    picture = GFX_news_event_eclipsa_civwar_victory
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.9.a
+        trigger = {
+            tag = MEW
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.9.b
+        trigger = {
+            NOT = { tag = MEW }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.10 #Moon wins Mewman Civil War
+    title = {
+        text = mewni_civwar_news.10.t
+    }
+    desc = {
+        text = mewni_civwar_news.10.desc
+    }
+    
+    picture = GFX_news_event_moon_civwar_victory
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.10.a
+        trigger = {
+            tag = MON
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.10.b
+        trigger = {
+            NOT = { tag = MON }
+        }
+    }
+}
+news_event = {
+    id = mewni_civwar_news.11 #Marco wins Mewman Civil War
+    title = {
+        text = mewni_civwar_news.11.t
+    }
+    desc = {
+        text = mewni_civwar_news.11.desc
+    }
+    
+    picture = GFX_news_event_marco_civwar_victory
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_civwar_news.11.a
+        trigger = {
+            tag = MAR
+        }
+    }
+    
+    option = {
+        name = mewni_civwar_news.11.b
+        trigger = {
             NOT = { tag = MAR }
         }
     }

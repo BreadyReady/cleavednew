@@ -1,15 +1,16 @@
 ﻿set_research_slots = 1
 
-capital = 5
+capital = 113
 
 set_stability = 0.40
-set_war_support = 100
+set_war_support = 50
 
 set_politics = {
 	ruling_party = fascism
 }
 set_popularities = {
-	fascism = 100
+	fascism = 65
+	neutrality = 35
 }
 
 add_ideas = {
@@ -17,3 +18,5 @@ add_ideas = {
 	MEW_mercantalism
 	MEW_feudal_levy
 }
+
+recruit_character = MIN_mina_loveberry

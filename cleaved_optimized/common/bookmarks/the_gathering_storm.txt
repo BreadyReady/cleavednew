@@ -4,15 +4,19 @@ bookmarks = {
 		desc = "CALM_BEFORE_THE_STORM_DESC"
 		date = 2017.5.19.12
 		picture = "GFX_select_date_1936"
-		default_country = "OCE"
+		default_country = "MEW"
 		default = yes
 		
-		"USA"={
+		"MEW"={
 			history = "USA_CALM_BEFORE_THE_STORM_DESC"
 		}
 		
-		"OCE"={
-			history = "OCE_CALM_BEFORE_THE_STORM_DESC"
+		"SPT"={
+			history = "USA_CALM_BEFORE_THE_STORM_DESC"
+		}
+		
+		"NCH"={
+			history = "USA_CALM_BEFORE_THE_STORM_DESC"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

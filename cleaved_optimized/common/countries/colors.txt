@@ -225,3 +225,7 @@ WRA = {
 	color_ui = rgb { 255 46 46 }
 }
 
+NCL = {
+	color = rgb { 30 185 0 }
+	color_ui = rgb { 30 185 0 }
+}

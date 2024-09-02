@@ -15,4 +15,66 @@ characters={
 			id=-1
 		}
 	}
+	
+	MAR_army_chief_chinese_char={
+		name=MAR_army_chief_chinese_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MAR_army_chief_chinese_char
+			available  = {
+				original_tag  = MAR
+				has_completed_focus = mewni_civwar_chinese_advisors
+			}
+			traits  = {
+				army_chief_drill_2
+				#MARman_chineseressive
+			}
+		}
+	}
+	
+	MAR_army_chief_american_char={
+		name=MAR_army_chief_american_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MAR_army_chief_american_char
+			available  = {
+				original_tag  = MAR
+				has_completed_focus = mewni_civwar_american_advisors
+			}
+			traits  = {
+				army_chief_organizational_2
+				#MARman_americanitionalist
+			}
+		}
+	}
+	
+	MAR_army_chief_russian_char={
+		name=MAR_army_chief_russian_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MAR_army_chief_russian_char
+			available  = {
+				original_tag  = MAR
+				has_completed_focus = mewni_civwar_russian_advisors
+			}
+			traits  = {
+				army_infantry_1
+			}
+		}
+	}
 }

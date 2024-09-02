@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+	####
+	# Shared Mewman civwar
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_china_flag"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_china_flag.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_usa_flag"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_usa_flag.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_russia_flag"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_russia_flag.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_cards"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_cards.dds"			
+	}
+
+} ### End Bracket

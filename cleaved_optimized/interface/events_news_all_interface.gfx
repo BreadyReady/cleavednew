@@ -34,5 +34,35 @@ spriteTypes = {
 		name = "GFX_news_event_cleaving_soldiers_outside_capitol"
 		texturefile = "gfx/event_news_pictures/all/news_event_cleaving_soldiers_outside_capitol.dds"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_eclipsa_civwar_victory"
+		texturefile = "gfx/event_news_pictures/all/news_event_eclipsa_civwar_victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_moon_civwar_victory"
+		texturefile = "gfx/event_news_pictures/all/news_event_moon_civwar_victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_marco_civwar_victory"
+		texturefile = "gfx/event_news_pictures/all/news_event_marco_civwar_victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_eclipsa_civwar_failure"
+		texturefile = "gfx/event_news_pictures/all/news_event_eclipsa_civwar_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_moon_civwar_failure"
+		texturefile = "gfx/event_news_pictures/all/news_event_moon_civwar_failure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_marco_civwar_failure"
+		texturefile = "gfx/event_news_pictures/all/news_event_marco_civwar_failure.dds"
+	}
 	
 }

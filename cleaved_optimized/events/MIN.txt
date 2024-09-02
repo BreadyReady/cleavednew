@@ -1,0 +1,91 @@
+add_namespace = MIN_event
+add_namespace = MIN_news_event
+
+country_event = {
+	id = MIN_event.0 #Replace Nevada Chaos With Mina
+	title = MIN_event.0.t
+	desc = MIN_event.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MIN_event.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		MIN = {
+			transfer_state = 113
+			transfer_state = 42
+			transfer_state = 45
+			transfer_state = 111
+			change_tag_from = ROOT
+			
+			add_state_core = 113
+			add_state_core = 42
+			add_state_core = 45
+			add_state_core = 111
+			
+			news_event = MIN_news_event.1
+		}
+	}
+}
+
+news_event = {
+    id = MIN_news_event.1 #Emergence of Mina
+    title = {
+        text = MIN_news_event.1.t
+    }
+    desc = {
+        text = MIN_news_event.1.desc
+    }
+    
+    picture = GFX_MIN_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = MIN_news_event.1.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.1.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.1.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.1.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}

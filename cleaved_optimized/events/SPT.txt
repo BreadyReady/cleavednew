@@ -1,0 +1,138 @@
+add_namespace = SPT_event
+add_namespace = SPT_news_event
+
+country_event = {
+	id = SPT_event.0
+	title = SPT_event.0.t
+	desc = SPT_event.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SPT_event.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+news_event = {
+    id = SPT_news_event.1 #Septarsis Beats the Wardrums
+    title = {
+        text = SPT_news_event.1.t
+    }
+    desc = {
+        text = SPT_news_event.1.desc
+    }
+    
+    picture = GFX_SPT_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = SPT_news_event.1.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.1.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.1.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.1.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}
+
+news_event = {
+    id = SPT_news_event.2 #Septarsis Explosive Growth
+    title = {
+        text = SPT_news_event.2.t
+    }
+    desc = {
+        text = SPT_news_event.2.desc
+    }
+    
+    picture = GFX_SPT_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = SPT_news_event.2.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.2.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.2.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.2.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}

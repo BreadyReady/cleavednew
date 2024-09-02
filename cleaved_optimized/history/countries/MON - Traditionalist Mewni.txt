@@ -6,11 +6,22 @@ set_stability = 0.40
 set_war_support = 0.80
 
 set_politics = {
-	ruling_party = mewman_monarchy
+	ruling_party = fascism
 }
 set_popularities = {
 	mewman_monarchy = 65
-	democratic = 35
+	fascism = 35
+}
+
+add_ideas = {
+	MEW_feudalism
+	MEW_mercantalism
+	MEW_feudal_levy
 }
 
 recruit_character = MON_moon_butterfly
+
+#Advisors
+recruit_character = MON_army_chief_chinese_char
+recruit_character = MON_army_chief_american_char
+recruit_character = MON_army_chief_russian_char

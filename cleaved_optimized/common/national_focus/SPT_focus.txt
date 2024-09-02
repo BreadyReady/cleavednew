@@ -1,0 +1,1204 @@
+focus_tree = {
+
+	id = SPT_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			original_tag = SPT
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 4000	y = 0 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = SPT_unite_septarsis
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 15
+		y = 0
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = SPT_unite_septarsis
+			hidden_effect = {
+				load_oob = "SPT"
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_crushing_competitors
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = SPT_unite_septarsis
+		prerequisite = { focus = SPT_unite_septarsis }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_cult_of_personality
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_crushing_competitors
+		prerequisite = { focus = SPT_crushing_competitors }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_beat_the_wardrums
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 3
+		y = 1
+		relative_position_id = SPT_unite_septarsis
+		prerequisite = { focus = SPT_unite_septarsis }
+		available = {
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			news_event = SPT_news_event.1
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_crush_the_militia
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = SPT_beat_the_wardrums
+		prerequisite = { focus = SPT_beat_the_wardrums }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = STS
+			}
+		}
+		will_lead_to_war_with = STS
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_first_mewman_conquest
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_beat_the_wardrums
+		prerequisite = { focus = SPT_beat_the_wardrums }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = PNY
+			}
+		}
+		will_lead_to_war_with = PNY
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_riding_west
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 2
+		y = 1
+		relative_position_id = SPT_beat_the_wardrums
+		prerequisite = { focus = SPT_beat_the_wardrums }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = CHL
+			}
+		}
+		will_lead_to_war_with = CHL
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_united_behind_leader
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 3
+		y = 2
+		relative_position_id = SPT_cult_of_personality
+		prerequisite = { focus = SPT_cult_of_personality  }
+		prerequisite = { focus = SPT_crush_the_militia }
+		prerequisite = { focus = SPT_first_mewman_conquest }
+		prerequisite = { focus = SPT_riding_west }
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			news_event = SPT_news_event.2
+		}
+
+		ai_will_do = {
+			factor = 200
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_the_horde
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 5
+		y = 0
+		
+		bypass = {} 
+		available = {
+			has_completed_focus = SPT_unite_septarsis
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 50
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_weapons_innovations
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = SPT_the_horde
+		prerequisite = { focus = SPT_the_horde  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_tech
+			}
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_weapons_procurement
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 2
+		y = 1
+		relative_position_id = SPT_weapons_innovations
+		prerequisite = { focus = SPT_weapons_innovations  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 30000
+				producer = SPT
+			}
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_modern_terror_army
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_weapons_innovations
+		prerequisite = { focus = SPT_weapons_innovations  }
+		
+		bypass = {}
+		mutually_exclusive = { focus = SPT_tried_and_true }
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SPT_modern_terror_army_idea
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_modern_supply_systems
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_modern_terror_army
+		prerequisite = { focus = SPT_modern_terror_army  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SPT_modern_supply_systems_idea
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = motorized_equipment
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_tank_strategy
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = SPT_modern_supply_systems
+		prerequisite = { focus = SPT_modern_supply_systems  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_mobile_warfare
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_supremacy_of_speed
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = SPT_modern_supply_systems
+		prerequisite = { focus = SPT_modern_supply_systems  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#add speed advisor
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_air_innovations
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 3
+		y = 2
+		relative_position_id = SPT_modern_terror_army
+		prerequisite = { focus = SPT_modern_terror_army  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = air_equipment
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_air_supremacy
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = SPT_air_innovations
+		prerequisite = { focus = SPT_air_innovations  }
+		
+		bypass = {}
+		mutually_exclusive = { focus = SPT_death_from_above }
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = light_fighter
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_death_from_above
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = SPT_air_innovations
+		prerequisite = { focus = SPT_air_innovations  }
+		
+		bypass = {}
+		mutually_exclusive = { focus = SPT_air_supremacy }
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_armor_innovations
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 5
+		y = 1
+		relative_position_id = SPT_modern_terror_army
+		prerequisite = { focus = SPT_modern_terror_army  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				ahead_reduction = 2
+				uses = 1
+				category = armor
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_armor_innovations_2
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_armor_innovations
+		prerequisite = { focus = SPT_armor_innovations  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = armor
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_army_expansion
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = SPT_the_horde
+		prerequisite = { focus = SPT_the_horde  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 150000
+			#Make available an advisor which gives div training time buff and recruiting bonus
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_recruiting_laws
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = SPT_army_expansion
+		prerequisite = { focus = SPT_army_expansion  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			upgrade_conscription_law = yes
+			custom_effect_tooltip = SPT_recruiting_laws_tooltip
+		}
+
+		ai_will_do = {#
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_tried_and_true
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_army_expansion
+		prerequisite = { focus = SPT_army_expansion  }
+		
+		bypass = {}
+		mutually_exclusive = { focus = SPT_modern_terror_army }
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SPT_raider_army_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_supremacy_of_viciousness
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_tried_and_true
+		prerequisite = { focus = SPT_tried_and_true  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SPT_viciousness_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_live_off_the_land
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = SPT_tried_and_true
+		prerequisite = { focus = SPT_tried_and_true  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SPT_live_off_the_land_idea
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_modern_strategy
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -4
+		y = 1
+		relative_position_id = SPT_tried_and_true
+		prerequisite = { focus = SPT_tried_and_true  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mass_assault
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_cav_bonus_focus
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_modern_strategy
+		prerequisite = { focus = SPT_modern_strategy  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				add_idea = SPT_raider_army_idea2
+				remove_idea = SPT_raider_army_idea
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_blood_money
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 30
+		y = 0
+		
+		bypass = {} 
+		available = {
+			has_completed_focus = SPT_unite_septarsis
+		}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+
+		ai_will_do = {
+			factor = 75
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_plunder
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 3
+		y = 1
+		relative_position_id = SPT_blood_money
+		prerequisite = { focus = SPT_blood_money  }
+		available = {
+			owns_state = 84
+			owns_state = 87
+			owns_state = 108
+			owns_state = 109
+			owns_state = 77
+			owns_state = 78
+			owns_state = 86
+			owns_state = 27
+			owns_state = 26
+		}
+		
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 15 }
+			add_offsite_building = { type = arms_factory level = 15 }
+			84 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			87 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			108 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			109 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			77 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			78 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			86 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			27 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+			26 = {
+				damage_building = {
+					type = infrastructure
+					damage = 10
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_repurpose_existing
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = SPT_blood_money
+		prerequisite = { focus = SPT_blood_money  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_close_borders
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_repurpose_existing
+		prerequisite = { focus = SPT_repurpose_existing  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = closed_economy
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_war_centered_production
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = SPT_repurpose_existing
+		prerequisite = { focus = SPT_repurpose_existing  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			upgrade_economy_law = yes
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_fuel_acquisition
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_war_centered_production
+		prerequisite = { focus = SPT_war_centered_production  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_placate_the_masses
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_blood_money
+		prerequisite = { focus = SPT_blood_money  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_research
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_placate_the_masses
+		prerequisite = { focus = SPT_placate_the_masses  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_work_programs
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 2
+		y = 1
+		relative_position_id = SPT_placate_the_masses
+		prerequisite = { focus = SPT_placate_the_masses  }
+		
+		bypass = {}
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+	}
+}

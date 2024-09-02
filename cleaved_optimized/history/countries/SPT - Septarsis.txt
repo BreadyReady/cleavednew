@@ -1,3 +1,21 @@
-﻿set_research_slots = 1
+﻿capital = 84
+set_research_slots = 1
 
-capital = 84
+set_stability = 0.30
+set_war_support = 0.85
+
+set_politics = {
+	ruling_party = fascism
+}
+set_popularities = {
+	fascism = 80
+	neutrality = 20
+}
+
+set_technology = {
+	infantry_weapons = 1
+	basic_train = 1
+}
+
+recruit_character = SPT_leader_char
+recruit_character = SPT_general_1_char

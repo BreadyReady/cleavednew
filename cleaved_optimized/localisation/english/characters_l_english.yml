@@ -9,8 +9,6 @@
  MON_moon_butterfly:0 "Moon Butterfly"
  MEW_trad_council:0 "Traditionalist Council"
  
- MEW_mina_loveberry:0 "Mina Loveberry"
- 
  MEW_marco_diaz:0 "Marco Diaz"
  MAR_marco_diaz:0 "Marco Diaz"
  MAR_marco_diaz_desc:0 "Marco Diaz Desc"
@@ -32,3 +30,10 @@
  
  #OCE
  OCE_ocean:0 "Ocean Wilds"
+
+ #SPT
+ SPT_leader_char:0 "Warlord Dragonbeard"
+ SPT_general_1_char:0 "Reaver Silvercakes"
+ 
+ #MIN
+ MIN_mina_loveberry:0 "Mina Loveberry"

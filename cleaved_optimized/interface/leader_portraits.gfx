@@ -72,4 +72,21 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MIN/hoi4_portrait_mina.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_mina2"
+		texturefile = "gfx/leaders/MIN/hoi4_portrait_mina2.dds"
+	}
+	
+	#SPT
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_spt_leader"
+		texturefile = "gfx/leaders/SPT/hoi4_portrait_spt_leader.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_spt_leader1_saccarine_rose_artist"
+		texturefile = "gfx/leaders/SPT/hoi4_portrait_spt_leader1_saccarine_rose_artist.dds"
+	}
+	
 }

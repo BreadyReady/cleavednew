@@ -1,6 +1,6 @@
 shared_focus = {
     id = mewni_civwar_cards_are_cast
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_cards
     x = 25
     y = 0
 	
@@ -34,7 +34,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_bring_the_war_profiteers
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_handshake
     x = -6
     y = 1
 	prerequisite = { focus = mewni_civwar_cards_are_cast }
@@ -98,7 +98,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = -2
     y = 1
 	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
@@ -133,7 +133,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts1
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts focus = mewni_civwar_pie_island_middlemen }
@@ -165,7 +165,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts2
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts1 }
@@ -197,7 +197,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts3
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts2 }
@@ -230,7 +230,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts4
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts }
@@ -290,7 +290,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts5
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts4 }
@@ -350,7 +350,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts6
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts5 }
@@ -440,7 +440,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_contracts7
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_contracts3 }
@@ -476,7 +476,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 2
     y = 1
 	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
@@ -509,7 +509,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts1
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts focus = mewni_civwar_pie_island_middlemen }
@@ -541,7 +541,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts2
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts1 }
@@ -573,7 +573,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts3
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts2 }
@@ -606,7 +606,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts4
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts }
@@ -666,7 +666,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts5
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts4 }
@@ -726,7 +726,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts6
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts5 }
@@ -816,7 +816,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_american_contracts7
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_american_contracts3 }
@@ -851,7 +851,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_domestic_mobilization
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_butterfly_castle
     x = -2
     y = 1
 	prerequisite = { focus = mewni_civwar_cards_are_cast }
@@ -973,7 +973,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_military_efforts
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_mewman_knights
     x = 4
     y = 1
 	prerequisite = { focus = mewni_civwar_cards_are_cast }
@@ -1003,8 +1003,82 @@ shared_focus = {
 }
 
 shared_focus = {
+    id = mewni_civwar_manpower_procurement
+    icon = GFX_goal_focus_usa_flag
+    x = 6
+    y = 1
+	prerequisite = { focus = mewni_civwar_military_efforts }
+	relative_position_id = mewni_civwar_military_efforts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_manpower = 250000
+    }
+
+	ai_will_do = {
+		factor = 75
+	}
+}
+
+shared_focus = {
+    id = mewni_civwar_equipment_procurement
+    icon = GFX_goal_focus_usa_flag
+    x = 8
+    y = 1
+	prerequisite = { focus = mewni_civwar_military_efforts }
+	relative_position_id = mewni_civwar_military_efforts
+	
+	available = {
+		MEW = {
+			has_completed_focus = MEW_eclipsa_unity_decree
+		}
+		OR = {
+			has_war_with = MEW
+			has_war_with = MON
+			has_war_with = MAR
+			has_war_with = JOH
+			has_war_with = PIG
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+    completion_reward = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 10000
+			producer = ROOT
+		}
+    }
+
+	ai_will_do = {
+		factor = 75
+	}
+}
+
+shared_focus = {
     id = mewni_civwar_american_advisors
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_usa_flag
     x = -4
     y = 1
 	prerequisite = { focus = mewni_civwar_military_efforts }
@@ -1153,7 +1227,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_chinese_advisors
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_china_flag
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_military_efforts }
@@ -1223,7 +1297,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_rain_hell
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_burning_building
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_advisors }
@@ -1289,7 +1363,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_russian_advisors
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_russia_flag
     x = 4
     y = 1
 	prerequisite = { focus = mewni_civwar_military_efforts }

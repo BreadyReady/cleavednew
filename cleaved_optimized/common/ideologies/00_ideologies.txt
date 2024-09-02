@@ -128,7 +128,10 @@ ideologies = {
 
 		types = {
 
-			loverrianism = {
+			mewman_authoritarianism = {
+			}
+
+			solarianism = {
 			}
 
 			nazism = {

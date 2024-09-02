@@ -147,7 +147,7 @@ country_event = {
 	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
-	hidden = yes
+	#hidden = yes
 	
 	option = { 
 		name = visnov_trigger.6.a

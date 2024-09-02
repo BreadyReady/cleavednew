@@ -1,6 +1,7 @@
 add_namespace = MEW_purge_or_mercy
 add_namespace = MEW_birthday
 add_namespace = MEW_civil_war
+add_namespace = MEW_mina
 
 country_event = {
 	id = MEW_purge_or_mercy.1
@@ -16,6 +17,32 @@ country_event = {
 		swap_ideas = {
 			remove_idea = MEW_political_radicalism
 			add_idea = MEW_political_radicalism_2
+		}
+	}
+}
+
+country_event = {
+	id = MEW_mina.1
+	title = MEW_mina.1.t
+	desc = MEW_mina.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_mina.1.a
+		ai_chance = { factor = 0 }
+		add_stability = 0.05
+	}
+	
+	option = { 
+		name = MEW_mina.1.b
+		ai_chance = { factor = 60 }
+		custom_effect_tooltip = MEW_mina_event_tooltip
+		hidden_effect = {
+			NCH = {
+				country_event = { id = visnov_trigger.6 days = 21 }
+			}
 		}
 	}
 }
@@ -77,6 +104,11 @@ country_event = {
 				add_state_core = 224
 				add_state_core = 225
 				add_state_core = 226
+				add_state_core = 235
+				add_state_core = 230
+				add_state_core = 221
+				add_state_core = 220
+				add_state_core = 219
 				
 				inherit_technology = MEW
 				
@@ -87,9 +119,14 @@ country_event = {
 				transfer_state = 221
 				transfer_state = 220
 				
-				add_state_core = 219
+				add_state_core = 224
+				add_state_core = 225
+				add_state_core = 226
+				add_state_core = 235
+				add_state_core = 230
 				add_state_core = 221
 				add_state_core = 220
+				add_state_core = 219
 				
 				inherit_technology = MEW
 				
@@ -163,6 +200,7 @@ country_event = {
 			add_civil_war_target = MAR
 			load_oob = "MEW_eclipsas_revolt_army"
 			mark_focus_tree_layout_dirty = yes
+			add_ideas = MEW_emergency_recruiting
 			MON = {
 				declare_war_on = {
 					target = MEW
@@ -176,6 +214,7 @@ country_event = {
 				add_civil_war_target = MAR
 				load_oob = "MON_moons_revolt"
 				mark_focus_tree_layout_dirty = yes
+				add_ideas = MEW_emergency_recruiting
 			}
 			
 			MAR = {
@@ -191,6 +230,7 @@ country_event = {
 				add_civil_war_target = MEW
 				load_oob = "MAR_marcos_revolt"
 				mark_focus_tree_layout_dirty = yes
+				add_ideas = MEW_emergency_recruiting
 			}
 			JOH = {
 				load_oob = "JOH_civwar"
@@ -198,6 +238,9 @@ country_event = {
 			PIG = {
 				load_oob = "PIG_civwar"
 			}
+			news_event = mewni_civwar_news.2
+			news_event = mewni_civwar_news.6
+			news_event = { id = mewni_civwar_news.8 days = 5 }
 	}
 }
 
@@ -260,6 +303,7 @@ country_event = {
 				target = MTR
 				transfer_troops = yes
 			}
+			news_event = mewni_civwar_news.7
 		}
 		
 		#########

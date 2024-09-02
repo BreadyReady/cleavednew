@@ -79,6 +79,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = MEW_bail_water
 		prerequisite = { focus = MEW_bail_water }
+		prerequisite = { focus = MEW_hunt_mina }
 
 		available = { has_idea = MEW_sea_water_flooding_10 }
 		bypass = {} 
@@ -183,7 +184,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_mercy
-		icon = GFX_goal_focus_manfred_scream
+		icon = GFX_goal_focus_manfred_smile
 		x = -2
 		y = 1
 				
@@ -246,7 +247,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_throne_disputes
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_moon_eclipsa_table
 		x = 0
 		y = 2
 		prerequisite = { focus = MEW_a_dry_mewni }
@@ -271,7 +272,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_moon_butterfly_rightful_throne
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_moon_superior
 		x = -4
 		y = 1
 		relative_position_id = MEW_throne_disputes
@@ -287,14 +288,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			activate_advisor = MEW_democracy_char
+			#activate_advisor = MEW_democracy_char
 		}
 
 	}
 
 	focus = {
 		id = MEW_distance_moon_from_mina_idea
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_shifty_mina
 		x = -1
 		y = 1
 		relative_position_id = MEW_moon_butterfly_rightful_throne
@@ -321,7 +322,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_visit_to_the_monster_temple
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_monster_temple
 		x = 0
 		y = 1
 		relative_position_id = MEW_distance_moon_from_mina_idea
@@ -348,7 +349,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_lessons_from_the_failed_coup
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_knight_purple
 		x = 1
 		y = 1
 		relative_position_id = MEW_moon_butterfly_rightful_throne
@@ -375,7 +376,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_reignite_anti_monster_sentiments
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_peasants_held_back
 		x = 0
 		y = 1
 		relative_position_id = MEW_lessons_from_the_failed_coup
@@ -401,7 +402,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_queen_moon_idea
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_moon_paperwork
 		x = 1
 		y = 1
 		relative_position_id = MEW_visit_to_the_monster_temple
@@ -426,7 +427,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_maintain_eclipsa_rule
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_eclipsa_superior
 		x = 0
 		y = 1
 		relative_position_id = MEW_throne_disputes
@@ -449,7 +450,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_discredit_the_festivian_line
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_mewman_royals_2
 		x = 1
 		y = 1
 		relative_position_id = MEW_maintain_eclipsa_rule
@@ -476,7 +477,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_slander_moon
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_moon_poster
 		x = 0
 		y = 1
 		relative_position_id = MEW_discredit_the_festivian_line
@@ -501,7 +502,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_stalling_for_the_status_quo
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_candle
 		x = -1
 		y = 1
 		relative_position_id = MEW_maintain_eclipsa_rule
@@ -551,7 +552,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_stability
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_butterfly_castle
 		x = 1
 		y = 1
 		relative_position_id = MEW_call_for_realm_unity
@@ -576,7 +577,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_power_to_the_nobles
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_mewman_royals
 		x = 4
 		y = 1
 		relative_position_id = MEW_throne_disputes
@@ -599,7 +600,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_appropriate_royal_weapons_reserves
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_old_weapons
 		x = -1
 		y = 1
 		relative_position_id = MEW_power_to_the_nobles
@@ -626,7 +627,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_out_of_many_one
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_whosits
 		x = 0
 		y = 1
 		relative_position_id = MEW_appropriate_royal_weapons_reserves
@@ -652,7 +653,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_serfdom_recruitment
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_bunch_of_mewmans
 		x = 1
 		y = 1
 		relative_position_id = MEW_power_to_the_nobles
@@ -679,7 +680,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_discredit_the_office_of_queen
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_serfdom_recruitment
@@ -704,7 +705,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_puppetry
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_marco_shock
 		x = 1
 		y = 1
 		relative_position_id = MEW_out_of_many_one
@@ -730,7 +731,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_eclipsa_unity_decree
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_stability
@@ -753,7 +754,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_eclipsa_unites_mewni
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_goal_focus_eclipsa_superior
 		x = 0
 		y = 1
 		relative_position_id = MEW_eclipsa_unity_decree

@@ -91,7 +91,93 @@ mewni_civwar_news.1.c:0 "The Major Nobility Trembles at our Might..."
 mewni_civwar_news.1.d:0 "Interestings"
 
 
-mewni_civwar_news.2.t:0 "Johansen Kingdom Declares Support for Eclipsa!"
-mewni_civwar_news.3.t:0 "Johansen Kingdom Declares Support for Marco!"
-mewni_civwar_news.4.t:0 "Johansen Kingdom Declares Neutrality!"
+#mewni_civwar_news.2.t:0 "Johansen Kingdom Declares Support for Eclipsa!"
+#mewni_civwar_news.3.t:0 "Johansen Kingdom Declares Support for Marco!"
+#mewni_civwar_news.4.t:0 "Johansen Kingdom Declares Neutrality!"
 
+mewni_civwar_news.2.t:0 "Mewman Civil War!"
+mewni_civwar_news.2.desc:0 "To Write"
+mewni_civwar_news.2.a:0 "Down with the Pretenders! To War!" #MEW
+mewni_civwar_news.2.b:0 "Down with Eclipsa! To War!" #MON
+mewni_civwar_news.2.c:0 "Down with Tyranny! To War!" #MAR
+mewni_civwar_news.2.d:0 "Interesting"
+
+mewni_civwar_news.3.t:0 "Fall of Eclipsa's Mewni!"
+mewni_civwar_news.3.desc:0 "To Write"
+mewni_civwar_news.3.a:0 "All is lost..." #MEW
+mewni_civwar_news.3.b:0 "A Victory We Can Celebrate!" #MON
+mewni_civwar_news.3.c:0 "A Victory We Can Celebrate!" #MAR
+mewni_civwar_news.3.d:0 "Interesting"
+
+mewni_civwar_news.4.t:0 "Fall of Moon's Mewni!"
+mewni_civwar_news.4.desc:0 "To Write"
+mewni_civwar_news.4.a:0 "A Victory We Can Celebrate!" #MEW
+mewni_civwar_news.4.b:0 "All is lost..." #MON
+mewni_civwar_news.4.c:0 "A Victory We Can Celebrate!" #MAR
+mewni_civwar_news.4.d:0 "Interesting"
+
+mewni_civwar_news.5.t:0 "Fall of Marco's Mewni!"
+mewni_civwar_news.5.desc:0 "To Write"
+mewni_civwar_news.5.a:0 "A Victory We Can Celebrate!" #MEW
+mewni_civwar_news.5.b:0 "A Victory We Can Celebrate!" #MON
+mewni_civwar_news.5.c:0 "All is lost..." #MAR
+mewni_civwar_news.5.d:0 "Interesting"
+
+mewni_civwar_news.6.t:0 "Monster's Independence Zone!"
+mewni_civwar_news.6.desc:0 "To Write"
+mewni_civwar_news.6.a:0 "T" #MST
+mewni_civwar_news.6.b:0 "Strange!" #EVERYONE ELSE
+
+mewni_civwar_news.7.t:0 "Monster's Zone Sides with Moon!"
+mewni_civwar_news.7.desc:0 "To Write"
+mewni_civwar_news.7.a:0 "What? Have they been tricked!?" #MEW
+mewni_civwar_news.7.b:0 "Moon is the greatest friend of Monsters!" #MON
+mewni_civwar_news.7.c:0 "What? Have they been tricked!?" #MAR
+mewni_civwar_news.7.d:0 "Interesting"
+
+mewni_civwar_news.8.t:0 "Client Kingdoms Declare Neutrality!"
+mewni_civwar_news.8.desc:0 "To Write"
+mewni_civwar_news.8.a:0 "A Blessing, or a Curse?" #MEW
+mewni_civwar_news.8.b:0 "A Blessing, or a Curse?" #MON
+mewni_civwar_news.8.c:0 "A Blessing, or a Curse?" #MAR
+mewni_civwar_news.8.d:0 "Interesting"
+
+mewni_civwar_news.9.t:0 "Eclipsa Wins Mewman Civil War!"
+mewni_civwar_news.9.desc:0 "To Write"
+mewni_civwar_news.9.a:0 "Victory!" #MEW
+mewni_civwar_news.9.b:0 "Interesting" #EVERYONE ELSE
+
+mewni_civwar_news.10.t:0 "Moon Wins Mewman Civil War!"
+mewni_civwar_news.10.desc:0 "To Write"
+mewni_civwar_news.10.a:0 "Victory!" #MON
+mewni_civwar_news.10.b:0 "Interesting" #EVERYONE ELSE
+
+mewni_civwar_news.11.t:0 "Marco Wins Mewman Civil War!"
+mewni_civwar_news.11.desc:0 "To Write"
+mewni_civwar_news.11.a:0 "Victory!" #MAR
+mewni_civwar_news.11.b:0 "Interesting" #EVERYONE ELSE
+
+#SPT
+
+SPT_news_event.1.t:0 "Septarsis Beats the Wardrums"
+SPT_news_event.1.desc:0 "To Write"
+SPT_news_event.1.a:0 "Septarsis will rise again!" #SPT
+SPT_news_event.1.b:0 "Old Enemies, Old Wounds..." #MEW, MON, MAR
+SPT_news_event.1.c:0 "Disgusting Snakes..." #MIN
+SPT_news_event.1.d:0 "Interesting"
+
+SPT_news_event.2.t:0 "Septarsis' Rapid Conquests"
+SPT_news_event.2.desc:0 "To Write"
+SPT_news_event.2.a:0 "Plunder, Kill, Burn!" #SPT
+SPT_news_event.2.b:0 "Concerning... Surely they won't reach Mewni proper?" #MEW, MON, MAR
+SPT_news_event.2.c:0 "DISGUSTING SNAKES!" #MIN
+SPT_news_event.2.d:0 "Interesting"
+
+#MIN
+
+MIN_news_event.1.t:0 "Mina Loveberry Tames Nevada!"
+MIN_news_event.1.desc:0 "To Write"
+MIN_news_event.1.a:0 "A Worthy Rival?" #SPT
+MIN_news_event.1.b:0 "How could we let her do this!?" #MEW, MON, MAR
+MIN_news_event.1.c:0 "The Solarians Rise Again!" #MIN
+MIN_news_event.1.d:0 "Interesting"

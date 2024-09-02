@@ -1,0 +1,90 @@
+ideas = {
+	country = {
+		SPT_raider_army_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = -0.75
+			}
+		}
+		SPT_raider_army_idea2 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				cavalry_attack_factor = 0.25
+				stability_factor = 0.05
+				research_speed_factor = -0.75
+			}
+		}
+		SPT_viciousness_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				offence = 0.1
+				defence = 0.05
+			}
+		}
+		SPT_live_off_the_land_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				supply_consumption_factor = -0.1
+				out_of_supply_factor = -0.05
+				no_supply_grace = 48
+			}
+		}
+		SPT_modern_terror_army_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = 0.05
+			}
+		}
+		SPT_modern_supply_systems_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = SPT
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_supply_node_factor = 0.15
+				production_speed_rail_way_factor = 0.1
+			}
+		}
+	}
+}

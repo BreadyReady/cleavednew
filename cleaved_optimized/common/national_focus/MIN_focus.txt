@@ -15,6 +15,557 @@ focus_tree = {
 	continuous_focus_position = { x = 4000	y = 0 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 	
+	focus = {
+		id = MIN_rocky_warfare
+		icon = GFX_goal_focus_broken_wand
+		x = 12
+		y = 0
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_eastern_focus
+		icon = GFX_goal_focus_broken_wand
+		x = 1
+		y = 1
+		relative_position_id = MIN_rocky_warfare
+		prerequisite = { focus = MIN_rocky_warfare }
+		mutually_exclusive = { focus = MIN_western_focus }
+		
+		available = {
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_taking_ptk
+		icon = GFX_goal_focus_broken_wand
+		x = 1
+		y = 1
+		relative_position_id = MIN_eastern_focus
+		prerequisite = { focus = MIN_eastern_focus }
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = PTK
+			}
+		}
+		will_lead_to_war_with = PTK
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_pacifying_ptk
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_taking_ptk
+		prerequisite = { focus = MIN_taking_ptk }
+		
+		available = {
+			110 = {
+				compliance > 30
+				resistance < 30
+			}
+			80 = {
+				compliance > 30
+				resistance < 30
+			}
+			115 = {
+				compliance > 30
+				resistance < 30
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 110
+			add_state_core = 80
+			add_state_core = 115
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_taking_frg
+		icon = GFX_goal_focus_broken_wand
+		x = 3
+		y = 1
+		relative_position_id = MIN_eastern_focus
+		prerequisite = { focus = MIN_eastern_focus }
+		
+		available = {
+			any_neighbor_country = {
+				tag = FRG
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = FRG
+			}
+		}
+		will_lead_to_war_with = FRG
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_pacifying_frg
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_taking_frg
+		prerequisite = { focus = MIN_taking_frg }
+		
+		available = {
+			75 = {
+				compliance > 30
+				resistance < 30
+			}
+			117 = {
+				compliance > 30
+				resistance < 30
+			}
+			58 = {
+				compliance > 30
+				resistance < 30
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 75
+			add_state_core = 117
+			add_state_core = 58
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_taking_AVA
+		icon = GFX_goal_focus_broken_wand
+		x = 5
+		y = 1
+		relative_position_id = MIN_eastern_focus
+		prerequisite = { focus = MIN_eastern_focus }
+		
+		available = {
+			any_neighbor_country = {
+				tag = AVA
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AVA
+			}
+		}
+		will_lead_to_war_with = AVA
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_pacifying_AVA
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_taking_AVA
+		prerequisite = { focus = MIN_taking_AVA }
+		
+		available = {
+			71 = {
+				compliance > 30
+				resistance < 30
+			}
+			62 = {
+				compliance > 30
+				resistance < 30
+			}
+			57 = {
+				compliance > 30
+				resistance < 30
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 71
+			add_state_core = 62
+			add_state_core = 57
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_western_focus
+		icon = GFX_goal_focus_broken_wand
+		x = -1
+		y = 1
+		relative_position_id = MIN_rocky_warfare
+		prerequisite = { focus = MIN_rocky_warfare }
+		mutually_exclusive = { focus = MIN_eastern_focus }
+		
+		available = {
+			has_army_manpower = {
+				size > 100000
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_taking_wra
+		icon = GFX_goal_focus_broken_wand
+		x = 1
+		y = 1
+		relative_position_id = MIN_western_focus
+		prerequisite = { focus = MIN_western_focus focus = MIN_eastern_focus}
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = WRA
+			}
+		}
+		will_lead_to_war_with = WRA
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_pacifying_wra
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_taking_wra
+		prerequisite = { focus = MIN_taking_wra }
+		
+		available = {
+			116 = {
+				compliance > 30
+				resistance < 30
+			}
+			44 = {
+				compliance > 30
+				resistance < 30
+			}
+			49 = {
+				compliance > 30
+				resistance < 30
+			}
+			46 = {
+				compliance > 30
+				resistance < 30
+			}
+			106 = {
+				compliance > 30
+				resistance < 30
+			}
+			50 = {
+				compliance > 30
+				resistance < 30
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 116
+			add_state_core = 44
+			add_state_core = 49
+			add_state_core = 46
+			add_state_core = 106
+			add_state_core = 50
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_threaten_las_vegas
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_pacifying_wra
+		prerequisite = { focus = MIN_pacifying_wra }
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			transfer_state = 98
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_taking_reno
+		icon = GFX_goal_focus_broken_wand
+		x = -1
+		y = 1
+		relative_position_id = MIN_western_focus
+		prerequisite = { focus = MIN_western_focus }
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NEV
+			}
+		}
+		will_lead_to_war_with = NEV
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_pacifying_reno
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_taking_reno
+		prerequisite = { focus = MIN_taking_reno }
+		
+		available = {
+			114 = {
+				compliance > 30
+				resistance < 30
+			}
+			112 = {
+				compliance > 30
+				resistance < 30
+			}
+			107 = {
+				compliance > 30
+				resistance < 30
+			}
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_state_core = 114
+			add_state_core = 112
+			add_state_core = 107
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_threaten_the_west
+		icon = GFX_goal_focus_broken_wand
+		x = 0
+		y = 1
+		relative_position_id = MIN_pacifying_reno
+		prerequisite = { focus = MIN_pacifying_reno }
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			transfer_state = 43
+			transfer_state = 29
+			transfer_state = 31
+		}
+		
+		ai_will_do = {
+			factor = 4
+			#modifier = {}
+		}
+		
+	}
+	
 
 	
 	focus = {
@@ -137,8 +688,10 @@ focus_tree = {
 		id = MIN_solarias_first
 		icon = GFX_goal_focus_broken_wand
 		x = 18
-		y = 0
+		y = 6
+		
 		available = {
+			always = no
 		}
 
 		bypass = {} 
@@ -166,9 +719,10 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = MIN_solarias_first }
 		relative_position_id = MIN_solarias_first
-		mutually_exclusive = { focus = MIN_ultramilitarization }
 		available = {
 			has_war = no
+			owns_state = 5
+			owns_state = 235
 		}
 
 		bypass = {} 
@@ -424,7 +978,6 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = MIN_solarias_first }
 		relative_position_id = MIN_solarias_first
-		mutually_exclusive = { focus = MIN_demobilization }
 		available = {
 		}
 
@@ -789,12 +1342,16 @@ focus_tree = {
 		id = MIN_industrial_effort
 		icon = GFX_goal_generic_production
 		x = 10
-		y = 0
+		y = 6
 		cost = 10
+		
+		available = {
+			always = no
+		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
-		available_if_capitulated = yes
+		available_if_capitulated = no
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -1543,7 +2100,7 @@ focus_tree = {
 	focus =  {
 		id = MIN_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 25
+		x = 30
 		y = 0
 		cost = 10
 		search_filters = {  FOCUS_FILTER_RESEARCH }
@@ -1802,7 +2359,7 @@ focus_tree = {
 	focus =  {
 		id = MIN_aviation_effort
 		icon = GFX_goal_generic_build_airforce
-		x = 29
+		x = 34
 		y = 0
 		cost = 10
 		
@@ -2120,7 +2677,7 @@ focus_tree = {
 	focus =  {
 		id = MIN_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 33
+		x = 38
 		y = 0
 		cost = 10
 

@@ -1,0 +1,33 @@
+characters={
+	SPT_leader_char = {
+		name = SPT_leader_char
+		portraits={
+			civilian={
+				large = GFX_portrait_hoi4_portrait_spt_leader 
+			}
+		}
+		country_leader={
+			ideology= fascism_ideology 
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+	SPT_general_1_char = {
+		name = SPT_general_1_char
+		gender = female
+		portraits={
+			army={
+				large = GFX_portrait_hoi4_portrait_spt_leader1_saccarine_rose_artist 
+			}
+		}
+		corps_commander={
+			traits={ media_personality politically_connected trickster cavalry_officer femme_fatale }
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

@@ -843,3 +843,35 @@ country_event = { #I want to ultimatley make this just in the history state file
 	}
 
 }
+
+
+country_event = {
+	id = cleaved_nations.8
+	title = cleaved_nations.8.t
+	desc = cleaved_nations.8.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = cleaved_nations.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		NCL = {
+			transfer_state = 25
+			transfer_state = 85
+			transfer_state = 24
+			transfer_state = 28
+			transfer_state = 31
+			IF = {
+				LIMIT = {
+					23 = {
+						is_owned_by = CHL
+					}
+				}
+				transfer_state = 23
+			}
+			
+		}
+	}
+}

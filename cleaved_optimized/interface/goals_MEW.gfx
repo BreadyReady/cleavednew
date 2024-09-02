@@ -188,4 +188,14 @@ spriteTypes = {
 	name = "GFX_goal_focus_star_and_tom"
 	texturefile = "gfx/interface/goals/MEW/focus_star_and_tom.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_monster_temple"
+	texturefile = "gfx/interface/goals/MEW/focus_monster_temple.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_marco_shock"
+	texturefile = "gfx/interface/goals/MEW/focus_marco_shock.dds"			
+	}
 } ### End Bracket
