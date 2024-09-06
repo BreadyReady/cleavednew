@@ -15,6 +15,86 @@ country_event = {
 	}
 }
 
+country_event = { #Victory Against Mina (Mainly for mop-up and maybe a visnov)
+	id = SPT_event.2
+	title = SPT_event.2.t
+	desc = SPT_event.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SPT_event.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		if = {
+			limit = {
+				NEV = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NEV
+			}
+		}
+		if = {
+			limit = {
+				PTK = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = PTK
+			}
+		}
+		if = {
+			limit = {
+				FRG = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = FRG
+			}
+		}
+		if = {
+			limit = {
+				AVA = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = AVA
+			}
+		}
+		if = {
+			limit = {
+				WRA = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = WRA
+			}
+		}
+		if = {
+			limit = {
+				LAS = {
+					exists = yes
+				}
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = LAS
+			}
+		}
+	}
+}
+
 news_event = {
     id = SPT_news_event.1 #Septarsis Beats the Wardrums
     title = {
@@ -51,6 +131,7 @@ news_event = {
             NOT = { tag = SPT }
             NOT = { tag = MIN }
         }
+		add_stability = -0.05
     }
     
     option = {
@@ -112,6 +193,7 @@ news_event = {
             NOT = { tag = SPT }
             NOT = { tag = MIN }
         }
+		add_stability = -0.05
     }
     
     option = {
@@ -127,6 +209,130 @@ news_event = {
     
     option = {
         name = SPT_news_event.2.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}
+
+news_event = {
+    id = SPT_news_event.3 #Ancient Clash (Mina and septarsis war)
+    title = {
+        text = SPT_news_event.3.t
+    }
+    desc = {
+        text = SPT_news_event.3.desc
+    }
+    
+    picture = GFX_SPT_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = SPT_news_event.3.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.3.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+		add_stability = 0.05
+    }
+    
+    option = {
+        name = SPT_news_event.3.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.3.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}
+
+news_event = {
+    id = SPT_news_event.4 #Septarsis conquers Mina
+    title = {
+        text = SPT_news_event.4.t
+    }
+    desc = {
+        text = SPT_news_event.4.desc
+    }
+    
+    picture = GFX_SPT_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = SPT_news_event.4.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.4.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+		add_stability = -0.05
+    }
+    
+    option = {
+        name = SPT_news_event.4.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = SPT_news_event.4.d
         trigger = {
             NOT = { tag = SPT }
             NOT = { tag = MEW }

@@ -1,3 +1,12 @@
 ﻿set_research_slots = 1
 
+set_politics = {
+	ruling_party = neutrality
+}
+set_popularities = {
+	neutrality = 100
+}
+
 capital = 113
+
+recruit_character = NCH_desert_leader

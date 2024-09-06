@@ -1,4 +1,5 @@
 add_namespace = welcome
+add_namespace = kids_age
 
 country_event = {
 	id = welcome.0
@@ -11,5 +12,30 @@ country_event = {
 	option = { 
 		name = welcome.0.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = kids_age.0
+	title = kids_age.0.t
+	desc = kids_age.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = kids_age.0.a
+		ai_chance = { factor = 0 }
+		MAR = {
+			set_portraits = {
+				character = MAR_marco_diaz
+				civilian = { large ="GFX_portrait_hoi4_portrait_adult_marco" }
+			}
+		}
+	}
+	
+	option = { 
+		name = kids_age.0.b
+		ai_chance = { factor = 1000 }
 	}
 }

@@ -8,3 +8,9 @@ cleaving.4.t:0 "Sacramento Administion switch"
 cleaving.4.desc:0 "Would you like to swap to the Sacramento Administration?"
 cleaving.4.a:0 "No"
 cleaving.4.b:0 "Yes"
+
+kids_age.0.t:0 "Kid's GFX Switch"
+kids_age.0.desc:0 "6 years have passed since the Cleaving. As time passes, people age. While not as noticable in adults, people who were 15 during the cleaving like Star and Marco will definitley stop looking like kids and more like adults.\n\nAfter 6 years, Star, Marco, and others are now in or entering their early 20s. Would you like to change portraits to reflect this change? (ONLY WORKS FOR MARCO DIAZ FOR NOW)"
+kids_age.0.a:0 "Switch Portraits to Grown-Up Verisons"
+kids_age.0.b:0 "Keep Portraits As Canon Designs"
+

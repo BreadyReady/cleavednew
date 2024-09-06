@@ -2,15 +2,15 @@
  USA_donald_trump:0 "Donald Trump"
 
  #MEW
- MEW_eclipsa_butterfly:0 "Queen Eclipsa"
+ MEW_eclipsa_butterfly:0 "Eclipsa "The Queen of Darkness""
  MEW_prog_council:0 "Royal Mewman Council"
  MEW_royal_regent_council:0 "Royal Triumvirate"
  
- MON_moon_butterfly:0 "Moon Butterfly"
+ MON_moon_butterfly:0 "Moon "The Undaunted""
  MEW_trad_council:0 "Traditionalist Council"
  
  MEW_marco_diaz:0 "Marco Diaz"
- MAR_marco_diaz:0 "Marco Diaz"
+ MAR_marco_diaz:0 "Marco "The Unexpected""
  MAR_marco_diaz_desc:0 "Marco Diaz Desc"
  marco_puppet_king:0 "Puppet King"
  marco_puppet_king_desc:0 "Puppet King Description"
@@ -37,3 +37,6 @@
  
  #MIN
  MIN_mina_loveberry:0 "Mina Loveberry"
+ 
+ #NCH
+ NCH_desert_leader:0 "The Harsh Desert"

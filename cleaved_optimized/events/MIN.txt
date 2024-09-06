@@ -13,18 +13,38 @@ country_event = {
 		name = MIN_event.0.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		MIN = {
+			news_event = MIN_news_event.1
 			transfer_state = 113
 			transfer_state = 42
 			transfer_state = 45
 			transfer_state = 111
 			change_tag_from = ROOT
-			
-			add_state_core = 113
-			add_state_core = 42
-			add_state_core = 45
-			add_state_core = 111
-			
-			news_event = MIN_news_event.1
+		}
+	}
+}
+
+country_event = {
+	id = MIN_event.1 #Victory Against Septarsis (Mainly for mop-up and maybe a visnov)
+	title = MIN_event.1.t
+	desc = MIN_event.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MIN_event.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		if = {
+			limit = {
+				has_completed_focus = MIN_eastern_focus
+			}
+			unlock_national_focus = MIN_western_focus
+		}
+		else_if = {
+			limit = {
+				has_completed_focus = MIN_western_focus
+			}
+			unlock_national_focus = MIN_eastern_focus
 		}
 	}
 }
@@ -65,6 +85,7 @@ news_event = {
             NOT = { tag = SPT }
             NOT = { tag = MIN }
         }
+		add_stability = -0.05
     }
     
     option = {
@@ -80,6 +101,130 @@ news_event = {
     
     option = {
         name = MIN_news_event.1.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}
+
+news_event = {
+    id = MIN_news_event.2 #Mina's Clique Makes Moves
+    title = {
+        text = MIN_news_event.2.t
+    }
+    desc = {
+        text = MIN_news_event.2.desc
+    }
+    
+    picture = GFX_MIN_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = MIN_news_event.2.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.2.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+		add_stability = -0.05
+    }
+    
+    option = {
+        name = MIN_news_event.2.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.2.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}
+
+news_event = {
+    id = MIN_news_event.3 #Mina Wins Against Septarsis
+    title = {
+        text = MIN_news_event.3.t
+    }
+    desc = {
+        text = MIN_news_event.3.desc
+    }
+    
+    picture = GFX_MIN_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = MIN_news_event.3.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.3.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+		add_stability = -0.05
+    }
+    
+    option = {
+        name = MIN_news_event.3.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = MIN_news_event.3.d
         trigger = {
             NOT = { tag = SPT }
             NOT = { tag = MEW }

@@ -173,6 +173,20 @@ SPT_news_event.2.b:0 "Concerning... Surely they won't reach Mewni proper?" #MEW,
 SPT_news_event.2.c:0 "DISGUSTING SNAKES!" #MIN
 SPT_news_event.2.d:0 "Interesting"
 
+SPT_news_event.3.t:0 "An Ancient Clash"
+SPT_news_event.3.desc:0 "To Write"
+SPT_news_event.3.a:0 "The Solarians Cannot Stop Us!" #SPT
+SPT_news_event.3.b:0 "Atleast they're trying to kill each other, and not us. For now." #MEW, MON, MAR
+SPT_news_event.3.c:0 "We Must Not Let Them Reach Mewni! To Arms!" #MIN
+SPT_news_event.3.d:0 "Interesting"
+
+SPT_news_event.4.t:0 "Septarsis Takes Mina Down!"
+SPT_news_event.4.desc:0 "To Write"
+SPT_news_event.4.a:0 "A Great Victory!" #SPT
+SPT_news_event.4.b:0 "Very Concerning..." #MEW, MON, MAR
+SPT_news_event.4.c:0 "Solaria, we have failed you!" #MIN
+SPT_news_event.4.d:0 "Interesting"
+
 #MIN
 
 MIN_news_event.1.t:0 "Mina Loveberry Tames Nevada!"
@@ -181,3 +195,17 @@ MIN_news_event.1.a:0 "A Worthy Rival?" #SPT
 MIN_news_event.1.b:0 "How could we let her do this!?" #MEW, MON, MAR
 MIN_news_event.1.c:0 "The Solarians Rise Again!" #MIN
 MIN_news_event.1.d:0 "Interesting"
+
+MIN_news_event.2.t:0 "Mina's Clique Makes Moves"
+MIN_news_event.2.desc:0 "To Write"
+MIN_news_event.2.a:0 "A Worthy Rival?" #SPT
+MIN_news_event.2.b:0 "Hopefully she wont get too far..." #MEW, MON, MAR
+MIN_news_event.2.c:0 "The Next Step..." #MIN
+MIN_news_event.2.d:0 "Interesting"
+
+MIN_news_event.3.t:0 "Mina Conquers Septarsis!"
+MIN_news_event.3.desc:0 "To Write"
+MIN_news_event.3.a:0 "Toffee's Dreams Forever Lost..." #SPT
+MIN_news_event.3.b:0 "Very Concerning" #MEW, MON, MAR
+MIN_news_event.3.c:0 "The Solarians Are Back, Baby!" #MIN
+MIN_news_event.3.d:0 "Interesting"

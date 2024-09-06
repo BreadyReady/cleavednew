@@ -143,10 +143,13 @@ focus_tree = {
 			}
 		}
 		will_lead_to_war_with = STS
-
+		
 		ai_will_do = {
-			factor = 75
-			#modifier = {}
+			base = 0
+			modifier = {
+				add = 50
+				has_war = no
+			}
 		}
 	}
 
@@ -172,10 +175,13 @@ focus_tree = {
 			}
 		}
 		will_lead_to_war_with = PNY
-
+		
 		ai_will_do = {
-			factor = 75
-			#modifier = {}
+			base = 0
+			modifier = {
+				add = 50
+				has_war = no
+			}
 		}
 	}
 
@@ -201,10 +207,13 @@ focus_tree = {
 			}
 		}
 		will_lead_to_war_with = CHL
-
+		
 		ai_will_do = {
-			factor = 75
-			#modifier = {}
+			base = 0
+			modifier = {
+				add = 50
+				has_war = no
+			}
 		}
 	}
 
@@ -233,6 +242,87 @@ focus_tree = {
 		ai_will_do = {
 			factor = 200
 			#modifier = {}
+		}
+	}
+
+	focus = {
+		id = SPT_ancient_clash
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = SPT_united_behind_leader
+		prerequisite = { focus = SPT_united_behind_leader  }		
+		bypass = {} 
+		cost = 10
+		available = {
+			MIN = {
+				has_war = no
+				owns_state = 116
+				owns_state = 44
+				owns_state = 49
+				owns_state = 46
+				owns_state = 106
+				owns_state = 50
+				NOT = {
+					has_completed_focus = MIN_ancient_clash
+				}
+			}
+			OR = {
+				AND = {
+					MIN = {
+						owns_state = 110
+						owns_state = 80
+						owns_state = 115
+						owns_state = 75
+						owns_state = 117
+						owns_state = 58
+						owns_state = 71
+						owns_state = 62
+						owns_state = 57
+					}
+				}
+				AND = {
+					MIN = {
+						owns_state = 112
+						owns_state = 107
+						owns_state = 114
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = MIN
+				}
+			}
+			else_if = {
+				limit = {
+					is_ai = yes
+				}
+				declare_war_on = {
+					target = MIN
+					type = annex_everything
+				}
+			}
+		}
+		will_lead_to_war_with = MIN
+		
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 50
+				has_war = no
+			}
 		}
 	}
 
@@ -872,6 +962,15 @@ focus_tree = {
 					damage = 10
 				}
 			}
+			add_state_core = 84
+			add_state_core = 87
+			add_state_core = 108
+			add_state_core = 109
+			add_state_core = 77
+			add_state_core = 78
+			add_state_core = 86
+			add_state_core = 27
+			add_state_core = 26
 		}
 
 		ai_will_do = {

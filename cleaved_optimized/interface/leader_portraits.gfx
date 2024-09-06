@@ -89,4 +89,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SPT/hoi4_portrait_spt_leader1_saccarine_rose_artist.dds"
 	}
 	
+	#MAR
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_adult_marco"
+		texturefile = "gfx/leaders/MAR/hoi4_portrait_adult_marco.dds"
+	}
+	
+	#NCH
+	
+	spriteType = {
+		name = "GFX_portrait_hoi4_portrait_desert"
+		texturefile = "gfx/leaders/NCH/hoi4_portrait_desert.dds"
+	}
+	
 }

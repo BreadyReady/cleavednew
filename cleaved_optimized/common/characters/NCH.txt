@@ -1,0 +1,16 @@
+characters={
+	NCH_desert_leader = {
+		name = NCH_desert_leader
+		portraits={
+			civilian={
+				large = GFX_portrait_hoi4_portrait_desert 
+			}
+		}
+		country_leader={
+			ideology= anarchism
+			traits= { }
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}
