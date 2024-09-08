@@ -1,3 +1,5 @@
 ﻿set_research_slots = 1
 
 capital = 71
+
+load_oob = "AVA"

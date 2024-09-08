@@ -6,7 +6,11 @@ state={
 	history={
 		owner = NCH
 		add_core_of = NCH
-
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+            arms_factory = 1
+        }
 	}
 
 	provinces={

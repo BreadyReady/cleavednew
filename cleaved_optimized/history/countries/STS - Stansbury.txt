@@ -1,3 +1,5 @@
 ﻿set_research_slots = 1
 
 capital = 78
+
+load_oob = "STS"

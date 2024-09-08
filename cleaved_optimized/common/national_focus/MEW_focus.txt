@@ -409,9 +409,6 @@ focus_tree = {
 		prerequisite = { focus = MEW_reignite_anti_monster_sentiments focus = MEW_visit_to_the_monster_temple }
 
 		available = {
-			MEW_democracy_char = {
-				is_hired_as_advisor = yes
-			}
 		}
 		bypass = {} 
 		cost = 5

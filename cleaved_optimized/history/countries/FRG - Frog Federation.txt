@@ -1,3 +1,5 @@
 ﻿set_research_slots = 1
 
 capital = 117
+
+load_oob = "FRG"

@@ -807,8 +807,8 @@ focus_tree = {
 	focus = {
 		id = MIN_total_mobilization
 		icon = GFX_goal_focus_broken_wand
-		x = 6
-		y = 0
+		x = 2
+		y = 6
 				
 		bypass = {} 
 		cost = 1
@@ -893,24 +893,56 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MIN_solarias_first
+		id = MIN_settling_down
 		icon = GFX_goal_focus_broken_wand
-		x = 18
-		y = 6
-		
+		x = 14
+		y = 5
 		available = {
-			always = no
+			SPT = {
+				exists = no
+			}
 		}
-
+				
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 150
+			add_stability = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 1
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = MIN_solarias_first
+		icon = GFX_goal_focus_broken_wand
+		x = 4
+		y = 1
+		prerequisite = { focus = MIN_settling_down }
+		relative_position_id = MIN_settling_down
+		
+		available = {
+		}
+
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+			army_experience = 20
+			add_research_slot = 1
 		}
 		
 		ai_will_do = {
@@ -929,19 +961,17 @@ focus_tree = {
 		relative_position_id = MIN_solarias_first
 		available = {
 			has_war = no
-			owns_state = 5
-			owns_state = 235
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = MIN_demobilization_idea
+			downgrade_economy_law = yes
 		}
 		
 		ai_will_do = {
@@ -966,7 +996,7 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -996,7 +1026,7 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1028,7 +1058,7 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1058,14 +1088,14 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = MEW_pacific_trade
+			add_offsite_building = { type = industrial_complex level = 3 }
 		}
 		
 		ai_will_do = {
@@ -1091,7 +1121,7 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1154,7 +1184,7 @@ focus_tree = {
 		}
 
 		bypass = {} 
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1222,7 +1252,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = MIN_ultramilitarization }
 		relative_position_id = MIN_ultramilitarization
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -1254,7 +1284,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = MIN_reigniting_solarian_zeal
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_MANPOWER}
@@ -1322,7 +1352,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_expand_the_warriorhood
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_MANPOWER}
@@ -1390,7 +1420,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = MIN_reigniting_solarian_zeal
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_POLITICAL}
@@ -1459,7 +1489,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_the_new_oath
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -1549,12 +1579,13 @@ focus_tree = {
 	focus = {
 		id = MIN_industrial_effort
 		icon = GFX_goal_generic_production
-		x = 10
-		y = 6
-		cost = 10
+		x = -4
+		y = 1
+		prerequisite = { focus = MIN_settling_down }
+		relative_position_id = MIN_settling_down
+		cost = 5
 		
 		available = {
-			always = no
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -1568,6 +1599,7 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
+			add_research_slot = 1
 		}
 
 		ai_will_do = {
@@ -1599,7 +1631,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = MIN_industrial_effort
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1674,7 +1706,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = MIN_industrial_effort
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1748,7 +1780,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_construction_effort
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -1822,7 +1854,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_production_effort
-		cost = 10
+		cost = 5
 		
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 
@@ -1896,7 +1928,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_construction_effort_2
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
@@ -1992,7 +2024,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_infrastructure_effort
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
@@ -2089,7 +2121,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = MIN_infrastructure_effort
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -2165,7 +2197,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = MIN_infrastructure_effort_2
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -2190,7 +2222,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_revive_pacific_trade
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -2216,7 +2248,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_electronics_sector
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -2238,7 +2270,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = MIN_production_effort_2
-		cost = 10
+		cost = 5
 
 		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		
@@ -3261,7 +3293,7 @@ focus_tree = {
 		id = MIN_victory_in_the_civil_war
 		icon = GFX_goal_focus_broken_wand
 		x = 6
-		y = 2
+		y = 6
 		available = {
 			always = no #set up an autocomplete
 		}
