@@ -3,3 +3,5 @@ CoA thumbnail: tacosandtomcos
 Taskbar Icon: AuroraHaziri
 
 People who helped me out in hoi4 modding: BiometricNuke, ITguy042 (mostly just because i learned along side him on Countdown to Weirdmaggedon)
+
+github discord test
