@@ -12,8 +12,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -48,8 +46,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -79,8 +75,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_american_contracts }
@@ -112,8 +106,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_american_contracts }
@@ -147,8 +139,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -179,8 +169,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -211,8 +199,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -244,8 +230,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -304,8 +288,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -364,8 +346,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -455,8 +435,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -490,8 +468,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_chinese_contracts }
@@ -523,8 +499,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -555,8 +529,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -587,8 +559,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -620,8 +590,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -680,8 +648,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -740,8 +706,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -831,8 +795,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -865,8 +827,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -987,8 +947,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1018,8 +976,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1053,8 +1009,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1092,8 +1046,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_chinese_advisors }
@@ -1111,7 +1063,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_war_in_the_skies
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_plane
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_american_advisors }
@@ -1125,8 +1077,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1151,7 +1101,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_contest_the_waves
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_ship
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_american_advisors }
@@ -1165,8 +1115,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1200,8 +1148,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 		capital_scope = { is_controlled_by = ROOT } 
 	}
@@ -1241,8 +1187,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_american_advisors }
@@ -1274,8 +1218,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1311,8 +1253,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1346,8 +1286,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1377,8 +1315,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	mutually_exclusive = { focus = mewni_civwar_american_advisors }
@@ -1410,8 +1346,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1441,8 +1375,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	
@@ -1472,8 +1404,6 @@ shared_focus = {
 			has_war_with = MEW
 			has_war_with = MON
 			has_war_with = MAR
-			has_war_with = JOH
-			has_war_with = PIG
 		}
 	}
 	

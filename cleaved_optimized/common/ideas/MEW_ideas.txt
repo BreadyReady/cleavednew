@@ -193,7 +193,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 				
 			}
 			available = {}
@@ -215,7 +214,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 				
 			}
 			available = {}
@@ -232,7 +230,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 				
 			}
 			available = {}
@@ -252,7 +249,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 				
 			}
 			available = {}
@@ -268,6 +264,22 @@ ideas = {
 			}
 		}
 		
+		MEW_rebuilding_castle = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				
+			}
+			available = {}
+			cancel = {
+				has_civil_war = no
+			}
+			
+			modifier = {
+				civilian_factory_use = 3
+			}
+		}
+		
 		########
 		#NEW####
 		#########
@@ -277,7 +289,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -291,7 +302,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -308,7 +318,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -325,7 +334,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -342,7 +350,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -359,7 +366,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -376,7 +382,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -393,7 +398,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -410,7 +414,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -427,7 +430,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -444,7 +446,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -461,7 +462,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -476,7 +476,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -491,7 +490,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -506,7 +504,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -521,7 +518,6 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = MEW
 			}
 			available = {}
 			cancel = {
@@ -529,6 +525,242 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.1
+			}
+		}
+		
+		MEW_solarian_law = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+		
+		MEW_disastrous_reparations = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				global_building_slots = -1
+			}
+		}
+		
+		MEW_disastrous_reparations2 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				global_building_slots = -1
+			}
+		}
+		
+		MEW_equal_education = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = 0.1
+			}
+		}
+		
+		MEW_burdened_education_system = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				research_speed_factor = -0.15
+			}
+		}
+		
+		MEW_limited_monster_freedoms = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		MEW_monster_economic = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		MEW_eclipsan_rights = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.1
+				research_speed_factor = 0.1
+				political_power_factor = 0.15
+			}
+		}
+		
+		MEW_johansen_political_powers = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+		
+		MEW_johansen_political_powers_to_johansen = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		
+		MEW_johansen_military_assistance = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				experience_gain_army = -0.5
+				experience_gain_army_factor = -0.25
+			}
+		}
+		
+		MEW_johansen_military_assistance_to_johansen = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				experience_gain_army = 0.5
+				experience_gain_army_factor = -0.25
+			}
+		}
+		
+		MEW_pigeon_golden_contracts = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		MEW_pigeon_golden_contracts_to_pigeons = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				cic_construction_boost_factor = 0.1
+			}
+		}
+		
+		MEW_pigeon_political_powers = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+		
+		MEW_pigeon_political_powers_to_pigeon = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				political_power_factor = 0.15
 			}
 		}
 
@@ -541,7 +773,6 @@ ideas = {
 		MEW_industrial_concern_trad = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			#research_bonus = {
@@ -558,7 +789,6 @@ ideas = {
 		MEW_industrial_concern_prog = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			#research_bonus = {
@@ -576,7 +806,6 @@ ideas = {
 		MEW_industrial_concern_neut = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			research_bonus = {
@@ -603,7 +832,6 @@ ideas = {
 		MEW_materiel_manufacturer_trad = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -620,7 +848,6 @@ ideas = {
 		MEW_materiel_manufacturer_prog = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -638,7 +865,6 @@ ideas = {
 		MEW_materiel_manufacturer_neut = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -661,7 +887,6 @@ ideas = {
 		MEW_aircraft_manufacturer_prog = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -679,7 +904,6 @@ ideas = {
 		MEW_aircraft_manufacturer_neut = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -702,7 +926,6 @@ ideas = {
 		MEW_naval_manufacturer_prog = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -720,7 +943,6 @@ ideas = {
 		MEW_naval_manufacturer_neut = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -743,7 +965,6 @@ ideas = {
 		MEW_tank_manufacturer_prog = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {
@@ -761,7 +982,6 @@ ideas = {
 		MEW_tank_manufacturer_neut = {
 			
 			allowed = {
-				original_tag = MEW
 			}
 			
 			available = {

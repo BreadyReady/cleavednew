@@ -57,6 +57,7 @@ country_event = {
 	option = {
 		name = mewni_civwar.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_to_variable = { global.california_dreamin_var = 1 }
 		if = {
 			limit = {
 				has_idea = mewni_civwar_chinese_contracts_idea1

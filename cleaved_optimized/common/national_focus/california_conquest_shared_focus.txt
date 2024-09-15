@@ -1,0 +1,168 @@
+shared_focus = {
+    id = california_conquest_dreamin
+    icon = GFX_goal_focus_cards
+    x = 25
+    y = 14
+	
+	available = {
+		always = no #this is bypassed via the event california_dreamin_trigger.1 which is inturn triggered by the hidden event california_dreamin_trigger.0, which is inturn triggered by either MEW, MON, MAR, MIN, or SPT when they each get a certain event marking a stage in their progress, which adds to the variable global.california_dreamin_var. (MEW MON MAR get it with the end of the civil war event. MIN and SPT get it with thier news events whent hey conquer each other)
+	}
+	
+	#allow_branch = {
+	#	MEW = {
+	#		has_completed_focus = MEW_eclipsa_unity_decree
+	#	}
+	#}
+	
+	cost = 1
+
+
+    search_filters = {  }
+
+    completion_reward = {
+    }
+}
+
+shared_focus = {
+    id = california_conquest_socal
+    icon = GFX_goal_focus_cards
+    x = 0
+    y = 1
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		any_neighbor_country = { tag = SOC } 
+		SOC = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		SOC = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = SOC
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = SOC
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_valley
+    icon = GFX_goal_focus_cards
+    x = 2
+    y = 1
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		any_neighbor_country = { tag = VAL } 
+		VAL = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		VAL = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = VAL
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = VAL
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_bay_area
+    icon = GFX_goal_focus_cards
+    x = -2
+    y = 1
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		any_neighbor_country = { tag = BAY } 
+		BAY = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		BAY = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = BAY
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = BAY
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_sacramento
+    icon = GFX_goal_focus_cards
+    x = 4
+    y = 1
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		any_neighbor_country = { tag = CAL } 
+		CAL = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		CAL = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = CAL
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = CAL
+		}
+    }
+}

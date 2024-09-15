@@ -304,6 +304,7 @@ news_event = {
             NOT = { tag = MAR }
             NOT = { tag = MIN }
         }
+		add_to_variable = { global.california_dreamin_var = 1 }
     }
     
     option = {

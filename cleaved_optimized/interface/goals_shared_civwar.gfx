@@ -23,5 +23,20 @@ spriteTypes = {
 	name = "GFX_goal_focus_cards"
 	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_cards.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_plane"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_plane.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ship"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_ship.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ship2"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_ship2.dds"			
+	}
 
 } ### End Bracket

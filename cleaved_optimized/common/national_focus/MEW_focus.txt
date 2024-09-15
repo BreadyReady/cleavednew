@@ -747,17 +747,15 @@ focus_tree = {
 		}
 	}
 
-	shared_focus = mewni_civwar_cards_are_cast
-
 	focus = {
 		id = MEW_eclipsa_unites_mewni
 		icon = GFX_goal_focus_eclipsa_superior
 		x = 0
 		y = 1
 		relative_position_id = MEW_eclipsa_unity_decree
-		prerequisite = { focus = MEW_eclipsa_unity_decree }
 
 		available = {
+			has_completed_focus = MEW_eclipsa_unity_decree
 			MON = {
 				exists = no
 			}
@@ -777,5 +775,811 @@ focus_tree = {
 			country_event = mewni_civwar.1
 		}
 	}
+
+	focus = {
+		id = MEW_prepare_next_generation
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 6
+		y = 1
+		relative_position_id = MEW_eclipsa_unites_mewni
+		prerequisite = { focus = MEW_eclipsa_unites_mewni }
+
+		available = {
+			date < 2031.01.01
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = MEW_continue_monster_rights_campaign
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 2
+		y = 1
+		relative_position_id = MEW_eclipsa_unites_mewni
+		prerequisite = { focus = MEW_eclipsa_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = MEW_equality_of_employment
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -3
+		y = 3
+		relative_position_id = MEW_continue_monster_rights_campaign
+		prerequisite = { focus = MEW_continue_monster_rights_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_monster_economic
+		}
+	}
+
+	focus = {
+		id = MEW_equality_of_education
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 3
+		y = 3
+		relative_position_id = MEW_continue_monster_rights_campaign
+		prerequisite = { focus = MEW_continue_monster_rights_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = MEW_equal_education
+			add_timed_idea = {
+				idea = MEW_burdened_education_system
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_reverse_reparations
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -2
+		y = 2
+		relative_position_id = MEW_continue_monster_rights_campaign
+		prerequisite = { focus = MEW_continue_monster_rights_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_disastrous_reparations
+			add_timed_idea = {
+				idea = MEW_disastrous_reparations2
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_sit_down_with_monster_leaders
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 2
+		y = 2
+		relative_position_id = MEW_continue_monster_rights_campaign
+		prerequisite = { focus = MEW_continue_monster_rights_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_state_core = 237
+			add_state_core = 244
+		}
+	}
+
+	focus = {
+		id = MEW_support_campaign
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_continue_monster_rights_campaign
+		prerequisite = { focus = MEW_continue_monster_rights_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = MEW_limited_freedoms
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_support_campaign
+		prerequisite = { focus = MEW_support_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = MEW_limited_monster_freedoms
+		}
+	}
+
+	focus = {
+		id = MEW_repeal_solarian_laws
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_limited_freedoms
+		prerequisite = { focus = MEW_limited_freedoms }
+		prerequisite = { focus = MEW_reverse_reparations }
+		prerequisite = { focus = MEW_sit_down_with_monster_leaders }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_solarian_law
+		}
+	}
+
+	focus = {
+		id = MEW_monster_rights_act
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_repeal_solarian_laws
+		prerequisite = { focus = MEW_repeal_solarian_laws }
+		prerequisite = { focus = MEW_equality_of_employment }
+		prerequisite = { focus = MEW_equality_of_education }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_equal_education
+			swap_ideas = {
+				add_idea = MEW_eclipsan_rights
+				remove_idea = MEW_limited_monster_freedoms
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_reforging_mewni
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -8
+		y = 1
+		relative_position_id = MEW_eclipsa_unites_mewni
+		prerequisite = { focus = MEW_eclipsa_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 300
+		}
+	}
+
+	focus = {
+		id = MEW_pigeon_parties
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_reforging_mewni
+		prerequisite = { focus = MEW_reforging_mewni }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = MEW_golden_contracts
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_pigeon_parties
+		prerequisite = { focus = MEW_pigeon_parties }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_timed_idea = {
+				idea = MEW_pigeon_golden_contracts
+				days = 365
+			}
+			JOH = {
+				add_timed_idea = {
+					idea = MEW_pigeon_golden_contracts_to_pigeons
+					days = 365
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_pigeon_political_powers
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -1
+		y = 2
+		relative_position_id = MEW_pigeon_parties
+		prerequisite = { focus = MEW_pigeon_parties }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_timed_idea = {
+				idea = MEW_pigeon_political_powers
+				days = 365
+			}
+			JOH = {
+				add_timed_idea = {
+					idea = MEW_pigeon_political_powers_to_pigeon
+					days = 365
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_rich_pigeon_and_monster_rights
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 1
+		y = 2
+		relative_position_id = MEW_pigeon_parties
+		prerequisite = { focus = MEW_pigeon_parties }
+
+		available = {
+			has_completed_focus = MEW_support_campaign
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = MEW_take_pigeons
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 2
+		relative_position_id = MEW_golden_contracts
+		prerequisite = { focus = MEW_golden_contracts }
+		prerequisite = { focus = MEW_pigeon_political_powers }
+		prerequisite = { focus = MEW_rich_pigeon_and_monster_rights }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			puppet = PIG
+		}
+	}
+
+	focus = {
+		id = MEW_take_pigeons_ports
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_take_pigeons
+		prerequisite = { focus = MEW_take_pigeons }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			transfer_state = 250
+		}
+	}
+
+	focus = {
+		id = MEW_revive_pacific_trade
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -2
+		y = 1
+		relative_position_id = MEW_take_pigeons_ports
+		prerequisite = { focus = MEW_take_pigeons_ports }
+		prerequisite = { focus = MEW_johansen_fjords }
+
+		available = {
+			owns_state = 234
+			owns_state = 240
+			owns_state = 250
+			234 = {
+				compliance > 25
+			}
+			240 = {
+				compliance > 25
+			}
+			250 = {
+				compliance > 25
+			}	
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = MEW_pacific_trade
+			add_state_core = 234
+			add_state_core = 240
+			add_state_core = 250
+		}
+	}
+
+	focus = {
+		id = MEW_dance_with_the_spiderbites
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 4
+		y = 1
+		relative_position_id = MEW_reforging_mewni
+		prerequisite = { focus = MEW_reforging_mewni }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = MEW_trap_the_spiderbites
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_dance_with_the_spiderbites
+		prerequisite = { focus = MEW_dance_with_the_spiderbites }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = MEW_reconcile_with_festivian_line
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -4
+		y = 1
+		relative_position_id = MEW_reforging_mewni
+		prerequisite = { focus = MEW_reforging_mewni }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = MEW_forgiving_moon
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -1
+		y = 2
+		relative_position_id = MEW_reconcile_with_festivian_line
+		prerequisite = { focus = MEW_reconcile_with_festivian_line }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			#Add moon as an advisor, who gives pp but removes some stability
+		}
+	}
+
+	focus = {
+		id = MEW_political_powers
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_reconcile_with_festivian_line
+		prerequisite = { focus = MEW_reconcile_with_festivian_line }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_timed_idea = {
+				idea = MEW_johansen_political_powers
+				days = 365
+			}
+			JOH = {
+				add_timed_idea = {
+					idea = MEW_johansen_political_powers_to_johansen
+					days = 365
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_military_assistance
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 1
+		y = 2
+		relative_position_id = MEW_reconcile_with_festivian_line
+		prerequisite = { focus = MEW_reconcile_with_festivian_line }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_timed_idea = {
+				idea = MEW_johansen_military_assistance
+				days = 365
+			}
+			JOH = {
+				add_timed_idea = {
+					idea = MEW_johansen_military_assistance_to_johansen
+					days = 365
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_take_johansen
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 2
+		relative_position_id = MEW_political_powers
+		prerequisite = { focus = MEW_political_powers }
+		prerequisite = { focus = MEW_military_assistance }
+		prerequisite = { focus = MEW_forgiving_moon }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			puppet = JOH
+		}
+	}
+
+	focus = {
+		id = MEW_johansen_fjords
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_take_johansen
+		prerequisite = { focus = MEW_take_johansen }
+		available = {
+			has_political_power > 100
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -100
+			transfer_state = 234
+			transfer_state = 240
+		}
+	}
+
+	focus = {
+		id = MEW_return_to_butterfly_castle
+		icon = GFX_goal_focus_eclipsa_superior
+		x = -14
+		y = 6
+		relative_position_id = MEW_eclipsa_unites_mewni
+		prerequisite = { focus = MEW_eclipsa_unites_mewni }
+
+		available = {
+			owns_state = 5
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_capital = {
+			  state = 5
+			  remember_old_capital = no
+			}
+		}
+	}
+
+	focus = {
+		id = MEW_rebuild_butterfly_castle
+		icon = GFX_goal_focus_eclipsa_superior
+		x = 0
+		y = 1
+		relative_position_id = MEW_return_to_butterfly_castle
+		prerequisite = { focus = MEW_return_to_butterfly_castle }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		select_effect = {
+			add_ideas = MEW_rebuilding_castle
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = MEW_rebuild_butterfly_castle_tooltip
+			remove_ideas = MEW_rebuilding_castle
+			add_victory_points = {
+				province = 3434
+				value = 10
+			}
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = MEW_endgame_eclipsa
+		icon = GFX_goal_focus_big_eclipsa2
+		x = -4
+		y = 8
+		relative_position_id = MEW_eclipsa_unites_mewni
+		prerequisite = { focus = MEW_monster_rights_act }
+		prerequisite = { focus = MEW_trap_the_spiderbites }
+		prerequisite = { focus = MEW_revive_pacific_trade }
+		prerequisite = { focus = MEW_rebuild_butterfly_castle }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = MEW_endgame_eclipsa_tooltip
+			set_character_name = {
+				character = MEW_eclipsa_butterfly
+				name = "Eclipsa 'The Queen of Hope'"
+			}
+		}
+	}
+
+	shared_focus = mewni_civwar_cards_are_cast
+	shared_focus = mewni_post_civwar_recovery
+	shared_focus = mewni_post_civwar_stamping_out_resistance
+	shared_focus = california_conquest_dreamin
 
 }

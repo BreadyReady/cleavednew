@@ -36,8 +36,6 @@ focus_tree = {
 			#modifier = {}
 		}
 	}
-
-	shared_focus = mewni_civwar_cards_are_cast
 	
 	focus = {
 		id = MON_moon_unites_mewni
@@ -65,4 +63,9 @@ focus_tree = {
 			country_event = mewni_civwar.1
 		}
 	}
+
+	shared_focus = mewni_civwar_cards_are_cast
+	shared_focus = mewni_post_civwar_recovery
+	shared_focus = mewni_post_civwar_stamping_out_resistance
+	shared_focus = california_conquest_dreamin
 }

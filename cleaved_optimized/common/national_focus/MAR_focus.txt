@@ -16,6 +16,9 @@ focus_tree = {
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	shared_focus = mewni_civwar_cards_are_cast
+	shared_focus = mewni_post_civwar_recovery
+	shared_focus = mewni_post_civwar_stamping_out_resistance
+	shared_focus = california_conquest_dreamin
 	
 	focus = {
 		id = MAR_marco_unites_mewni

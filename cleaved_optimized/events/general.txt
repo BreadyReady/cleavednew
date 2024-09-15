@@ -1,5 +1,6 @@
 add_namespace = welcome
 add_namespace = kids_age
+add_namespace = california_dreamin_trigger
 
 country_event = {
 	id = welcome.0
@@ -37,5 +38,94 @@ country_event = {
 	option = { 
 		name = kids_age.0.b
 		ai_chance = { factor = 1000 }
+	}
+}
+
+country_event = {
+	id = california_dreamin_trigger.0
+	title = california_dreamin_trigger.0.t
+	desc = california_dreamin_trigger.0.desc
+	picture = GFX_report_event_empty
+	
+	trigger = {
+		check_variable = {
+			global.california_dreamin_var = 2
+		}
+	}
+	
+	is_hidden = yes
+	
+	option = { 
+		name = california_dreamin_trigger.0.a
+		add_to_variable = {
+			var = global.california_dreamin_var
+			value = 1
+		}
+		IF = {
+			limit = {
+				MEW = {
+					exists = yes
+				}
+			}
+			MEW = {
+				country_event = california_dreamin_trigger.1
+			}
+		}
+		IF = {
+			limit = {
+				MON = {
+					exists = yes
+				}
+			}
+			MON = {
+				country_event = california_dreamin_trigger.1
+			}
+		}
+		IF = {
+			limit = {
+				MAR = {
+					exists = yes
+				}
+			}
+			MAR = {
+				country_event = california_dreamin_trigger.1
+			}
+		}
+		IF = {
+			limit = {
+				MIN = {
+					exists = yes
+				}
+			}
+			MIN = {
+				country_event = california_dreamin_trigger.1
+			}
+		}
+		IF = {
+			limit = {
+				SPT = {
+					exists = yes
+				}
+			}
+			SPT = {
+				country_event = california_dreamin_trigger.1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = california_dreamin_trigger.1
+	title = california_dreamin_trigger.1.t
+	desc = california_dreamin_trigger.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = california_dreamin_trigger.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		complete_national_focus = california_conquest_dreamin
 	}
 }
