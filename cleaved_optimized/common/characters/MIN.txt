@@ -13,4 +13,305 @@ characters={
 			id=-1
 		}
 	}
+	############################
+	MIN_commie_man = { 
+		name = MIN_commie_man
+		portraits={
+			civilian={
+				small="GFX_Portrait_Europe_Generic_1_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_commie_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				communist_revolutionary
+			}
+		}		
+	}
+	MIN_democratic_man = { 
+		name = MIN_democratic_man
+		portraits={
+			civilian={
+				small="GFX_Portrait_Europe_Generic_2_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_democratic_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				democratic_reformer
+			}
+		}		
+	}
+	MIN_fascist_man = { 
+		name = MIN_fascist_man
+		portraits={
+			civilian={
+				small="GFX_Portrait_Europe_Generic_3_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_fascist_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				fascist_demagogue
+			}
+		}		
+	}
+	MIN_neutral_man = { 
+		name = MIN_neutral_man
+		portraits={
+			civilian={
+				small="GFX_idea_europe_generic_land_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_neutral_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				staunch_monarchist
+			}
+		}		
+	}
+	MIN_mewman_man = { 
+		name = MIN_mewman_man
+		portraits={
+			civilian={
+				small="GFX_idea_europe_generic_land_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_mewman_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				staunch_monarchist
+			}
+		}		
+	}
+	##################################################################
+	MIN_industry_man={
+		name=MIN_industry_man
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_industry_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}		
+	}
+	MIN_armament_man = { 
+		name = MIN_armament_man
+		portraits={
+			civilian={
+				small="GFX_idea_europe_generic_land_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_armament_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				armaments_organizer
+			}
+		}		
+	}
+	MIN_money_man={
+		name=MIN_money_man
+		portraits={
+			civilian={
+				small="GFX_idea_europe_generic_land_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_money_man
+			cost  = 75.000
+			allowed  = {
+				original_tag  = MIN
+			}
+			traits  = {
+				financial_expert 
+			}
+		}
+	}
+	MIN_terror_man={
+		name=MIN_terror_man
+		portraits={
+			army={
+				small="GFX_idea_europe_generic_land_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_terror_man
+			cost = 75.000
+			allowed = {
+				original_tag = MIN
+			}
+			traits = {
+				prince_of_terror 
+			}
+		}		
+	}
+	MIN_silent_workhorse={
+		name=MIN_silent_workhorse
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MIN_silent_workhorse
+			allowed  = {
+				original_tag  = MIN
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+	####################
+	MIN_general_1={
+		name=MIN_general_1
+		portraits={
+			army={
+				large=GFX_Portrait_Europe_Generic_land_5
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_5_small"
+			}
+		}
+		advisor={
+			cost = 150		
+			slot = theorist
+			idea_token = MIN_general_1
+			ledger = army
+				allowed = {
+					original_tag = MIN
+				}			
+				traits = {
+					mobile_warfare_expert
+				}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer war_hero trickster panzer_leader }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	MIN_general_2={
+		name=MIN_general_2
+		portraits={
+			army={
+				large=GFX_Portrait_Europe_Generic_land_4
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_4_small"
+			}
+		}
+		advisor={
+			cost = 150
+			slot = theorist
+			idea_token = MIN_general_2
+			ledger = army
+			allowed = {
+				original_tag = MIN
+			}		
+			traits = {
+				superior_firepower_expert
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_cautious harsh_leader trait_engineer }
+			skill=5
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	MIN_general_3={
+		name=MIN_general_3
+		portraits={
+			army={
+				large=GFX_Portrait_Europe_Generic_land_4
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_cautious harsh_leader trait_engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	MIN_field_marshall_1={
+		name=MIN_field_marshall_1
+		portraits={
+			army={
+				large=GFX_Portrait_Europe_Generic_land_3
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_3_small"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = army_chief
+			idea_token = MIN_field_marshall_1
+			allowed = {		
+					original_tag = MIN
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=4
+		}
+	}
+#####	
 }
