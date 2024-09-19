@@ -12,12 +12,12 @@ focus_tree = {
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 4000	y = 0 } 
+	continuous_focus_position = { x = 2850	y = 725 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	focus = {
 		id = MEW_end_of_the_cleaving_chaos
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_focus_cleaved
 		x = 10
 		y = 0
 		
@@ -53,7 +53,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_bail_water
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_focus_flood
 		x = 0
 		y = 1
 		relative_position_id = MEW_end_of_the_cleaving_chaos 
@@ -74,7 +74,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_a_dry_mewni
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_focus_dry_marco
 		x = 0
 		y = 2
 		relative_position_id = MEW_bail_water
@@ -97,7 +97,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_bucket_chains
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_focus_bucket
 		x = 1
 		y = 1
 		relative_position_id = MEW_bail_water 
@@ -118,7 +118,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_modern_pumping_systems
-		icon = GFX_goal_focus_mewmans_take_shelter
+		icon = GFX_focus_pipe
 		x = -1
 		y = 1
 		relative_position_id = MEW_bail_water 
@@ -778,14 +778,14 @@ focus_tree = {
 
 	focus = {
 		id = MEW_prepare_next_generation
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_meteora
 		x = 6
 		y = 1
 		relative_position_id = MEW_eclipsa_unites_mewni
 		prerequisite = { focus = MEW_eclipsa_unites_mewni }
 
 		available = {
-			date < 2031.01.01
+			date > 2031.01.01
 		}
 		
 		bypass = {} 
@@ -802,9 +802,9 @@ focus_tree = {
 
 	focus = {
 		id = MEW_continue_monster_rights_campaign
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_monster_star_party
 		x = 2
-		y = 1
+		y = 3
 		relative_position_id = MEW_eclipsa_unites_mewni
 		prerequisite = { focus = MEW_eclipsa_unites_mewni }
 
@@ -825,7 +825,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_equality_of_employment
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_hammer
 		x = -3
 		y = 3
 		relative_position_id = MEW_continue_monster_rights_campaign
@@ -850,7 +850,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_equality_of_education
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_kid_mewman_and_monster
 		x = 3
 		y = 3
 		relative_position_id = MEW_continue_monster_rights_campaign
@@ -879,7 +879,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_reverse_reparations
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_monster_temple
 		x = -2
 		y = 2
 		relative_position_id = MEW_continue_monster_rights_campaign
@@ -908,7 +908,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_sit_down_with_monster_leaders
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_monsters
 		x = 2
 		y = 2
 		relative_position_id = MEW_continue_monster_rights_campaign
@@ -934,7 +934,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_support_campaign
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_sad_peasants
 		x = 0
 		y = 1
 		relative_position_id = MEW_continue_monster_rights_campaign
@@ -959,7 +959,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_limited_freedoms
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_candle
 		x = 0
 		y = 1
 		relative_position_id = MEW_support_campaign
@@ -984,7 +984,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_repeal_solarian_laws
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_solaria
 		x = 0
 		y = 1
 		relative_position_id = MEW_limited_freedoms
@@ -1011,7 +1011,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_monster_rights_act
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_buff_frog_happy_crying
 		x = 0
 		y = 1
 		relative_position_id = MEW_repeal_solarian_laws
@@ -1042,7 +1042,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_reforging_mewni
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_butterfly_castle
 		x = -8
 		y = 1
 		relative_position_id = MEW_eclipsa_unites_mewni
@@ -1064,8 +1064,37 @@ focus_tree = {
 	}
 
 	focus = {
+		id = MEW_reintegrate_MST
+		icon = GFX_focus_monsters
+		x = 2
+		y = 1
+		relative_position_id = MEW_reforging_mewni
+		prerequisite = { focus = MEW_reforging_mewni }
+
+		available = {
+			has_political_power > 50
+			has_completed_focus = MEW_monster_rights_act
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			annex_country = {
+				target = MTR
+				transfer_troops = no
+			}
+		}
+	}
+
+	focus = {
 		id = MEW_pigeon_parties
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_pigeon_party
 		x = 0
 		y = 1
 		relative_position_id = MEW_reforging_mewni
@@ -1089,7 +1118,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_golden_contracts
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_rat_contract
 		x = 0
 		y = 1
 		relative_position_id = MEW_pigeon_parties
@@ -1123,7 +1152,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_pigeon_political_powers
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_moon_paperwork
 		x = -1
 		y = 2
 		relative_position_id = MEW_pigeon_parties
@@ -1157,7 +1186,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_rich_pigeon_and_monster_rights
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_rich_pigeon
 		x = 1
 		y = 2
 		relative_position_id = MEW_pigeon_parties
@@ -1181,7 +1210,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_pigeons
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_pigeon_party
 		x = 0
 		y = 2
 		relative_position_id = MEW_golden_contracts
@@ -1208,7 +1237,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_pigeons_ports
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_pier
 		x = 0
 		y = 1
 		relative_position_id = MEW_take_pigeons
@@ -1233,7 +1262,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_revive_pacific_trade
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_pier
 		x = -2
 		y = 1
 		relative_position_id = MEW_take_pigeons_ports
@@ -1272,7 +1301,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_dance_with_the_spiderbites
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_butterfly_castle
 		x = 4
 		y = 1
 		relative_position_id = MEW_reforging_mewni
@@ -1296,31 +1325,37 @@ focus_tree = {
 
 	focus = {
 		id = MEW_trap_the_spiderbites
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_dance_with_the_spiderbites
 		prerequisite = { focus = MEW_dance_with_the_spiderbites }
 
 		available = {
-			has_political_power > 50
+			has_political_power > 200
+			SPI = {
+				all_neighbor_country = {
+					tag = MEW
+				} 
+			}
 		}
 		
 		bypass = {} 
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = -50
+			add_political_power = -200
+			puppet = SPI
 		}
 	}
 
 	focus = {
 		id = MEW_reconcile_with_festivian_line
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_river
 		x = -4
 		y = 1
 		relative_position_id = MEW_reforging_mewni
@@ -1344,7 +1379,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_forgiving_moon
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_moon_awkward
 		x = -1
 		y = 2
 		relative_position_id = MEW_reconcile_with_festivian_line
@@ -1369,7 +1404,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_political_powers
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_moon_paperwork
 		x = 0
 		y = 1
 		relative_position_id = MEW_reconcile_with_festivian_line
@@ -1403,7 +1438,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_military_assistance
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_old_weapons
 		x = 1
 		y = 2
 		relative_position_id = MEW_reconcile_with_festivian_line
@@ -1437,7 +1472,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_take_johansen
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_focus_river
 		x = 0
 		y = 2
 		relative_position_id = MEW_political_powers
@@ -1464,7 +1499,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_johansen_fjords
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_pier
 		x = 0
 		y = 1
 		relative_position_id = MEW_take_johansen
@@ -1489,7 +1524,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_return_to_butterfly_castle
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_butterfly_castle
 		x = -14
 		y = 6
 		relative_position_id = MEW_eclipsa_unites_mewni
@@ -1516,7 +1551,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_rebuild_butterfly_castle
-		icon = GFX_goal_focus_eclipsa_superior
+		icon = GFX_goal_focus_butterfly_castle
 		x = 0
 		y = 1
 		relative_position_id = MEW_return_to_butterfly_castle
@@ -1549,7 +1584,7 @@ focus_tree = {
 
 	focus = {
 		id = MEW_endgame_eclipsa
-		icon = GFX_goal_focus_big_eclipsa2
+		icon = GFX_goal_focus_big_eclipsa2#Alternative: GFX_focus_big_eclipsa
 		x = -4
 		y = 8
 		relative_position_id = MEW_eclipsa_unites_mewni

@@ -3511,5 +3511,7 @@ focus_tree = {
 		}
 		
 	}
+	
+	shared_focus = california_conquest_dreamin
 
 }

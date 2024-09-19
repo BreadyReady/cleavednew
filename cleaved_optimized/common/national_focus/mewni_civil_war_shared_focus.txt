@@ -61,7 +61,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_pie_island_middlemen
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_butterfly_castle
     x = 0
     y = 1
 	prerequisite = { focus = mewni_civwar_bring_the_war_profiteers }
@@ -962,7 +962,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_manpower_procurement
-    icon = GFX_goal_focus_usa_flag
+    icon = GFX_goal_focus_knight_looks_up
     x = 6
     y = 1
 	prerequisite = { focus = mewni_civwar_military_efforts }
@@ -995,7 +995,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_equipment_procurement
-    icon = GFX_goal_focus_usa_flag
+    icon = GFX_goal_focus_old_weapons
     x = 8
     y = 1
 	prerequisite = { focus = mewni_civwar_military_efforts }
@@ -1134,7 +1134,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_mechanized_division
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_tank
     x = 0
     y = 2
 	prerequisite = { focus = mewni_civwar_american_advisors }
@@ -1204,7 +1204,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_mass_production
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_old_weapons
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_chinese_advisors }
@@ -1272,7 +1272,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_modern_draft
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_knight_looks_up
     x = 0
     y = 2
 	prerequisite = { focus = mewni_civwar_chinese_advisors }
@@ -1332,7 +1332,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_mercanary_veterans
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_russian_general
     x = -1
     y = 1
 	prerequisite = { focus = mewni_civwar_russian_advisors }
@@ -1361,7 +1361,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_russian_recruiting_model
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_prisoner
     x = 1
     y = 1
 	prerequisite = { focus = mewni_civwar_russian_advisors }
@@ -1390,7 +1390,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_civwar_armored_push
-    icon = GFX_goal_focus_mewmans_take_shelter
+    icon = GFX_goal_focus_tank
     x = 0
     y = 2
 	prerequisite = { focus = mewni_civwar_russian_advisors }

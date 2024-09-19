@@ -42,76 +42,19 @@ country_event = {
 }
 
 country_event = {
-	id = california_dreamin_trigger.0
+	id = california_dreamin_trigger.0 #Mewn
 	title = california_dreamin_trigger.0.t
 	desc = california_dreamin_trigger.0.desc
 	picture = GFX_report_event_empty
 	
-	trigger = {
-		check_variable = {
-			global.california_dreamin_var = 2
-		}
-	}
+	is_triggered_only = yes
 	
 	is_hidden = yes
 	
-	option = { 
+	option = {
 		name = california_dreamin_trigger.0.a
-		add_to_variable = {
-			var = global.california_dreamin_var
-			value = 1
-		}
-		IF = {
-			limit = {
-				MEW = {
-					exists = yes
-				}
-			}
-			MEW = {
-				country_event = california_dreamin_trigger.1
-			}
-		}
-		IF = {
-			limit = {
-				MON = {
-					exists = yes
-				}
-			}
-			MON = {
-				country_event = california_dreamin_trigger.1
-			}
-		}
-		IF = {
-			limit = {
-				MAR = {
-					exists = yes
-				}
-			}
-			MAR = {
-				country_event = california_dreamin_trigger.1
-			}
-		}
-		IF = {
-			limit = {
-				MIN = {
-					exists = yes
-				}
-			}
-			MIN = {
-				country_event = california_dreamin_trigger.1
-			}
-		}
-		IF = {
-			limit = {
-				SPT = {
-					exists = yes
-				}
-			}
-			SPT = {
-				country_event = california_dreamin_trigger.1
-			}
-		}
 		ai_chance = { factor = 0 }
+		complete_national_focus = california_conquest_dreamin
 	}
 }
 

@@ -282,3 +282,67 @@
  MEW_eclipsa_unity_decree:0 "Eclipsa's Unity Decree"
  
  MEW_eclipsa_unites_mewni:0 "Eclipsa Unites Mewni!"
+ 
+ MEW_endgame_eclipsa_tooltip:0 "§0Eclipsa "The Queen of Darkness"§! is renamed to §0Eclipsa "The Queen of Hope"§!"
+ 
+ MEW_prepare_next_generation:0 "Prepare the Next Generation"
+ 
+ MEW_continue_monster_rights_campaign:0 "Continue the Monster Rights Campaign"
+ 
+ MEW_equality_of_employment:0 "Equality of Employment"
+ 
+ MEW_equality_of_education:0 "Equality of Education"
+ 
+ MEW_reverse_reparations:0 "Reverse Disasterous Repatriations"
+ 
+ MEW_sit_down_with_monster_leaders:0 "Sit Down with Monster Leaders"
+ 
+ MEW_support_campaign:0 "Support Campaign"
+ 
+ MEW_limited_freedoms:0 "Limited Freedoms"
+ 
+ MEW_repeal_solarian_laws:0 "Repeal Solarian Laws"
+ MEW_repeal_solarian_laws_desc:0 "§0Sorry Mom, but we really dont need your anti-monster laws anymore!§!"
+ 
+ MEW_monster_rights_act:0 "Monster Rights Decree"
+ 
+ MEW_reforging_mewni:0 "Reforging Mewni"
+ 
+ MEW_reintegrate_MST:0 "Reintegrate [MTR.getname]"
+ 
+ MEW_pigeon_parties:0 "Pigeon Parties"
+ 
+ MEW_golden_contracts:0 "Golden Contracts"
+ 
+ MEW_pigeon_political_powers:0 "Pigeon Powers"
+ 
+ MEW_rich_pigeon_and_monster_rights:0 "Rich Pigeon and the Monster Rights Movement"
+ 
+ MEW_take_pigeons:0 "Reintegrate The Pigeons"
+ 
+ MEW_take_pigeons_ports:0 "Pigeon Ports"
+ 
+ MEW_revive_pacific_trade:0 "Revive Pacific Trade"
+ 
+ MEW_dance_with_the_spiderbites:0 "Dance With the Spiderbites"
+ 
+ MEW_trap_the_spiderbites:0 "Spidertrap"
+ 
+ MEW_reconcile_with_festivian_line:0 "Reconcile with the Festivian Line"
+ 
+ MEW_forgiving_moon:0 "Forgiving Moon"
+ 
+ MEW_political_powers:0 "Political Guarantees"
+ 
+ MEW_military_assistance:0 "Military Assistance"
+ 
+ MEW_take_johansen:0 "Reintegrate Johansens"
+ 
+ MEW_johansen_fjords:0 "Fjord Ports"
+ 
+ MEW_return_to_butterfly_castle:0 "Return to Butterfly Castle"
+ 
+ MEW_rebuild_butterfly_castle:0 "Finish Rennovations"
+ MEW_rebuild_butterfly_castle_tooltip:0 "Upon selection, a National Spirit will be added that takes three civillian factories."
+ 
+ MEW_endgame_eclipsa:0 "§0Total Eclipsa the Heart§!"

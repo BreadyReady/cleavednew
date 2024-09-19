@@ -1,5 +1,26 @@
 ideas = {
 	country = {
+		mewni_post_civwar_resistance = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				OR = {
+					original_tag = MEW
+					original_tag = MON
+					original_tag = MAR
+				}
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				industry_repair_factor = -0.15
+				cic_construction_boost = -0.1
+				stability_factor = -0.1
+			}
+			
+		}
 		mewni_post_civwar_recovery_idea = {
 			picture = generic_research_bonus
 			

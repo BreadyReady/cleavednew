@@ -38,5 +38,102 @@ spriteTypes = {
 	name = "GFX_goal_focus_ship2"
 	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_ship2.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_tank"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_tank.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_russian_general"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_russian_general.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_prisoner"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_prisoner.dds"			
+	}
+	
+	#Post Civwar
+	
+	SpriteType = {
+	name = "GFX_focus_star_sad"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_star_sad.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_marco_welding"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_marco_welding.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_cars"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_cars.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_electricity"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_electricity.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_stop_worker"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_stop_worker.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_mewman_dad_and_girl"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_mewman_dad_and_girl.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_money_counting"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_money_counting.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_computer"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_computer.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_hammer"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_hammer.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_corn_oil"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_corn_oil.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_minecart"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_minecart.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_jeep"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_jeep.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_apc"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_apc.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_shotgun"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_shotgun.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_cannon"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_cannon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_flak_cannon"
+	texturefile = "gfx/interface/goals/shared_mewman_civwar/focus_flak_cannon.dds"			
+	}
 
 } ### End Bracket

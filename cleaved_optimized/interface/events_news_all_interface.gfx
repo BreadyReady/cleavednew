@@ -64,5 +64,15 @@ spriteTypes = {
 		name = "GFX_news_event_marco_civwar_failure"
 		texturefile = "gfx/event_news_pictures/all/news_event_marco_civwar_failure.dds"
 	}
+
+	spriteType = {
+		name = "GFX_news_event_monsters_happy"
+		texturefile = "gfx/event_news_pictures/all/news_event_monsters_happy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_royals"
+		texturefile = "gfx/event_news_pictures/all/news_event_royals.dds"
+	}
 	
 }

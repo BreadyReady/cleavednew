@@ -58,6 +58,7 @@ country_event = {
 		name = mewni_civwar.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		add_to_variable = { global.california_dreamin_var = 1 }
+		add_ideas = mewni_post_civwar_resistance
 		if = {
 			limit = {
 				has_idea = mewni_civwar_chinese_contracts_idea1
@@ -419,7 +420,7 @@ news_event = {
         text = mewni_civwar_news.6.desc
     }
     
-    picture = GFX_news_event_cleaving_destruction
+    picture = GFX_news_event_monsters_happy
     
     is_triggered_only = yes
     major = yes
@@ -449,7 +450,7 @@ news_event = {
         text = mewni_civwar_news.7.desc
     }
     
-    picture = GFX_news_event_cleaving_destruction
+    picture = GFX_news_event_monsters_happy
     
     is_triggered_only = yes
     major = yes
@@ -499,7 +500,7 @@ news_event = {
         text = mewni_civwar_news.8.desc
     }
     
-    picture = GFX_news_event_cleaving_destruction
+    picture = GFX_news_event_royals
     
     is_triggered_only = yes
     major = yes

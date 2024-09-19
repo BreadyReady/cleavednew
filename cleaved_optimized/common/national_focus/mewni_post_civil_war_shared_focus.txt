@@ -1,6 +1,6 @@
 shared_focus = {
     id = mewni_post_civwar_recovery
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_general_construction_crane
     x = 20
     y = 7
 	
@@ -36,7 +36,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_hyperindustrialization
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_marco_welding
     x = -2
     y = 1
 	relative_position_id = mewni_post_civwar_recovery
@@ -89,7 +89,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_highway_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_cars
     x = 0
     y = 1
 	relative_position_id = mewni_post_civwar_hyperindustrialization
@@ -109,7 +109,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_modern_utilities
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_electricity
     x = -2
     y = 1
 	relative_position_id = mewni_post_civwar_hyperindustrialization
@@ -142,7 +142,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_border_stops
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_stop_worker
     x = 2
     y = 1
 	relative_position_id = mewni_post_civwar_hyperindustrialization
@@ -194,7 +194,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_new_middle_class
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_mewman_dad_and_girl
     x = -1
     y = 2
 	relative_position_id = mewni_post_civwar_hyperindustrialization
@@ -215,7 +215,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_mewman_stock_market
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_money_counting
     x = 1
     y = 2
 	relative_position_id = mewni_post_civwar_hyperindustrialization
@@ -236,7 +236,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_modern_globalized_economy
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_pier
     x = -1
     y = 1
 	relative_position_id = mewni_post_civwar_mewman_stock_market
@@ -258,7 +258,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_monument_to_the_fallen
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_star_sad
     x = 0
     y = 1
 	relative_position_id = mewni_post_civwar_recovery
@@ -280,7 +280,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_catching_up
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_general_science
     x = 2
     y = 1
 	relative_position_id = mewni_post_civwar_recovery
@@ -298,7 +298,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_industrial_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_hammer
     x = 2
     y = 1
 	relative_position_id = mewni_post_civwar_catching_up
@@ -321,7 +321,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_tech_sector
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_computer
     x = 0
     y = 1
 	relative_position_id = mewni_post_civwar_catching_up
@@ -337,13 +337,17 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
-		add_research_slot = 1
+		add_tech_bonus = {
+			bonus = 1.0
+			uses = 2
+			category = electronics
+		}
     }
 }
 
 shared_focus = {
     id = mewni_post_civwar_silicon_valley
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_computer
     x = 0
     y = 2
 	relative_position_id = mewni_post_civwar_tech_sector
@@ -367,7 +371,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_oil_up
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_corn_oil
     x = 1
     y = 2
 	relative_position_id = mewni_post_civwar_catching_up
@@ -390,7 +394,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_raw_materials
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_minecart
     x = -1
     y = 2
 	relative_position_id = mewni_post_civwar_catching_up
@@ -413,7 +417,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_stamping_out_resistance
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_peasants_held_back
     x = 14
     y = 0
 	relative_position_id = mewni_post_civwar_recovery
@@ -435,18 +439,19 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		remove_ideas = mewni_post_civwar_resistance
     }
 }
 
 shared_focus = {
     id = mewni_post_civwar_modernize_armed_forces
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_mewman_knights
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_stamping_out_resistance }
 	relative_position_id = mewni_post_civwar_stamping_out_resistance
 	
-	cost = 10
+	cost = 1
 
 
     search_filters = {  }
@@ -457,7 +462,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_air_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_plane
     x = 6
     y = 1
 	prerequisite = { focus = mewni_post_civwar_modernize_armed_forces }
@@ -705,7 +710,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_anti_air_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_flak_cannon
     x = 9
     y = 1
 	prerequisite = { focus = mewni_post_civwar_modernize_armed_forces }
@@ -728,7 +733,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_anti_air_effort2
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_flak_cannon
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_anti_air_effort }
@@ -751,7 +756,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_army_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_old_weapons
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_modernize_armed_forces }
@@ -769,7 +774,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_future_of_knighthood
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_handsome_knight_stabby
     x = -7
     y = 1
 	prerequisite = { focus = mewni_post_civwar_modernize_armed_forces }
@@ -786,7 +791,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_centralize_armed_forces
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_moon_paperwork
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_future_of_knighthood }
@@ -804,7 +809,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_state_and_economy
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_butterfly_castle
     x = -3
     y = 2
 	prerequisite = { focus = mewni_post_civwar_centralize_armed_forces }
@@ -823,7 +828,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_open_up_armed_forces
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_bunch_of_mewmans
     x = 0
     y = 2
 	prerequisite = { focus = mewni_post_civwar_centralize_armed_forces }
@@ -841,7 +846,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_tank_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_tank
     x = -4
     y = 2
 	prerequisite = { focus = mewni_post_civwar_motorized_effort }
@@ -864,7 +869,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_tank_effort2
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_tank
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_tank_effort }
@@ -886,7 +891,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_anti_tank_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_flak_cannon
     x = -2
     y = 0
 	prerequisite = { focus = mewni_post_civwar_army_effort }
@@ -909,7 +914,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_motorized_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_jeep
     x = -2
     y = 1
 	prerequisite = { focus = mewni_post_civwar_army_effort }
@@ -931,7 +936,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_supplyline_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_jeep
     x = 0
     y = 2
 	prerequisite = { focus = mewni_post_civwar_motorized_effort }
@@ -950,7 +955,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_mechanized_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_apc
     x = 1
     y = 1
 	prerequisite = { focus = mewni_post_civwar_motorized_effort }
@@ -972,7 +977,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_doctrine_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_higgs_looks_at_paper
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_army_effort }
@@ -995,7 +1000,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_doctrine_effort2
-    icon = GFX_goal_focus_cards
+    icon = GFX_goal_focus_higgs_looks_at_paper
     x = 0
     y = 2
 	prerequisite = { focus = mewni_post_civwar_doctrine_effort }
@@ -1018,7 +1023,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_small_arms_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_shotgun
     x = 2
     y = 1
 	prerequisite = { focus = mewni_post_civwar_army_effort }
@@ -1040,7 +1045,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_small_arms_effort2
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_shotgun
     x = 0
     y = 1
 	prerequisite = { focus = mewni_post_civwar_small_arms_effort }
@@ -1062,7 +1067,7 @@ shared_focus = {
 
 shared_focus = {
     id = mewni_post_civwar_artillery_effort
-    icon = GFX_goal_focus_cards
+    icon = GFX_focus_cannon
     x = 2
     y = 1
 	prerequisite = { focus = mewni_post_civwar_small_arms_effort }

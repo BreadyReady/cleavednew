@@ -1,11 +1,15 @@
 shared_focus = {
     id = california_conquest_dreamin
-    icon = GFX_goal_focus_cards
-    x = 25
-    y = 14
+    icon = GFX_goal_focus_flaming_fist
+    x = 26
+    y = 13
 	
 	available = {
-		always = no #this is bypassed via the event california_dreamin_trigger.1 which is inturn triggered by the hidden event california_dreamin_trigger.0, which is inturn triggered by either MEW, MON, MAR, MIN, or SPT when they each get a certain event marking a stage in their progress, which adds to the variable global.california_dreamin_var. (MEW MON MAR get it with the end of the civil war event. MIN and SPT get it with thier news events whent hey conquer each other)
+		NOT = {
+			has_idea = MEW_feudal_levy
+			has_idea = MEW_mercantalism
+			has_idea = MEW_feudalism
+		}
 	}
 	
 	#allow_branch = {
@@ -20,18 +24,20 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		
     }
 }
 
 shared_focus = {
     id = california_conquest_socal
     icon = GFX_goal_focus_cards
-    x = 0
+    x = -1
     y = 1
 	relative_position_id = california_conquest_dreamin
 	prerequisite = { focus = california_conquest_dreamin }
 	
 	available = {
+		has_war = no
 		any_neighbor_country = { tag = SOC } 
 		SOC = {
 			exists = yes
@@ -62,12 +68,13 @@ shared_focus = {
 shared_focus = {
     id = california_conquest_valley
     icon = GFX_goal_focus_cards
-    x = 2
+    x = 1
     y = 1
 	relative_position_id = california_conquest_dreamin
 	prerequisite = { focus = california_conquest_dreamin }
 	
 	available = {
+		has_war = no
 		any_neighbor_country = { tag = VAL } 
 		VAL = {
 			exists = yes
@@ -98,12 +105,13 @@ shared_focus = {
 shared_focus = {
     id = california_conquest_bay_area
     icon = GFX_goal_focus_cards
-    x = -2
+    x = -3
     y = 1
 	relative_position_id = california_conquest_dreamin
 	prerequisite = { focus = california_conquest_dreamin }
 	
 	available = {
+		has_war = no
 		any_neighbor_country = { tag = BAY } 
 		BAY = {
 			exists = yes
@@ -134,12 +142,13 @@ shared_focus = {
 shared_focus = {
     id = california_conquest_sacramento
     icon = GFX_goal_focus_cards
-    x = 4
+    x = 3
     y = 1
 	relative_position_id = california_conquest_dreamin
 	prerequisite = { focus = california_conquest_dreamin }
 	
 	available = {
+		has_war = no
 		any_neighbor_country = { tag = CAL } 
 		CAL = {
 			exists = yes
@@ -163,6 +172,117 @@ shared_focus = {
 		create_wargoal = {
 			type = annex_everything
 			target = CAL
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_featherleg
+    icon = GFX_goal_focus_cards
+    x = 0
+    y = 2
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		has_war = no
+		any_neighbor_country = { tag = FLD } 
+		FLD = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		FLD = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = FLD
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = FLD
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_arachne
+    icon = GFX_goal_focus_cards
+    x = -2
+    y = 2
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		has_war = no
+		any_neighbor_country = { tag = ACH } 
+		ACH = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		ACH = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = ACH
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = ACH
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_jefferson
+    icon = GFX_goal_focus_cards
+    x = 2
+    y = 2
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		has_war = no
+		any_neighbor_country = { tag = NCL } 
+		NCL = {
+			exists = yes
+			has_war = no
+		}
+	}
+	
+	bypass = {
+		NCL = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = NCL
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = NCL
 		}
     }
 }

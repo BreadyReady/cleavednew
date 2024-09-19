@@ -44,6 +44,34 @@ division_template = {
 units = {
 	
 	division = {
+		name = "Peasant Recruits"
+		location = 3403#3458
+		division_template = "Peasant Militia"
+		start_experience_factor = 0
+	}
+	
+	division = {
+		name = "Vassal Levy"
+		location = 3403#3403
+		division_template = "Royal Garrisons"
+		start_experience_factor = 0
+	}
+	
+	division = {
+		name = "Peasant Recruits"
+		location = 3403#3403
+		division_template = "Peasant Militia"
+		start_experience_factor = 0
+	}
+	
+	division = {
+		name = "Peasant Recruits"
+		location = 3403#3403
+		division_template = "Peasant Militia"
+		start_experience_factor = 0
+	}
+	
+	division = {
 		name = "Vassal Levy"
 		location = 3403#3476
 		division_template = "Royal Garrisons"
@@ -91,6 +119,7 @@ units = {
 		division_template = "Peasant Militia"
 		start_experience_factor = 0
 	}
+	division = {
 		name = "Vassal Levy"
 		location = 3403#3476
 		division_template = "Royal Garrisons"

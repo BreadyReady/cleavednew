@@ -1300,4 +1300,5 @@ focus_tree = {
 			#modifier = {}
 		}
 	}
+	shared_focus = california_conquest_dreamin
 }

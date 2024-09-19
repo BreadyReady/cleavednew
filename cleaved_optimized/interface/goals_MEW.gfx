@@ -205,7 +205,88 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_focus_big_eclipsa1_blue"
-	texturefile = "gfx/interface/goals/MEW/focus_big_eclipsa1_blue.dds"			
+	name = "GFX_focus_big_eclipsa"
+	texturefile = "gfx/interface/goals/MEW/focus_big_eclipsa.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_focus_bucket"
+	texturefile = "gfx/interface/goals/MEW/focus_bucket.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_flood"
+	texturefile = "gfx/interface/goals/MEW/focus_flood.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_pipe"
+	texturefile = "gfx/interface/goals/MEW/focus_pipe.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_dry_marco"
+	texturefile = "gfx/interface/goals/MEW/focus_dry_marco.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_cleaved"
+	texturefile = "gfx/interface/goals/MEW/focus_cleaved.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_meteora"
+	texturefile = "gfx/interface/goals/MEW/focus_meteora.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_kid_mewman_and_monster"
+	texturefile = "gfx/interface/goals/MEW/focus_kid_mewman_and_monster.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_monster_star_party"
+	texturefile = "gfx/interface/goals/MEW/focus_monster_star_party.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_moon_awkward"
+	texturefile = "gfx/interface/goals/MEW/focus_moon_awkward.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_river"
+	texturefile = "gfx/interface/goals/MEW/focus_river.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_rat_contract"
+	texturefile = "gfx/interface/goals/MEW/focus_rat_contract.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_rich_pigeon"
+	texturefile = "gfx/interface/goals/MEW/focus_rich_pigeon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_pigeon_party"
+	texturefile = "gfx/interface/goals/MEW/focus_pigeon_party.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_monsters"
+	texturefile = "gfx/interface/goals/MEW/focus_monsters.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_solaria"
+	texturefile = "gfx/interface/goals/MEW/focus_solaria.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_buff_frog_happy_crying"
+	texturefile = "gfx/interface/goals/MEW/focus_buff_frog_happy_crying.dds"			
+	}
+	
 } ### End Bracket
