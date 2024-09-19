@@ -14,10 +14,26 @@
  MAR_marco_diaz_desc:0 "Marco Diaz Desc"
  marco_puppet_king:0 "Puppet King"
  marco_puppet_king_desc:0 "Puppet King Description"
+ MAR_silent_workhorse:0 "MAR Workhorse"
+ MAR_general_1:0 "MAR General 1"
+ MAR_general_2:0 "MAR General 2"
+ MAR_general_3:0 "MAR General 3"
+ MAR_field_marshall_1:0 "MAR Field Marshall"
  
  MEW_higgs:0 "Higgs Squire"
  
+ MEW_silent_workhorse:0 "Mewman Workhorse"
+ MEW_general_1:0 "MEW General 1"
+ MEW_general_2:0 "MEW General 2"
+ MEW_general_3:0 "MEW General 3"
+ MEW_field_marshall_1:0 "MEW Field Marshall"
  
+ #MON
+ MON_silent_workhorse:0 "MON Workhorse"
+ MON_general_1:0 "MON General 1"
+ MON_general_2:0 "MON General 2"
+ MON_general_3:0 "MON General 3"
+ MON_field_marshall_1:0 "MON Field Marshall"
  
  #JOH
  JOH_river:0 "King River"
@@ -33,10 +49,43 @@
 
  #SPT
  SPT_leader_char:0 "Warlord Dragonbeard"
+ 
+ #SPI_commie_man:0 ""
+ #SPI_democratic_man:0 ""
+ #SPI_fascist_man:0 ""
+ #SPI_neutral_man:0 ""
+ #SPI_mewman_man:0 ""
+ 
+ #SPI_industry_man:0 ""
+ #SPI_armament_man:0 ""
+ #SPI_money_man:0 ""
+ #SPI_terror_man:0 ""
+ #SPI_silent_workhorse:0 ""
+ 
  SPT_general_1_char:0 "Reaver Silvercakes"
+ SPT_general_2:0 "SPT General 2"
+ SPT_general_3:0 "SPT General 3"
+ SPT_field_marshall_1:0 "SPT Field Marshall"
  
  #MIN
  MIN_mina_loveberry:0 "Mina Loveberry"
+ 
+ #MIN_commie_man:0 ""
+ #MIN_democratic_man:0 ""
+ MIN_fascist_man:0 "Fred"
+ #MIN_neutral_man:0 ""
+ #MIN_mewman_man:0 ""
+ 
+ MIN_industry_man:0 "MIN Industrialist"
+ MIN_armament_man:0 "MIN Armorer"
+ MIN_money_man:0 "MIN Financer"
+ MIN_terror_man:0 "Mina's Right Hand Man"
+ #MIN_silent_workhorse:0 ""
+ 
+ MIN_general_1:0 "MIN General 1"
+ MIN_general_2:0 "MIN General 2"
+ MIN_general_3:0 "MIN General 3"
+ MIN_field_marshall_1:0 "MIN Field Marshall"
  
  #NCH
  NCH_desert_leader:0 "The Harsh Desert"
