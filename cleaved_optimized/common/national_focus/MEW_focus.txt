@@ -31,9 +31,6 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			hidden_effect = {
-				every_country = {
-					news_event = cleaving_news.1
-				} 
 				country_event = {
 					id = MEW_event.2
 					days = 3
@@ -42,6 +39,7 @@ focus_tree = {
 					id = MEW_event.3
 					days = 28
 				}
+				news_event = cleaving_news.1
 			}
 		}
 
@@ -200,9 +198,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEW_minan_collaborator_question
-				add_idea = MEW_minan_collaborator_question_3
+			remove_ideas = MEW_minan_collaborator_question
+			add_timed_idea = {
+				idea = MEW_minan_collaborator_question_3
+				days = 1460
 			}
 			country_event = MEW_purge_or_mercy.1
 		}
@@ -820,6 +819,19 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			custom_effect_tooltip = advisor_unlock_tooltip
+			hidden_effect = {
+				IF = {
+					limit = {
+						MIN = {
+							exists = yes
+						}
+					}
+					MIN = {
+						country_event = MEW_post_civwar_monster_rights.0
+					}
+				}
+			}
 		}
 	}
 
@@ -874,6 +886,9 @@ focus_tree = {
 				idea = MEW_burdened_education_system
 				days = 365
 			}
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.6 days = 7 }
+			}
 		}
 	}
 
@@ -902,6 +917,9 @@ focus_tree = {
 			add_timed_idea = {
 				idea = MEW_disastrous_reparations2
 				days = 365
+			}
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.3 days = 7 }
 			}
 		}
 	}
@@ -954,6 +972,9 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.08
 			add_political_power = -50
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.2 days = 7 }
+			}
 		}
 	}
 
@@ -1006,6 +1027,9 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -50
 			remove_ideas = MEW_solarian_law
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.4 days = 7 }
+			}
 		}
 	}
 
@@ -1037,6 +1061,7 @@ focus_tree = {
 				add_idea = MEW_eclipsan_rights
 				remove_idea = MEW_limited_monster_freedoms
 			}
+			country_event = MEW_post_civwar_monster_rights.7
 		}
 	}
 
@@ -1059,6 +1084,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = advisor_unlock_tooltip
 			add_political_power = 300
 		}
 	}
@@ -1244,18 +1270,18 @@ focus_tree = {
 		prerequisite = { focus = MEW_take_pigeons }
 
 		available = {
-			has_political_power > 50
+			has_political_power > 100
 		}
 		
 		bypass = {} 
-		cost = 5
+		cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = -50
+			add_political_power = -100
 			transfer_state = 250
 		}
 	}
@@ -1374,6 +1400,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = -50
+			country_event = MEW_post_civwar_reforging_mewni.0
 		}
 	}
 
@@ -1398,7 +1425,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = -50
-			#Add moon as an advisor, who gives pp but removes some stability
+			country_event = MEW_post_civwar_reforging_mewni.1
 		}
 	}
 
@@ -1509,7 +1536,7 @@ focus_tree = {
 		}
 		
 		bypass = {} 
-		cost = 5
+		cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1594,6 +1621,13 @@ focus_tree = {
 		prerequisite = { focus = MEW_rebuild_butterfly_castle }
 
 		available = {
+			MIN = {
+				exists = no
+			}
+			SPT = {
+				exists = no
+			}
+			has_war = no
 		}
 		
 		bypass = {} 
@@ -1605,6 +1639,12 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = MEW_endgame_eclipsa_tooltip
+			remove_ideas = MEW_recent_strife
+			#add_trait = {
+			#	 character = MEW_eclipsa_butterfly
+			#	 ideology = mewman_progressivism
+			#	 trait = cleaved_vindicated
+			#}
 			set_character_name = {
 				character = MEW_eclipsa_butterfly
 				name = "Eclipsa 'The Queen of Hope'"

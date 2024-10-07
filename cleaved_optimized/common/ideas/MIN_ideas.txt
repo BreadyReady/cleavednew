@@ -269,6 +269,20 @@ ideas = {
 				no_supply_grace = 48
 			}
 		}
+		MIN_anti_mew_resistance = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MIN
+				has_war = no
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				resistance_target_on_our_occupied_states = 0.5
+			}
+		}
 
 	}
 

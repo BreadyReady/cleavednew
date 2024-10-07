@@ -25,3 +25,15 @@ set_technology = {
 }
 
 recruit_character = MIN_mina_loveberry
+
+recruit_character = MIN_industry_man
+recruit_character = MIN_armament_man
+recruit_character = MIN_money_man
+recruit_character = MIN_terror_man
+recruit_character = MIN_silent_workhorse
+recruit_character = MIN_fascist_man
+
+recruit_character = MIN_general_1
+recruit_character = MIN_general_2
+recruit_character = MIN_general_3
+recruit_character = MIN_field_marshall_1

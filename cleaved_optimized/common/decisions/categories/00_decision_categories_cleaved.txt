@@ -35,3 +35,12 @@ MEW_bail_water_category = {
 		has_completed_focus = MEW_bail_water
 	}
 }
+
+mewni_shared_core_california_category = {
+	icon = GFX_decision_infiltrate_state
+
+	visible = {
+		always = yes
+		has_completed_focus = california_conquest_dreamin
+	}
+}

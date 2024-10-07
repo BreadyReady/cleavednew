@@ -2,6 +2,7 @@
 
 california_conquest_dreamin:0 "California Dreamin'"
 california_conquest_dreamin_desc:0 "With certain domestic affairs in order, we can now start reconquering lost lands in the East.\n\n§gPalm Trees Turning Brown\nAnd I Smell the Sea\n\nI've been on the March\nIn the Name of The Queen\n\nI'd be Safe and Warm\nIf I was on Mewni\n\nBut I'm on Earthni Dreamin'!§!"
+california_conquest_dreamin_tooltip:0 "Unlock Decisions to Core States in California"
 
 california_conquest_socal:0 "Socal Conquest"
 
@@ -10,3 +11,11 @@ california_conquest_valley:0 "Conquer the Valley"
 california_conquest_bay_area:0 "Conquer the Bay"
 
 california_conquest_sacramento:0 "Conquer Sacramento"
+
+california_conquest_featherleg:0 "Conquer [FLD.getname]"
+
+california_conquest_arachne:0 "Conquer [ACH.getname]"
+
+california_conquest_jefferson:0 "Conquer [NCL.getname]"
+
+california_conquest_mina_and_spt:0 "Taking Down Evil"

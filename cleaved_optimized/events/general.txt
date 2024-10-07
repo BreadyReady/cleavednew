@@ -27,10 +27,26 @@ country_event = {
 	option = { 
 		name = kids_age.0.a
 		ai_chance = { factor = 0 }
+		MEW = {
+			set_portraits = {
+				character = MEW_higgs
+				army = { small ="GFX_idea_higgs_advisor_grown_up" }
+			}
+		}
+		MON = {
+			set_portraits = {
+				character = MON_shared_advisor_higgs
+				army = { small ="GFX_idea_higgs_advisor_grown_up" }
+			}
+		}
 		MAR = {
 			set_portraits = {
 				character = MAR_marco_diaz
 				civilian = { large ="GFX_portrait_hoi4_portrait_adult_marco" }
+			}
+			set_portraits = {
+				character = MAR_shared_advisor_higgs
+				army = { small ="GFX_idea_higgs_advisor_grown_up" }
 			}
 		}
 	}

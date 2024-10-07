@@ -1527,6 +1527,578 @@ next_slide_effect = {
 		clr_country_flag = visnov_visible
 	}
 	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000001 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000002
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			SPT = {
+				exists = yes
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000003
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			MIN = {
+				exists = yes
+			}
+			SPT = {
+				exists = no
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000004
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000003 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			MIN = {
+				exists = yes
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000004
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			MIN = {
+				exists = no
+			}
+			SPT = {
+				exists = no
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000005
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000003 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			MIN = {
+				exists = no
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000005
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000004 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000005
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 100000005 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+			tag = MEW
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000001
+		}
+		set_variable = {
+			var = visnov_bg_var
+			value = 9
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000001 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000002
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000003
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000003 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101001001
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 6 #Eclipsa Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 11 #Eclipsa Portrait Fancy Sad
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101001001 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000004
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000004 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002001
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002001 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000005
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000005 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101001002
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 6 #Eclipsa Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 11 #Eclipsa Portrait Fancy Sad
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101001002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000006
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000006 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002002
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002002 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101001003
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 6 #Eclipsa Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 11 #Eclipsa Portrait Fancy Sad
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101001003 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002003
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002003 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101001004
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 6 #Eclipsa Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 11 #Eclipsa Portrait Fancy Sad
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101001004 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000007
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000007 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002004
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002004 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000008
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000008 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002005
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002005 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002006
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002006 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000009
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000009 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002007
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002007 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000010
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000010 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101001005
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 6 #Eclipsa Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 13 #Eclipsa Portrait Fancy Happy
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101001005 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101002008
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 14 #Globgor
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 12 #Globgor
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101002008 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000011
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				visnov_variable_text_speech_var = 101000011 #Sentence's values should be unique to each scene, they will be anchor point which all elements will rely upon
+			}
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 101000011
+		}
+		complete_national_focus = MEW_eclipsa_unites_mewni
+		clr_country_flag = visnov_visible
+	}
+	
 	else = {
 	}
 }

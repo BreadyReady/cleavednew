@@ -24,6 +24,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		custom_effect_tooltip = california_conquest_dreamin_tooltip
 		
     }
 }
@@ -283,6 +284,63 @@ shared_focus = {
 		create_wargoal = {
 			type = annex_everything
 			target = NCL
+		}
+    }
+}
+
+shared_focus = {
+    id = california_conquest_mina_and_spt
+    icon = GFX_goal_focus_cards
+    x = 0
+    y = 3
+	relative_position_id = california_conquest_dreamin
+	prerequisite = { focus = california_conquest_dreamin }
+	
+	available = {
+		has_war = no
+		any_neighbor_country = {
+			OR = {
+				tag = SPT
+				tag = MIN
+			}
+		}
+		OR = {
+			MIN = {
+				exists = yes
+			}
+			SPT = {
+				exists = yes
+			}
+		}
+		has_army_manpower = {
+			size > 350000
+		}
+	}
+	
+	bypass = {
+		MIN = {
+			exists = no
+		}
+		SPT = {
+			exists = no
+		}
+	}
+	
+	cost = 5
+
+
+    search_filters = {  }
+
+	will_lead_to_war_with = MIN
+	will_lead_to_war_with = SPT
+    completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = MIN
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = SPT
 		}
     }
 }

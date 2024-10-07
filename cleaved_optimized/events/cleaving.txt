@@ -2,6 +2,7 @@ add_namespace = flavor
 add_namespace = cleaving
 add_namespace = mewni_choose
 add_namespace = cleaved_nations #Add news events and switch over options to all of these
+add_namespace = cleaving_news
 
 country_event = {
 	id = cleaved_nations.1
@@ -874,4 +875,158 @@ country_event = {
 			
 		}
 	}
+}
+
+news_event = {
+	id = cleaving_news.0
+    title = {
+        text = cleaving_news.0.t.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    title = {
+        text = cleaving_news.0.t.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    title = {
+        text = cleaving_news.0.t
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+    }
+    desc = {
+        text = cleaving_news.0.desc.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    desc = {
+        text = cleaving_news.0.desc.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+	desc = {
+		text = cleaving_news.0.desc
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+	}
+	
+	picture = GFX_news_event_cleaving_find_better
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+    option = {
+        name = cleaving_news.0.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    option = {
+        name = cleaving_news.0.b
+        trigger = {
+            tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    option = {
+        name = cleaving_news.0.c
+        trigger = {
+            NOT = { tag = MEW }
+			NOT = { tag = USA }
+        }
+    }
+
+}
+
+news_event = {
+	id = cleaving_news.1
+    title = {
+        text = cleaving_news.1.t.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    title = {
+        text = cleaving_news.1.t.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    title = {
+        text = cleaving_news.1.t
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+    }
+    desc = {
+        text = cleaving_news.1.desc.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    desc = {
+        text = cleaving_news.1.desc.b
+        trigger = {
+			tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+	desc = {
+		text = cleaving_news.1.desc
+		trigger = {
+			NOT = { tag = MEW }
+			NOT = { tag = USA }
+		}
+	}
+	
+	picture = GFX_news_event_cleaving_find_better
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+    option = {
+        name = cleaving_news.1.a
+        trigger = {
+            tag = MEW
+			NOT = { tag = USA }
+        }
+    }
+    option = {
+        name = cleaving_news.1.b
+        trigger = {
+            tag = USA
+			NOT = { tag = MEW }
+        }
+    }
+    option = {
+        name = cleaving_news.1.c
+        trigger = {
+            NOT = { tag = MEW }
+			NOT = { tag = USA }
+        }
+    }
+
 }

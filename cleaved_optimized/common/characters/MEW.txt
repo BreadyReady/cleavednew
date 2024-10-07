@@ -150,6 +150,7 @@ characters={
 			idea_token = MEW_political_trad_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				veteran_minister
@@ -170,6 +171,7 @@ characters={
 			idea_token = MEW_political_trad_2_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = MEW_continue_monster_rights_campaign
 			}
 			traits  = {
 				editor
@@ -190,6 +192,7 @@ characters={
 			idea_token = MEW_political_trad_3_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				war_industrialist
@@ -198,18 +201,19 @@ characters={
 		}
 	}
 	
-	MEW_political_prog_char={
-		name=MEW_political_prog_char
+	MEW_higgs={
+		name=MEW_higgs
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+				small="GFX_idea_higgs_advisor"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = MEW_political_prog_char
+			idea_token = MEW_higgs
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				headstrong
@@ -230,6 +234,7 @@ characters={
 			idea_token = MEW_political_prog_2_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_catching_up
 			}
 			traits  = {
 				technocrat
@@ -250,6 +255,7 @@ characters={
 			idea_token = MEW_political_prog_3_char
 			available  = {
 				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
 			}
 			traits  = {
 				captain_of_industry
@@ -522,8 +528,9 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = MEW_silent_workhorse
-			allowed  = {
+			available  = {
 				original_tag  = MEW
+				has_completed_focus = MEW_reforging_mewni
 			}
 			traits  = {
 				silent_workhorse 

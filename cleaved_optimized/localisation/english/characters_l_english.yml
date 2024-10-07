@@ -20,7 +20,7 @@
  MAR_general_3:0 "MAR General 3"
  MAR_field_marshall_1:0 "MAR Field Marshall"
  
- MEW_higgs:0 "Higgs Squire"
+ MEW_higgs:0 "Higgs "The Stubborn""
  
  MEW_silent_workhorse:0 "Mewman Workhorse"
  MEW_general_1:0 "MEW General 1"
@@ -34,6 +34,19 @@
  MON_general_2:0 "MON General 2"
  MON_general_3:0 "MON General 3"
  MON_field_marshall_1:0 "MON Field Marshall"
+ 
+ #Mewni shared advisors
+ MON_shared_advisor_vet_min:0 ""
+ MON_shared_advisor_war_ind:0 ""
+ MON_shared_advisor_higgs:0 "Higgs "The Stubborn""
+ MON_shared_advisor_tech:0 ""
+ MON_shared_advisor_capt_of_ind:0 ""
+ 
+ MAR_shared_advisor_vet_min:0 ""
+ MAR_shared_advisor_war_ind:0 ""
+ MAR_shared_advisor_higgs:0 "Higgs "The Stubborn""
+ MAR_shared_advisor_tech:0 ""
+ MAR_shared_advisor_capt_of_ind:0 ""
  
  #JOH
  JOH_river:0 "King River"

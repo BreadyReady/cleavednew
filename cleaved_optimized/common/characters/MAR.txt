@@ -96,6 +96,101 @@ characters={
 			}
 		}
 	}
+	MAR_shared_advisor_vet_min={
+		name=MAR_shared_advisor_vet_min
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MAR_shared_advisor_vet_min
+			available  = {
+				tag  = MAR
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				veteran_minister
+			}
+		}
+	}
+	MAR_shared_advisor_war_ind={
+		name=MAR_shared_advisor_war_ind
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MAR_shared_advisor_war_ind
+			available  = {
+				tag  = MAR
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				war_industrialist
+			}
+		}
+	}
+	MAR_shared_advisor_higgs={
+		name=MAR_shared_advisor_higgs
+		portraits={
+			army={
+				small="GFX_idea_higgs_advisor"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MAR_shared_advisor_higgs
+			available  = {
+				tag  = MAR
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				headstrong
+			}
+		}
+	}
+	MAR_shared_advisor_tech={
+		name=MAR_shared_advisor_tech
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MAR_shared_advisor_tech
+			available  = {
+				tag  = MAR
+				has_completed_focus = mewni_post_civwar_catching_up
+			}
+			traits  = {
+				technocrat
+			}
+		}
+	}
+	MAR_shared_advisor_capt_of_ind={
+		name=MAR_shared_advisor_capt_of_ind
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MAR_shared_advisor_capt_of_ind
+			available  = {
+				tag  = MAR
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
+			}
+			traits  = {
+				captain_of_industry
+			}
+		}
+	}
 	#########################
 	MAR_general_1={
 		name=MAR_general_1

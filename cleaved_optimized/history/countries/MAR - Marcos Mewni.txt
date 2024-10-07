@@ -22,7 +22,19 @@ add_ideas = {
 
 recruit_character = MAR_marco_diaz
 
+recruit_character = MAR_silent_workhorse
+recruit_character = MAR_shared_advisor_vet_min
+recruit_character = MAR_shared_advisor_war_ind
+recruit_character = MAR_shared_advisor_higgs
+recruit_character = MAR_shared_advisor_tech
+recruit_character = MAR_shared_advisor_capt_of_ind
+
 recruit_character = MAR_army_chief_chinese_char
 recruit_character = MAR_army_chief_american_char
 recruit_character = MAR_army_chief_russian_char
 
+#Generals/fieldmarshalls
+
+recruit_character = MAR_general_1
+recruit_character = MAR_general_2
+recruit_character = MAR_general_3

@@ -14,34 +14,12 @@ focus_tree = {
 	
 	continuous_focus_position = { x = 2450	y = 725 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
-
-	focus = {
-		id = MON_test_focus
-		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 10
-		y = 0
-		
-		bypass = {} 
-		cost = 5
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-		}
-
-		ai_will_do = {
-			factor = 1
-			#modifier = {}
-		}
-	}
 	
 	focus = {
 		id = MON_moon_unites_mewni
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 0
-		y = 1
+		x = 5
+		y = 0
 
 		available = {
 			MEW = {
@@ -61,6 +39,116 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = mewni_civwar.1
+		}
+	}
+	
+	focus = {
+		id = MON_reforging_mewni
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -2
+		y = 1
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_centralizing_mewni
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_monster_matters
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 2
+		y = 1
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_preparing_the_next_generation
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 4
+		y = 1
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_return_to_butterfly_castle
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -4
+		y = 1
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
 		}
 	}
 

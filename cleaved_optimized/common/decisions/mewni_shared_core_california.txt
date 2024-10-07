@@ -1,0 +1,1631 @@
+#This could be more used as a general "cleaved zone coring"
+mewni_shared_core_california_category = {
+	mewni_shared_core_california_state_2 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 2
+			}
+		}
+
+		available = {
+			2 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			2 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 2
+		}
+	}
+	mewni_shared_core_california_state_3 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 3
+			}
+		}
+
+		available = {
+			3 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			3 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 3
+		}
+	}
+	mewni_shared_core_california_state_4 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 4
+			}
+		}
+
+		available = {
+			4 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			4 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 4
+		}
+	}
+	mewni_shared_core_california_state_5 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 5
+			}
+		}
+
+		available = {
+			5 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			5 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 5
+		}
+	}
+	mewni_shared_core_california_state_6 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 6
+			}
+		}
+
+		available = {
+			6 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			6 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 6
+		}
+	}
+	mewni_shared_core_california_state_16 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 16
+			}
+		}
+
+		available = {
+			16 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			16 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 16
+		}
+	}
+	mewni_shared_core_california_state_19 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 19
+			}
+		}
+
+		available = {
+			19 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			19 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 19
+		}
+	}
+	mewni_shared_core_california_state_41 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 41
+			}
+		}
+
+		available = {
+			41 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			41 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 41
+		}
+	}
+	mewni_shared_core_california_state_51 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 51
+			}
+		}
+
+		available = {
+			51 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			51 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 51
+		}
+	}
+	mewni_shared_core_california_state_48 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 48
+			}
+		}
+
+		available = {
+			48 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			48 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 48
+		}
+	}
+	mewni_shared_core_california_state_8 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 8
+			}
+		}
+
+		available = {
+			8 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			8 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 8
+		}
+	}
+	mewni_shared_core_california_state_47 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 47
+			}
+		}
+
+		available = {
+			47 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			47 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 47
+		}
+	}
+	mewni_shared_core_california_state_9 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 9
+			}
+		}
+
+		available = {
+			9 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			9 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 9
+		}
+	}
+	mewni_shared_core_california_state_7 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 7
+			}
+		}
+
+		available = {
+			7 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			7 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 7
+		}
+	}
+	mewni_shared_core_california_state_218 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 218
+			}
+		}
+
+		available = {
+			218 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			218 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 218
+		}
+	}
+	mewni_shared_core_california_state_39 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 39
+			}
+		}
+
+		available = {
+			39 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			39 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 39
+		}
+	}
+	mewni_shared_core_california_state_38 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 38
+			}
+		}
+
+		available = {
+			38 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			38 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 38
+		}
+	}
+	mewni_shared_core_california_state_40 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 40
+			}
+		}
+
+		available = {
+			40 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			40 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 40
+		}
+	}
+	mewni_shared_core_california_state_36 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 36
+			}
+		}
+
+		available = {
+			36 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			36 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 36
+		}
+	}
+	mewni_shared_core_california_state_34 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 34
+			}
+		}
+
+		available = {
+			34 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			34 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 34
+		}
+	}
+	mewni_shared_core_california_state_10 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 10
+			}
+		}
+
+		available = {
+			10 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			10 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 10
+		}
+	}
+	mewni_shared_core_california_state_11 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 11
+			}
+		}
+
+		available = {
+			11 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			11 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 11
+		}
+	}
+	mewni_shared_core_california_state_37 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 37
+			}
+		}
+
+		available = {
+			37 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			37 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 37
+		}
+	}
+	mewni_shared_core_california_state_12 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 12
+			}
+		}
+
+		available = {
+			12 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			12 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 12
+		}
+	}
+	mewni_shared_core_california_state_13 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 13
+			}
+		}
+
+		available = {
+			13 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			13 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 13
+		}
+	}
+	mewni_shared_core_california_state_14 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 14
+			}
+		}
+
+		available = {
+			14 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			14 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 14
+		}
+	}
+	mewni_shared_core_california_state_35 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 35
+			}
+		}
+
+		available = {
+			35 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			35 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 35
+		}
+	}
+	mewni_shared_core_california_state_43 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 43
+			}
+		}
+
+		available = {
+			43 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			43 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 43
+		}
+	}
+	mewni_shared_core_california_state_30 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 30
+			}
+		}
+
+		available = {
+			30 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			30 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 30
+		}
+	}
+	mewni_shared_core_california_state_29 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 29
+			}
+		}
+
+		available = {
+			29 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			29 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 29
+		}
+	}
+	mewni_shared_core_california_state_33 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 33
+			}
+		}
+
+		available = {
+			33 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			33 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 33
+		}
+	}
+	mewni_shared_core_california_state_32 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+		}
+
+		available = {
+			32 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			32 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 32
+		}
+	}
+	mewni_shared_core_california_state_20 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 20
+			}
+		}
+
+		available = {
+			20 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			20 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 20
+		}
+	}
+	mewni_shared_core_california_state_21 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+		}
+
+		available = {
+			21 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			21 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 21
+		}
+	}
+	mewni_shared_core_california_state_22 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 22
+			}
+		}
+
+		available = {
+			22 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			22 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 22
+		}
+	}
+	mewni_shared_core_california_state_31 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 31
+			}
+		}
+
+		available = {
+			31 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			31 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 31
+		}
+	}
+	mewni_shared_core_california_state_28 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 28
+			}
+		}
+
+		available = {
+			28 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			28 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 28
+		}
+	}
+	mewni_shared_core_california_state_25 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 25
+			}
+		}
+
+		available = {
+			25 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			25 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 25
+		}
+	}
+	mewni_shared_core_california_state_24 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 24
+			}
+		}
+
+		available = {
+			24 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			24 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 24
+		}
+	}
+	mewni_shared_core_california_state_85 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 85
+			}
+		}
+
+		available = {
+			85 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			85 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 85
+		}
+	}
+	mewni_shared_core_california_state_23 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 23
+			}
+		}
+
+		available = {
+			23 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			23 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 23
+		}
+	}
+	mewni_shared_core_california_state_26 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 26
+			}
+		}
+
+		available = {
+			26 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			26 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 26
+		}
+	}
+	mewni_shared_core_california_state_27 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 27
+			}
+		}
+
+		available = {
+			27 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			27 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 27
+		}
+	}
+	mewni_shared_core_california_state_86 = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 86
+			}
+		}
+
+		available = {
+			86 = { is_owned_by = ROOT }
+		}
+
+		visible = {
+			86 = {
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+
+		days_remove = 35
+
+		ai_will_do = {
+			base = 75
+		}
+
+		cost = 50
+
+		remove_effect = {
+			add_state_core = 86
+		}
+	}
+}

@@ -74,4 +74,19 @@ spriteTypes = {
 		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_eclipsa_calm.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_visnov_portrait_eclipsa_fancy_sad"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_eclipsa_fancy_sad.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_globgor"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_globgor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_visnov_portrait_eclipsa_fancy_happy"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_portraits\\visnov_portrait_eclipsa_fancy_happy.dds"
+	}
+	
 }

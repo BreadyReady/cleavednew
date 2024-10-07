@@ -8,7 +8,7 @@ cleaving_news.0.desc.b:0 "Communications from Los Angeles to Southern Oregon are
 cleaving_news.0.desc:0 "Communications from the American west coast are reporting a catastrophic event occurring around 10 pm PST on May 19th. Said event is not fully understood at the current time, but Government officials have released a statement saying that the event will be treated like a natural disaster. The status of the Governor of California is unknown.\n\nEffects of the event include earthquakes, wildfires, the ‘merging’ of objects, alterations in the landscape and geography, and most strange of all: a rise in the sightings of cryptids. Casualties are confirmed. Travel is not advised."
 cleaving_news.0.a:0 "What the corn just happened?"
 cleaving_news.0.b:0 "We must get to work! Never another Katrina!"
-cleaving_news.0.c:0 "How Terrible! Thoughts and Prayers..."
+cleaving_news.0.c:0 "Interesting"
 
 cleaving_news.1.t:0 "Magical Kingdom Appears in the US!"
 cleaving_news.1.t.a:0 "We have Merged with Earth!"
@@ -110,14 +110,14 @@ mewni_civwar_news.3.c:0 "A Victory We Can Celebrate!" #MAR
 mewni_civwar_news.3.d:0 "Interesting"
 
 mewni_civwar_news.4.t:0 "Fall of Moon's Mewni!"
-mewni_civwar_news.4.desc:0 "To Write"
+mewni_civwar_news.4.desc:0 "(To Write) moon defeated. her authoritarian ways seem to have struck a chord with her followers and they are fiercly loyal. instead of imprisonment, she is exiled in exchange for her telling her followers to stand down. "
 mewni_civwar_news.4.a:0 "A Victory We Can Celebrate!" #MEW
 mewni_civwar_news.4.b:0 "All is lost..." #MON
 mewni_civwar_news.4.c:0 "A Victory We Can Celebrate!" #MAR
 mewni_civwar_news.4.d:0 "Interesting"
 
 mewni_civwar_news.5.t:0 "Fall of Marco's Mewni!"
-mewni_civwar_news.5.desc:0 "To Write"
+mewni_civwar_news.5.desc:0 "After numerous high ranking officials have fled, Marco's Mewni has finally fallen in the War of the Butterflies. Perhaps the most enigmatic faction of the war, it was no secret that Marco was an unwilling front for a group of other nobles who wished to permanently take power for themselves and away from the monarch of Mewni.\n\nWhile Marco's official statement (written by his puppet masters no doubt,) was frustratingly condemning the other factions, Marco himself was seen happily making amends with previously declared enemies. Marco is expected to largely retire from political life, and perhaps that's for the best."
 mewni_civwar_news.5.a:0 "A Victory We Can Celebrate!" #MEW
 mewni_civwar_news.5.b:0 "A Victory We Can Celebrate!" #MON
 mewni_civwar_news.5.c:0 "All is lost..." #MAR
@@ -142,19 +142,19 @@ mewni_civwar_news.8.b:0 "A Blessing, or a Curse?" #MON
 mewni_civwar_news.8.c:0 "A Blessing, or a Curse?" #MAR
 mewni_civwar_news.8.d:0 "Interesting"
 
-mewni_civwar_news.9.t:0 "Eclipsa Wins Mewman Civil War!"
-mewni_civwar_news.9.desc:0 "To Write"
+mewni_civwar_news.9.t:0 "Eclipsa Wins the War of the Butterflies!"
+mewni_civwar_news.9.desc:0 "After a long and bloody 3-way war, Eclipsa has defeated her enemies and has secured a stable Mewman throne. Her victory means that Mewman policy before the civil war will remian unchanged, orthodox Mewman feudalism will continue and monster rights will be pushed. However, this time Eclipsa is more seasoned and has the support of the people behind her.\n\nEclipsa celebrated by throwing kingdom-wide festivals and addressing the Mewman people wth her Husband by her side. She promises that whatever Earthni throws at Mewni, the forces of righteousness will come out on top."
 mewni_civwar_news.9.a:0 "Victory!" #MEW
 mewni_civwar_news.9.b:0 "Interesting" #EVERYONE ELSE
 
-mewni_civwar_news.10.t:0 "Moon Wins Mewman Civil War!"
-mewni_civwar_news.10.desc:0 "To Write"
+mewni_civwar_news.10.t:0 "Moon Wins the War of the Butterflies!"
+mewni_civwar_news.10.desc:0 "After a long and bloody 3-way war, Moon has defeated her enemies and has secured a stable Mewman throne. Her victory means that Mewman policy will change drastically, Mewni's feudal system will be done away with in favor of a strong, centralized, modern administration. Under this system, the Monarch will hold power unparalleled in Mewman history. Moon's extensive experience from becoming Queen since age 14, reigning for decades, and taking back the throne when she did lose it, has many optimistic that she's the right one for the job.\n\nMoon celebrated by throwing parties, concerts, and speeches in the Capital long into the night. She had Star accompanying her at all times, likely to prepare her to eventually take Moon's place."
 mewni_civwar_news.10.a:0 "Victory!" #MON
 mewni_civwar_news.10.b:0 "Interesting" #EVERYONE ELSE
 
-mewni_civwar_news.11.t:0 "Marco Wins Mewman Civil War!"
-mewni_civwar_news.11.desc:0 "To Write"
-mewni_civwar_news.11.a:0 "Victory!" #MAR
+mewni_civwar_news.11.t:0 ""Marco" Wins the War of the Butterflies!"
+mewni_civwar_news.11.desc:0 "After a long and bloody 3-way war, "Marco" has defeated his enemies and has secured a stable Mewman throne. This victory means that the puppet masters behind Marco will take powers and riches away from the monarch for themselves.\n\nHowever, it is unclear whether or not these lesser nobility will continue working harmoniously. While it is certainly possible, it's much more likely that a royal from their own ranks will rise and make themselves the monarch of Mewni. While the war of the Butterflies is over, the power struggle for the Mewman throne may still continue."
+mewni_civwar_news.11.a:0 "Victory?" #MAR
 mewni_civwar_news.11.b:0 "Interesting" #EVERYONE ELSE
 
 #SPT
@@ -209,3 +209,17 @@ MIN_news_event.3.a:0 "Toffee's Dreams Forever Lost..." #SPT
 MIN_news_event.3.b:0 "Very Concerning" #MEW, MON, MAR
 MIN_news_event.3.c:0 "The Solarians Are Back, Baby!" #MIN
 MIN_news_event.3.d:0 "Interesting"
+
+###############
+
+mewni_vs_mina_and_septarsis.1.t:0 "Mewni VS The Forces of Evil"
+mewni_vs_mina_and_septarsis.1.desc:0 "To Write"
+mewni_vs_mina_and_septarsis.1.a:0 "What We Did to Comet, We Will Do to All of Mewni!" #SPT
+mewni_vs_mina_and_septarsis.1.b:0 "Let's go, let's go, let's go!" #MEW, MON, MAR
+mewni_vs_mina_and_septarsis.1.c:0 "Solaria Is With Us!" #MIN
+mewni_vs_mina_and_septarsis.1.d:0 "Interesting"
+
+####################### COVID
+covid_news_event.0.t:0 "Pneumonia in Wuhan, China"
+covid_news_event.0.desc:0 "WUHAN MUNICIPAL HEALTH COMMISION - CHINA\n\nA cluster of cases of Pneumonia in Wuhan, China have been reported to be caused by a Novel Coronavirus, or a newly-dicovered Coronavirus. This virus currently has no vaccine. The wet-market where the virus is suspected to have originally made animal-human transmission has been shutdown for disinfection. The symptoms of the virus include mild to severe cough, congestion or runny nose, diarrhea, fever or chills, shortness of breath, and loss of taste or smell.\n\nThe virus is expected to further spread in China."
+covid_news_event.0.a:0 "I Doubt It'll Get Too Far"

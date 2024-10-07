@@ -39,6 +39,11 @@ spriteTypes = {
 		name = "GFX_visnov_bg_8"
 		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_8.dds"
 	}
+
+	spriteType = { 
+		name = "GFX_visnov_bg_9"
+		textureFile = "gfx\\interface\\visnov_gfx\\visnov_backgrounds_images\\visnov_bg_9.dds"
+	}
 	
 	spriteType = { 
 		name = "GFX_visnov_portrait_bg"

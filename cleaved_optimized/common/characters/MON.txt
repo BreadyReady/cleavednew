@@ -25,7 +25,7 @@ characters={
 			slot = army_chief
 			idea_token = MON_army_chief_chinese_char
 			available  = {
-				original_tag  = MON
+				tag  = MON
 				has_completed_focus = mewni_civwar_chinese_advisors
 			}
 			traits  = {
@@ -46,7 +46,7 @@ characters={
 			slot = army_chief
 			idea_token = MON_army_chief_american_char
 			available  = {
-				original_tag  = MON
+				tag  = MON
 				has_completed_focus = mewni_civwar_american_advisors
 			}
 			traits  = {
@@ -67,7 +67,7 @@ characters={
 			slot = army_chief
 			idea_token = MON_army_chief_russian_char
 			available  = {
-				original_tag  = MON
+				tag  = MON
 				has_completed_focus = mewni_civwar_russian_advisors
 			}
 			traits  = {
@@ -86,11 +86,106 @@ characters={
 		advisor={
 			slot = political_advisor
 			idea_token = MON_silent_workhorse
-			allowed  = {
-				original_tag  = MON
+			available  = {
+				tag  = MON
 			}
 			traits  = {
 				silent_workhorse 
+			}
+		}
+	}
+	MON_shared_advisor_vet_min={
+		name=MON_shared_advisor_vet_min
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_shared_advisor_vet_min
+			available  = {
+				tag  = MON
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				veteran_minister
+			}
+		}
+	}
+	MON_shared_advisor_war_ind={
+		name=MON_shared_advisor_war_ind
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_shared_advisor_war_ind
+			available  = {
+				tag  = MON
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				war_industrialist
+			}
+		}
+	}
+	MON_shared_advisor_higgs={
+		name=MON_shared_advisor_higgs
+		portraits={
+			army={
+				small="GFX_idea_higgs_advisor"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_shared_advisor_higgs
+			available  = {
+				tag  = MON
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				headstrong
+			}
+		}
+	}
+	MON_shared_advisor_tech={
+		name=MON_shared_advisor_tech
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_shared_advisor_tech
+			available  = {
+				tag  = MON
+				has_completed_focus = mewni_post_civwar_catching_up
+			}
+			traits  = {
+				technocrat
+			}
+		}
+	}
+	MON_shared_advisor_capt_of_ind={
+		name=MON_shared_advisor_capt_of_ind
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_shared_advisor_capt_of_ind
+			available  = {
+				tag  = MON
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
+			}
+			traits  = {
+				captain_of_industry
 			}
 		}
 	}
@@ -110,8 +205,8 @@ characters={
 			slot = theorist
 			idea_token = MON_general_1
 			ledger = army
-				allowed = {
-					original_tag = MON
+				available = {
+					tag = MON
 				}			
 				traits = {
 					mobile_warfare_expert
@@ -141,8 +236,8 @@ characters={
 			slot = theorist
 			idea_token = MON_general_2
 			ledger = army
-			allowed = {
-				original_tag = MON
+			available = {
+				tag = MON
 			}		
 			traits = {
 				superior_firepower_expert
@@ -187,8 +282,8 @@ characters={
 			cost = 100
 			slot = army_chief
 			idea_token = MON_field_marshall_1
-			allowed = {		
-					original_tag = MON
+			available = {		
+					tag = MON
 			}
 			traits = {
 				army_chief_offensive_2

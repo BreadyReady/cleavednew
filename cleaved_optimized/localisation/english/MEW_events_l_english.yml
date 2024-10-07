@@ -36,6 +36,46 @@ MEW_civil_war.1.t:0 "Civil War Bonuses"
 MEW_civil_war.1.desc:0 "TO WRITE"
 MEW_civil_war.1.a:0 "Less go"
 
+MEW_post_civwar_monster_rights.0.t:0 "Monster Rights Movement in Mewni Proper"
+MEW_post_civwar_monster_rights.0.desc:0 "The Regime in the west has renewed their so-called 'Civil Rights' effort to make Monsters equal to the Mewmans. Disgusting! Thankfully, this has reminded us why it is so important that we fight and one day return to the heartlands. The spirit of resistance has been reinvigorated."
+MEW_post_civwar_monster_rights.0.a:0 "We'll correct this, mark my words..."
+
+MEW_post_civwar_monster_rights.1.t:0 "[MIN.getname] Repsonds to our Monster Rights Campaign"
+MEW_post_civwar_monster_rights.1.desc:0 "In reponse to our renewed Monster Rights efforts, [MIN.getname] has grown more fanatical. They will likley fight harder than before, and employ every tactic available to them to ensure their continued existence in order to one day revert our efforts. ([MIN.getname] gains a national spirit making occupying their lands harder)(TO REWRITE)"
+MEW_post_civwar_monster_rights.1.a:0 "Concerning"
+
+MEW_post_civwar_monster_rights.2.t:0 "Anti-Monster Pushback"
+MEW_post_civwar_monster_rights.2.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.2.a:0 "Just A Loud Minority..."
+
+MEW_post_civwar_monster_rights.3.t:0 "Reversing Repatriations Results in Damages"
+MEW_post_civwar_monster_rights.3.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.3.a:0 "Unfourtunate, but Necessary."
+
+MEW_post_civwar_monster_rights.4.t:0 "Anti-Monster Groups Plan Massive Protest"
+MEW_post_civwar_monster_rights.4.desc:0 "In response to our repealation of Solarian Monster Laws, Anti-Monster groups throuout Mewni have announced their plan to organize a protest "the likes of which Mewni has never seen." (TO WRITE)"
+MEW_post_civwar_monster_rights.4.a:0 "Concerning..."
+
+MEW_post_civwar_monster_rights.5.t:0 "Anti-Monster Protest Fails Spectacularly."
+MEW_post_civwar_monster_rights.5.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.5.a:0 "Hm. Surprising, but a Welcome Relief."
+
+MEW_post_civwar_monster_rights.6.t:0 "Inspiring Shows of Mewman-Monster Solidarity Among Children"
+MEW_post_civwar_monster_rights.6.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.6.a:0 "Children are the Future!"
+
+MEW_post_civwar_monster_rights.7.t:0 "Eclipsa Day!"
+MEW_post_civwar_monster_rights.7.desc:0 "Eclipsa's Mosnter Rights Decree has been met with cheers and parties across Monster and some Mewman communities. Many are calling [GetDateText] "Monster Day", or even "Eclipsa Day" showing that this achievement is greater than Eclipsa's coronation.\n\nSome monsters have even begun calling Eclipsa "The Liberator." While not popular enough to supercede her established Nickname, it stil shows the shift in public perception.(TO REWRITE)"
+MEW_post_civwar_monster_rights.7.a:0 "Eclipsa "The Liberator..." I like it!"
+
+MEW_post_civwar_reforging_mewni.0.t:0 "Terms and Conditions: Johansens and Festivians"
+MEW_post_civwar_reforging_mewni.0.desc:0 "(TO WRITE)"
+MEW_post_civwar_reforging_mewni.0.a:0 "Noted"
+
+MEW_post_civwar_reforging_mewni.1.t:0 "A Letter From Yurt Village"
+MEW_post_civwar_reforging_mewni.1.desc:0 "(TO WRITE. MOON SAYS SHE FORGIVES ECLIPSA AND THAT SHE JUST WANT TO LIVE PEACEFULLY IN YURT VILLAGE NOW)"
+MEW_post_civwar_reforging_mewni.1.a:0 "§0I Forgive You Too, Moon.§!"
+
 #####
 #OLD#
 #####

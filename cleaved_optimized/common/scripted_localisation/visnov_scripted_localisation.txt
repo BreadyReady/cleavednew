@@ -49,6 +49,12 @@ defined_text = {
         }
         localization_key = "GFX_visnov_bg_8"
     }
+    text = {
+        trigger = {
+			check_variable = { visnov_bg_var = 9 }
+        }
+        localization_key = "GFX_visnov_bg_9"
+    }
 }
 
 defined_text = {
@@ -113,6 +119,24 @@ defined_text = {
 			check_variable = { visnov_portrait_var = 10 }
         }
         localization_key = "GFX_visnov_portrait_eclipsa_calm"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_portrait_var = 11 }
+        }
+        localization_key = "GFX_visnov_portrait_eclipsa_fancy_sad"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_portrait_var = 12 }
+        }
+        localization_key = "GFX_visnov_portrait_globgor"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_portrait_var = 13 }
+        }
+        localization_key = "GFX_visnov_portrait_eclipsa_fancy_happy"
     }
 }
 
@@ -196,6 +220,12 @@ defined_text = {
 			check_variable = { visnov_variable_text_speaker_var = 13 }#MOON
         }
         localization_key = "visnov_variable_text_speaker_13"
+    }
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speaker_var = 14 }#GLOBGOR
+        }
+        localization_key = "visnov_variable_text_speaker_14"
     }
 }
 
@@ -741,6 +771,221 @@ defined_text = {
 			check_variable = { visnov_variable_text_speech_var = 90 }
         }
         localization_key = "visnov_variable_text_speech_90"
+    }
+	
+	#trying out a new system.
+	#100                                        																					 000												000
+	#^^^ Determining the "path" or exact scene. Must start with 100 but then itll go to like 101 102 etc. gives 999 potential scenes.^^^ determines character speaking. 999 potential.  ^^^ determines text
+	#
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 100000001 } #Scene 100 = end of mewman civil war, generic start. Character 000 = Narrator. Slide 001.
+        }
+        localization_key = "visnov_variable_text_speech_100000001"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 100000002 } #Scene 100 = end of mewman civil war, generic start. Character 000 = Narrator. Slide 002.
+        }
+        localization_key = "visnov_variable_text_speech_100000002"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 100000003 } #Scene 100 = end of mewman civil war, generic start. Character 000 = Narrator. Slide 003.
+        }
+        localization_key = "visnov_variable_text_speech_100000003"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 100000004 } #Scene 100 = end of mewman civil war, generic start. Character 000 = Narrator. Slide 004.
+        }
+        localization_key = "visnov_variable_text_speech_100000004"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 100000005 } #Scene 100 = end of mewman civil war, generic start. Character 000 = Narrator. Slide 005.
+        }
+        localization_key = "visnov_variable_text_speech_100000005"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000001 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000 = Narrator. Slide 001.
+        }
+        localization_key = "visnov_variable_text_speech_101000001"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000003 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000 = Narrator. Slide 003.
+        }
+        localization_key = "visnov_variable_text_speech_101000003"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000002 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000 = Narrator. Slide 002.
+        }
+        localization_key = "visnov_variable_text_speech_101000002"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101001001 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 001 = Eclipsa. Slide 001.
+        }
+        localization_key = "visnov_variable_text_speech_101001001"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000004 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000 = Narrator. Slide 004.
+        }
+        localization_key = "visnov_variable_text_speech_101000004"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002001 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 001s.
+        }
+        localization_key = "visnov_variable_text_speech_101002001"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000005 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000 = Narrator. Slide 005.
+        }
+        localization_key = "visnov_variable_text_speech_101000005"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101001002 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 001 = Eclipsa. Slide 002.
+        }
+        localization_key = "visnov_variable_text_speech_101001002"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000006 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 006.
+        }
+        localization_key = "visnov_variable_text_speech_101000006"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002002 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 002s.
+        }
+        localization_key = "visnov_variable_text_speech_101002002"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002002 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 002s.
+        }
+        localization_key = "visnov_variable_text_speech_101002002"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101001003 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 001 = Eclipsa. Slide 003.
+        }
+        localization_key = "visnov_variable_text_speech_101001003"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002003 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 003.
+        }
+        localization_key = "visnov_variable_text_speech_101002003"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101001004 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 001 = Eclipsa. Slide 004.
+        }
+        localization_key = "visnov_variable_text_speech_101001004"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000007 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 007.
+        }
+        localization_key = "visnov_variable_text_speech_101000007"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002004 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 004.
+        }
+        localization_key = "visnov_variable_text_speech_101002004"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000008 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 008
+        }
+        localization_key = "visnov_variable_text_speech_101000008"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002005 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 005.
+        }
+        localization_key = "visnov_variable_text_speech_101002005"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002006 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 006.
+        }
+        localization_key = "visnov_variable_text_speech_101002006"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000009 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 009
+        }
+        localization_key = "visnov_variable_text_speech_101000009"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002007 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 007.
+        }
+        localization_key = "visnov_variable_text_speech_101002007"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000010 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 010
+        }
+        localization_key = "visnov_variable_text_speech_101000010"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101001005 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 001 = Eclipsa. Slide 005.
+        }
+        localization_key = "visnov_variable_text_speech_101001005"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101002008 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 002 = Globgor. Slide 008.
+        }
+        localization_key = "visnov_variable_text_speech_101002008"
+    }
+	
+    text = {
+        trigger = {
+			check_variable = { visnov_variable_text_speech_var = 101000011 } #Scene 101 = end of mewman civil war, eclipsa variation. Character 000= Narrator. Slide 011.
+        }
+        localization_key = "visnov_variable_text_speech_101000011"
     }
 }
 

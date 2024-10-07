@@ -4,7 +4,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_report_event_empty_event"
+		name = "GFX_report_event_empty"
 		texturefile = "gfx/event_country_pictures/ALL/report_event_empty.dds"
 	}
 	
@@ -31,6 +31,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_marco_birthday_16_event"
 		texturefile = "gfx/event_country_pictures/MEW/marco_birthday_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_monster_mewman_kids_event"
+		texturefile = "gfx/event_country_pictures/MEW/monster_mewman_kids.dds"
 	}
 	
 }

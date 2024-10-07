@@ -1,0 +1,38 @@
+add_namespace = covid_event
+add_namespace = covid_news_event
+
+country_event = {
+	id = covid_event.0
+	title = covid_event.0.t
+	desc = covid_event.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = covid_event.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+news_event = {
+    id = covid_news_event.0 
+    title = {
+        text = covid_news_event.0.t
+    }
+    desc = {
+        text = covid_news_event.0.desc
+    }
+    
+    picture = GFX_news_event_scientists
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = covid_news_event.0.a
+        trigger = {
+			always = yes
+        }
+    }
+}

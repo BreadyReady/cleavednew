@@ -50,6 +50,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		custom_effect_tooltip = advisor_unlock_tooltip
 		add_timed_idea = {
 			idea = mewni_post_civwar_hyperindustrialization_idea
 			days = 730
@@ -292,6 +293,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		custom_effect_tooltip = advisor_unlock_tooltip
 		add_research_slot = 1
     }
 }
@@ -457,6 +459,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		add_research_slot = 1
     }
 }
 
@@ -786,6 +789,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
+		custom_effect_tooltip = advisor_unlock_tooltip
     }
 }
 

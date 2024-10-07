@@ -157,6 +157,46 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = mewni_civwar.2
+	title = mewni_civwar.2.t
+	desc = mewni_civwar.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = mewni_civwar.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		IF = {
+			limit = {
+				ROOT = {
+					tag = MEW
+				}
+			}
+			country_event = visnov_trigger.8
+		}
+		ELSE_IF = {
+			limit = {
+				ROOT = {
+					tag = MON
+				}
+			}
+			complete_national_focus = MON_moon_unites_mewni
+		}
+		ELSE_IF = {
+			limit = {
+				ROOT = {
+					tag = MAR
+				}
+			}
+			complete_national_focus = MAR_marco_unites_mewni
+		}
+	}
+}
+
 #############
 #NEWS EVENTS#
 #############

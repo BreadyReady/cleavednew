@@ -210,3 +210,36 @@ country_event = {
 		clr_country_flag = visnov_decs1_button_visible_flag
 	}
 }
+
+country_event = { #END OF THE MEWMAN CIVIL WAR
+	id = visnov_trigger.8
+	title = visnov_trigger.8.t
+	desc = visnov_trigger.8.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = { 
+		name = visnov_trigger.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = visnov_visible
+		set_variable = {
+			var = visnov_bg_var
+			value = 4
+		}
+		set_variable = {
+			var = visnov_variable_text_speaker_var 
+			value = 5 #Empty Speaker Caption
+		}
+		set_variable = {
+			var = visnov_portrait_var
+			value = 3 #Empty Portrait
+		}
+		set_variable = {
+			var = visnov_variable_text_speech_var
+			value = 100000001
+		}
+		
+	}
+}

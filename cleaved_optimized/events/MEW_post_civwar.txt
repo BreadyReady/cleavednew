@@ -1,0 +1,237 @@
+add_namespace = MEW_post_civwar_monster_rights
+add_namespace = MEW_post_civwar_reforging_mewni
+add_namespace = mewni_vs_mina_and_septarsis
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.0
+	title = MEW_post_civwar_monster_rights.0.t
+	desc = MEW_post_civwar_monster_rights.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_ideas = MIN_anti_mew_resistance
+		MEW = {
+			country_event = { id = MEW_post_civwar_monster_rights.1 days = 7 }
+		}
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.1
+	title = MEW_post_civwar_monster_rights.1.t
+	desc = MEW_post_civwar_monster_rights.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.2
+	title = MEW_post_civwar_monster_rights.2.t
+	desc = MEW_post_civwar_monster_rights.2.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.2.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.3
+	title = MEW_post_civwar_monster_rights.3.t
+	desc = MEW_post_civwar_monster_rights.3.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.3.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = -0.03
+		random_owned_state = {
+			damage_building = {
+				type = infrastructure
+				damage = 5
+			}
+		}
+		random_owned_state = {
+			damage_building = {
+				type = infrastructure
+				damage = 5
+			}
+		}
+		random_owned_state = {
+			damage_building = {
+				type = infrastructure
+				damage = 5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.4
+	title = MEW_post_civwar_monster_rights.4.t
+	desc = MEW_post_civwar_monster_rights.4.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.4.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = -0.03
+		hidden_effect = {
+			country_event = { id = MEW_post_civwar_monster_rights.5 days = 14 }
+		}
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.5
+	title = MEW_post_civwar_monster_rights.5.t
+	desc = MEW_post_civwar_monster_rights.5.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.5.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.6
+	title = MEW_post_civwar_monster_rights.6.t
+	desc = MEW_post_civwar_monster_rights.6.desc
+	picture = GFX_monster_mewman_kids_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.6.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_monster_rights.7
+	title = MEW_post_civwar_monster_rights.7.t
+	desc = MEW_post_civwar_monster_rights.7.desc
+	picture = GFX_monster_mewman_kids_event
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.7.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_war_support = 0.2
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_reforging_mewni.0
+	title = MEW_post_civwar_reforging_mewni.0.t
+	desc = MEW_post_civwar_reforging_mewni.0.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_reforging_mewni.0.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_ideas = MIN_anti_mew_resistance
+	}
+}
+
+country_event = {
+	id = MEW_post_civwar_reforging_mewni.1
+	title = MEW_post_civwar_reforging_mewni.1.t
+	desc = MEW_post_civwar_reforging_mewni.1.desc
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEW_post_civwar_reforging_mewni.1.a
+		ai_chance = { factor = 60 }	# 60% AI choose this
+	}
+}
+
+
+news_event = {
+    id = mewni_vs_mina_and_septarsis.1 #Mewni Invades Mina and Spetarsis
+    title = {
+        text = mewni_vs_mina_and_septarsis.1.t
+    }
+    desc = {
+        text = mewni_vs_mina_and_septarsis.1.desc
+    }
+    
+    picture = GFX_news_event_trumpets
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = mewni_vs_mina_and_septarsis.1.a
+        trigger = {
+            tag = SPT
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = mewni_vs_mina_and_septarsis.1.b
+        trigger = {
+			OR = {
+				tag = MEW
+				tag = MON
+				tag = MAR
+			}
+            NOT = { tag = SPT }
+            NOT = { tag = MIN }
+        }
+    }
+    
+    option = {
+        name = mewni_vs_mina_and_septarsis.1.c
+        trigger = {
+            tag = MIN
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = SPT }
+        }
+    }
+    
+    option = {
+        name = mewni_vs_mina_and_septarsis.1.d
+        trigger = {
+            NOT = { tag = SPT }
+            NOT = { tag = MEW }
+            NOT = { tag = MON }
+            NOT = { tag = MAR }
+            NOT = { tag = MIN }
+        }
+    }
+}

@@ -10,7 +10,7 @@ cleaving.4.a:0 "No"
 cleaving.4.b:0 "Yes"
 
 kids_age.0.t:0 "Kid's GFX Switch"
-kids_age.0.desc:0 "6 years have passed since the Cleaving. As time passes, people age. While not as noticable in adults, people who were 15 during the cleaving like Star and Marco will definitley stop looking like kids and more like adults.\n\nAfter 6 years, Star, Marco, and others are now in or entering their early 20s. Would you like to change portraits to reflect this change? (ONLY WORKS FOR MARCO DIAZ FOR NOW)"
+kids_age.0.desc:0 "6 years have passed since the Cleaving. As time passes, people age. While not as noticable in adults, people who were 15 during the cleaving like Star and Marco will definitley stop looking like kids and more like adults.\n\nAfter 6 years, Star, Marco, and others are now in or entering their early 20s. Would you like to change portraits to reflect this change? (ONLY WORKS FOR MARCO DIAZ, AND HIGGS'S ADVISOR ICON FOR NOW. In the future when higgs can become a general, we must have it so that the effec that gives higgs the general job detects whether or not the grown up option has been activated. because its possible that you do that focus after this event has been activated. Alternativley I could just make Higgs available to all mewnis at game start, but that would sort of be immersion breaking... but hell how often does a player notice the generals of the enemy?)"
 kids_age.0.a:0 "Switch Portraits to Grown-Up Verisons"
 kids_age.0.b:0 "Keep Portraits As Canon Designs"
 
