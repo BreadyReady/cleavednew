@@ -542,6 +542,20 @@ ideas = {
 			}
 		}
 		
+		MEW_politically_powerful_knighthood = {
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+		
 		MEW_disastrous_reparations = {
 			picture = generic_research_bonus
 			
@@ -770,31 +784,19 @@ ideas = {
 	
 	#RESEARCH & PRODUCTION
 	industrial_concern = {
-		MEW_industrial_concern_trad = {
-			
-			allowed = {
-			}
-			
-			#research_bonus = {
-			#	industry = 0.05
-			#	synth_resources = 0.15
-			#}
-			
-			traits = { quality_concern mewman_traditionalist }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		MEW_industrial_concern_prog = {
 			
 			allowed = {
+				OR = {
+					tag = MEW
+					tag = MON
+					tag = MAR
+				}
 			}
 			
-			#research_bonus = {
-			#	industry = 0.05
-			#	synth_resources = 0.15
-			#}
+			available = {
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
+			}
 			
 			traits = { mass_manufacture mewman_progressive }
 			
@@ -806,6 +808,15 @@ ideas = {
 		MEW_industrial_concern_neut = {
 			
 			allowed = {
+				OR = {
+					tag = MEW
+					tag = MON
+					tag = MAR
+				}
+			}
+			
+			available = {
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
 			}
 			
 			research_bonus = {
@@ -813,6 +824,30 @@ ideas = {
 			}
 			
 			traits = { electronics_concern mewman_moderate }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		MEW_industrial_concern_build = {
+			
+			allowed = {
+				OR = {
+					tag = MEW
+					tag = MON
+					tag = MAR
+				}
+			}
+			
+			available = {
+				has_completed_focus = mewni_post_civwar_hyperindustrialization
+			}
+			
+			research_bonus = {
+			}
+			
+			traits = { captain_of_industry }
 			
 			ai_will_do = {
 				factor = 1
@@ -828,173 +863,26 @@ ideas = {
 	materiel_manufacturer = {
 	
 		designer = yes
-	
-		MEW_materiel_manufacturer_trad = {
+		MEW_industrial_concern_trad = {
 			
 			allowed = {
+				OR = {
+					tag = MEW
+					tag = MON
+					tag = MAR
+				}
 			}
 			
 			available = {
-				has_idea = MEW_industrial_concern_trad
-				has_completed_focus = MEW_economic_affair
+				has_completed_focus = mewni_post_civwar_small_arms_effort
 			}
 			
-			traits = { mewman_traditionalist }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		MEW_materiel_manufacturer_prog = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_prog
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_progressive }
+			traits = { quality_concern mewman_traditionalist }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	
-		MEW_materiel_manufacturer_neut = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_neut
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_moderate }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
 	}
-	
-	aircraft_manufacturer = {
-	
-		designer = yes
-		
-		MEW_aircraft_manufacturer_prog = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_prog
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_progressive }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	
-		MEW_aircraft_manufacturer_neut = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_neut
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_moderate }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-	}
-	
-	naval_manufacturer = {
-	
-		designer = yes
-		
-		MEW_naval_manufacturer_prog = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_prog
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_progressive }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	
-		MEW_naval_manufacturer_neut = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_neut
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_moderate }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-	}
-	
-	tank_manufacturer = {
-	
-		designer = yes
-		
-		MEW_tank_manufacturer_prog = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_prog
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_progressive }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	
-		MEW_tank_manufacturer_neut = {
-			
-			allowed = {
-			}
-			
-			available = {
-				has_idea = MEW_industrial_concern_neut
-				has_completed_focus = MEW_economic_affair
-			}
-			
-			traits = { mewman_moderate }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}	
-	}
-
 }

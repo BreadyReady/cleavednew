@@ -6,10 +6,11 @@ set_stability = 0.40
 set_war_support = 35
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = mewman_monarchy
 }
 set_popularities = {
-	neutrality = 100
+	mewman_monarchy = 80
+	neutrality = 20
 }
 
 recruit_character = SPI_king_spiderbite

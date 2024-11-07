@@ -132,6 +132,7 @@ country_event = {
 			set_country_flag = end_mewni_civwars
 		}
 		add_ideas = MEW_feudal_levy 
+		add_ideas = MEW_politically_powerful_knighthood 
 		######
 		#NEWS#
 		######

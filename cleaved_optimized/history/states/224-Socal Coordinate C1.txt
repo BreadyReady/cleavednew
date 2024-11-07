@@ -14,6 +14,10 @@ state={
             arms_factory = 1
         }
 	}
+	resources = {
+		steel = 18
+		aluminium = 4
+	}
 	buildings_max_level_factor=1.000
  	state_category=large_town
 	local_supplies=0.000

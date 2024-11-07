@@ -38,4 +38,9 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/monster_mewman_kids.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_mia_fondapple_event"
+		texturefile = "gfx/event_country_pictures/MEW/mia_fondapple.dds"
+	}
+	
 }

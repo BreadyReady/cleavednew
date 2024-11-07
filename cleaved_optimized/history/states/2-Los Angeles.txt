@@ -16,7 +16,9 @@ state={
 	}
 	resources = {
 		steel = 10
-		oil = 8
+		oil = 20
+		tungsten = 12
+		chromium = 6
 	}
 	manpower=3140000
 	buildings_max_level_factor=1.000

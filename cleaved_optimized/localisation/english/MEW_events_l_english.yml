@@ -1,21 +1,21 @@
 ﻿l_english:
 
-MEW_visnov_flavor.0.t:0 "Flavor event eclipsa goes with star to the garden"
-MEW_visnov_flavor.0.desc:0 "TO WRITE"
-MEW_visnov_flavor.0.a:0 "TO WRITE OPTION"
+MEW_visnov_flavor.0.t:0 "Rose Garden Quiet"
+MEW_visnov_flavor.0.desc:0 "After Star, Marco, and Eclipsa spent a few minutes at the castle's flower garden, Star seemed less frantic and more calm. She admitted that she might have done something rash, and now she is more determined than ever to help in the right way. Though a few officials are annoyed that Eclipsa took that time to do this for Star, some are pointing out that Star could have caused problems if she hadn't "chillaxed.""
+MEW_visnov_flavor.0.a:0 "See? A few quiet moments is all it takes."
 
-MEW_visnov_flavor.1.t:0 "Flavor event eclipsa stays"
-MEW_visnov_flavor.1.desc:0 "TO WRITE"
-MEW_visnov_flavor.1.a:0 "TO WRITE OPTION"
+MEW_visnov_flavor.1.t:0 "Rose Garden Chaos"
+MEW_visnov_flavor.1.desc:0 "A few hours after Star and Marco were sent to the rose garden, an explosion rocked Skywynne Institute. Apparently, Star and Marco escaped the castle and went over there because Star "couldn't sit around like a princess while everyone out there suffered!" While there, they found a group of students trapped in a building. They decided to save their lives, which involved blowing up some load-bearing rubble that blocked the path. The explosion and collapse caused a fire, which engulfed many priceless records and artifacts.\n\nWhile the common peasants are certainly grateful, the nobles are furious because of the amount of money that went up in flames. Marco tried to take sole blame but nobody believed that calm and calculated boy. Eclipsa took Star in for a "scolding," but secretly praised her. Either way, nobles have only gotten angrier."
+MEW_visnov_flavor.1.a:0 "Pfft, what do they know about... priceless artifacts..."
 
-MEW_purge_or_mercy.1.t:0 "Flavor Event: Decision on Minan collaborators spurs extremism. Should be hidden in focus effect"
-MEW_purge_or_mercy.1.desc:0 "TO WRITE. Description will be applicable if you took the pruge or mercy paths."
-MEW_purge_or_mercy.1.a:0 "To Write option. add isntability to the extremism idea."
+MEW_purge_or_mercy.1.t:0 "Minan Collaborator Decision spurs Extremism"
+MEW_purge_or_mercy.1.desc:0 "Our decision on the fate of Mina's collaborators has incrased tensions in our already tense kingdom.\n\nThose in favor of a total purge argue that we don't know where Mina is, or what she's planning. She could come out and take advantage of the disaterous situation right now. Also, people who go against the Kingdom of Mewni deserve to be ousted.\n\nThose in favor of forgiveness argue that most of Mina's fighters were brought under Mina's magic and they had no choice. They also say that many feared for their lives if they didnt join up.\n\nIt seems that no matter what we did, we wouldn't have been able to avoid this rise in extremism."
+MEW_purge_or_mercy.1.a:0 "They should be grateful that we're actually trying to move on from Mina!"
 
 MEW_mina.1.t:0 "Bounty Details"
 MEW_mina.1.desc:0 "As part of the efforts to track down Mina Loveberry, it has been deemed fit to put up a bounty for her capture and arrest. Traditionally, the reward is only given if the criminal in question is taken to the government alive. However, Mina is a special case. This has made the option of awarding the death of Mina an alluring possibility\n\nOn one hand, awarding bounty hunters in case of her death would increase the amount of people going after her. It's also possible that she gets taken alive anyway.\n\nOn the other hand, Mina has already been defeated. She's probably homeless on the streets of the cleaved zone, and wont be causing Mewni problems anytime soon. Also, posting a death warrant makes Mina a cornered animal. We can kiss any possibility of her turning herself in goodbye. And on the public side of things, awarding only her live capture lines up with Mewman expectations of "Status Quo," and would be a sing to the people that things are getting back to normal."
 MEW_mina.1.a:0 "She's not THAT much of a threat, we defeated her! Let's try to get her alive."
-MEW_mina.1.b:0 "We cannot risk it. We want her dead or alive!"
+MEW_mina.1.b:0 "We cannot risk it. We want her dead or alive! (Traditional alive only bounty is not yet implemented)"
 MEW_mina_event_tooltip:0 "§gA lonesome Vegas Drifter spots a bountry poster...§!"
 
 MEW_birthday.1.t:0 "Star's Sweet 16!"
@@ -29,11 +29,11 @@ MEW_birthday.2.a:0 "Well, good for him!"
 MEW_birthday.2.b:0 "I wonder how exactly his party will go... (OPEN VISUAL NOVEL)"
 
 MEW_civil_war.0.t:0 "Eclipsa's Unity Degree Sparks Revolts!"
-MEW_civil_war.0.desc:0 "TO WRITE"
+MEW_civil_war.0.desc:0 "Our last ditch effort to keep Mewni together has backfired! Right now, forces are defecting and peasants are mobilizing. War is coming!"
 MEW_civil_war.0.a:0 "The Cards are Cast!"
 
 MEW_civil_war.1.t:0 "Civil War Bonuses"
-MEW_civil_war.1.desc:0 "TO WRITE"
+MEW_civil_war.1.desc:0 ""
 MEW_civil_war.1.a:0 "Less go"
 
 MEW_post_civwar_monster_rights.0.t:0 "Monster Rights Movement in Mewni Proper"
@@ -45,27 +45,29 @@ MEW_post_civwar_monster_rights.1.desc:0 "In reponse to our renewed Monster Right
 MEW_post_civwar_monster_rights.1.a:0 "Concerning"
 
 MEW_post_civwar_monster_rights.2.t:0 "Anti-Monster Pushback"
-MEW_post_civwar_monster_rights.2.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.2.desc:0 "The Mewman populace has been mostly supportive of our efforts to further monster rights, but a vocal portion of our populace has been speaking out against it. This anti-monster reaction has supporters from all walks of life, and has coalesced in online groups which unite disparate populations and amplify their voices.\n\nChief among this new movement is Mia Fondapple, a Frontier Mewman who works at Skywynne Institute. Her newly published book, "Mewman Spirit," seems to be the catalyst for her rise to prominence and the pushback against our efforts. The book's conclusions are extremely anti-monster, as well as critiquing the current form of government and the Mewman people in general, common or noble. It also critiques Mina Loveberry, surprisingly. But it is a critique "from the anti-monster view.""
 MEW_post_civwar_monster_rights.2.a:0 "Just A Loud Minority..."
+MEW_post_civwar_monster_rights.2_tooltip:0 "§g"My love for Mewmanity leads me to Human Democracy to free us, Monarchic Wisdom to guide us, and Solarian Ruthlessness to keep both of those things in check." -Mewman Spirit, Pg. 46.\n\n"Peoples only decline when spirits fail. The only way that spirits survive is direct hardship and action, mainly through the domination of other peoples." -Mewman Spirit, Pg. 171.\n\n "Our current nobility are the living refutation of the Human axiom, 'I think, therefore I am.' Our nobles do not think, yet they are." -Mewman Spirit, Pg. 305.§!"
 
 MEW_post_civwar_monster_rights.3.t:0 "Reversing Repatriations Results in Damages"
-MEW_post_civwar_monster_rights.3.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.3.desc:0 "The fundamentally-diffrent ways that Mewmans and Monsters live has resulted in the houses being returned to Mewmans being unlivable in until some major work on them has been done."
 MEW_post_civwar_monster_rights.3.a:0 "Unfourtunate, but Necessary."
 
 MEW_post_civwar_monster_rights.4.t:0 "Anti-Monster Groups Plan Massive Protest"
-MEW_post_civwar_monster_rights.4.desc:0 "In response to our repealation of Solarian Monster Laws, Anti-Monster groups throuout Mewni have announced their plan to organize a protest "the likes of which Mewni has never seen." (TO WRITE)"
+MEW_post_civwar_monster_rights.4.desc:0 "In response to our repealation of Solarian Monster Laws, Anti-Monster groups throuout Mewni have announced their plan to organize a protest "the likes of which Mewni has never seen." Mia Fondapple is scheduled to make daily speeches and book signings, along with other anti-monster figures. They claim that there are hundreds of thousands that are gonna march in the streets, form commoners to even nobles. Some are saying that this movement might try and...\n\nStorm the Castle."
 MEW_post_civwar_monster_rights.4.a:0 "Concerning..."
 
 MEW_post_civwar_monster_rights.5.t:0 "Anti-Monster Protest Fails Spectacularly."
-MEW_post_civwar_monster_rights.5.desc:0 "(TO WRITE)"
+MEW_post_civwar_monster_rights.5.desc:0 "The so-called protest "the likes of which Mewni has never seen" has just occured. All it amounted to was a bunch of commoners holding picket signs outside the castle. It seems that most of those pledged to join the protest didn't keep their online promise, or were straight up forged for propaganda purposes.\n\nMia Fondapple was the only one to make an official address, condensing her week-long schedule into just one speech. She was seen visibly upset, and some even claim she was crying a little. Despite claiming that she "wouldn't abandon the movement," our records say she quietly returned to her job at Skywynne Institute."
 MEW_post_civwar_monster_rights.5.a:0 "Hm. Surprising, but a Welcome Relief."
+MEW_post_civwar_monster_rights.5.b:0 "No, we're not letting Fondapple return to normal life."
 
 MEW_post_civwar_monster_rights.6.t:0 "Inspiring Shows of Mewman-Monster Solidarity Among Children"
-MEW_post_civwar_monster_rights.6.desc:0 "(TO WRITE)"
-MEW_post_civwar_monster_rights.6.a:0 "Children are the Future!"
+MEW_post_civwar_monster_rights.6.desc:0 "The new Mewman-Monster education equality measures have resulted in children getting along the best. While the Adults bicker over material concerns, the children's show of unity has inspired the wider public to accept the new policies."
+MEW_post_civwar_monster_rights.6.a:0 "Children are the Future. Who wants to play Cornball?"
 
 MEW_post_civwar_monster_rights.7.t:0 "Eclipsa Day!"
-MEW_post_civwar_monster_rights.7.desc:0 "Eclipsa's Mosnter Rights Decree has been met with cheers and parties across Monster and some Mewman communities. Many are calling [GetDateText] "Monster Day", or even "Eclipsa Day" showing that this achievement is greater than Eclipsa's coronation.\n\nSome monsters have even begun calling Eclipsa "The Liberator." While not popular enough to supercede her established Nickname, it stil shows the shift in public perception.(TO REWRITE)"
+MEW_post_civwar_monster_rights.7.desc:0 "Eclipsa's Mosnter Rights Decree has been met with cheers and parties across Monster and some Mewman communities. Many are calling [GetDateText] "Monster Day", or even "Eclipsa Day" showing that this achievement is greater than Eclipsa's coronation.\n\nSome monsters have even begun calling Eclipsa "The Liberator." While not popular enough to supercede her established Nickname, it stil shows the shift in public perception."
 MEW_post_civwar_monster_rights.7.a:0 "Eclipsa "The Liberator..." I like it!"
 
 MEW_post_civwar_reforging_mewni.0.t:0 "Terms and Conditions: Johansens and Festivians"

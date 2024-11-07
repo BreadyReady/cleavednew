@@ -11,6 +11,7 @@ country_event = {
 	option = { 
 		name = MEW_visnov_flavor.0.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = 0.02
 	}
 }
 
@@ -25,5 +26,6 @@ country_event = {
 	option = { 
 		name = MEW_visnov_flavor.1.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
+		add_stability = -0.02
 	}
 }

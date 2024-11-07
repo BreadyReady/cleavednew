@@ -89,7 +89,7 @@ focus_tree = {
 	focus = {
 		id = MON_monster_matters
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 2
+		x = 6
 		y = 1
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
@@ -107,11 +107,152 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = MON_reverse_reparations
+		icon = GFX_goal_focus_monster_temple
+		x = -2
+		y = 2
+		relative_position_id = MON_monster_matters
+		prerequisite = { focus = MON_monster_matters }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_disastrous_reparations
+			add_timed_idea = {
+				idea = MEW_disastrous_reparations2
+				days = 365
+			}
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.3 days = 7 }
+			}
+		}
+	}
+
+	focus = {
+		id = MON_sit_down_with_monster_leaders
+		icon = GFX_focus_monsters
+		x = 2
+		y = 2
+		relative_position_id = MON_monster_matters
+		prerequisite = { focus = MON_monster_matters }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_state_core = 237
+			add_state_core = 244
+		}
+	}
+
+	focus = {
+		id = MON_support_campaign
+		icon = GFX_goal_focus_sad_peasants
+		x = 0
+		y = 1
+		relative_position_id = MON_monster_matters
+		prerequisite = { focus = MON_monster_matters }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = -50
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.2 days = 7 }
+			}
+		}
+	}
+
+	focus = {
+		id = MON_limited_freedoms
+		icon = GFX_goal_focus_candle
+		x = 0
+		y = 1
+		relative_position_id = MON_support_campaign
+		prerequisite = { focus = MON_support_campaign }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			add_ideas = MEW_limited_monster_freedoms
+		}
+	}
+
+	focus = {
+		id = MON_repeal_solarian_laws
+		icon = GFX_focus_solaria
+		x = 0
+		y = 1
+		relative_position_id = MON_limited_freedoms
+		prerequisite = { focus = MON_limited_freedoms }
+		prerequisite = { focus = MON_reverse_reparations }
+		prerequisite = { focus = MON_sit_down_with_monster_leaders }
+
+		available = {
+			has_political_power > 50
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -50
+			remove_ideas = MEW_solarian_law
+			hidden_effect = {
+				country_event = { id = MEW_post_civwar_monster_rights.4 days = 7 }
+			}
+		}
+	}
 	
 	focus = {
 		id = MON_preparing_the_next_generation
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 4
+		x = 8
 		y = 1
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
@@ -127,6 +268,17 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_advisor_role = {
+				character = MON_star_butterfly
+				advisor = {
+					slot = political_advisor
+					cost = 50
+					idea_token = MON_star_butterfly
+					traits = {
+						headstrong
+					}
+				}
+			}
 		}
 	}
 	

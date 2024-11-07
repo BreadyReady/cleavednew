@@ -29,11 +29,11 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { 
-		name = MEW_mina.1.a
-		ai_chance = { factor = 0 }
-		add_stability = 0.05
-	}
+	#option = { 
+	#	name = MEW_mina.1.a
+	#	ai_chance = { factor = 0 }
+	#	add_stability = 0.05
+	#}
 	
 	option = { 
 		name = MEW_mina.1.b
@@ -239,8 +239,8 @@ country_event = {
 				load_oob = "PIG_civwar"
 			}
 			news_event = mewni_civwar_news.2
-			news_event = mewni_civwar_news.6
 			news_event = { id = mewni_civwar_news.8 days = 5 }
+			news_event = { id = mewni_civwar_news.6 days = 2 }
 	}
 }
 

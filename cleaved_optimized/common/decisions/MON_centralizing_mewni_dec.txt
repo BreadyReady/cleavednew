@@ -1,0 +1,27 @@
+MON_centralizing_mewni_dec_category = {
+	MON_centralizing_mewni_dec_test = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		available = {
+		}
+
+		visible = {
+		}
+
+		days_remove = 7
+		cost = 75
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+		}
+		
+	}
+}

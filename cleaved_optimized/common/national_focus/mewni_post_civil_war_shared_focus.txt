@@ -807,7 +807,7 @@ shared_focus = {
     search_filters = {  }
 
     completion_reward = {
-		add_stability = 0.1
+		remove_ideas = MEW_politically_powerful_knighthood
     }
 }
 

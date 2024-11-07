@@ -96,21 +96,21 @@ mewni_civwar_news.1.d:0 "Interestings"
 #mewni_civwar_news.4.t:0 "Johansen Kingdom Declares Neutrality!"
 
 mewni_civwar_news.2.t:0 "Mewman Civil War!"
-mewni_civwar_news.2.desc:0 "To Write"
+mewni_civwar_news.2.desc:0 "The unstable Kingdom of Mewni has fallen to civil war! A three-way battle, the forces of Eclipsa, Moon, and Marco are contesting over control of Mewman crownlands. The vassal realms have not thrown in their hats into the battle, but it is expected that they will make a statement about this soon."
 mewni_civwar_news.2.a:0 "Down with the Pretenders! To War!" #MEW
 mewni_civwar_news.2.b:0 "Down with Eclipsa! To War!" #MON
 mewni_civwar_news.2.c:0 "Down with Tyranny! To War!" #MAR
 mewni_civwar_news.2.d:0 "Interesting"
 
 mewni_civwar_news.3.t:0 "Fall of Eclipsa's Mewni!"
-mewni_civwar_news.3.desc:0 "To Write"
+mewni_civwar_news.3.desc:0 "After enemy forces closed in on Eclipsa's shrinking realm, Eclipsa has come out and formally surrendered. Perhaps the weakest faction of the war, it was under Eclipsa's rule that Mewni fell into this state of affairs in the first place. The final months of her rule was marred by desertion and a bleak outlook on the war in all levels of government and command.\n\n As part of her surrender terms, Eclipsa and her husband Globgor were permitted to flee west into the United States."
 mewni_civwar_news.3.a:0 "All is lost..." #MEW
 mewni_civwar_news.3.b:0 "A Victory We Can Celebrate!" #MON
 mewni_civwar_news.3.c:0 "A Victory We Can Celebrate!" #MAR
 mewni_civwar_news.3.d:0 "Interesting"
 
 mewni_civwar_news.4.t:0 "Fall of Moon's Mewni!"
-mewni_civwar_news.4.desc:0 "(To Write) moon defeated. her authoritarian ways seem to have struck a chord with her followers and they are fiercly loyal. instead of imprisonment, she is exiled in exchange for her telling her followers to stand down. "
+mewni_civwar_news.4.desc:0 "After fierce, desperate fighting, Moon Butterfly has been captured and her forces have been scattered into defacto capitulation. Perhaps the most fanatic faction of the war, her authoritarian vision for Mewni still holds supporters and resistance fighters. As part of surrender negotiations, Moon has agreed to call for her supporters to stand down in exchange for safe passage into the United States."
 mewni_civwar_news.4.a:0 "A Victory We Can Celebrate!" #MEW
 mewni_civwar_news.4.b:0 "All is lost..." #MON
 mewni_civwar_news.4.c:0 "A Victory We Can Celebrate!" #MAR
@@ -124,19 +124,19 @@ mewni_civwar_news.5.c:0 "All is lost..." #MAR
 mewni_civwar_news.5.d:0 "Interesting"
 
 mewni_civwar_news.6.t:0 "Monster's Independence Zone!"
-mewni_civwar_news.6.desc:0 "To Write"
+mewni_civwar_news.6.desc:0 "With the advent of the Mewman Civil War, the mostly-Monster populated areas of the Mewman crownlands have broken away to form their own state. Serving as a neutral zone, the council-led state's reason for breaking away was to keep their own communities away from the civil war. Not exclusive to Monsters, the state includes many Mewman communities which have a similar interest in keeping out of the war. Many refugees have begun to flee to this safe haven.\n\nThis serves as the first time Monsters have had an independent state this far into Solaria's "Rightful Mewman Borders" in over 300 years."
 mewni_civwar_news.6.a:0 "T" #MST
 mewni_civwar_news.6.b:0 "Strange!" #EVERYONE ELSE
 
 mewni_civwar_news.7.t:0 "Monster's Zone Sides with Moon!"
-mewni_civwar_news.7.desc:0 "To Write"
+mewni_civwar_news.7.desc:0 "Despite the Monster Independence Zone's founding being supposedly based on keeping out of the Mewman Civil war, Monster leaders have decalred that they will subject themselves again to Moon Butterfly!\n\nWhile many are surprised that they sided with Moon of all people, and not the Monster-rights pushing Eclipsa, the Monster leaders of the zone say that only Moon has the expirience to both pull Mewni back together and navigate the advancement of Monster rights without adverse side effects as Eclipsa has previously done.\n\nThis marks the end of the short-lived Monster State, and a restoration of "Rightful Mewman Borders.""
 mewni_civwar_news.7.a:0 "What? Have they been tricked!?" #MEW
 mewni_civwar_news.7.b:0 "Moon is the greatest friend of Monsters!" #MON
 mewni_civwar_news.7.c:0 "What? Have they been tricked!?" #MAR
 mewni_civwar_news.7.d:0 "Interesting"
 
 mewni_civwar_news.8.t:0 "Client Kingdoms Declare Neutrality!"
-mewni_civwar_news.8.desc:0 "To Write"
+mewni_civwar_news.8.desc:0 "Perhaps in a bid to limit the bloodshed, the lower Kingdoms of Mewni (The Johansen Kingdom, the Pigeon Kingdom, the Spiderbite Kingdom, the Jaggy Kingdom, the Ponyhead Kingdom, and the Waterfolk Kingdom,) have collectivley declared Neutrality. While this means that this conflict wont engulf the enirety of Mewni, this also means defacto independence for them. For the victor of the civil war, bringing everyone back under the heel may prove an even bigger challenge.\n\nAs part of the Neutrality, all kingdoms have agreed that refugees will be accepted. Deserters and criminals will be returned to their respective governments."
 mewni_civwar_news.8.a:0 "A Blessing, or a Curse?" #MEW
 mewni_civwar_news.8.b:0 "A Blessing, or a Curse?" #MON
 mewni_civwar_news.8.c:0 "A Blessing, or a Curse?" #MAR
@@ -160,21 +160,21 @@ mewni_civwar_news.11.b:0 "Interesting" #EVERYONE ELSE
 #SPT
 
 SPT_news_event.1.t:0 "Septarsis Beats the Wardrums"
-SPT_news_event.1.desc:0 "To Write"
+SPT_news_event.1.desc:0 "North of Nevada, the disparate warlords of Septarsis have begun a ritual signifying unity and intent to strike outwards. This hasn't been seen since the Septarian War decades ago, which saw Toffee and Seth of Septarsis wreak havoc upon Mewni. This war killed Queen Comet, Moon's mother.\n\nToday, the Septarians have united under the ruthless Warlord Dragonbeard. A veteran of the Septarian Wars and close confidant of the dead Toffee of Septarsis, Dragonbeard has promised plunder and a "fulfillment of Toffee's dreams.""
 SPT_news_event.1.a:0 "Septarsis will rise again!" #SPT
 SPT_news_event.1.b:0 "Old Enemies, Old Wounds..." #MEW, MON, MAR
 SPT_news_event.1.c:0 "Disgusting Snakes..." #MIN
 SPT_news_event.1.d:0 "Interesting"
 
 SPT_news_event.2.t:0 "Septarsis' Rapid Conquests"
-SPT_news_event.2.desc:0 "To Write"
+SPT_news_event.2.desc:0 "The Warlord Dragonbeard's realm has expanded at an alarming rate. Employing a ruthless strategy reminiscent of the ancient Genghis Khan, he has subjected vast swaths of land from the Ponyheads, Utah, and Northern California. The horde leaves behind them a path of destrcution, their conquests being the proof that everyone needed to take them as a menace to the Cleaved Zone."
 SPT_news_event.2.a:0 "Plunder, Kill, Burn!" #SPT
 SPT_news_event.2.b:0 "Concerning... Surely they won't reach Mewni proper?" #MEW, MON, MAR
 SPT_news_event.2.c:0 "DISGUSTING SNAKES!" #MIN
 SPT_news_event.2.d:0 "Interesting"
 
 SPT_news_event.3.t:0 "An Ancient Clash"
-SPT_news_event.3.desc:0 "To Write"
+SPT_news_event.3.desc:0 "Today, the Juggernauts of ruthlessness and cruelty clash. The deeply Solarian state of Mina Loveberry and the crazed horde of Dragonbeard now march against each other. Perhaps it was natural that Monsters and Solarians would clash, but that doesn't  take away from teh fact that this war seems to be straight out of the Solarian era.\n\nMina is sure to execute every Monster she can get her hands on, combatant or not. Septarsis is sure to swell with plunder and slaves. Whoever wins, they're sure to solidify their position and the citizenry is sure to suffer."
 SPT_news_event.3.a:0 "The Solarians Cannot Stop Us!" #SPT
 SPT_news_event.3.b:0 "Atleast they're trying to kill each other, and not us. For now." #MEW, MON, MAR
 SPT_news_event.3.c:0 "We Must Not Let Them Reach Mewni! To Arms!" #MIN

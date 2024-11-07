@@ -10,6 +10,10 @@ state={
 		victory_points = { 406 15 }
 
 	}
+	resources = {
+		steel = 30
+		aluminium = 16
+	}
 	manpower=50000
 	buildings_max_level_factor=1.000
  	state_category=town

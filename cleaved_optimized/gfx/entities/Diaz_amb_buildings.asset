@@ -1,0 +1,13 @@
+entity = {
+	name = "Diaz_Household"
+	pdxmesh = "Diaz_Household_mesh"
+	
+	scale = 2.0
+}
+
+entity = {
+	name = "butterfly_castle"
+	pdxmesh = "butterfly_castle_mesh"
+	
+	scale = 2.0
+}

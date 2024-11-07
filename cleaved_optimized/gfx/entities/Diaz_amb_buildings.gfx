@@ -1,0 +1,10 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Diaz_Household_mesh"
+		file = "gfx/models/ambi_obj/Diaz_Household.mesh"
+	}
+	pdxmesh = {
+		name = "butterfly_castle_mesh"
+		file = "gfx/models/ambi_obj/butterfly_castle.mesh"
+	}
+}

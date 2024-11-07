@@ -328,6 +328,44 @@ characters={
 		}
 	}
 	
+	MEW_army_chief_morale_char={
+		name=MEW_army_chief_morale_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MEW_army_chief_morale_char
+			available  = {
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				army_chief_morale_2
+			}
+		}
+	}
+	
+	MEW_army_chief_old_guard_char={
+		name=MEW_army_chief_defense_char
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = MEW_army_chief_defense_char
+			available  = {
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
+			traits  = {
+				army_chief_old_guard
+			}
+		}
+	}
+	
 	MEW_army_high_command_trad_char={
 		name=MEW_army_high_command_trad_char
 		portraits={
@@ -339,7 +377,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_trad_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_chief_maneuver_2
@@ -358,7 +396,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_trad_char_2
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_cavalry_2
@@ -377,7 +415,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_trad_char_3
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_chief_morale_1
@@ -396,7 +434,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_prog_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_logistics_3
@@ -415,7 +453,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_prog_char_2
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_regrouping_2
@@ -434,7 +472,7 @@ characters={
 			slot = high_command
 			idea_token = MEW_army_high_command_prog_char_3
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				army_CombinedArms_2
@@ -453,7 +491,7 @@ characters={
 			slot = navy_chief
 			idea_token = MEW_navy_chief_prog_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				navy_chief_decisive_battle_2
@@ -472,7 +510,7 @@ characters={
 			slot = navy_chief
 			idea_token = MEW_navy_chief_2_prog_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				navy_chief_commerce_raiding_2
@@ -491,7 +529,7 @@ characters={
 			slot = air_chief
 			idea_token = MEW_air_chief_prog_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				air_chief_reform_3
@@ -510,7 +548,7 @@ characters={
 			slot = air_chief
 			idea_token = MEW_air_chief_2_prog_char
 			available  = {
-				original_tag  = MEW
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
 			}
 			traits  = {
 				air_air_combat_training_2
@@ -553,15 +591,15 @@ characters={
 			slot = theorist
 			idea_token = MEW_general_1
 			ledger = army
-				allowed = {
-					original_tag = MEW
-				}			
+				available  = {
+					has_completed_focus = mewni_post_civwar_future_of_knighthood
+				}
 				traits = {
 					mobile_warfare_expert
 				}
 		}
 		corps_commander={
-			traits={ trait_reckless armor_officer war_hero trickster panzer_leader }
+			traits={ trait_reckless }
 			skill=3
 			attack_skill=1
 			defense_skill=1
@@ -584,15 +622,15 @@ characters={
 			slot = theorist
 			idea_token = MEW_general_2
 			ledger = army
-			allowed = {
-				original_tag = MEW
-			}		
+			available  = {
+				has_completed_focus = mewni_post_civwar_future_of_knighthood
+			}
 			traits = {
 				superior_firepower_expert
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist trait_cautious harsh_leader trait_engineer }
+			traits={ trait_cautious harsh_leader }
 			skill=5
 			attack_skill=2
 			defense_skill=2
@@ -608,42 +646,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist trait_cautious harsh_leader trait_engineer }
+			traits={ brilliant_strategist harsh_leader }
 			skill=3
 			attack_skill=3
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=3
-		}
-	}
-	MEW_field_marshall_1={
-		name=MEW_field_marshall_1
-		portraits={
-			army={
-				large=GFX_Portrait_Europe_Generic_land_3
-			}
-			army={
-				small="GFX_Portrait_Europe_Generic_land_3_small"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = army_chief
-			idea_token = MEW_field_marshall_1
-			allowed = {		
-					original_tag = MEW
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-		}
-		field_marshal={
-			traits={ trait_cautious armor_officer politically_connected organizer logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=4
 		}
 	}
 }

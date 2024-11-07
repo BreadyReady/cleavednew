@@ -38,7 +38,7 @@ country_event = {
 	id = MEW_post_civwar_monster_rights.2
 	title = MEW_post_civwar_monster_rights.2.t
 	desc = MEW_post_civwar_monster_rights.2.desc
-	picture = GFX_report_event_empty
+	picture = GFX_mia_fondapple_event
 	
 	is_triggered_only = yes
 	
@@ -46,6 +46,7 @@ country_event = {
 		name = MEW_post_civwar_monster_rights.2.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		add_stability = -0.05
+		custom_effect_tooltip = MEW_post_civwar_monster_rights.2_tooltip
 	}
 }
 
@@ -86,7 +87,7 @@ country_event = {
 	id = MEW_post_civwar_monster_rights.4
 	title = MEW_post_civwar_monster_rights.4.t
 	desc = MEW_post_civwar_monster_rights.4.desc
-	picture = GFX_report_event_empty
+	picture = GFX_mia_fondapple_event
 	
 	is_triggered_only = yes
 	
@@ -104,7 +105,7 @@ country_event = {
 	id = MEW_post_civwar_monster_rights.5
 	title = MEW_post_civwar_monster_rights.5.t
 	desc = MEW_post_civwar_monster_rights.5.desc
-	picture = GFX_report_event_empty
+	picture = GFX_mia_fondapple_event
 	
 	is_triggered_only = yes
 	
@@ -112,6 +113,11 @@ country_event = {
 		name = MEW_post_civwar_monster_rights.5.a
 		ai_chance = { factor = 60 }	# 60% AI choose this
 		add_stability = 0.02
+	}
+	
+	option = { 
+		name = MEW_post_civwar_monster_rights.5.b
+		ai_chance = { factor = 60 }	# 60% AI choose this
 	}
 }
 

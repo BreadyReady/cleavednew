@@ -86,6 +86,7 @@ news_event = {
             NOT = { tag = MIN }
         }
 		add_stability = -0.05
+		remove_ideas = MEW_looking_for_mina
     }
     
     option = {

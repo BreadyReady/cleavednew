@@ -1,0 +1,16 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "Diaz_Household_mesh"
+		file = "gfx/models/ambi_obj/Diaz_Household.mesh"		
+		scale = 2.0
+		cull_distance = 99999.0
+	}
+
+	pdxmesh = {
+		name = "butterfly_castle_mesh"
+		file = "gfx/models/ambi_obj/butterfly_castle.mesh"		
+		scale = 2.0
+		cull_distance = 99999.0
+	}
+}

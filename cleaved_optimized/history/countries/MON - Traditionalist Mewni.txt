@@ -20,6 +20,7 @@ add_ideas = {
 }
 
 recruit_character = MON_moon_butterfly
+recruit_character = MON_star_butterfly
 
 #Advisors
 recruit_character = MON_army_chief_chinese_char

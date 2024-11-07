@@ -44,3 +44,11 @@ mewni_shared_core_california_category = {
 		has_completed_focus = california_conquest_dreamin
 	}
 }
+
+MON_centralizing_mewni_dec_category = {
+	icon = GFX_decision_infiltrate_state
+
+	visible = {
+	#	has_completed_focus = MON_centralizing_mewni
+	}
+}

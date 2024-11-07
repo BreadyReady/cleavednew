@@ -13,6 +13,14 @@ characters={
 			id=-1
 		}
 	}
+	MON_star_butterfly = {
+		name = MON_star_butterfly
+		#portraits={
+		#	civilian={
+		#		large = GFX_hoi4_portrait_moon_war
+		#	}
+		#}
+	}
 	
 	MON_army_chief_chinese_char={
 		name=MON_army_chief_chinese_char

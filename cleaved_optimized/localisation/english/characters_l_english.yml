@@ -1,6 +1,12 @@
 ﻿l_english:
  USA_donald_trump:0 "Donald Trump"
 
+#Universal. aka multiple  countries
+
+ MEW_star_butterfly:0 ""
+ MON_star_butterfly:0 "Star "The Undaunted""
+ MAR_star_butterfly:0 ""
+
  #MEW
  MEW_eclipsa_butterfly:0 "Eclipsa "The Queen of Darkness""
  MEW_prog_council:0 "Royal Mewman Council"

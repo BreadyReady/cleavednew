@@ -1,0 +1,23 @@
+### Advisors for DRG ###
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_MEW_emergency_recruiting"
+		texturefile = "gfx/interface/ideas/idea_MEW_emergency_recruiting.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEW_feudal_levy"
+		texturefile = "gfx/interface/ideas/idea_MEW_feudal_levy.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEW_mercantalism"
+		texturefile = "gfx/interface/ideas/idea_MEW_mercantalism.dds" 
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEW_feudalism"
+		texturefile = "gfx/interface/ideas/idea_MEW_feudalism.dds" 
+	}
+}

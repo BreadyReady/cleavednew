@@ -1,0 +1,9 @@
+entity = {
+	name = "Diaz_Household_entity"
+	pdxmesh = "Diaz_Household_mesh"
+}
+
+entity = {
+	name = "butterfly_castle_entity"
+	pdxmesh = "butterfly_castle_mesh"
+}

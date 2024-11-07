@@ -27,6 +27,7 @@ country_event = {
 	option = { 
 		name = kids_age.0.a
 		ai_chance = { factor = 0 }
+		set_global_flag = kids_age_up_flag
 		MEW = {
 			set_portraits = {
 				character = MEW_higgs

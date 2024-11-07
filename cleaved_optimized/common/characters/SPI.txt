@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= oligarchism
+			ideology= mewman_traditionalism
 			traits= { }
 			expire="2040.1.1.1"
 			id=-1
