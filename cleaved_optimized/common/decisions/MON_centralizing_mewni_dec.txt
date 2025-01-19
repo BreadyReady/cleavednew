@@ -1,5 +1,5 @@
 MON_centralizing_mewni_dec_category = {
-	MON_centralizing_mewni_dec_test = {
+	MON_centralizing_mewni_dec_flattery = {
 
 		icon = GFX_decision_icon_default
 
@@ -12,7 +12,7 @@ MON_centralizing_mewni_dec_category = {
 		visible = {
 		}
 
-		days_remove = 7
+		days_remove = 75
 		cost = 75
 
 		ai_will_do = {
@@ -21,6 +21,42 @@ MON_centralizing_mewni_dec_category = {
 		complete_effect = {
 		}
 		remove_effect = {
+			add_to_variable = {
+				var = noble_fear_var
+				value = -3
+			}
+			custom_effect_tooltip = noble_fear-3
+		}
+		
+	}
+	MON_centralizing_mewni_dec_quid_pro_quo = {
+
+		icon = GFX_decision_icon_default
+
+		allowed = {
+		}
+
+		available = {
+		}
+
+		visible = {
+		}
+
+		days_remove = 30
+		cost = 75
+
+		ai_will_do = {
+			base = 75
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = noble_fear_var
+				value = -3
+			}
+			custom_effect_tooltip = noble_fear-3
+			add_stability = -0.02
 		}
 		
 	}

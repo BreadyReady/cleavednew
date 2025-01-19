@@ -1,4 +1,4 @@
 ﻿l_english:
 
 MON_centralizing_mewni_dec_category:0 "Centralizing Mewni"
-MON_centralizing_mewni_dec_category_desc:0 "Centralizing Mewni desc"
+MON_centralizing_mewni_dec_category_desc:0 " §CIf Mewni will reform into a strong state, it must do away with squabbling nobles and hereditary inefficiency.§! Unfortunately, those are the very nobles which hold most of the power in Mewni. The nobles must be influenced to support, or at least not do anything against, measures that take away their power. Getting any group of people to give up vast amounts of their own power is a herculean task.\n\n§YNoble Resistance:§! [?noble_fear_var|-%%]\nThis percentage represents the willingness for the nobility to resist reforms that takes away their own power. A low value may come from genuine support, loyalty to the monarch themself, Quid Pro Quos, or... §Rmore unconventional means of persuasion...§!\n\n A higher value means that nobles will try to fight against the reforms, preventing them from passing, through numerous means. §RIf they still hold considerable power as they grow desperate, things may turn sour...§!"

@@ -1,0 +1,128 @@
+ideas = {
+	country = {
+		MON_eco_high_commision_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				research_speed_factor = 0.05
+			}
+		}
+		MON_eco_high_commision_idea2 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_start_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		MON_interior_high_commision_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				required_garrison_factor = -0.05
+				resistance_activity = -0.05
+			}
+		}
+		MON_interior_high_commision_idea2 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				required_garrison_factor = -0.05
+				resistance_activity = -0.05
+				communism_drift = -0.02
+				democratic_drift = -0.02
+				neutrality_drift = -0.02
+				mewman_monarchy_drift = -0.02
+			}
+		}
+		MON_interior_high_commision_idea3 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				required_garrison_factor = -0.15
+				resistance_activity = -0.15
+				communism_drift = -0.02
+				democratic_drift = -0.02
+				neutrality_drift = -0.02
+				mewman_monarchy_drift = -0.02
+			}
+		}
+		MON_information_high_commision_idea = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.05 
+			}
+		}
+		MON_information_high_commision_idea2 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.05 
+				fascism_drift = 0.03
+			}
+		}
+		MON_information_high_commision_idea3 = {
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = MON
+			}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.20
+				fascism_drift = 0.03
+			}
+		}
+	}
+}

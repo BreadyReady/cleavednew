@@ -96,7 +96,7 @@ mewni_civwar_news.1.d:0 "Interestings"
 #mewni_civwar_news.4.t:0 "Johansen Kingdom Declares Neutrality!"
 
 mewni_civwar_news.2.t:0 "Mewman Civil War!"
-mewni_civwar_news.2.desc:0 "The unstable Kingdom of Mewni has fallen to civil war! A three-way battle, the forces of Eclipsa, Moon, and Marco are contesting over control of Mewman crownlands. The vassal realms have not thrown in their hats into the battle, but it is expected that they will make a statement about this soon."
+mewni_civwar_news.2.desc:0 "The unstable Kingdom of Mewni has fallen to civil war! A three-way battle, the forces of Eclipsa, Moon, and Marco are contesting over control of Mewman crownlands. The vassal realms have not thrown in their hats into the battle, but it is expected that they will make a statement about this soon.\n\nEclipsa's forces fight for a continuation of the ancient Mewman Monarchy with a pro-monster twist, while Moon wishes to fundamentally alter Mewman government into a more authoritarian, unified state with the Queen holding alot more power. Marco's faction, despite having him as their official leader, is in reality led by a plurality those who want to put more power into the hands of smaller local lords."
 mewni_civwar_news.2.a:0 "Down with the Pretenders! To War!" #MEW
 mewni_civwar_news.2.b:0 "Down with Eclipsa! To War!" #MON
 mewni_civwar_news.2.c:0 "Down with Tyranny! To War!" #MAR

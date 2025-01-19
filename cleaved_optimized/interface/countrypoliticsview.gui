@@ -404,7 +404,7 @@ guiTypes = {
 				position = { x = 110 y = -2 }
 				font = "hoi_18mbs"
 				text = "POLITICS_NATIONAL_SPIRIT"
-				maxWidth = 200
+				maxWidth = 100
 				maxHeight = 20
 				alwaystransparent = yes
 			}
@@ -426,7 +426,7 @@ guiTypes = {
 					position = { x = 1 y = 2 }
 					size = { width = 354 height = 68 }
 					slotsize = { width = 59 height = 68 }
-					max_slots = { x = 6 y = 2 }
+					max_slots = { x = 6 y = 10 }
 					format = "UPPER_LEFT"
 				}
 				
@@ -435,7 +435,7 @@ guiTypes = {
 					position = { x = 1 y = 2 }
 					size = { width = 354 height = 68 }
 					slotsize = { width = 59 height = 68 }
-					max_slots = { x = 6 y = 2 }
+					max_slots = { x = 6 y = 10 }
 					format = "UPPER_LEFT"
 				}
 			}

@@ -12,14 +12,14 @@ focus_tree = {
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 2450	y = 725 } 
+	continuous_focus_position = { x = 2750	y = 725 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 	
 	focus = {
 		id = MON_moon_unites_mewni
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 5
-		y = 0
+		x = 6
+		y = 12
 
 		available = {
 			MEW = {
@@ -45,7 +45,7 @@ focus_tree = {
 	focus = {
 		id = MON_reforging_mewni
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = -2
+		x = -7
 		y = 1
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
@@ -61,13 +61,210 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_war_spiders
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MON_reforging_mewni
+		prerequisite = { focus = MON_reforging_mewni }
+		mutually_exclusive = { focus = MON_compromise_joh }
+
+		available = {
+			has_army_manpower = {
+				size > 350000
+			}
+			any_neighbor_country = { tag = SPI } 
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = SPI
+			}
+		}
+		will_lead_to_war_with = SPI
+	}
+	
+	focus = {
+		id = MON_annex_joh
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -3
+		y = 2
+		relative_position_id = MON_reforging_mewni
+		prerequisite = { focus = MON_reforging_mewni }
+		mutually_exclusive = { focus = MON_compromise_joh }
+
+		available = {
+			has_army_manpower = {
+				size > 500000
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			annex_country = {
+				target = JOH
+				transfer_troops = yes
+			}
+			add_state_core = 236
+			add_state_core = 231
+			add_state_core = 222
+			add_state_core = 234
+			add_state_core = 240
+		}
+	}
+	
+	focus = {
+		id = MON_compromise_joh
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 2
+		relative_position_id = MON_reforging_mewni
+		prerequisite = { focus = MON_reforging_mewni }
+		mutually_exclusive = { focus = MON_annex_joh }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			transfer_state = 236
+			transfer_state = 231
+			transfer_state = 222
+			transfer_state = 234
+			transfer_state = 240
+			add_state_core = 236
+			add_state_core = 231
+			add_state_core = 222
+			add_state_core = 234
+			add_state_core = 240
+			
+			puppet = JOH
+		}
+	}
+	
+	focus = {
+		id = MON_annex_war_pig
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 2
+		relative_position_id = MON_reforging_mewni
+		prerequisite = { focus = MON_reforging_mewni }
+		mutually_exclusive = { focus = MON_compromise_pig }
+
+		available = {
+			has_army_manpower = {
+				size > 350000
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = PIG
+			}
+		}
+		will_lead_to_war_with = PIG
+	}
+	
+	focus = {
+		id = MON_compromise_pig
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 3
+		y = 2
+		relative_position_id = MON_reforging_mewni
+		prerequisite = { focus = MON_reforging_mewni }
+		mutually_exclusive = { focus = MON_annex_war_pig }
+
+		available = {
+			has_army_manpower = {
+				size > 350000
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			transfer_state = 227
+			transfer_state = 248
+			transfer_state = 250
+			transfer_state = 241
+			add_state_core = 227
+			add_state_core = 248
+			add_state_core = 250
+			add_state_core = 241
+			
+			puppet = PIG
+		}
+	}
+	
+	focus = {
+		id = MON_revive_pacific_trade
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 3
+		relative_position_id = MON_war_spiders
+		prerequisite = { focus = MON_war_spiders }
+		prerequisite = { focus = MON_annex_joh focus = MON_compromise_joh }
+		prerequisite = { focus = MON_annex_war_pig focus = MON_compromise_pig }
+
+		available = {
+			owns_state = 234
+			owns_state = 240
+			owns_state = 250
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = MEW_pacific_trade
 		}
 	}
 	
 	focus = {
 		id = MON_centralizing_mewni
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 0
+		x = 3
 		y = 1
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
@@ -87,9 +284,415 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = MON_interior_high_commision
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MON_centralizing_mewni
+		prerequisite = { focus = MON_centralizing_mewni }
+
+		available = {
+			fascism > 0.15
+			check_variable = {
+				noble_fear_var < 40
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_40
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_ideas = MON_interior_high_commision_idea
+		}
+	}
+	
+	focus = {
+		id = MON_ban_contrary_organization
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_interior_high_commision
+		prerequisite = { focus = MON_interior_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			swap_ideas = {
+				remove_idea = MON_interior_high_commision_idea
+				add_idea = MON_interior_high_commision_idea2
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_queens_caretakers
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MON_interior_high_commision
+		prerequisite = { focus = MON_interior_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = MON_ultra_surveillance
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_queens_caretakers
+		prerequisite = { focus = MON_queens_caretakers }
+		prerequisite = { focus = MON_ban_contrary_organization }
+
+		available = {
+			fascism > 0.45
+			check_variable = {
+				noble_fear_var < 10
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_10
+			swap_ideas = {
+				remove_idea = MON_interior_high_commision_idea2
+				add_idea = MON_interior_high_commision_idea3
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_information_high_commision
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 4
+		y = 1
+		relative_position_id = MON_centralizing_mewni
+		prerequisite = { focus = MON_centralizing_mewni }
+
+		available = {
+			fascism > 0.15
+			check_variable = {
+				noble_fear_var < 40
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_40
+			add_ideas = MON_information_high_commision_idea
+		}
+	}
+	
+	focus = {
+		id = MON_state_education
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_information_high_commision
+		prerequisite = { focus = MON_information_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			swap_ideas = {
+				remove_idea = MON_information_high_commision_idea
+				add_idea = MON_information_high_commision_idea2
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_information_blackout
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MON_information_high_commision
+		prerequisite = { focus = MON_information_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = computing_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_all_media_serves_the_queen
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_information_blackout
+		prerequisite = { focus = MON_information_blackout }
+		prerequisite = { focus = MON_state_education }
+
+		available = {
+			fascism > 0.45
+			check_variable = {
+				noble_fear_var < 10
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_10
+			swap_ideas = {
+				remove_idea = MON_information_high_commision_idea2
+				add_idea = MON_information_high_commision_idea3
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_economic_high_commision
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -4
+		y = 1
+		relative_position_id = MON_centralizing_mewni
+		prerequisite = { focus = MON_centralizing_mewni }
+
+		available = {
+			fascism > 0.15
+			check_variable = {
+				noble_fear_var < 40
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_40
+			add_ideas = MON_eco_high_commision_idea
+		}
+	}
+	
+	focus = {
+		id = MON_big_business_is_government_business
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_economic_high_commision
+		prerequisite = { focus = MON_economic_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			add_advisor_role = {
+				character = MON_big_business_advisor
+				activate = no
+				advisor={
+					slot = political_advisor
+					idea_token = MON_big_business_advisor
+					traits  = {
+						financial_expert
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_corn_and_circuses
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 1
+		y = 1
+		relative_position_id = MON_economic_high_commision
+		prerequisite = { focus = MON_economic_high_commision }
+
+		available = {
+			fascism > 0.25
+			check_variable = {
+				noble_fear_var < 20
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_20
+			subtract_from_variable = {
+				var = noble_fear
+				value = 10
+				tooltip = reduce_noble_fear_by_10_tooltip
+			}
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = MON_obliteration_of_ruralism
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -1
+		y = 1
+		relative_position_id = MON_corn_and_circuses
+		prerequisite = { focus = MON_corn_and_circuses }
+		prerequisite = { focus = MON_big_business_is_government_business }
+
+		available = {
+			fascism > 0.45
+			check_variable = {
+				noble_fear_var < 10
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_10
+			swap_ideas = {
+				remove_idea = MON_eco_high_commision_idea
+				add_idea = MON_eco_high_commision_idea2
+			}
+		}
+	}
+	
+	focus = {
+		id = MON_everything_for_the_queen
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = 0
+		y = 1
+		relative_position_id = MON_ultra_surveillance
+		prerequisite = { focus = MON_obliteration_of_ruralism }
+		prerequisite = { focus = MON_ultra_surveillance }
+		prerequisite = { focus = MON_all_media_serves_the_queen }
+
+		available = {
+			fascism > 0.75
+			check_variable = {
+				noble_fear_var < 10
+			}
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = noble_fear_tooltip_lesserthan_10
+		}
+	}
+	
+	focus = {
 		id = MON_monster_matters
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = 6
+		x = 12
 		y = 1
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
@@ -223,7 +826,7 @@ focus_tree = {
 		id = MON_repeal_solarian_laws
 		icon = GFX_focus_solaria
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = MON_limited_freedoms
 		prerequisite = { focus = MON_limited_freedoms }
 		prerequisite = { focus = MON_reverse_reparations }
@@ -285,10 +888,94 @@ focus_tree = {
 	focus = {
 		id = MON_return_to_butterfly_castle
 		icon = GFX_goal_focus_mewmans_take_shelter
-		x = -4
-		y = 1
+		x = -3
+		y = 2
 		relative_position_id = MON_moon_unites_mewni
 		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = MON_return_to_butterfly_castle
+		icon = GFX_goal_focus_mewmans_take_shelter
+		x = -3
+		y = 2
+		relative_position_id = MON_moon_unites_mewni
+		prerequisite = { focus = MON_moon_unites_mewni }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_capital = {
+			  state = 5
+			  remember_old_capital = no
+			}
+		}
+	}
+
+	focus = {
+		id = MON_rebuild_butterfly_castle
+		icon = GFX_goal_focus_butterfly_castle
+		x = 0
+		y = 3
+		relative_position_id = MON_return_to_butterfly_castle
+		prerequisite = { focus = MON_return_to_butterfly_castle }
+
+		available = {
+		}
+		
+		bypass = {} 
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		select_effect = {
+			add_ideas = MEW_rebuilding_castle
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = MEW_rebuild_butterfly_castle_tooltip
+			remove_ideas = MEW_rebuilding_castle
+			add_victory_points = {
+				province = 3434
+				value = 10
+			}
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = MON_moon_the_undauntable
+		icon = GFX_focus_big_moon
+		x = 0
+		y = 2
+		relative_position_id = MON_everything_for_the_queen
+		prerequisite = { focus = MON_everything_for_the_queen }
+		prerequisite = { focus = MON_revive_pacific_trade }
+		prerequisite = { focus = MON_repeal_solarian_laws }
+		prerequisite = { focus = MON_rebuild_butterfly_castle }
 
 		available = {
 		}

@@ -9,8 +9,8 @@ set_politics = {
 	ruling_party = fascism
 }
 set_popularities = {
-	mewman_monarchy = 65
-	fascism = 35
+	mewman_monarchy = 90
+	fascism = 10
 }
 
 add_ideas = {
@@ -33,6 +33,10 @@ recruit_character = MON_shared_advisor_war_ind
 recruit_character = MON_shared_advisor_higgs
 recruit_character = MON_shared_advisor_tech
 recruit_character = MON_shared_advisor_capt_of_ind
+recruit_character = MON_auth_advisor
+recruit_character = MON_auth_advisor2
+recruit_character = MON_auth_advisor3
+recruit_character = MON_big_business_advisor
 
 #Generals/fieldmarshalls
 

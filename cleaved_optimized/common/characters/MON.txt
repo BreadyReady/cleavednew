@@ -197,6 +197,71 @@ characters={
 			}
 		}
 	}
+	MON_auth_advisor={
+		name=MON_auth_advisor
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_auth_advisor
+			available  = {
+				tag  = MON
+				has_completed_focus = MON_centralizing_mewni
+			}
+			traits  = {
+				fascist_demagogue
+			}
+		}
+	}
+	MON_auth_advisor2={
+		name=MON_auth_advisor2
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_auth_advisor
+			available  = {
+				tag  = MON
+				has_completed_focus = MON_centralizing_mewni
+			}
+			traits  = {
+				fascist_demagogue2
+			}
+		}
+	}
+	MON_auth_advisor3={
+		name=MON_auth_advisor3
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_auth_advisor
+			available  = {
+				tag  = MON
+				has_completed_focus = MON_centralizing_mewni
+			}
+			traits  = {
+				fascist_demagogue3
+			}
+		}
+	}
+	MON_big_business_advisor={
+		name=MON_big_business_advisor
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_1"
+			}
+		}
+	}
 	#########################
 	MON_general_1={
 		name=MON_general_1

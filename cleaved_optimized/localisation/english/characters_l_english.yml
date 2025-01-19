@@ -54,6 +54,12 @@
  MAR_shared_advisor_tech:0 ""
  MAR_shared_advisor_capt_of_ind:0 ""
  
+ #MON
+ 
+ MON_auth_advisor:0 ""
+ MON_auth_advisor2:0 ""
+ MON_auth_advisor3:0 ""
+ 
  #JOH
  JOH_river:0 "King River"
  

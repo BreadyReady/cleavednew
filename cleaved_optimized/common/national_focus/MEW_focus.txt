@@ -1307,7 +1307,7 @@ focus_tree = {
 			}
 			250 = {
 				compliance > 25
-			}	
+			}
 		}
 		
 		bypass = {} 

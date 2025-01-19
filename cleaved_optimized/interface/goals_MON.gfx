@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	####
+	# Moons Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_focus_big_moon"
+	texturefile = "gfx/interface/goals/MON/focus_big_moon.dds"			
+	}
+	
+} ### End Bracket
